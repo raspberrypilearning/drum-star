@@ -24,7 +24,7 @@ Create a new `variable`{:class="block3variables"} called `next drum`.
 
 Drag the `when this sprite clicked`{:class="block3events"} script from your first drum to your new drum.
 
-[[[]]] (duplicating script ingredient)
+[[[scratch3-copy-code]]]
 
 --- /task ---
 

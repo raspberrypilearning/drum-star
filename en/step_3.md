@@ -16,7 +16,7 @@ Each type of drum has two costumes, one looks like the drum has been hit.
 
 --- task ---
 
-Name your sprite to match the drum you have chosen and change the `show` property.
+Name your new sprite to match the drum you have chosen and change the `show` property to visible.
 
 Position your new drum on the Stage.
 
@@ -43,7 +43,7 @@ Add a script to make the drum `switch costume`{:class="block3looks"} and `play a
 ```blocks3
 when this sprite clicked
 switch costume to [drum-cymbal-b v] //your hit costume
-play drum ((5) Open High-Hat v) for [0.25] beats //your drum sound
+play drum [(5) Open High-Hat v] for [0.25] beats //your drum sound
 switch costume to [drum-cymbal-a v]  //your unhit costume
 ```
 
@@ -74,7 +74,7 @@ Add a block to `change beats by 1`{:class="block3variables"} when the drum is cl
 when this sprite clicked
 +change [beats v] by [1]
 switch costume to [drum-cymbal-b v]
-play drum ((5) Open High-Hat v) for [0.25] beats
+play drum [(5) Open High-Hat v] for [0.25] beats //your drum sound
 switch costume to [drum-cymbal-a v]
 ```
 
@@ -86,13 +86,13 @@ switch costume to [drum-cymbal-a v]
 
 --- /task ---
 
-The `beats`{:class="block3variables"} variable needs to start at 0 beats when you start a new game.
+The `beats`{:class="block3variables"} variable needs to start at `0` beats when you start a new game.
 
 --- task ---
 
 Click on the **Stage** pane and then the **Code** tab to add code to the Stage.
 
-Add a block to set `beats`{:class="block3variables"} to `0`:
+Add a block to `set beats to`{:class="block3variables"} `0`:
 
 ![](images/cymbal-icon.png)
 
@@ -107,11 +107,6 @@ set [name v] to (???) //your variable
 --- task ---
 
 **Test:** Click the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
-
---- /task ---
-
---- save ---
-ick the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
 
 --- /task ---
 

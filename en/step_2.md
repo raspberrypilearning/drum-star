@@ -20,9 +20,7 @@ Set your project so it starts in a bedroom like a DIY artist.
 
 Click **Choose a Backdrop** and search for `bedroom`. 
 
-![The choose a backdrop icon from the bottom right of the Scratch editor.](images/choose-backdrop.png)
-
-**Choose:** a bedroom backdrop and add it to your project. We chose `Bedroom 3`
+**Choose:** a bedroom and add it to your project. We chose `Bedroom 3`
 
 ![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
 
@@ -43,7 +41,7 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-### Every musician needs a rock star name. 
+### Every musician needs to choose a rock star name. 
 
 You can `ask`{:class="block3sensing"} a question in Scratch then use the `answer`{:class="block3sensing"}. 
 
@@ -53,7 +51,7 @@ A **variable** is a way of storing numbers and/or text. In this project the `ans
 
 From the `Variables`{:class="block3variables"} blocks menu click the **Make a Variable** button.
 
-Name your new variable `name`:
+Call your new variable `name`:
 
 ![The New Variable pop up window with text input 'name'.](images/new-variable.png)
 
@@ -63,7 +61,9 @@ Name your new variable `name`:
 
 --- task ---
 
-At the start of the project the name is unknown. Add a block to `set`{:class="block3variables"} `name to`{:class="block3variables"} `???`
+At the start of the project the name is unknown. 
+
+Add a block to `set name to`{:class="block3variables"} `???`
 
 ```blocks3
 when flag clicked

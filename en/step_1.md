@@ -7,18 +7,20 @@ There are lots of <span style="color: #0faeb0">**clicker games**</span> where yo
 
 You will:
 + Use `variables`{:class="block3variables"} to store and change numbers and change text (words)
-+ `ask`{:class="block3sensing"} a question and use the answer to customise the game
-+ Use `wait until`{:class="block3control"} `if...else`{:class="block3control"} to control movement between levels.
++ `ask`{:class="block3sensing"} a question and use the `answer`{:class="block3sensing"} to customise the game
++ Use `wait until`{:class="block3control"} and `if...else`{:class="block3control"} to control movement between levels.
 
 --- no-print ---
 --- task ---
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the drum and watch the number of `beats` go up. Get a new drum when you have enough beats. How many beats do you earn for clicking the new drum?
+Click the drum and watch the number of `beats` go up. Get a new drum when you have enough beats. 
+
+How many `beats` do you earn when clicking the new drum?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task ---

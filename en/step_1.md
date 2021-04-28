@@ -6,7 +6,7 @@ In this project, you are going to make a clicker game where you earn beats to pl
 There are lots of <span style="color: #0faeb0">**clicker games**</span> where you have to click to make progress and buy upgrades that help you go faster. Have you ever played a clicker game? There are also idle games that keep going even when you're not playing them. These games are fun as long as you don't spend too much time playing them!</p>
 
 You will:
-+Use `variables`{:class="block3variables"} to store and change numbers and change text (words)
++ Use `variables`{:class="block3variables"} to store and change numbers and change text (words)
 + `ask`{:class="block3sensing"} a question and use the answer to customise the game
 + Use `wait until`{:class="block3control"} `if...else`{:class="block3control"} to control movement between levels.
 

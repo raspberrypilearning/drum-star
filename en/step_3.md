@@ -111,3 +111,8 @@ set [name v] to (???) //your variable
 --- /task ---
 
 --- save ---
+ick the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
+
+--- /task ---
+
+--- save ---

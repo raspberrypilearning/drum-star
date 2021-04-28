@@ -28,7 +28,7 @@ Position your new drum on the Stage.
 
 Add the Music extension.
 
-[[[]]]
+[[[scratch3-duplicate-sprite]]]
 
 --- /task ---
 

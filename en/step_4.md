@@ -40,7 +40,7 @@ Change the number of beats earned to `2`.
 when this sprite clicked
 +change [beats v] by [2]
 +switch costume to [drum-highhat-b v] //your hit costume
-+play drum ((6) Closed High-Hat v) for [0.25] beats //your drum sound
++play drum [(6) Closed High-Hat v] for [0.25] beats //your drum sound
 +switch costume to [drum-highhat-a v] //your unhit costume
 ```
 
@@ -178,7 +178,7 @@ Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrad
 
 ```blocks3
 when I receive [highhat v]
-swtch backdrop to [Chalkboard v]
+switch backdrop to [Chalkboard v]
 ```
 
 **Tip:** Remember the venues get bigger with more upgrades so it is better to make small changes.

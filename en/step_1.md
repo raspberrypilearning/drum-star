@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you are going to make a clicker game where you earn beats for new drums and bigger venues.
+In this project, you are going to make a clicker game where you earn beats to play new drums and bigger venues.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 There are lots of <span style="color: #0faeb0">**clicker games**</span> where you have to click to make progress and buy upgrades that help you go faster. Have you ever played a clicker game? There are also idle games that keep going even when you're not playing them. These games are fun as long as you don't spend too much time playing them!</p>

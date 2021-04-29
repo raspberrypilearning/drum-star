@@ -11,7 +11,7 @@ steps:
   - title: Starter drum
   - title: First upgrade
   - title: Second upgrade
-  - title: Add another drum
+  - title: Play and customize
   - title: Reflection
     knowledge_quiz:
       path: quiz1

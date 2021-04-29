@@ -61,11 +61,11 @@ A button will show which drum is the next upgrade option and how many beats it w
 
 --- task ---
 
-Duplicate the **Get** sprite and change the visibility to `show`.
+Duplicate the **Get** sprite:
 
 ![desc](images/duplicate-get.png)
 
-Position it in the bottom-right corner of the Stage and change its name to `Get snare`: 
+Position it in the bottom-right corner of the Stage, change the visibility to `show`change its name to `Get snare`: 
 
 ![desc](images/get-snare.png)
 
@@ -134,7 +134,7 @@ Let other sprites and the Stage know that the snare upgrade has been bought.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new 'snare' message:
+Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
 
 ![](images/get-snare-icon.png)
 

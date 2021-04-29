@@ -89,7 +89,7 @@ Click on the **Stage** pane and then the **Code** tab to add code to the Stage.
 
 Add a block to `set beats to`{:class="block3variables"} `0`:
 
-![](images/cymbal-icon.png)
+![](images/stage-icon.png)
 
 ```blocks3
 when flag clicked

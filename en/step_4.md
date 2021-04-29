@@ -24,14 +24,14 @@ Change the costumes and the drum sound.
 
 Change the number of beats earned to `2`:
 
-![](images/highhat-icon.png)
+![](images/snare-icon.png)
 
 ```blocks3
 when this sprite clicked
 +change [beats v] by [2] //2 beats per click
-+switch costume to [drum-highhat-b v] //hit costume
-+play drum [(6) Closed High-Hat v] for [0.25] beats //drum sound
-+switch costume to [drum-highhat-a v] //not hit costume
++switch costume to [drum-snare-b v] //hit costume
++play drum [(1) Closed Snare Drum v] for [0.25] beats //drum sound
++switch costume to [drum-snare-a v] //not hit costume
 ```
 
 --- /task ---

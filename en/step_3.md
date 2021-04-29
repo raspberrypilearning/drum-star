@@ -1,32 +1,28 @@
-## First drum
+## Starter drum
 
-You will add a drum sprite that you can click to earn beats and play a sound.
+You will add a cymbal sprite that you can click to earn beats and play a sound.
 
 --- task ---
 
-Duplicate the **Drum costumes** sprite and click on the **Costumes** tab. 
+Click **Choose a Sprite** and search 'cymbal'. Add the **Drum-cymbal** sprite to your project.
 
-![](images/duplicate-sprite.png)
+![](images/cymbal-gallery.png)
 
-Each type of drum has two costumes, one looks like the drum has been hit.
-
-**Choose:** a drum costume to use for your first drum. We chose the **Cymbal**.
+The **Drum-cymbal** sprite has two costumes, `drum-cymbal-b` looks like the drum has been hit:
 
 --- /task ---
 
 --- task ---
 
-Name your new sprite to match the drum you have chosen and change the `show` property to visible.
+Position your cymbal on the Stage:
 
-Position your new drum on the Stage.
-
-![](images/drum-properties.png)
+![](images/cymbal-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add the Music extension.
+Add the Music extension:
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -34,31 +30,30 @@ Add the Music extension.
 
 --- task ---
 
-Add a script to make the drum `switch costume`{:class="block3looks"} and `play a drum sound`{:class="block3extensions"} `when sprite clicked`{:class="block3events"}.
-
-**Choose:** costumes and a drum sound that work for your drum:
+Add a script to make the cymbal `switch costume`{:class="block3looks"} and `play a drum sound`{:class="block3extensions"}:
 
 ![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
-switch costume to [drum-cymbal-b v] //your hit costume
-play drum [(5) Open High-Hat v] for [0.25] beats //your drum sound
-switch costume to [drum-cymbal-a v]  //your unhit costume
+switch costume to [drum-cymbal-b v] // hit costume
+play drum [(5) Open High-Hat v] for [0.25] beats // drum sound
+switch costume to [drum-cymbal-a v]  // not hit costume
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your drum by clicking on it. Make sure you hear a sound and see the costume change.
+**Test:** Test your cymbal by clicking on it. Make sure you hear a sound and see the costume change.
 
 --- /task ---
 
-The first drum will earn you one beat each time you click it.
+The **Drum-cymbal** sprite will earn you one beat each time you click it.
 
 --- task ---
-Create a variable called `beats`.
+
+Create a variable called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -66,7 +61,7 @@ Create a variable called `beats`.
 
 --- task ---
 
-Add a block to `change beats by 1`{:class="block3variables"} when the drum is clicked:
+Add a block to `change beats by 1`{:class="block3variables"} when the **Drum-cymbal** sprite is clicked:
 
 ![](images/cymbal-icon.png)
 
@@ -74,7 +69,7 @@ Add a block to `change beats by 1`{:class="block3variables"} when the drum is cl
 when this sprite clicked
 +change [beats v] by [1]
 switch costume to [drum-cymbal-b v]
-play drum [(5) Open High-Hat v] for [0.25] beats //your drum sound
+play drum [(5) Open High-Hat v] for [0.25] beats 
 switch costume to [drum-cymbal-a v]
 ```
 
@@ -82,7 +77,7 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test your drum by clicking on it and watch your `beats`{:class="block3variables"} increase.
+**Test:** Test the **Drum-cymbal** by clicking on it and watch the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 

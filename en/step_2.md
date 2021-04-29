@@ -63,7 +63,9 @@ Call your new variable `name`:
 
 At the start of the project the name is unknown. 
 
-Add a block to `set name to`{:class="block3variables"} `???`
+Add a block to `set name to`{:class="block3variables"} `???`:
+
+![](images/stage-icon.png)
 
 ```blocks3
 when flag clicked
@@ -77,6 +79,8 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
 
+![](images/stage-icon.png)
+
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -88,7 +92,9 @@ set [name v] to (???) //your variable
 
 --- task ---
 
-Set the `name` `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}.
+Set the `name` `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+
+![](images/stage-icon.png)
 
 ```blocks3
 when flag clicked
@@ -104,14 +110,14 @@ Change the way your variable looks on the Stage.
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose `large readout`. 
+Right-click on the `variable`{:class="block3variables"} on the Stage and choose `large readout`: 
 
 ![](images/large-readout.png)
 --- /task ---
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage. 
+Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage: 
 
 ![](images/repositioned-variable.png)
 
@@ -125,7 +131,9 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- task ---
 
-Now that you know the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"} you can drag the last 2 blocks of code away from the rest of the script so you don't have to type an `answer`{:class="block3sensing"} every time you test your project.
+Now that you know the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"} you can drag the last 2 blocks of code away from the rest of the script so you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
+
+![](images/stage-icon.png)
 
 ```blocks3
 when flag clicked

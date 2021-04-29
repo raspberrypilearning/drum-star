@@ -9,10 +9,10 @@ You used this script control what happens when the player clicks on the button t
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [29]> then // change to 29
+if <(beats)>  [29]> then 
 hide
-change [beats v] by [-30] // change to 30
-broadcast [conga v] // change to your drum name
+change [beats v] by [-30] 
+broadcast [conga v] 
 else
 say [Not enough beats!] for [2] seconds 
 end
@@ -30,7 +30,7 @@ If the value of the `beats`{:class="block3variables"} variable is 29, what will 
 
   --- /feedback ---
 
-- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`.
+- (x) The button sprite ill  `say`{:class="block3looks"} `Nt enough beats``.
 
   --- feedback ---
 
@@ -42,7 +42,7 @@ Yes, the condition checks if `beats`{:class="block3variables"} is greater than 2
 
   --- feedback ---
 
-  No, the value of the `beats`{:cvarlass="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is 29 which means `beats`{:class="block3variables"} `> 29` is false,  
+  No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is 29 which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
 
   --- /feedback ---
 

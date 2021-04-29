@@ -30,7 +30,7 @@ Change the number of beats earned to `2`:
 when this sprite clicked
 +change [beats v] by [2] //2 beats per click
 +switch costume to [drum-snare-b v] //hit costume
-+play drum [(1) Closed Snare Drum v] for [0.25] beats //drum sound
++play drum [(1) Snare Drum v] for [0.25] beats //drum sound
 +switch costume to [drum-snare-a v] //not hit costume
 ```
 
@@ -62,6 +62,8 @@ A button will show which drum is the next upgrade option and how many beats it w
 --- task ---
 
 Duplicate the **Get** sprite and change the visibility to `show`.
+
+![desc](images/duplicate-get.png)
 
 Position it in the bottom-right corner of the Stage and change its name to `Get snare`: 
 

@@ -1,6 +1,13 @@
 ## Play and customize
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Now it's time to make your game work just the way that you want it to.
+</div>
+<div>
+![](images/step-image.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
@@ -17,7 +24,7 @@ Are you happy with how many beats it costs to get a new drum?
 --- /task ---
 
 --- task ---
-If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back and set your Rockstar name. 
+If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back and set your rock star name. 
 
 Notice that the name displayed on the Stage changes. 
 

@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you are going to make a clicker game where you earn beats to play new drums and bigger venues.
+Make a clicker game where you earn beats to play new drums at bigger venues.
 
 You will:
 + Use `variables`{:class="block3variables"} to store and change numbers and change text (words),
@@ -15,9 +15,9 @@ There are lots of <span style="color: #0faeb0">**clicker games**</span> where yo
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the drum and watch the number of `beats` go up. Get a new drum when you have enough beats. 
+Click the drum and watch the number of `beats`{:class="block3variables"} go up. Get a new drum when you have enough beats. 
 
-How many `beats` do you earn when clicking the new drum?
+How many `beats`{:class="block3variables"} do you earn when clicking the new drum?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>

@@ -1,14 +1,19 @@
 ## Starter drum
 
-You will add a cymbal sprite that you can click to earn beats and play a sound.
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+In this step, you will add a cymbal sprite that you can click to earn beats and play a sound.
+</div>
+<div>
+![](images/step-image.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
 Click **Choose a Sprite** and search 'cymbal'. Add the **Drum-cymbal** sprite to your project.
 
 ![](images/cymbal-gallery.png)
-
-The **Drum-cymbal** sprite has two costumes, `drum-cymbal-b` looks like the drum has been hit:
 
 --- /task ---
 
@@ -94,7 +99,7 @@ Add a block to `set beats to`{:class="block3variables"} `0`:
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
-set [name v] to (???) //your variable
+set [name v] to [???] //your variable
 + set [beats v] to [0]
 ```
 --- /task ---
@@ -106,3 +111,4 @@ set [name v] to (???) //your variable
 --- /task ---
 
 --- save ---
+f

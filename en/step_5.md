@@ -1,6 +1,13 @@
 ## Second upgrade
 
-Your drum skills are improving, time for a second upgrade. This time you will choose a drum.
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+In this step, your drum skills are improving, time for a second upgrade. This time you will choose a drum.
+</div>
+<div>
+![](images/step-image.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
@@ -10,7 +17,7 @@ Duplicate the **Drum-snare** sprite:
 
 --- /task ---
 
-The Drum costumes sprite has lots of drum costumes for you to choose from.
+The **Drum costumes** sprite has lots of drum costumes for you to choose from.
 
 --- task ---
 
@@ -77,21 +84,29 @@ Position it in the bottom-right corner of the Stage and change its name to 'Get'
 
 Copy and paste the 'not hit' costume for your new drum to the button costume. 
 
-![desc](images/get-drum-copy.png)
-
---- /task ---
-
---- task ---
-
 Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
 
 Your button should look like this:
 
-![desc](images/get-drum-30.png)
+![desc](images/get-drum-copy.png)
 
 --- /task ---
 
 This button should hide at the start then appear when the player upgrades to the snare drum so they know which drum they are working towards.
+
+--- task ---
+
+Change the `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"} instead of `show`{:class="block3looks"}:
+
+![desc](images/get-drum-3-icon.png)
+
+```blocks3
+when flag clicked
+-show
++hide
+```
+
+--- /task ---
 
 --- task ---
 
@@ -108,24 +123,9 @@ show
 
 --- task ---
 
-Change the `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"} instead of `hide`{:class="block3looks"}:
-
-![desc](images/get-drum-3-icon.png)
-
-```blocks3
-when flag clicked
--show
-+hide
-```
-
---- /task ---
-
---- task ---
-
 Change the number of beats needed to buy this drum and the number of beats that are removed when the player gets this drum. 
 
 Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum to match the new drum: 
-
 
 
 ```blocks3

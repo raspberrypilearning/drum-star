@@ -1,10 +1,17 @@
 ## Set the stage
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In this step, you will set the stage for your first gig and choose a rock star name.
+</div>
+<div>
+![](images/set-the-stage.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/){:target="_blank"}. Scratch will open in another browser tab.
 
 [[[working-offline]]]
 
@@ -14,7 +21,7 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and de
 Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording from their bedrooms. They produce their own songs cheaply then release them online for a global audience. 
 </p>
 
-Set your project so it starts in a bedroom like a DIY artist. 
+The game starts in a bedroom like a DIY artist. 
 
 --- task ---
 
@@ -43,9 +50,7 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 ### Every musician needs to choose a rock star name. 
 
-You can `ask`{:class="block3sensing"} a question in Scratch then use the `answer`{:class="block3sensing"}. 
-
-A **variable** is a way of storing numbers and/or text. In this project the `answer`{:class="block3sensing"} will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
+A **variable** is a way of storing numbers and/or text. Your rockstar name will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
 
 --- task ---
 
@@ -70,10 +75,12 @@ Add a block to `set name to`{:class="block3variables"} `???`:
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
-+ set [name v] to (???) //your variable
++ set [name v] to [???] //your variable
 ```
 
 --- /task ---
+
+You can `ask`{:class="block3sensing"} a question in Scratch then use a `variable`{:class="block3variables"} to store the `answer`{:class="block3sensing"}. 
 
 --- task ---
 
@@ -99,7 +106,7 @@ Set the `name` `variable`{:class="block3variables"} to the `answer`{:class="bloc
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
-set [name v] to (???) //your variable
+set [name v] to [???] //your variable
 ask [What is your rock star name?] and wait //your question
 + set [name v] to (answer)
 ```
@@ -138,7 +145,7 @@ Now that you know the `variable`{:class="block3variables"} changes to the `answe
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
-set [name v] to (???) //your variable
+set [name v] to [???] //your variable
 ```
 
 ```blocks3

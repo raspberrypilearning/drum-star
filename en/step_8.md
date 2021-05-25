@@ -34,7 +34,7 @@ You will also need to set their starting position `when flag clicked`{:class="bl
 title: Completed project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
+You can view the [completed project here](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
 
 --- /collapse ---
 

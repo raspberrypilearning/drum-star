@@ -1,6 +1,13 @@
 ## First upgrade
 
-Now you can add your first upgrade. 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+In this step, you will add your first upgrade. 
+</div>
+<div>
+![](images/first-upgrade.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
@@ -38,7 +45,7 @@ when this sprite clicked
 
 --- task ---
 
-**Test:** Try out your project. Make sure to test the snare drum.  
+**Test:** Try out your project. Make sure that you earn 2 beats when you click on the snare drum.  
 
 --- /task ---
 
@@ -65,7 +72,7 @@ Duplicate the **Get** sprite:
 
 ![desc](images/duplicate-get.png)
 
-Position it in the bottom-right corner of the Stage, change the visibility to `show`change its name to `Get snare`: 
+Position it in the bottom-right corner of the Stage, change the visibility to `show` and change its name to `Get snare`: 
 
 ![desc](images/get-snare.png)
 
@@ -106,7 +113,7 @@ show
 
 The upgrade can only be bought when the user has collected `ten` or more beats.
 
-An `if ... else`{:class="block3control"} block can be used to do something if a condition is `true` or another action if a condtion is `false`. 
+An `if ... else`{:class="block3control"} block can be used to do different things if a condition is `true` or `false`. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up you check and `if`{:class="block3control"} it is morning you get up `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
@@ -179,7 +186,7 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Remember the venues get bigger with more upgrades so it is better to make small changes.
+**Tip:** Choose a venue that's a small step up from the bedroom, you want to save bigger venues .or later
 
 --- /task ---
 

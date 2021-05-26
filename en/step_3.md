@@ -5,7 +5,7 @@
 In this step, you will add a cymbal sprite that you can click to earn beats and play a sound.
 </div>
 <div>
-![](images/step-image.png){:width="300px"}
+![](images/starter-drum.png){:width="300px"}
 </div>
 </div>
 
@@ -111,4 +111,3 @@ set [name v] to [???] //your variable
 --- /task ---
 
 --- save ---
-f

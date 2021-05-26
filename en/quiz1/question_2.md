@@ -9,7 +9,7 @@ A project has this script to `ask`{:class="block3sensing"} the user for their na
 
 ```blocks3
 when flag clicked
-set [name v] to (???) 
+set [name v] to [???] 
 ask [What's your name?] and wait 
 set [name v] to (answer)
 ```
@@ -47,7 +47,7 @@ No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses 
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the value of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
 
 The value 'Bobo' will also be shown on the Stage.
 

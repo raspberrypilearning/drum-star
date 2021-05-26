@@ -80,7 +80,7 @@ Position it in the bottom-right corner of the Stage, change the visibility to `s
 
 --- task ---
 
-Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Select** (arrow) tool to highlight the not hit costume of your drum then click the **Copy** icon:  
+Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Select** (arrow) tool to highlight the not hit costume of your drum. Click on the **Group** icon then the **Copy** icon:  
 
 ![](images/snare-icon.png)
 
@@ -111,9 +111,9 @@ show
 
 --- /task ---
 
-The upgrade can only be bought when the user has collected `ten` or more beats.
+The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"} you learned about making decisions with `if`{:class="block3control"} blocks. 
 
-An `if ... else`{:class="block3control"} block can be used to do different things if a condition is `true` or `false`. 
+An `if ... else`{:class="block3control"} block is used to make a decision and do different things if a condition is `true` or `false`. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up you check and `if`{:class="block3control"} it is morning you get up `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 

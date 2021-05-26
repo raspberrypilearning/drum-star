@@ -25,9 +25,9 @@ The game starts in a bedroom like a DIY artist.
 
 --- task ---
 
-Click **Choose a Backdrop** and search for `bedroom`. 
+Click **Choose a Backdrop** and search for 'bedroom'. 
 
-**Choose:** a bedroom and add it to your project. We chose `Bedroom 3`
+**Choose:** Select a bedroom and add it to your project. We chose `Bedroom 3`
 
 ![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
 
@@ -91,7 +91,7 @@ Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:cla
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
-set [name v] to (???) //your variable
+set [name v] to [???] //your variable
 + ask [What is your rock star name?] and wait //your question
 ```
 
@@ -138,7 +138,7 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- task ---
 
-Now that you know the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"} you can drag the last 2 blocks of code away from the rest of the script so you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
+Now that you have tested that the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"} you can drag the last 2 blocks of code away from the rest of the script. This means you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
 
 ![](images/stage-icon.png)
 

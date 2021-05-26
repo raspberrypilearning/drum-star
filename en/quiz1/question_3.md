@@ -5,7 +5,7 @@
 legend: Question 3 of 3
 ---
 
-You used this script control what happens when the player clicks on the button to upgrade their drum.
+You used this script to control what happens when the player clicks on the button to upgrade their drum:
 
 ```blocks3
 when this sprite clicked
@@ -18,7 +18,7 @@ say [Not enough beats!] for [2] seconds
 end
 ```
 
-If the value of the `beats`{:class="block3variables"} variable is 29, what will happen when the player clicks on the button?
+If the value of the `beats`{:class="block3variables"} variable is `29`, what will happen when the player clicks on the button?
 
 --- choices ---
 
@@ -30,11 +30,11 @@ If the value of the `beats`{:class="block3variables"} variable is 29, what will 
 
   --- /feedback ---
 
-- (x) The button sprite will  `say`{:class="block3looks"} `Not enough beats!`.
+- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`.
 
   --- feedback ---
 
-Yes, the condition checks if `beats`{:class="block3variables"} is greater than 29, but `beats`{:class="block3variables"} is equal to 29 so the player does not have enough.
+Yes, the condition checks if `beats`{:class="block3variables"} is greater than `29`, but `beats`{:class="block3variables"} is equal to `29` so the player does not have enough.
 
   --- /feedback ---
 
@@ -42,7 +42,7 @@ Yes, the condition checks if `beats`{:class="block3variables"} is greater than 2
 
   --- feedback ---
 
-  No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is 29 which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
+  No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is `29` which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
 
   --- /feedback ---s
 

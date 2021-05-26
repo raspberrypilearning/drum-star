@@ -13,14 +13,14 @@ There are lots more drum costumes to choose from to add more upgrades to your pr
 
 To add another drum to upgrade to, look back at the earlier steps of the project. 
 
-For the drum, you will need to:
+For the **drum**, you will need to:
 
 --- task ---
 Duplicate the previous drum sprite and add two costumes. 
 --- /task ---
 
 --- task ---
-Change the costume and sound used in the `when this sprite clicked`{:class="block3events"} script. 
+Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script. 
 --- /task ---
 
 --- task ---
@@ -28,35 +28,35 @@ Change the number of `beats`{:class="block3variables"} earned in the `when this 
 --- /task ---
 
 --- task ---
-Change the message that makes the drum `show`{:class="block3looks"} to a message for the **new drum**. 
+Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**. 
 --- /task ---
 
-For the button, you will need to:
+For the **button**, you will need to:
 
 --- task ---
 Duplicate the previous Get button sprite. 
 --- /task ---
 
 --- task ---
-Change the message that makes the button appear to the message broadcast by the **previous drum**. 
+Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**. 
 --- /task ---
 
 --- task ---
-Change the costume including the cost of the new drum. 
+Change the `costume`{:class="block3looks"} including the cost of the new drum. 
 --- /task ---
 
 --- task ---
-Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition and the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"}to the name of the **new drum**.
+Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
 --- /task ---
 
-For the venue, you will need to:
+For the **venue**, you will need to:
 
 --- task ---
 Add a new backdrop. 
 --- /task ---
 
 --- task ---
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the messgage for this drum is receieved.
+Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved.
 --- /task ---
 
 You might find that your drums need to be in a new position on a different backdrop. 

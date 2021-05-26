@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, your drum skills are improving, time for a second upgrade. This time you will choose a drum.
+In this step, your drum skills are improving, time for a second upgrade. This time you will choose which drum to add.
 </div>
 <div>
 ![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
@@ -92,7 +92,7 @@ Your button should look like this:
 --- /task ---
 
 
-This button should `hide`{:class="block3looks"} at the start then `show `{:class="block3looks"} when the player upgrades to the snare drum so they know which drum they are working towards.
+This button should `hide`{:class="block3looks"} at the start then `show`{:class="block3looks"} when the player upgrades to the snare drum so they know which drum they are working towards.
 
 --- task ---
 
@@ -131,10 +131,10 @@ Also change the message that is `broadcast`{:class="block3events"} when the play
 
 ```blocks3
 when this sprite clicked
-+if <(beats)>  [29]> then // change to 29
+if <(beats)>  [29]> then // change to 29
 hide
-+change [beats v] by [-30] // change to 30
-+ broadcast [conga v] // change to your drum name
+change [beats v] by [-30] // change to 30
+broadcast [conga v] // change to your drum name
 else
 say [Not enough beats!] for [2] seconds 
 end

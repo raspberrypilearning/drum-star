@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add your first upgrade. 
+In this step, you will add your first upgrade. The 'Get snare' button will show at the start so the player knows which drum they are working towards.
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -70,11 +70,11 @@ A button will show which drum is the next upgrade option and how many beats it w
 
 Duplicate the **Get** sprite:
 
-![desc](images/duplicate-get.png)
+![](images/duplicate-get.png)
 
 Position it in the bottom-right corner of the Stage, change the visibility to `show` and change its name to `Get snare`: 
 
-![desc](images/get-snare.png)
+![](images/get-snare.png)
 
 --- /task ---
 
@@ -84,7 +84,7 @@ Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Sel
 
 ![](images/snare-icon.png)
 
-![desc](images/copy-costume.png)
+![](images/copy-costume.png)
 
 --- /task ---
 
@@ -94,7 +94,7 @@ Click on your **Get snare** sprite and **Paste** the snare costume. You might ne
 
 ![](images/get-snare-icon.png)
 
-![desc](images/paste-costume.png)
+![](images/paste-costume.png)
 
 --- /task ---
 
@@ -186,7 +186,7 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Choose a venue that's a small step up from the bedroom, you want to save bigger venues .or later
+**Tip:** Choose a venue that's a small step up from the bedroom, you want to save bigger venues for later
 
 --- /task ---
 

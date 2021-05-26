@@ -5,7 +5,7 @@
 In this step, your drum skills are improving, time for a second upgrade. This time you will choose a drum.
 </div>
 <div>
-![](images/step-image.png){:width="300px"}
+![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
 </div>
 </div>
 
@@ -13,7 +13,7 @@ In this step, your drum skills are improving, time for a second upgrade. This ti
 
 Duplicate the **Drum-snare** sprite:
 
-![desc](images/duplicate-snare-drum.png)
+![](images/duplicate-snare-drum.png)
 
 --- /task ---
 
@@ -27,10 +27,9 @@ Click on the **Drum costumes** sprite and select the **Costumes** tab.
 
 Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
 
-![desc](images/drag-costumes.gif)
+![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
 
-![desc](images/drum-3-costumes.png)
-
+![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
 
 --- /task ---
 
@@ -38,7 +37,7 @@ Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-sna
 
 Name your drum to match the costumes you chose.
 
-![desc](images/drum-3-named.png)
+![](images/drum-3-named.png)
 
 --- /task ---
 
@@ -48,7 +47,7 @@ Click on the **Code** tab. Change the code to use the correct costumes and choos
 
 Change the number of beats you earn by clicking the new drum to `5`:
 
-![desc](images/drum-3-icon.png)
+![](images/drum-3-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -64,7 +63,7 @@ when this sprite clicked
 
 Drag your new drum into position on the Stage:
 
-![desc](images/drum-3-positioned.png)
+![New drum to the right of the other drums.](images/drum-3-positioned.png)
 
 --- /task ---
 
@@ -72,39 +71,40 @@ Next, you need a button so that players can upgrade to this new drum.
 
 --- task ---
 
-Duplicate the **Get** sprite.
+Duplicate the **Get Snare** sprite.
 
-Position it in the bottom-right corner of the Stage and change its name to 'Get' and then the name of your new drum:
+Position it in the bottom-right corner of the Stage. Change its name to 'Get' and then the name of your new drum:
 
-![desc](images/get-drum-3.png)
+![The Sprite list with duplicated 'Get snare' sprite. The sprite name changed to match the new drum and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
 
 --- /task ---
 
 --- task ---
 
-Copy and paste the 'not hit' costume for your new drum to the button costume. 
+Delete the snare drum from the button costume. Copy and paste the 'not hit' costume for your new drum to the button costume. 
 
 Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
 
 Your button should look like this:
 
-![desc](images/get-drum-copy.png)
+![The paint editor showing the new button costume with chosen drum image and text updated to 30.](images/get-drum-copy.png)
 
 --- /task ---
 
-This button should hide at the start then appear when the player upgrades to the snare drum so they know which drum they are working towards.
+
+This button should `hide`{:class="block3looks"} at the start then `show `{:class="block3looks"} when the player upgrades to the snare drum so they know which drum they are working towards.
 
 --- task ---
 
-Change the `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"} instead of `show`{:class="block3looks"}:
-
-![desc](images/get-drum-3-icon.png)
+![](images/get-drum-3-icon.png)
 
 ```blocks3
 when flag clicked
--show
-+hide
+- show
++ hide
 ```
+
+**Tip:** To delete a block drag it to the Blocks menu, or right-click and choose 'Delete Block'. On a computer you can also click on a block and then tap <kdb>Delete</kbd> to remove a block.
 
 --- /task ---
 
@@ -112,11 +112,11 @@ when flag clicked
 
 Add a `when I recieve`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
 
-![desc](images/get-drum-3-icon.png)
+![](images/get-drum-3-icon.png)
 
 ```blocks3
-when I receive [snare v]
-show
+when I receive [snare v] // appear when previous drum is bought
+show // show button for next available drum
 ```
 
 --- /task ---
@@ -125,8 +125,9 @@ show
 
 Change the number of beats needed to buy this drum and the number of beats that are removed when the player gets this drum. 
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum to match the new drum: 
+Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum to match the new drum. Create a new message with the name of your new drum:
 
+![](images/get-drum-3-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -142,11 +143,24 @@ end
 
 --- task ---
 
+Change the `when I receive snare`{:class="block3events"} script to `broadcast`{:class="block3events"} the name of your new drum. The drum will `show`{:class="block3looks"} when the player upgrades to the new drum:
+
+![](images/drum-3-icon.png)
+
+```blocks3
+when I receive [conga v] // change to your drum name
+show
+```
+
+--- /task ---
+
+--- task ---
+
 Add the Party backdrop.
 
 Add a script to the Stage to switch backdrop when the player upgrades to the new drum:
 
-![desc](images/stage-icon.png)
+![](images/stage-icon.png)
 
 ```blocks3
 when I receive [conga v] // change to your drum name

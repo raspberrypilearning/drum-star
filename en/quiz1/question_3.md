@@ -44,7 +44,7 @@ Yes, the condition checks if `beats`{:class="block3variables"} is greater than `
 
   No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is `29` which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
 
-  --- /feedback ---s
+  --- /feedback ---
 
 - ( ) Nothing. 
 

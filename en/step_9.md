@@ -1,20 +1,22 @@
 ## What next?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch){:target="_blank"} path, you can move on to the [Don't fall in](https://projects.raspberrypi.org/en/projects/dont-fall-in){:target="_blank"} project. In this project, you will make a top-down game where you have to jump from platform to platform and not fall in.
+
+If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Next customer please!](https://projects.raspberrypi.org/en/projects/next-customer-please) project where you will make a shop where customers can buy items and check out.
 
 --- print-only ---
 
-![Don't fall in project](images/dont-fall-in-project.png)
+![Next customer please](images/next-customer-please.png)
 
 --- /print-only ---
 
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/525202210/" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Instructions:** Press <kdb>space</kbd> or tap the Stage to jump.
+--- /no-print ---
+
 
 --- /no-print ---
 

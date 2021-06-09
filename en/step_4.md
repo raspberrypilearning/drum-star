@@ -72,7 +72,7 @@ Duplicate the **Get** sprite:
 
 ![](images/duplicate-get.png)
 
-Position it in the bottom-right corner of the Stage, change the visibility to `show` and change its name to `Get snare`: 
+Change the visibility to `show` and change its name to `Get snare`. Position it in the bottom-right corner of the Stage: 
 
 ![](images/get-snare.png)
 

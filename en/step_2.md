@@ -92,7 +92,7 @@ Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:cla
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
 set [name v] to [???] //your variable
-+ ask [What is your rock star name?] and wait //your question
++ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
@@ -107,7 +107,7 @@ Set the `name` `variable`{:class="block3variables"} to the `answer`{:class="bloc
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
 set [name v] to [???] //your variable
-ask [What is your rock star name?] and wait //your question
+ask [What's your rock star name?] and wait //your question
 + set [name v] to (answer)
 ```
 
@@ -149,7 +149,7 @@ set [name v] to [???] //your variable
 ```
 
 ```blocks3
-ask [What is your rock star name?] and wait //your question
+ask [What's your rock star name?] and wait //your question
 set [name v] to (answer)
 ```
 --- /task ---

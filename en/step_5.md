@@ -104,7 +104,7 @@ when flag clicked
 + hide
 ```
 
-**Tip:** To delete a block drag it to the Blocks menu, or right-click and choose 'Delete Block'. On a computer you can also click on a block and then tap <kdb>Delete</kbd> to remove a block.
+**Tip:** To delete a block drag it to the Blocks menu, or right-click and choose 'Delete Block'. On a computer you can also click on a block and then tap <kbd>Delete</kbd> to remove a block.
 
 --- /task ---
 
@@ -177,3 +177,4 @@ What happens if you click the button before you have earned enough beats?
 
 --- /task ---
 
+--- save ---

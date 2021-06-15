@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, it's time to make your game work just the way that you want it to.
+t's time to make your game work just the way that you want it to.
 </div>
 <div>
 ![](images/play-customise.png){:width="300px"}

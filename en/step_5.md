@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, your drum skills are improving, time for a second upgrade. This time you will choose which drum to add.
+Your drum skills are improving, time for a second upgrade. This time you will choose which drum to add.
 </div>
 <div>
 ![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
@@ -125,7 +125,7 @@ show // show button for next available drum
 
 Change the number of beats needed to buy this drum and the number of beats that are removed when the player gets this drum. 
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum to match the new drum. Create a new message with the name of your new drum:
+Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Create a new message with the name of your new drum:
 
 ![](images/get-drum-3-icon.png)
 

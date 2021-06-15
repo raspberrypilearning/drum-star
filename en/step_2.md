@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the stage for your first gig and choose a rock star name.
+You will set the stage for your first gig and choose a rock star name.
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}

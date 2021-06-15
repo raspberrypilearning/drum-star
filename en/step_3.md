@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a cymbal sprite that you can click to earn beats and play a sound.
+You will add a cymbal sprite that you can click to earn beats and play a sound.
 </div>
 <div>
 ![](images/starter-drum.png){:width="300px"}

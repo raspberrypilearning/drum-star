@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a cymbal sprite that you can click to earn beats and play a sound.
+You will add a **cymbal** sprite that you can click to earn beats and play a sound.
 </div>
 <div>
 ![](images/starter-drum.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add a cymbal sprite that you can click to earn beats and play a sound.
 
 --- task ---
 
-Click **Choose a Sprite** and search 'cymbal'. Add the **Drum-cymbal** sprite to your project.
+Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to your project.
 
 ![](images/cymbal-gallery.png)
 
@@ -27,7 +27,7 @@ Position your cymbal on the Stage:
 
 --- task ---
 
-Add the Music extension:
+Add the **Music extension**:
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -58,7 +58,7 @@ The **Drum-cymbal** sprite will earn you one beat each time you click it.
 
 --- task ---
 
-Create a variable called `beats`:
+Create a `variable`{:class="block3variables"} called `beats`:
 
 ![](images/beats-variable.png)
 

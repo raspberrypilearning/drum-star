@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Upgrade your project with more drums to upgrade to and more backdrops as you play more amazing venues. 
+Upgrade your project with more drums and more backdrops as you play more amazing venues. 
 </div>
 <div>
 ![](images/upgrade-project.png){:width="300px"}
@@ -16,7 +16,7 @@ To add another drum to upgrade to, look back at the earlier steps of the project
 For the **drum**, you will need to:
 
 --- task ---
-Duplicate the previous drum sprite and add two costumes. 
+Duplicate the previous **drum** sprite and add two costumes. 
 --- /task ---
 
 --- task ---
@@ -34,7 +34,7 @@ Change the `message`{:class="block3events"} that makes the drum `show`{:class="b
 For the **button**, you will need to:
 
 --- task ---
-Duplicate the previous Get button sprite. 
+Duplicate the previous **Get** sprite. 
 --- /task ---
 
 --- task ---
@@ -63,14 +63,14 @@ You might find that your drums need to be in a new position on a different backd
 
 --- task ---
 
-Add script starting with `when backdrop changes to`{:class="block3events"} to each drum sprite with a `go to`{:class="block3motion"} block to make them change position.
+Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 You will also need to set their starting position `when flag clicked`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
-**Tidy:** If you have time then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
+**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
 
 --- /task ---
 
@@ -83,9 +83,9 @@ You will also need to set their starting position `when flag clicked`{:class="bl
 title: My drum doesn't show/hide correctly
 ---
 
-Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}. And it should have a `when I receieve` {:class="block3events"} **this drum** script to `show`{:class="block3looks"}. 
+Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}. And it should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}. 
 
-Check that the Get button for this drum `broadcasts`{:class="block3events"} the same message.
+Check that the **Get** button for this drum `broadcasts`{:class="block3events"} the same message.
 
 
 --- /collapse ---
@@ -96,7 +96,7 @@ Check that the Get button for this drum `broadcasts`{:class="block3events"} the 
 title: My Get button doesn't show/hide correctly
 ---
 
-Unless the button is for the very first drum then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receieve`{:class="block3events"} the message for the **previous drum**. The get button should `show`{:class="block3looks"} to let the player know about the next upgrade they are working towards.
+Unless the button is for the very first drum, then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receieve`{:class="block3events"} the message for the **previous drum**. The **Get** button should `show`{:class="block3looks"} to let the player know about the next upgrade they are working towards.
 
 --- /collapse ---
 
@@ -106,7 +106,7 @@ Unless the button is for the very first drum then it should `hide`{:class="block
 title: I can buy a drum when I don't have enough beats
 ---
 
-Check that you have changed the number of `beats` needed in the {:class="block3variables"}`when this sprite clicked`{:class="block3events"} script for the Get button for the drum. 
+Check that you have changed the number of `beats`{:class="block3variables"} needed `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum. 
 
 --- /collapse ---
 
@@ -116,7 +116,7 @@ Check that you have changed the number of `beats` needed in the {:class="block3v
 title: The number of beats doesn't change correctly when I get a new drum
 ---
 
-Check that you have changed the number of `beats` taken away (a negative number) {:class="block3variables"}`when this sprite clicked`{:class="block3events"} in the script for the Get button for the drum. 
+Check that you have `changed beats by`{:class="block3variables"} a negative number `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum. 
 
 Make sure this matches the number on the drum button costume.
 
@@ -134,6 +134,6 @@ You can view the [completed project here](https://scratch.mit.edu/projects/52232
 
 --- /collapse ---
 
-**Tip:** If you get really muddled then it's fine to delete the new drum and its button and start again. Sometimes it hard to spot a bug.
+**Tip:** If you get really muddled then it's fine to delete the new drum and its button, and start again. Sometimes it is hard to spot a bug.
 
 --- save ---

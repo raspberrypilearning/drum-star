@@ -26,11 +26,11 @@ If the value of the `beats`{:class="block3variables"} variable is `29`, what wil
 
   --- feedback ---
 
-  Not quite, there is a `hide`{:class="block3looks"} block in the script but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again. 
+  Not quite, there is a `hide`{:class="block3looks"} block in the script, but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again. 
 
   --- /feedback ---
 
-- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`.
+- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`
 
   --- feedback ---
 

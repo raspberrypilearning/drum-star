@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the stage for your first gig and choose a rock star name.
+In this step, you will set the stage for your first gig and choose a rock star name.
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}
@@ -11,7 +11,7 @@ You will set the stage for your first gig and choose a rock star name.
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
 
 [[[working-offline]]]
 

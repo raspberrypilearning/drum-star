@@ -68,11 +68,11 @@ A button will show which drum is the next upgrade option and how many beats it w
 
 --- task ---
 
-Duplicate the **Get** sprite:
+**Duplicate** the **Get** sprite:
 
 ![](images/duplicate-get.png)
 
-Change the visibility to `show` and change its name to `Get snare`. Position it in the bottom-right corner of the Stage: 
+Change the visibility to **Show** and change its name to `Get snare`. Position it in the bottom-right corner of the Stage: 
 
 ![](images/get-snare.png)
 

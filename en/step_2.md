@@ -99,7 +99,7 @@ set [name v] to [???] //your variable
 
 --- task ---
 
-Set the `name` `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
 
 ![](images/stage-icon.png)
 
@@ -117,7 +117,7 @@ Change the way your `variable`{:class="block3variables"} looks on the Stage.
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose `large readout`: 
+Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**: 
 
 ![](images/large-readout.png)
 --- /task ---

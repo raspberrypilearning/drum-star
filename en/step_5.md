@@ -71,7 +71,7 @@ Next, you need a button so that players can upgrade to this new drum.
 
 --- task ---
 
-Duplicate the **Get Snare** sprite.
+Duplicate the **Get snare** sprite.
 
 Position it in the bottom-right corner of the Stage. Change its name to `Get` and then the name of your new drum:
 

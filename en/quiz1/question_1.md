@@ -4,7 +4,7 @@ Well done, you have made a clicker game that people want to play!
 
 You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
 
-Now it's time to reflect. Reflecting is an important part of learning because it helps make new connections in your brain.
+Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
 
 Answer the three questions below to reflect on what you've learned.
 
@@ -24,7 +24,7 @@ In your project, you created and used variables. Which of these values can be st
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`.
+- ( ) Only the numbers `6` and `151`
 
  --- feedback ---
 
@@ -32,7 +32,7 @@ In your project, you created and used variables. Which of these values can be st
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`.
+- ( ) Only the text (words) `Tom` and `Aadya`
 
  --- feedback ---
 
@@ -40,7 +40,7 @@ In your project, you created and used variables. Which of these values can be st
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words).
+- (x) Any of the numbers or text (words)
 
  --- feedback ---
 
@@ -50,7 +50,7 @@ In your project, you created and used variables. Which of these values can be st
 
  --- /feedback ---
 
-- ( ) None of them.
+- ( ) None of them
 
  --- feedback ---
 

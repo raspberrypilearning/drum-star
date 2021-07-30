@@ -90,7 +90,7 @@ The `beats`{:class="block3variables"} variable needs to start at `0` beats when 
 
 --- task ---
 
-Click on the **Stage** pane and then the **Code** tab to add code to the Stage.
+Click on the Stage pane and then the **Code** tab to add code to the Stage.
 
 Add a block to `set beats to`{:class="block3variables"} `0`:
 

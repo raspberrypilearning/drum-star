@@ -22,7 +22,7 @@ If the value of the `beats`{:class="block3variables"} variable is `29`, what wil
 
 --- choices ---
 
-- ( ) The sprite will `hide`{:class="block3looks"}.
+- ( ) The sprite will `hide`{:class="block3looks"}
 
   --- feedback ---
 
@@ -38,7 +38,7 @@ Yes, the condition checks if `beats`{:class="block3variables"} is greater than `
 
   --- /feedback ---
 
-- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable.
+- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable
 
   --- feedback ---
 
@@ -46,7 +46,7 @@ Yes, the condition checks if `beats`{:class="block3variables"} is greater than `
 
   --- /feedback ---
 
-- ( ) Nothing. 
+- ( ) Nothing
 
   --- feedback ---
 

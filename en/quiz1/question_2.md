@@ -49,7 +49,7 @@ No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses 
 
 Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
 
-The value 'Bobo' will also be shown on the Stage.
+The value `Bobo` will also be shown on the Stage.
 
   --- /feedback ---
 

@@ -22,15 +22,15 @@ If the value of the `beats`{:class="block3variables"} variable is `29`, what wil
 
 --- choices ---
 
-- ( ) The sprite will `hide`{:class="block3looks"}.
+- ( ) The sprite will `hide`{:class="block3looks"}
 
   --- feedback ---
 
-  Not quite, there is a `hide`{:class="block3looks"} block in the script but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again. 
+  Not quite, there is a `hide`{:class="block3looks"} block in the script, but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again. 
 
   --- /feedback ---
 
-- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`.
+- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`
 
   --- feedback ---
 
@@ -38,7 +38,7 @@ Yes, the condition checks if `beats`{:class="block3variables"} is greater than `
 
   --- /feedback ---
 
-- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable.
+- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable
 
   --- feedback ---
 
@@ -46,7 +46,7 @@ Yes, the condition checks if `beats`{:class="block3variables"} is greater than `
 
   --- /feedback ---
 
-- ( ) Nothing. 
+- ( ) Nothing
 
   --- feedback ---
 

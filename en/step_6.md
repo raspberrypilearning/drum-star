@@ -1,8 +1,8 @@
-## Play and customize
+## Play and customise
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-t's time to make your game work just the way that you want it to.
+It's time to make your game work just the way that you want it to.
 </div>
 <div>
 ![](images/play-customise.png){:width="300px"}

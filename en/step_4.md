@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add your first upgrade. The 'Get snare' button will show at the start so the player knows which drum they are working towards.
+You will add your first upgrade. The **Get snare** button will show at the start, so the player knows which drum they are working towards.
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -49,11 +49,11 @@ when this sprite clicked
 
 --- /task ---
 
-Upgrades are not available when you start the project, they have to be earned with beats. 
+Upgrades are not available when you start the project. They have to be earned with beats. 
 
 --- task ---
 
-Add a script to hide this drum sprite at the start of the project:
+Add a script to hide this **drum** sprite at the start of the project:
 
 ![](images/snare-icon.png)
 
@@ -68,11 +68,11 @@ A button will show which drum is the next upgrade option and how many beats it w
 
 --- task ---
 
-Duplicate the **Get** sprite:
+**Duplicate** the **Get** sprite:
 
 ![](images/duplicate-get.png)
 
-Change the visibility to `show` and change its name to `Get snare`. Position it in the bottom-right corner of the Stage: 
+Change the visibility to **Show** and change its name to `Get snare`. Position it in the bottom-right corner of the Stage: 
 
 ![](images/get-snare.png)
 
@@ -111,17 +111,17 @@ show
 
 --- /task ---
 
-The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"} you learned about making decisions with `if`{:class="block3control"} blocks. 
+The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, you learned about making decisions with `if`{:class="block3control"} blocks. 
 
-An `if ... else`{:class="block3control"} block is used to make a decision and do different things if a condition is `true` or `false`. 
+An `if ... else`{:class="block3control"} block is used to make a decision and will do different things if a condition is `true` or `false`. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up you check and `if`{:class="block3control"} it is morning you get up `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
+We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up, you check `if`{:class="block3control"} it is morning. You get up, or `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
 </p>
 
 --- task ---
 
-Add this code to get the upgrade `if`{:class="block3control"} the user has enough beats or `say`{:class="block3looks"} `Not enough beats!` if they are not able to upgrade:
+Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `Not enough beats!` if they are not able to upgrade:
 
 ![](images/get-snare-icon.png)
 
@@ -171,7 +171,7 @@ show
 
 --- /task ---
 
-When you upgrade your equipment you will be able to play at bigger venues. 
+When you upgrade your equipment, you will be able to play at bigger venues. 
 
 --- task ---
 
@@ -186,7 +186,7 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Choose a venue that's a small step up from the bedroom, you want to save bigger venues for later
+**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
 
 --- /task ---
 

@@ -98,8 +98,8 @@ Add a block to `set beats to`{:class="block3variables"} `0`:
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //your backdrop name
-set [name v] to [???] //your variable
+switch backdrop to (Bedroom 3 v) 
+set [name v] to [???] 
 + set [beats v] to [0]
 ```
 --- /task ---

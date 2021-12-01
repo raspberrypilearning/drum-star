@@ -24,6 +24,7 @@ Are you happy with how many beats it costs to get a new drum?
 --- /task ---
 
 --- task ---
+
 If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back and set your rock star name. 
 
 Notice that the name displayed on the Stage changes. 

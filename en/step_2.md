@@ -120,6 +120,7 @@ Change the way your `variable`{:class="block3variables"} looks on the Stage.
 Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**: 
 
 ![](images/large-readout.png)
+
 --- /task ---
 
 --- task ---
@@ -152,6 +153,7 @@ set [name v] to [???] //your variable
 ask [What's your rock star name?] and wait //your question
 set [name v] to (answer)
 ```
+
 --- /task ---
 
 --- save ---

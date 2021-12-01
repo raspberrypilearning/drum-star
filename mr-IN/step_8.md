@@ -15,29 +15,69 @@ To add another drum to upgrade to, look back at the earlier steps of the project
 
 For the **drum**, you will need to:
 
---- task --- Duplicate the previous **drum** sprite and add two costumes. --- /task ---
+--- task ---
 
---- task --- Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script. --- /task ---
+Duplicate the previous **drum** sprite and add two costumes.
 
---- task --- Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script. --- /task ---
+--- /task ---
 
---- task --- Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**. --- /task ---
+--- task ---
+
+Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script.
+
+--- /task ---
+
+--- task ---
+
+Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script.
+
+--- /task ---
+
+--- task ---
+
+Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**.
+
+--- /task ---
 
 For the **button**, you will need to:
 
---- task --- Duplicate the previous **Get** sprite. --- /task ---
+--- task ---
 
---- task --- Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**. --- /task ---
+Duplicate the previous **Get** sprite.
 
---- task --- Change the `costume`{:class="block3looks"} including the cost of the new drum. --- /task ---
+--- /task ---
 
---- task --- Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**. --- /task ---
+--- task ---
+
+Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**.
+
+--- /task ---
+
+--- task ---
+
+Change the `costume`{:class="block3looks"} including the cost of the new drum.
+
+--- /task ---
+
+--- task ---
+
+Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
+
+--- /task ---
 
 For the **venue**, you will need to:
 
---- task --- Add a new backdrop. --- /task ---
+--- task ---
 
---- task --- Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved. --- /task ---
+Add a new backdrop.
+
+--- /task ---
+
+--- task ---
+
+Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved.
+
+--- /task ---
 
 You might find that your drums need to be in a new position on a different backdrop.
 
@@ -49,14 +89,17 @@ You will also need to set their starting position `when flag clicked`{:class="bl
 
 --- /task ---
 
---- task --- **Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
+--- task ---
+
+**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
 
 --- /task ---
 
---- task --- **Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
+--- task ---
+
+**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
 
 --- collapse ---
-
 ---
 title: My drum doesn't show/hide correctly
 ---
@@ -69,7 +112,6 @@ Check that the **Get** button for this drum `broadcasts`{:class="block3events"} 
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: My Get button doesn't show/hide correctly
 ---
@@ -79,7 +121,6 @@ Unless the button is for the very first drum, then it should `hide`{:class="bloc
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: I can buy a drum when I don't have enough beats
 ---
@@ -89,7 +130,6 @@ Check that you have changed the number of `beats`{:class="block3variables"} need
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: The number of beats doesn't change correctly when I get a new drum
 ---
@@ -103,7 +143,6 @@ Make sure this matches the number on the drum button costume.
 --- /task ---
 
 --- collapse ---
-
 ---
 title: Completed project
 ---

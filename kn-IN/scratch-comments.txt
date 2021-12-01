@@ -1,0 +1,37 @@
+your backdrop name
+
+your variable
+
+your question
+
+hit costume
+
+drum sound
+
+not hit costume
+
+2 beats per click
+
+if 10 or more beats
+
+take away the cost upgrade
+
+your drum name
+
+5 beats per click
+
+your hit costume
+
+your drum sound
+
+your not hit costume
+
+appear when previous drum is bought
+
+show button for next available drum
+
+change to 29
+
+change to 30
+
+change to your drum name

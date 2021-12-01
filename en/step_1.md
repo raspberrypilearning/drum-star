@@ -12,6 +12,7 @@ There are lots of <span style="color: #0faeb0">**clicker games**</span> where yo
 
 --- no-print ---
 --- task ---
+
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -23,9 +24,12 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 --- /no-print ---
 
 --- print-only ---
+
 ![Completed project](images/showcase_static.png)
+
 --- /print-only ---

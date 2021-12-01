@@ -11,6 +11,7 @@ You will:
 There are lots of <span style="color: #0faeb0">**clicker games**</span> where you have to click to make progress and buy upgrades that help you go faster. Have you ever played a clicker game? There are also <span style="color: #0faeb0">**idle games**</span> that keep going even when you're not playing them. These games are fun as long as you don't spend too much time playing them!</p>
 
 --- no-print --- --- task ---
+
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -22,6 +23,11 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task --- --- /no-print ---
 
---- print-only --- ![Completed project](images/showcase_static.png) --- /print-only ---
+--- print-only ---
+
+![Completed project](images/showcase_static.png)
+
+--- /print-only ---

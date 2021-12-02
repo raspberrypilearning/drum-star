@@ -35,3 +35,23 @@ change to 29
 change to 30
 
 change to your drum name
+
+player has upgraded to this drum
+
+this drum earns 2 beats
+
+this drum earns 5 beats
+
+first upgrade visible from the start
+
+need at least 10 beats
+
+cost of the snare drum
+
+not available at the start
+
+Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+
+need at least 30 beats
+
+cost of the drum

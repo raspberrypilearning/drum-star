@@ -1,8 +1,8 @@
-## Starter drum
+## స్టార్టర్ డ్రమ్
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a **cymbal** sprite that you can click to earn beats and play a sound.
+మీరు బీట్‌లను సంపాదించడానికి మరియు సౌండ్ ప్లే చేయడానికి క్లిక్ చేయగల **cymbal** spriteని జోడిస్తారు.
 </div>
 <div>
 ![](images/starter-drum.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add a **cymbal** sprite that you can click to earn beats and play a sou
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to your project.
+**Choose a Sprite**ని క్లిక్ చేసి, `cymbal` కోసం శోధించండి. మీ ప్రాజెక్ట్‌కి **Drum-cymbal** sprite ని జోడించండి.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to
 
 --- task ---
 
-Position your cymbal on the Stage:
+మీ cymbal ని Stage పై ఉంచండి:
 
 ![](images/cymbal-stage.png)
 
@@ -27,7 +27,7 @@ Position your cymbal on the Stage:
 
 --- task ---
 
-Add the **Music extension**:
+**Music extension** ని జోడించండి:
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -35,30 +35,30 @@ Add the **Music extension**:
 
 --- task ---
 
-Add a script to make the cymbal `switch costume`{:class="block3looks"} and `play a drum sound`{:class="block3extensions"}:
+Cymbal `switch costume`{:class="block3looks"} చేయడానికి, ఇంకా `play a drum sound`{:class="block3extensions"} స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/cymbal-icon.png)
 
 ```blocks3
-when this sprite clicked
-switch costume to [drum-cymbal-b v] // hit costume
-play drum [(5) Open High-Hat v] for [0.25] beats // drum sound
-switch costume to [drum-cymbal-a v]  // not hit costume
+ఈ స్ప్రైట్ ని క్లిక్ చేసినప్పుడు
+స్విచ్ కాస్ట్యూమ్‌ టు [drum-cymbal-b v]  // hit costume
+ప్లే డ్రమ్ [(5) Open High-Hat v] [0.25] బీట్‌ల కోసం // drum sound
+స్విచ్ కాస్ట్యూమ్‌ టు [drum-cymbal-a v] కి మార్చండి // not hit costume
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your cymbal by clicking on it. Make sure you hear a sound and see the costume change.
+**పరీక్ష:** మీ cymbal పై క్లిక్ చేయడం ద్వారా పరీక్షించండి. మీరు శబ్దం వినేలా మరియు costume మార్చడం చూసేలా నిర్ధారించుకోండి.
 
 --- /task ---
 
-The **Drum-cymbal** sprite will earn you one beat each time you click it.
+**Drum-cymbal** sprite మీరు క్లిక్ చేసిన ప్రతిసారీ మీకు ఒక బీట్‌ని సంపాదిస్తుంది.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `beats`:
+`beats` అనబడే `variable`{:class="block3variables"}ని సృష్టించండి:
 
 ![](images/beats-variable.png)
 
@@ -66,7 +66,7 @@ Create a `variable`{:class="block3variables"} called `beats`:
 
 --- task ---
 
-Add a block to `change beats by 1`{:class="block3variables"} when the **Drum-cymbal** sprite is clicked:
+**Drum-cymbal** sprite పై క్లిక్ చేసినప్పుడు `change beats by`{:class="block3variables"} కు ఒక బ్లాక్‌ను జోడించండి:
 
 ![](images/cymbal-icon.png)
 
@@ -82,17 +82,17 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it and watch the `beats`{:class="block3variables"} increase.
+**పరీక్ష:** **Drum-cymbal** ని క్లిక్ చేయడం ద్వారా `beats`{:class="block3variables"} లో పెరుగుదలను పరీక్షించండి.
 
 --- /task ---
 
-The `beats`{:class="block3variables"} variable needs to start at `0` beats when you start a new game.
+మీరు కొత్త గేమ్‌ని ప్రారంభించినప్పుడు `beats`{:class="block3variables"} వేరియబుల్ `0` బీట్‌ల వద్ద ప్రారంభం కావాలి.
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab to add code to the Stage.
+Stage కి కోడ్‌ని జోడించడానికి Stage పేన్‌పై క్లిక్ చేసి ఆపై **Code** ట్యాబ్‌పై క్లిక్ చేయండి.
 
-Add a block to `set beats to`{:class="block3variables"} `0`:
+`set beats to`{:class="block3variables"} `0` కి బ్లాక్‌ని జోడించండి:
 
 ![](images/stage-icon.png)
 
@@ -106,7 +106,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Test:** Click the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
+**పరీక్ష:** ఆకుపచ్చ జెండాను క్లిక్ చేయండి మరియు మీ `beats`{:class="block3variables"} వేరియబుల్ `0`వద్ద ప్రారంభమవుతుందని నిర్ధారించుకోండి.
 
 --- /task ---
 

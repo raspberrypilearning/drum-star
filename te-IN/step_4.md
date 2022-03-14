@@ -1,8 +1,8 @@
-## First upgrade
+## మొదటి అప్‌గ్రేడ్
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add your first upgrade. The **Get snare** button will show at the start, so the player knows which drum they are working towards.
+మీరు మీ మొదటి అప్‌గ్రేడ్‌ని జోడిస్తారు. **Get snare** బటన్ ప్రారంభంలో చూపబడుతుంది, తద్వారా వారు ఏ డ్రమ్ వైపు పని చేస్తున్నారో ప్లేయర్‌కు తెలుస్తుంది.
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add your first upgrade. The **Get snare** button will show at the start
 
 --- task ---
 
-Add the **Drum-snare** sprite to your project and position it on the Stage:
+**Drum-snare** sprite మీ ప్రాజెక్ట్ కు జోడించి, Stage పై ఉంచండి:
 
 ![](images/snare-stage.png)
 
@@ -19,7 +19,7 @@ Add the **Drum-snare** sprite to your project and position it on the Stage:
 
 --- task ---
 
-Drag the `when this sprite clicked`{:class="block3events"} script from the **Drum-cymbal** sprite to the **Drum-snare** sprite.
+`when this sprite clicked`{:class="block3events"} స్క్రిప్ట్‌ను **Drum-cymbal** sprite నుండి **Drum-snare** sprite కి డ్రాగ్ చేయండి.
 
 [[[scratch3-copy-code]]]
 
@@ -27,9 +27,9 @@ Drag the `when this sprite clicked`{:class="block3events"} script from the **Dru
 
 --- task ---
 
-Change the costumes and the drum sound.
+Costume మరియు డ్రమ్ సౌండ్ మార్చండి.
 
-Change the number of beats earned to `2`:
+సంపాదించిన బీట్‌ల సంఖ్యను `2`కి మార్చండి:
 
 ![](images/snare-icon.png)
 
@@ -45,15 +45,15 @@ when this sprite clicked
 
 --- task ---
 
-**Test:** Try out your project. Make sure that you earn 2 beats when you click on the snare drum.
+**పరీక్ష:** మీ ప్రాజెక్ట్‌ని ప్రయత్నించండి. మీరు snare డ్రమ్‌పై క్లిక్ చేసినప్పుడు మీరు 2 బీట్‌లను సంపాదించారని నిర్ధారించుకోండి.
 
 --- /task ---
 
-Upgrades are not available when you start the project. They have to be earned with beats.
+మీరు ప్రాజెక్ట్‌ను ప్రారంభించినప్పుడు అప్‌గ్రేడ్‌లు అందుబాటులో లేవు. వాటిని బీట్లతో సంపాదించుకోవాలి.
 
 --- task ---
 
-Add a script to hide this **drum** sprite at the start of the project:
+ప్రాజెక్ట్ ప్రారంభంలో **drum** spriteను దాచడానికి స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/snare-icon.png)
 
@@ -64,15 +64,15 @@ hide
 
 --- /task ---
 
-A button will show which drum is the next upgrade option and how many beats it will cost.
+ఒక బటన్ తదుపరి అప్‌గ్రేడ్ ఎంపిక ఏ డ్రమ్ మరియు దానికి ఎన్ని బీట్‌లు ఖర్చవుతాయి అని చూపుతుంది.
 
 --- task ---
 
-**Duplicate** the **Get** sprite:
+**Get** sprite ని **Duplicate** చేయండి:
 
 ![](images/duplicate-get.png)
 
-Change the visibility to **Show** and change its name to `Get snare`. Position it in the bottom-right corner of the Stage:
+విజిబిలిటీని **Show**కి మార్చండి మరియు దాని పేరును `Get snare`కి మార్చండి. Stage యొక్క దిగువ-కుడి మూలలో దాన్ని ఉంచండి:
 
 ![](images/get-snare.png)
 
@@ -80,7 +80,7 @@ Change the visibility to **Show** and change its name to `Get snare`. Position i
 
 --- task ---
 
-Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Select** (arrow) tool to highlight the not hit costume of your drum. Click on the **Group** icon then the **Copy** icon:
+**Drum-snare** sprite పై క్లిక్ చేసి, **Costumes** ట్యాబ్‌కి వెళ్లండి. మీ డ్రమ్ యొక్క నాట్ హిట్ costume ని హైలైట్ చేయడానికి **Select** (బాణం) సాధనాన్ని ఉపయోగించండి. **Group** చిహ్నంపై క్లిక్ చేసి, ఆ తరువాత **Copy** చిహ్నంపై క్లిక్ చేయండి:
 
 ![](images/snare-icon.png)
 
@@ -90,7 +90,7 @@ Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Sel
 
 --- task ---
 
-Click on your **Get snare** sprite and **Paste** the snare costume. You might need to resize and position it to fit your button:
+మీ **Get snare** sprite మరియు **Paste** snare costume పై క్లిక్ చేయండి. మీరు మీ బటన్‌కు సరిపోయేలా పరిమాణాన్ని మార్చడం మరియు పొజిషన్ లో ఉంచడం అవసరం కావచ్చు:
 
 ![](images/get-snare-icon.png)
 
@@ -100,7 +100,7 @@ Click on your **Get snare** sprite and **Paste** the snare costume. You might ne
 
 --- task ---
 
-Click on the **Code** tab and add a script to show the **Get snare** sprite at the start of the project:
+**Code** ట్యాబ్‌పై క్లిక్ చేసి, ప్రాజెక్ట్ ప్రారంభంలో **Get snare** sprite ను చూపించడానికి స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/get-snare-icon.png)
 
@@ -111,17 +111,17 @@ show
 
 --- /task ---
 
-The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, you learned about making decisions with `if`{:class="block3control"} blocks.
+`10` లేదా అంతకంటే ఎక్కువ బీట్‌లను కలిగి ఉంటే మాత్రమే అప్‌గ్రేడ్ కొనుగోలు చేయబడుతుంది. [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}లో, మీరు `if`{:class="block3control"} బ్లాక్‌లతో నిర్ణయాలు తీసుకోవడం గురించి తెలుసుకున్నారు.
 
-An `if ... else`{:class="block3control"} block is used to make a decision and will do different things if a condition is `true` or `false`.
+`if ... else`{:class="block3control"} బ్లాక్ నిర్ణయం తీసుకోవడానికి ఉపయోగించబడుతుంది మరియు కండిషన్ `true` లేదా `false`అయితే తదనుగుణంగా వివిధ పనులను చేస్తుంది.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up, you check `if`{:class="block3control"} it is morning. You get up, or `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
+మనము నిర్ణయాలు తీసుకొనే అన్ని సమయాలలో <span style="color: #0faeb0">**if ... else**</span> ను ఉపయోగిస్తాము. మీరు మేల్కొన్నప్పుడు, మీరు `if`{:class="block3control"} ఇది ఉదయమా అని తనిఖీ చేస్తారు. మీరు లేస్తారు `else`{:class="block3control"} మీరు తిరిగి నిద్రపోతారు. మీరు తీసుకొనే ఏదైనా `if ... else`{:class="block3control"} నిర్ణయాల గురించి ఆలోచించగలరా? 
 </p>
 
 --- task ---
 
-Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `Not enough beats!` if they are not able to upgrade:
+`if`{:class="block3control"} ప్లేయర్‌కు తగినంత బీట్‌లు ఉంటే, అప్‌గ్రేడ్ చేయడానికి ఈ కోడ్‌ను జోడించండి లేదా వారు అప్‌గ్రేడ్ చేయలేకపోతే `Not enough beats!` అని `say`{:class="block3looks"} తో చెప్పండి:
 
 ![](images/get-snare-icon.png)
 
@@ -137,11 +137,11 @@ end
 
 --- /task ---
 
-Let other sprites and the Stage know that the snare upgrade has been bought.
+Snare అప్‌గ్రేడ్ కొనుగోలు చేయబడిందని ఇతర sprite లు మరియు Stage కి తెలియజేయండి.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+`snare` సందేశాన్ని `broadcast`{:class="block3events"} చేయడానికి బ్లాక్‌ను జోడించండి:
 
 ![](images/get-snare-icon.png)
 
@@ -160,7 +160,7 @@ end
 
 --- task ---
 
-Click on the **Drum-snare** sprite. Add this script:
+**Drum-snare** sprite పై క్లిక్ చేయండి. ఈ స్క్రిప్ట్‌ని జోడించండి:
 
 ![](images/snare-icon.png)
 
@@ -171,13 +171,13 @@ show
 
 --- /task ---
 
-When you upgrade your equipment, you will be able to play at bigger venues.
+మీరు మీ పరికరాలను అప్‌గ్రేడ్ చేసినప్పుడు, మీరు పెద్ద వేదికలలో ప్లే చేయగలరు.
 
 --- task ---
 
-Add another backdrop. We chose **Chalkboard** to play our second gig at school.
+మరొక బ్యాక్‌డ్రాప్‌ను జోడించండి. మనము పాఠశాలలో మన రెండవ ప్రదర్శనను ప్లే చేయడానికి **Chalkboard** ను ఎన్నుకొందాము.
 
-Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+అప్‌గ్రేడ్ సందేశాన్ని స్వీకరించినప్పుడు `switch backdrop`{:class="block3looks"} మార్చడానికి Stage కి కోడ్‌ని జోడించండి:
 
 ![](images/stage-icon.png)
 
@@ -186,15 +186,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
+**చిట్కా:** బెడ్ రూమ్ నుండి ఒక చిన్న మెట్టు పైకి ఉండే వేదికను ఎంచుకోండి. మీరు ముందు కాలం కోసం పెద్ద వేదికలను సేవ్ చేయాలనుకుంటున్నారు.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
+**పరీక్ష:** మీ ప్రాజెక్ట్‌ను అమలు చేయండి. మీరు తగినంత బీట్‌లను కలిగి ఉండటానికి ముందు స్నేర్ అప్‌గ్రేడ్‌ను ప్రయత్నించండి మరియు కొనుగోలు చేయండి.
 
-When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
+మీరు అప్‌గ్రేడ్ చెక్‌ను కొనుగోలు చేసినప్పుడు: snare కనిపిస్తుంది, బటన్ అదృశ్యమవుతుంది, వేదిక మారుతుంది మరియు `beats`{:class="block3variables"} `10` వరకు తగ్గుతాయి.
 
 --- /task ---
 

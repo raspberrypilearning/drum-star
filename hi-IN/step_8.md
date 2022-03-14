@@ -1,142 +1,142 @@
-## Upgrade your project
+## प्रोजेक्ट को अपग्रेड करें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Upgrade your project with more drums and more backdrops as you play more amazing venues. 
+जैसे जैसे आप और अधिक अद्भुत जगहों पर बजाते हैं अपने प्रोजेक्ट को और अधिक ड्रम और अधिक बैकड्रॉप के साथ अपग्रेड करें। 
 </div>
 <div>
 ![](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-There are lots more drum costumes to choose from to add more upgrades to your project.
+आपके प्रॉजेक्ट में और अधिक अपग्रेड जोड़ने के लिए चुनने के लिए बहुत अधिक ड्रम पोशाकें हैं।
 
-To add another drum to upgrade to, look back at the earlier steps of the project.
+अपग्रेड करने के लिए एक और ड्रम जोड़ने के लिए, प्रोजेक्ट के पिछले चरणों को देखें।
 
-For the **drum**, you will need to:
+**drum**, के लिए आपको यह करना होगा:
 
 --- task ---
 
-Duplicate the previous **drum** sprite and add two costumes.
+पहले के **drum** स्प्राइट को डुप्लिकेट करें और दो पोशाक जोड़ें।
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script.
+`when this sprite clicked`{:class="block3events"} स्क्रिप्ट में उपयोग किए गये `costume`{:class="block3looks"} और `sound`{:class="block3sound"} को बदलें।
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script.
+`when this sprite clicked`{:class="block3events"} स्क्रिप्ट में अर्जित किए गये `beats`{:class="block3variables"} की संख्या बदलें।
 
 --- /task ---
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**.
+`message`{:class="block3events"} जो ड्रम को `show`{:class="block3looks"} दिखाता है को **new drum** संदेश में बदलें।
 
 --- /task ---
 
-For the **button**, you will need to:
+**बटन**, के लिए आपको यह करना होगा:
 
 --- task ---
 
-Duplicate the previous **Get** sprite.
-
---- /task ---
-
---- task ---
-
-Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**.
+पहले के **Get** स्प्राइट को डुप्लिकेट करें।
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} including the cost of the new drum.
+`message`{:class="block3events"} बटन जो `message`{:class="block3events"} `broadcast`{:class="block3events"} में दिखता है उसको **previous drum** से बदलें
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
-
---- /task ---
-
-For the **venue**, you will need to:
-
---- task ---
-
-Add a new backdrop.
+`costume`{:class="block3looks"} और नये ड्रम के मूल्य को बदलें।
 
 --- /task ---
 
 --- task ---
 
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved.
+`beats`{:class="block3variables"} की संख्या को उससे बदलें जो आपके पास इस ड्रम को पाने के लिए होनी चाहिए `if`{:class="block3events"} कंडीशन में। `beats`{:class="block3variables"} की ऋणात्मक संख्या बदलें `change by`{:class="block3variables"} जब आप इस ड्रम को पाते हैं । `broadcast`{:class="block3events"} प्राप्त करने वाले संदेश **new drum** के नाम से बदलें।
 
 --- /task ---
 
-You might find that your drums need to be in a new position on a different backdrop.
+**venue**, के लिए आपको यह करना होगा:
 
 --- task ---
 
-Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
-
-You will also need to set their starting position `when flag clicked`{:class="block3events"}.
-
---- /task ---
-
---- task ---
-
-**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
+एक और पृष्ठभूमि जोड़ें।
 
 --- /task ---
 
 --- task ---
 
-**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
+जब इस ड्रम के लिए `message`{:class="block3events"} प्राप्त होता है तो नई पृष्ठभूमि में `switch backdrop to`{:class="block3looks"} करने के लिए Stage पर एक स्क्रिप्ट जोड़ें।
+
+--- /task ---
+
+ऐसा हो सकता है की आपको लगे कि आपके ड्रम को एक अलग पृष्ठभूमि पर एक नई स्थिति में होना चाहिए।
+
+--- task ---
+
+हर **drum** स्प्राइट पर `when backdrop changes to`{:class="block3events"} से शुरू होने वाली स्क्रिप्ट जोड़ें और उसके साथ `go to`{:class="block3motion"} ब्लॉक जोड़ें ताकि वह अपनी स्थिति बदलें।
+
+आपको प्रारंभिक स्थिति को `when flag clicked`{:class="block3events"} पर भी सेट करना होगा।
+
+--- /task ---
+
+--- task ---
+
+**सुझाव:** यदि आपके पास समय है, तो यह सुनिश्चित करना एक अच्छा विचार है कि स्प्राइट सूची में स्प्राइट एक तर्कसंगत क्रम में हैं, ड्रम से उनके अपग्रेड क्रम में शुरू होकर और फिर क्रम में बटन।
+
+--- /task ---
+
+--- task ---
+
+**डीबग:** पहले सुनिश्चित करें कि आप वास्तव में समझते हैं कि ड्रम और बटन कब दिखाना चाहिए और `beats`{:class="block3variables"} वेरिएबल कैसे बदलना चाहिए। किसी प्रोजेक्ट को डिबग करना बहुत आसान है यदि आप इस बारे में स्पष्ट हैं कि उसे क्या करना है।
 
 --- collapse ---
 ---
-title: My drum doesn't show/hide correctly
+title: मेरा ड्रम ठीक से दिखाई नहीं देता /छुपाता नहीं है
 ---
 
-Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}. And it should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
+जब तक कि यह पहला ड्रम न हो, आपके ड्रम में `when flag clicked`{:class="block3events"} स्क्रिप्ट होना चाहिए ताकि `hide`{:class="block3looks"}। और इसमे एक `when I receive`{:class="block3events"} `this drum` स्क्रिप्ट होनी चाहिए `show`{:class="block3looks"} के लिए।
 
-Check that the **Get** button for this drum `broadcasts`{:class="block3events"} the same message.
+जांचें कि इस ड्रम के लिए <**Get** बटन एक ही संदेश `broadcasts`{:class="block3events"} करे।
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Get button doesn't show/hide correctly
+title: मेरा Get बटन सही ढंग से दिखाई नहीं देता /छुपाता नहीं है
 ---
 
-Unless the button is for the very first drum, then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receieve`{:class="block3events"} the message for the **previous drum**. The **Get** button should `show`{:class="block3looks"} to let the player know about the next upgrade they are working towards.
+जब तक बटन पहले ड्रम के लिए न हो, तब इसे `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}। और इसे **previous drum** के लिए संदेश `show`{:class="block3looks"} `when I receieve`{:class="block3events"} होना चाहिए। **Get** बटन को खिलाड़ी को अगले अपग्रेड के बारे में बताने के लिए जिस पर वे काम कर रहे हैं `show`{:class="block3looks"} चाहिए।
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I can buy a drum when I don't have enough beats
+title: जब मेरे पास पर्याप्त बीट्स न हों तो मैं ड्रम खरीद सकता हूं
 ---
 
-Check that you have changed the number of `beats`{:class="block3variables"} needed `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+जब ड्रम के लिए **Get**बटन स्क्रिप्ट `when this sprite clicked`{:class="block3events"} तो जाँचें की आपने जितनी ज़रूरत हो उतनी `beats`{:class="block3variables"} बदली हैं ।
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The number of beats doesn't change correctly when I get a new drum
+title: जब मैं एक नया ड्रम प्राप्त करता हूं तो बीट्स की संख्या सही ढंग से नहीं बदलती है
 ---
 
-Check that you have `changed beats by`{:class="block3variables"} a negative number `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+जब ड्रम के लिए **Get**बटन स्क्रिप्ट `when this sprite clicked`{:class="block3events"} तो जाँचें कीआपने `changed beats by`{:class="block3variables"}को एक ऋणात्मक संख्या में बदला है।
 
-Make sure this matches the number on the drum button costume.
+सुनिश्चित करें कि यह ड्रम बटन पोशाक पर संख्या से मेल खाता है।
 
 --- /collapse ---
 
@@ -144,13 +144,13 @@ Make sure this matches the number on the drum button costume.
 
 --- collapse ---
 ---
-title: Completed project
+title: पूरा किया हुआ प्रोजेक्ट।
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+आप [ पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं ](https://scratch.mit.edu/projects/522323676/) {: target = "_ blank"}.
 
 --- /collapse ---
 
-**Tip:** If you get really muddled then it's fine to delete the new drum and its button, and start again. Sometimes it is hard to spot a bug.
+**सुझाव:** यदि आप वास्तव में अव्यवस्थित हो जाते हैं तो नया ड्रम और उसके बटन को हटाना ठीक है, और फिर से शुरू करें। कभी-कभी बग का पता लगाना मुश्किल होता है।
 
 --- save ---

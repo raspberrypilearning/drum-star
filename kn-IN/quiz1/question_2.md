@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: ಪ್ರಶ್ನೆ 2 ರಲ್ಲಿ 3
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+ಪ್ರಾಜೆಕ್ಟ್‌ ಒಂದರಲ್ಲಿ ಬಳಕೆದಾರರನ್ನು ಅವರ ಹೆಸರನ್ನು ಕೇಳಲು `ask`{:class="block3sensing"} ಬರಹ ಇದೆ:
 
 ```blocks3
 when flag clicked
@@ -16,7 +16,7 @@ set [name v] to (answer)
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+ಆಟಗಾರ ಟಿಕ್ (ಪರಿಶೀಲನಾ ಗುರುತು) ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿದ ಮೇಲೆ ಮತ್ತು ಬರಹ ಮುಗಿದಾಗ `name`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ನ ಮೌಲ್ಯ ಏನಾಗಿರುತ್ತದೆ?
 
 --- choices ---
 
@@ -24,7 +24,7 @@ What will be the value of the `name`{:class="block3variables"} variable after th
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+ಇಲ್ಲ, `name`{:class="block3variables"} ಎಂದರೆ ವೇರಿಯೇಬಲ್‌ನ್ನು ಏನು ಎಂದು ಕರೆಯುವುದು.
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ No, `name`{:class="block3variables"} is what the variable is called.
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+ಇಲ್ಲ, `???` ಎಂದರೆ `ask`{:class="block3sensing"} ಬ್ಲಾಕ್‌ ರನ್‌ ಆಗುವ ಮುಂಚಿನ `name`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ನ ಮೌಲ್ಯ.
 
   --- /feedback ---
 
@@ -40,15 +40,15 @@ No, `???` is the value of the `name`{:class="block3variables"} variable before t
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+ಇಲ್ಲ, ನೀವು `ask`{:class="block3sensing"} ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿದಾಗ ಬಳಕೆದಾರ ಟೈಪ್‌ ಮಾಡುವ ಉತ್ತರವನ್ನು ಸಂಗ್ರಹಣೆ ಮಾಡಲು ಸ್ಕ್ರಾಚ್‌ ಉಪಯೋಗಿಸುವ ಅದರ ಭಾಗವಾಗಿರುವ `answer`{:class="block3sensing"}‌ ವೇರಿಯೇಬಲ್. --- /feedback ---
 
 - (x) Bobo
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+ಹೌದು, `set [name v] to`{:class="block3variables"} ಬ್ಲಾಕ್‌ `name`{:class="block3variables"}ವೇರಿಯೇಬಲ್‌ನ **ಮೌಲ್ಯ**ವನ್ನು `answer`{:class="block3sensing"}ನ ಮೌಲ್ಯಕ್ಕೆ ಹೊಂದಿಸುತ್ತದೆ, ಅದು ಬಳಕೆದಾರ ಟೈಪ್‌ ಮಾಡಿದ ಪಠ್ಯವಾಗಿರುತ್ತದೆ.
 
-The value `Bobo` will also be shown on the Stage.
+Stage ಮೇಲೆ `Bobo` ಮೌಲ್ಯವನ್ನೂ ಸಹ ತೋರಿಸಲಾಗುತ್ತದೆ.
 
   --- /feedback ---
 

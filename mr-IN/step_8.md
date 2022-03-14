@@ -23,7 +23,7 @@
 
 --- task ---
 
-हा स्प्राईट </code>{:class="block3events"} स्क्रिप्ट क्लिक करतो तेव्हा ` मध्ये वापरलेले <code>costume`{:class="block3looks"} आणि `sound`{:class="block3sound"} बदला.
+`when this sprite clicked`{:class="block3events"} स्क्रिप्टवर क्लिक केले तेव्हा `costume`{:class="block3looks"} आणि `sound`{:class="block3sound"} बदला.
 
 --- /task ---
 

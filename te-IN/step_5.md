@@ -1,41 +1,41 @@
-## Second upgrade
+## రెండవ అప్‌గ్రేడ్
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your drum skills are improving. Time for a second upgrade! In this step, you will choose which drum to add.
+మీ డ్రమ్ నైపుణ్యాలు మెరుగుపడుతున్నాయి. రెండవ అప్‌గ్రేడ్ కోసం సమయం! ఈ దశలో, మీరు ఏ డ్రమ్ జోడించాలో ఎంచుకుంటారు.
 </div>
 <div>
-![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
+![3 డ్రమ్‌లతో పార్టీ బ్యాక్‌డ్రాప్‌ని చూపుతున్న Stage.](images/second-upgrade.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Drum-snare** sprite:
+**Drum-snare** sprite ను నకలు చేయండి:
 
 ![](images/duplicate-snare-drum.png)
 
 --- /task ---
 
-The **Drum Costumes** sprite has lots of drum costumes for you to choose from.
+**Drum Costumes** sprite లో మీరు ఎంచుకోవడానికి చాలా డ్రమ్ costume లు ఉన్నాయి.
 
 --- task ---
 
-Click on the **Drum Costumes** sprite and select the **Costumes** tab.
+**Drum Costumes** sprite పై క్లిక్ చేసి, **Costumes** ట్యాబ్‌ను ఎంచుకోండి.
 
-**Choose:** a drum for the next upgrade. We chose **Conga**.
+**ఎంచుకోండి:** తదుపరి అప్‌గ్రేడ్ కోసం డ్రమ్. మనము **Conga** ని ఎంచుకున్నాము.
 
-Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
+మీరు ఎంచుకున్న డ్రమ్ యొక్క 'hit' మరియు 'not hit' Costume లను మీ కొత్త **Drum-snare2** sprite కి లాగండి:
 
-![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
+![ఒక sprite నుండి మరొకదానికి costume లను ఎలా డ్రాగ్ చేయాలో చూపే యానిమేటెడ్ చిత్రం.](images/drag-costumes.gif)
 
-![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
+![Costume లిస్ట్‌లో రెండు అదనపు costume లతో కొత్త sprite యొక్క పెయింట్ ఎడిటర్.](images/drum-3-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Name your drum to match the costumes you chose.
+మీరు ఎంచుకున్న costume లకు సరిపోయేలా మీ డ్రమ్‌కు పేరు పెట్టండి.
 
 ![](images/drum-3-named.png)
 
@@ -43,9 +43,9 @@ Name your drum to match the costumes you chose.
 
 --- task ---
 
-Click on the **Code** tab. Change the code to use the correct costumes and choose a sound for your new drum.
+**Code** ట్యాబ్‌పై క్లిక్ చేయండి. సరైన costume లను ఉపయోగించడానికి కోడ్‌ని మార్చండి మరియు మీ కొత్త డ్రమ్ కోసం సౌండ్‌ని ఎంచుకోండి.
 
-Change the number of beats you earn by clicking the new drum to `5`:
+కొత్త డ్రమ్‌ని క్లిక్ చేయడం ద్వారా మీరు సంపాదించే బీట్‌ల సంఖ్యను `5`కి మార్చండి:
 
 ![](images/drum-3-icon.png)
 
@@ -61,38 +61,38 @@ when this sprite clicked
 
 --- task ---
 
-Drag your new drum into position on the Stage:
+మీ కొత్త డ్రమ్‌ని Stage పై పొజిషన్ లోకి డ్రాగ్ చేయండి:
 
-![New drum to the right of the other drums.](images/drum-3-positioned.png)
+![ఇతర డ్రమ్‌లకు కుడివైపున కొత్త డ్రమ్.](images/drum-3-positioned.png)
 
 --- /task ---
 
-Next, you need a button so that players can upgrade to this new drum.
+తర్వాత, ప్లేయర్‌లు ఈ కొత్త డ్రమ్‌కి అప్‌గ్రేడ్ చేయడానికి మీకు బటన్ అవసరం.
 
 --- task ---
 
-Duplicate the **Get snare** sprite.
+**Get snare** sprite ను నకలు చేయండి.
 
-Position it in the bottom-right corner of the Stage. Change its name to `Get` and then the name of your new drum:
+Stage యొక్క దిగువ-కుడి మూలలో దాన్ని ఉంచండి. దాని పేరును `Get` కి మార్చండి, ఆపై మీ కొత్త డ్రమ్ పేరు:
 
-![The Sprite list with duplicated 'Get snare' sprite. The sprite name changed to match the new drum and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+![డూప్లికేట్ చేయబడిన 'Get snare' sprite తో sprite జాబితా. కొత్త డ్రమ్‌కి సరిపోయేలా sprite పేరు మార్చబడింది మరియు Stage దిగువన కుడివైపు ఉంచబడింది.](images/get-drum-3.png)
 
 --- /task ---
 
 --- task ---
 
-Delete the **snare drum** from the button costume. Copy and paste the 'not hit' costume for your new drum to the button costume.
+బటన్ costume నుండి **snare drum** ను తొలగించండి. మీ కొత్త డ్రమ్ కోసం 'not hit' costume ని కాపీ చేసి బటన్ costume లో పేస్ట్ చేయండి.
 
-Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
+కొత్త డ్రమ్ ధరను చూపడానికి **Text** సాధనంపై క్లిక్ చేసి, సంఖ్యను `30`కి మార్చండి.
 
-Your button should look like this:
+మీ బటన్ ఇలా ఉండాలి:
 
-![The paint editor showing the new button costume with chosen drum image and text updated to 30.](images/get-drum-copy.png)
+![పెయింట్ ఎడిటర్ ఎంచుకున్న డ్రమ్ ఇమేజ్ మరియు టెక్స్ట్ 30 కి అప్‌డేట్ చేయబడిన కొత్త బటన్ costume ని చూపుతుంది.](images/get-drum-copy.png)
 
 --- /task ---
 
 
-This button should `hide`{:class="block3looks"} at the start, then `show`{:class="block3looks"} when the player upgrades to the snare drum, so they know which drum they are working towards.
+ఈ బటన్ ప్రారంభంలో `hide`{:class="block3looks"} అవ్వాలి, ఆపై ప్లేయర్ snare డ్రమ్‌కి అప్‌గ్రేడ్ చేసినప్పుడు `show`{:class="block3looks"} చేయాలి, కాబట్టి వారు ఏ డ్రమ్ వైపు పనిచేస్తున్నారో వారికి తెలుస్తుంది.
 
 --- task ---
 
@@ -104,13 +104,13 @@ when flag clicked
 + hide
 ```
 
-**Tip:** To delete a block, drag it to the Blocks menu, or right-click and choose **Delete Block**. On a computer, you can also click on a block and then tap <kbd>Delete</kbd> to remove a block.
+**చిట్కా:** బ్లాక్‌ను తొలగించడానికి, దాన్ని బ్లాక్‌ల మెనుకి డ్రాగ్ చేయండి లేదా రైట్-క్లిక్ చేసి, **Delete Block ** సెలెక్ట్ చేయండి. కంప్యూటర్‌లో, మీరు బ్లాక్‌పై క్లిక్ చేసి, బ్లాక్‌ను తీసివేయడానికి <kbd>Delete</kbd> మీద టాప్ చేయచ్చు.
 
 --- /task ---
 
 --- task ---
 
-Add a `when I recieve`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
+ప్లేయర్ **Drum-snare** డ్రమ్‌ని పొందినప్పుడు, మీ కొత్త డ్రమ్ బటన్ తదుపరి అప్‌గ్రేడ్‌గా చూపబడే `when I receive`{:class="block3events"} స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/get-drum-3-icon.png)
 
@@ -123,9 +123,9 @@ show // show button for next available drum
 
 --- task ---
 
-Change the number of beats needed to buy this drum, and the number of beats that are removed, when the player gets this drum.
+ప్లేయర్ ఈ డ్రమ్‌ని పొందినప్పుడు ఈ డ్రమ్‌ని కొనుగోలు చేయడానికి అవసరమైన బీట్‌ల సంఖ్య మరియు తీసివేయబడిన బీట్‌ల సంఖ్యను మార్చండి.
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Create a new message with the name of your new drum:
+ప్లేయర్ కొత్త డ్రమ్‌ని పొందినప్పుడు `broadcast`{:class="block3events"} సందేశాన్ని కూడా మార్చండి. మీ కొత్త డ్రమ్ పేరుతో కొత్త సందేశాన్ని సృష్టించండి:
 
 ![](images/get-drum-3-icon.png)
 
@@ -144,7 +144,7 @@ end
 
 --- task ---
 
-Change the `when I receive snare`{:class="block3events"} script to `broadcast`{:class="block3events"} the name of your new drum. The drum will `show`{:class="block3looks"} when the player upgrades to the new drum:
+`when I receive snare`{:class="block3events"} స్క్రిప్ట్‌ని మార్చి, మీ కొత్త డ్రమ్ పేరుని `broadcast`{:class="block3events"} చేయండి. ప్లేయర్ కొత్త డ్రమ్‌కి అప్‌గ్రేడ్ చేసినప్పుడు డ్రమ్ `show`{:class="block3looks"} అవుతుంది:
 
 ![](images/drum-3-icon.png)
 
@@ -157,9 +157,9 @@ show
 
 --- task ---
 
-Add the **Party** backdrop.
+**Party** బ్యాక్‌డ్రాప్‌ను జోడించండి.
 
-Add a script to the Stage to switch the backdrop when the player upgrades to the new drum:
+ప్లేయర్ కొత్త డ్రమ్‌కి అప్‌గ్రేడ్ చేసినప్పుడు బ్యాక్‌డ్రాప్‌ను మార్చడానికి Stage కి స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/stage-icon.png)
 
@@ -172,9 +172,9 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test:** Click the green flag to start the game and test that you can earn enough beats to get your new drum.
+**పరీక్ష:** గేమ్‌ను ప్రారంభించడానికి ఆకుపచ్చ జెండాను క్లిక్ చేయండి మరియు మీ కొత్త డ్రమ్‌ని పొందడానికి మీరు తగినంత బీట్‌లను సంపాదించగలరో లేదో పరీక్షించండి.
 
-What happens if you click the button before you have earned enough beats?
+మీరు తగినంత బీట్‌లను సంపాదించడానికి ముందు బటన్‌ను క్లిక్ చేస్తే ఏమి జరుగుతుంది?
 
 --- /task ---
 

@@ -1,57 +1,57 @@
-your backdrop name
+మీ బ్యాక్‌డ్రాప్ పేరు
 
-your variable
+మీ వేరియబుల్
 
-your question
+మీ ప్రశ్న
 
-hit costume
+హిట్ costume
 
-drum sound
+డ్రమ్ ధ్వని
 
-not hit costume
+హిట్ costume కాదు
 
-2 beats per click
+ప్రతి క్లిక్‌కి 2 బీట్‌లు
 
-if 10 or more beats
+10 లేదా అంతకంటే ఎక్కువ బీట్స్ ఉంటే
 
-take away the cost upgrade
+కాస్ట్ అప్‌గ్రేడ్‌ను తీసివేయండి
 
-your drum name
+మీ డ్రమ్ పేరు
 
-5 beats per click
+ప్రతి క్లిక్‌కి 5 బీట్‌లు
 
-your hit costume
+మీ హిట్ costume
 
-your drum sound
+మీ డ్రమ్ ధ్వని
 
-your not hit costume
+మీ హిట్ costume కాదు
 
-appear when previous drum is bought
+మునుపటి డ్రమ్ కొనుగోలు చేసినప్పుడు కనిపిస్తుంది
 
-show button for next available drum
+తదుపరి అందుబాటులో ఉన్న డ్రమ్ కోసం షో బటన్
 
-change to 29
+29కి మార్చండి
 
-change to 30
+30కి మార్చండి
 
-change to your drum name
+మీ డ్రమ్ పేరుకు మార్చండి
 
-player has upgraded to this drum
+ప్లేయర్ ఈ డ్రమ్‌ ని అప్‌గ్రేడ్ చేసారు
 
-this drum earns 2 beats
+ఈ డ్రమ్ 2 బీట్‌లను సంపాదిస్తుంది
 
-this drum earns 5 beats
+ఈ డ్రమ్ 5 బీట్‌లను సంపాదిస్తుంది
 
-first upgrade visible from the start
+మొదటి అప్‌గ్రేడ్ ప్రారంభం నుండి కనిపిస్తుంది
 
-need at least 10 beats
+కనీసం 10 బీట్స్ అవసరం
 
-cost of the snare drum
+స్నేర్ డ్రమ్ ఖర్చు
 
-not available at the start
+ప్రారంభంలో అందుబాటులో లేదు
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+మునుపటి డ్రమ్ (snare) ఎప్పుడు కొనుగోలు చేయబడిందో చూపండి మరియు ఇది ప్లేయర్ పని చేస్తున్న అప్‌గ్రేడ్.
 
-need at least 30 beats
+కనీసం 30 బీట్స్ అవసరం
 
-cost of the drum
+డ్రమ్ ఖర్చు

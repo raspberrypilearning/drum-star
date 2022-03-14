@@ -1,23 +1,23 @@
-## Introduction
+## परिचय
 
-Make a clicker game where you earn beats to play new drums at bigger venues.
+या प्रोजेक्टमध्ये, तुम्ही क्लिकर गेम बनवाल जिथे तुम्ही मोठ्या ठिकाणी नवीन ड्रम प्ले करण्यासाठी बीट्स मिळवाल.
 
-You will:
-+ Use `variables`{:class="block3variables"} to store and change numbers and text (words)
-+ `ask`{:class="block3sensing"} a question and use the `answer`{:class="block3sensing"} to customise the game
-+ Use `if...else`{:class="block3control"} blocks to make decisions
+तुम्ही हे कारल:
++ संख्या आणि टेक्स्ट (शब्द) स्टोअऱ करण्यासाठी `variables`{:class="block3variables"} वापरा
++ प्रश्न `ask`{:class="block3sensing"} आणि गेम कस्टमाइज करण्यासाठी `answer`{:class="block3sensing"} वापरा
++ निर्णय घेण्यासाठी `if...else`{:class="block3control"} ब्लॉक्स वापरा
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">**clicker games**</span> where you have to click to make progress and buy upgrades that help you go faster. Have you ever played a clicker game? There are also <span style="color: #0faeb0">**idle games**</span> that keep going even when you're not playing them. These games are fun as long as you don't spend too much time playing them!</p>
+असे बरेच <span style="color: #0faeb0">**क्लिकर गेम्स**</span> आहेत जेथे प्रगती करण्यासाठी आणि तुम्हाला जलद होण्यास मदत म्हणून अपग्रेड्स खरेदी करण्यासाठी तुम्हाला क्लिक करावे लागते. तुम्ही कधी क्लिकर गेम खेळला आहे का? तुम्ही खेळला नाहीत तरीसुद्धा चालू राहील असे <span style="color: #0faeb0">**आयडल गेम**</span> सुद्धा आहेत. जोपर्यंत तुम्ही ते खेळण्यात जास्त वेळ घालवत नाही तोपर्यंत हे खेळ मजेदार आहेत!</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### याचा प्रयत्न करा
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the drum and watch the number of `beats`{:class="block3variables"} go up. Get a new drum when you have enough beats. 
+ड्रमवर क्लिक करा आणि येणाऱ्या `beats`{:class="block3variables"} ची संख्या बघा. तुमच्याकडे पुरेसे बीट्स असतील तेव्हा नवीन ड्रम मिळवा. 
 
-How many `beats`{:class="block3variables"} do you earn when clicking the new drum?
+नवीन ड्रमवर क्लिक केल्यावर तुम्ही किती `beats`{:class="block3variables"} मिळवलेत?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![पूर्ण केलेला प्रोजेक्ट](images/showcase_static.png)
 
 --- /print-only ---

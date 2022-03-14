@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: 3లో 2వ ప్రశ్న
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+ఒక ప్రాజెక్ట్, యూజర్ యొక్క పేరు అడగడం `ask`{:class="block3sensing"} కోసం ఈ స్క్రిప్ట్‌ను కలిగి ఉంది:
 
 ```blocks3
 when flag clicked
@@ -16,7 +16,7 @@ set [name v] to (answer)
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+ప్లేయర్ టిక్ (చెక్‌మార్క్)పై క్లిక్ చేసి, స్క్రిప్ట్ పూర్తయిన తర్వాత `name`{:class="block3variables"} వేరియబుల్ విలువ ఎంత అవుతుంది?
 
 --- choices ---
 
@@ -24,7 +24,7 @@ What will be the value of the `name`{:class="block3variables"} variable after th
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+లేదు, `name`{:class="block3variables"} అనేది వేరియబుల్‌ పేరు.
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ No, `name`{:class="block3variables"} is what the variable is called.
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+లేదు, `???` అనేది, `ask`{:class="block3sensing"} బ్లాక్ అమలు కావడానికి ముందు `name`{:class="block3variables"} వేరియబుల్ యొక్క విలువ.
 
   --- /feedback ---
 
@@ -40,15 +40,15 @@ No, `???` is the value of the `name`{:class="block3variables"} variable before t
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+లేదు, `answer`{: class = "block3sensing"} అనేదె Scratch లో గల బిల్ట్ ఇన్ వేరియబుల్, అది `ask`{:class = "block3sensing"} ప్రశ్న అడిగినపుడు, యూజర్ టైప్ చేసిన సమాధానం నిల్వ చేయడానికి ఉపయోగించ బడుతుంది. --- /feedback ---
 
 - (x) Bobo
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+అవును, `set [name v] to`{:class="block3variables"} బ్లాక్ `name`{:class="block3variables"} వేరియబుల్ యొక్క **విలువ** ను, యూజర్ నమోదు చేసిన టెక్స్ట్ ని `answer`{:class="block3sensing"} గా ఇది సెట్ చేస్తుంది.
 
-The value `Bobo` will also be shown on the Stage.
+`Bobo` విలువ కూడా Stage పై చూపబడుతుంది.
 
   --- /feedback ---
 

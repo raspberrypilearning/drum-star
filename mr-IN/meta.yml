@@ -1,28 +1,28 @@
 ---
-title: Drum star
+title: ड्रम स्टार
 hero_image: images/banner.png
-description: Make a clicker game where you earn beats to play new drums and bigger venues
+description: या प्रोजेक्टमध्ये, तुम्ही क्लिकर गेम बनवाल जिथे तुम्ही मोठ्या ठिकाणी नवीन ड्रम प्ले करण्यासाठी बीट्स मिळवाल
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Set the Stage
+    title: Stage सेट करा
   - 
-    title: Starter drum
+    title: स्टार्टर ड्रम
     completion: engaged
   - 
-    title: First upgrade
+    title: प्रथम अपग्रेड
   - 
-    title: Second upgrade
+    title: दुसरे अपग्रेड
   - 
-    title: Play and customise
+    title: खेळा आणि कस्टमाइज करा
     completion: internal
   - 
-    title: Reflection
+    title: परावर्तन
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,6 +30,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: तुमचा प्रोजेक्ट अपग्रेड करा
   - 
-    title: What next?
+    title: पुढे काय?

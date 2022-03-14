@@ -1,28 +1,28 @@
 ---
-title: Drum star
+title: డ్రమ్ స్టార్
 hero_image: images/banner.png
-description: Make a clicker game where you earn beats to play new drums and bigger venues
+description: ఈ ప్రాజెక్ట్‌లో, మీరు పెద్ద వేదికల వద్ద డ్రమ్స్ వాయించేందుకు కొత్త బీట్‌లను సంపాదించే క్లిక్కర్ గేమ్‌ను తయారు చేస్తారు
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Introduction
+    title: పరిచయం
   - 
-    title: Set the Stage
+    title: Stage ను సెట్ చేయండి
   - 
-    title: Starter drum
+    title: స్టార్టర్ డ్రమ్
     completion: engaged
   - 
-    title: First upgrade
+    title: మొదటి అప్‌గ్రేడ్
   - 
-    title: Second upgrade
+    title: రెండవ అప్‌గ్రేడ్
   - 
-    title: Play and customise
+    title: ప్లే చేయండి మరియు కస్టమైజ్ చేయండి
     completion: internal
   - 
-    title: Reflection
+    title: విశ్లేషణ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,6 +30,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
   - 
-    title: What next?
+    title: తర్వాత ఏంటి?

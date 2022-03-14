@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: 3లో 3వ ప్రశ్న
 ---
 
-You used this script to control what happens when the player clicks on the button to upgrade their drum:
+ప్లేయర్ వారి డ్రమ్‌ని అప్‌గ్రేడ్ చేయడానికి బటన్‌పై క్లిక్ చేసినప్పుడు ఏమి జరుగుతుందో నియంత్రించడానికి మీరు ఈ స్క్రిప్ట్‌ని ఉపయోగించారు:
 
 ```blocks3
 when this sprite clicked
@@ -18,39 +18,39 @@ say [Not enough beats!] for [2] seconds
 end
 ```
 
-If the value of the `beats`{:class="block3variables"} variable is `29`, what will happen when the player clicks on the button?
+`beats`{:class="block3variables"} వేరియబుల్ విలువ `29`, ప్లేయర్ బటన్‌పై క్లిక్ చేసినప్పుడు ఏమి జరుగుతుంది?
 
 --- choices ---
 
-- ( ) The sprite will `hide`{:class="block3looks"}
+- ( ) sprite `hide` {:class="block3looks"} అవుతుంది
 
   --- feedback ---
 
-  Not quite, there is a `hide`{:class="block3looks"} block in the script, but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again.
+  పూర్తిగా నిజం కాదు `hide`{:class="block3looks"} బ్లాక్ ఉంది, కానీ అది `29` `beats`{:class="block3variables"}తో రన్ చేయబడదు. స్క్రిప్ట్‌ని మళ్లీ ఒకసారి చూడండి.
 
   --- /feedback ---
 
-- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`
+- (x) బటన్ sprite `say`{:class="block3looks"} `Not enough beats!`
 
   --- feedback ---
 
-Yes, the condition checks if `beats`{:class="block3variables"} is greater than `29`, but `beats`{:class="block3variables"} is equal to `29` so the player does not have enough.
+అపును, `beats`{:class="block3variables"} విలువ `29`కంటే ఎక్కువగా ఉందో లేదో కండిషన్ తనిఖీ చేస్తుంది, అయితే `beats`{:class="block3variables"} `29` కి సమానం కాబట్టి ప్లేయర్‌కు తగినంత బీట్స్ లేవు.
 
   --- /feedback ---
 
-- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable
+- ( ) `beats`{:class="block3variables"} వేరియబుల్ విలువ నుండి 30 తీసివేయబడుతుంది
 
   --- feedback ---
 
-  No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is `29` which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
+  లేదు, `beats`{:class="block3variables"} వేరియబుల్ విలువ అలాగే ఉంటుంది. `beats`{:class="block3variables"} విలువ `29` అంటే `beats`{:class="block3variables"} `> 29` తప్పు, కాబట్టి ` if `{:class ="block3control"} బ్లాక్ అమలు చేయబడదు.
 
   --- /feedback ---
 
-- ( ) Nothing
+- ( ) ఏమిలేదు
 
   --- feedback ---
 
-  No, the script will always do something. Take a closer look to see which part of the script will run when you have `29` `beats`{:class="block3variables"}.
+  లేదు, స్క్రిప్ట్ ఎప్పుడూ ఏదో ఒకటి చేస్తుంది. `29` `beats`{:class="block3variables"} ఉన్నప్పుడు స్క్రిప్ట్‌లోని ఏ భాగం రన్ అవుతుందో చూడటానికి నిశితంగా పరిశీలించండి.
 
   --- /feedback ---
 

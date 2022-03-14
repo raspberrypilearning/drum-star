@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: प्रश्न 3 पैकी 2
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+यूजरला त्यांचे नाव `ask`{:class="block3sensing"} साठी प्रोजेक्टला ही स्क्रिप्ट आहे:
 
 ```blocks3
 when flag clicked
@@ -16,15 +16,15 @@ set [name v] to (answer)
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+प्लेयरने टीक (चेकमार्क) वर क्लिक केल्यावर आणि स्क्रिप्ट संपल्यावर `name`{:class="block3variables"} ची व्हॅल्यू काय असेल?
 
 --- choices ---
 
-- ( )  name
+- () नाव
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+नाही, `name`{:class="block3variables"} हे व्हेरिएबलला म्हणतात.
 
   --- /feedback ---
 
@@ -32,23 +32,23 @@ No, `name`{:class="block3variables"} is what the variable is called.
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+नाही, `ask`{:class="block3sensing"} ब्लॉक रन करण्याआधी `name`{:class="block3variables"} व्हेरिएबलची `???` ही व्हॅल्यू आहे.
 
   --- /feedback ---
 
-- ( ) answer
+- () उत्तर
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+नाही, `answer`{:class="block3sensing"} हा बिल्ट-इन व्हेरिएबल आहे जो Scratch प्रश्न `ask`{:class="block3sensing"} जातो त्यावेळी यूजरने टाईप केलेले उत्तर स्टोअर करण्यासाठी वापरतो. --- /feedback ---
 
 - (x) Bobo
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+हो, </code>{:class="block3variables"} ब्लॉकला `set [name v] करण्यासाठी <code>name`{:class="block3variables"} ची **value** ही `answer`{:class="block3sensing"} च्या व्हॅल्यूला सेट करा जी यूजरने एंटर केलेले टेक्स्ट असेल.
 
-The value `Bobo` will also be shown on the Stage.
+`Bobo` ची व्हॅल्यू Stage वर सुद्धा दाखवली जाईल.
 
   --- /feedback ---
 

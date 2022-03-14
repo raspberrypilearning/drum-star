@@ -1,41 +1,41 @@
-## Second upgrade
+## दूसरा अपग्रेड
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your drum skills are improving. Time for a second upgrade! In this step, you will choose which drum to add.
+आपके ड्रम बजाने के कौशल में सुधार हो रहा है। दूसरे अपग्रेड का समय! इस चरण में, आप चुनेंगे कि कौन सा ड्रम जोड़ना है।
 </div>
 <div>
-![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
+![3 ड्रम के साथ पार्टी की पृष्ठभूमि दिखाने वाला Stage।](images/second-upgrad.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Drum-snare** sprite:
+**Drum-snare** स्प्राइट को डुप्लिकेट करें:
 
 ![](images/duplicate-snare-drum.png)
 
 --- /task ---
 
-The **Drum Costumes** sprite has lots of drum costumes for you to choose from.
+**Drum Costumes** स्प्राइट में आपके लिए चुनने के लिए बहुत सारे ड्रम कॉस्टयूम हैं।
 
 --- task ---
 
-Click on the **Drum Costumes** sprite and select the **Costumes** tab.
+**Drum Costumes** स्प्राइट पर क्लिक करें और **Costumes** टैब चुनें।
 
-**Choose:** a drum for the next upgrade. We chose **Conga**.
+अगले अपग्रेड के लिए **चुनें:**ड्रम। हमनें **Conga** चुना है।
 
-Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
+अपने ड्रम की 'hit' और 'not hit' पोशाकों को खीच के अपने नये **Drum-snare2** स्प्राइट पर लाएँ
 
-![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
+![एनिमेटेड छवि दिखा रही है कि एक स्प्रिसे से दूसरे स्प्राइट में पोशाकों को कैसे खींचना है।](images/drag-costumes.gif)
 
-![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
+![पोशाक सूची में दो अतिरिक्त पोशाकों के साथ नए स्प्राइट का पेंट संपादक।](images/drum-3-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Name your drum to match the costumes you chose.
+आपके द्वारा चुनी गई पोशाक से मेल खाने के लिए अपने ड्रम को नाम दें।
 
 ![](images/drum-3-named.png)
 
@@ -43,9 +43,9 @@ Name your drum to match the costumes you chose.
 
 --- task ---
 
-Click on the **Code** tab. Change the code to use the correct costumes and choose a sound for your new drum.
+**Code** टैब पर क्लिक करें। सही पोशाक का उपयोग करने के लिए कोड बदलें और अपने नए ड्रम के लिए ध्वनि चुनें।
 
-Change the number of beats you earn by clicking the new drum to `5`:
+नए ड्रम पर क्लिक करने पर होने वाली अर्जित बीट्स की संख्या को `5`बदलें:
 
 ![](images/drum-3-icon.png)
 
@@ -61,38 +61,38 @@ when this sprite clicked
 
 --- task ---
 
-Drag your new drum into position on the Stage:
+अपने नये ड्रम को Stage पर जगह पर खीचें:
 
-![New drum to the right of the other drums.](images/drum-3-positioned.png)
+![अन्य ड्रम के दाईं ओर नया ड्रम।](images/drum-3-positioned.png)
 
 --- /task ---
 
-Next, you need a button so that players can upgrade to this new drum.
+इसके बाद, आपको एक बटन की आवश्यकता होगी ताकि खिलाड़ी इस नए ड्रम में अपग्रेड कर सकें।
 
 --- task ---
 
-Duplicate the **Get snare** sprite.
+**Drum-snare** स्प्राइट को डुप्लिकेट करें:
 
-Position it in the bottom-right corner of the Stage. Change its name to `Get` and then the name of your new drum:
+इसे Stage के निचले-दाएँ कोने में रखें: इसका नाम बदलकर `Get` कर दें और फिर अपने नए ड्रम का नाम रखें:
 
-![The Sprite list with duplicated 'Get snare' sprite. The sprite name changed to match the new drum and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+![स्प्राइट सूची 'Get snare' Sprite के साथ डुप्लिकेट की गई । नए ड्रम से मेल खाने के लिए स्प्राइट का नाम बदल गया और Stage के नीचे-दाईं ओर रखा गया।](images/get-drum-3.png)
 
 --- /task ---
 
 --- task ---
 
-Delete the **snare drum** from the button costume. Copy and paste the 'not hit' costume for your new drum to the button costume.
+बटन कॉस्ट्यूम से **snare drum** को हटा दें। अपने नए ड्रम के 'not hit' पोशाक को बटन कॉस्ट्यूम में कॉपी और पेस्ट करें।
 
-Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
+**Text** टूल पर क्लिक करें और नए ड्रम की कीमत दिखाने के लिए संख्या को `30` में बदलें
 
-Your button should look like this:
+आपका बटन इस तरह दिखना चाहिए:
 
-![The paint editor showing the new button costume with chosen drum image and text updated to 30.](images/get-drum-copy.png)
+![पेंट संपादक नई बटन पोशाक को चुनी हुई ड्रम छवि और 30 में अपडेट किए गए टेक्स्ट के साथ दिखा रहा है।](images/get-drum-copy.png)
 
 --- /task ---
 
 
-This button should `hide`{:class="block3looks"} at the start, then `show`{:class="block3looks"} when the player upgrades to the snare drum, so they know which drum they are working towards.
+यह बटन शुरू में `hide`{:class="block3looks"} होना चाहिए, फिर `show`{:class="block3looks"} जब खिलाड़ी snare drum को अपग्रेड करे, ताकि वे जान सकें जो की वह किस ड्रम की दिशा में काम कर रहे हैं।
 
 --- task ---
 
@@ -104,13 +104,13 @@ when flag clicked
 + hide
 ```
 
-**Tip:** To delete a block, drag it to the Blocks menu, or right-click and choose **Delete Block**. On a computer, you can also click on a block and then tap <kbd>Delete</kbd> to remove a block.
+**सुझाव:** किसी ब्लॉक को हटाने के लिए, उसे Blocks मेनू पर खींचें, या राइट-क्लिक करें और **Delete Block** चुनें। कंप्यूटर पर आप किसी ब्लॉक पर भी क्लिक कर सकते हैं और फिर किसी ब्लॉक को हटाने के लिए <kbd>Delete</kbd> पर टैप करें
 
 --- /task ---
 
 --- task ---
 
-Add a `when I recieve`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
+`when I recieve`{:class="block3events"} स्क्रिप्ट जोड़ें ताकि आपना नया ड्रम बटन नये अपग्रेड की तरह दिखे जब खिलाड़ी को **Drum-snare** ड्रम मिले
 
 ![](images/get-drum-3-icon.png)
 
@@ -123,9 +123,9 @@ show // show button for next available drum
 
 --- task ---
 
-Change the number of beats needed to buy this drum, and the number of beats that are removed, when the player gets this drum.
+इस ड्रम को खरीदने के लिए आवश्यक बीट्स की संख्या और खिलाड़ी को यह ड्रम मिलने पर निकाले जाने वाले बीट्स की संख्या बदलें।
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Create a new message with the name of your new drum:
+संदेश यानी की `broadcast`{:class="block3events"} को भी खिलाड़ी को नया ड्रम मिलने पर बदलें अपने नए ड्रम के नाम से एक नया संदेश बनाएं:
 
 ![](images/get-drum-3-icon.png)
 
@@ -144,7 +144,7 @@ end
 
 --- task ---
 
-Change the `when I receive snare`{:class="block3events"} script to `broadcast`{:class="block3events"} the name of your new drum. The drum will `show`{:class="block3looks"} when the player upgrades to the new drum:
+`when I receive snare`{:class="block3events"} स्क्रिप्ट को `broadcast`{:class="block3events"} आपके नए ड्रम का नाम में बदलें। जब खिलाड़ी नए ड्रम में अपग्रेड करता है तो ड्रम `show`{:class="block3looks"}
 
 ![](images/drum-3-icon.png)
 
@@ -157,9 +157,9 @@ show
 
 --- task ---
 
-Add the **Party** backdrop.
+**Party** पृष्ठभूमि जोड़ें।
 
-Add a script to the Stage to switch the backdrop when the player upgrades to the new drum:
+जब खिलाड़ी नए ड्रम में अपग्रेड करता है तो पृष्ठभूमि में बदलने के लिए के लिए Stage में एक स्क्रिप्ट जोड़ें:
 
 ![](images/stage-icon.png)
 
@@ -172,9 +172,9 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test:** Click the green flag to start the game and test that you can earn enough beats to get your new drum.
+**टेस्ट:** खेल शुरू करने के लिए हरे झंडे पर क्लिक करें और परीक्षण करें कि आप अपना नया ड्रम प्राप्त करने के लिए पर्याप्त बीट्स कमा सकते हैं।
 
-What happens if you click the button before you have earned enough beats?
+यदि आप पर्याप्त बीट अर्जित करने से पहले बटन पर क्लिक करते हैं तो क्या होगा?
 
 --- /task ---
 

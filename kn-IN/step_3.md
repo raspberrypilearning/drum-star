@@ -1,8 +1,8 @@
-## Starter drum
+## ಸ್ಟಾರ್ಟರ್ ಡ್ರಮ್
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a **cymbal** sprite that you can click to earn beats and play a sound.
+ನೀವು ಕ್ಲಿಕ್ ಮಾಡಿ ಹೊಡೆತಗಳನ್ನು ಗಳಿಸಬಹುದಾದ ಮತ್ತು ಧ್ವನಿಯನ್ನು ನುಡಿಸಬಹುದಾದ **cymbal** ಸ್ಪ್ರೈಟ್‌ ಸೇರಿಸುತ್ತೀರಿ.
 </div>
 <div>
 ![](images/starter-drum.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add a **cymbal** sprite that you can click to earn beats and play a sou
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to your project.
+**Choose a Sprite** ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು `cymbal` ಹುಡುಕಿ. ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ **Drum-cymbal** ಸ್ಪ್ರೈಟ್‌ ಸೇರಿಸಿ.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to
 
 --- task ---
 
-Position your cymbal on the Stage:
+ನಿಮ್ಮ ಸಿಂಬಲ್‌ನ್ನು Stage ಮೇಲೆ ಇರಿಸಿ:
 
 ![](images/cymbal-stage.png)
 
@@ -27,7 +27,7 @@ Position your cymbal on the Stage:
 
 --- task ---
 
-Add the **Music extension**:
+**Music extension**ನ್ನು ಸೇರಿಸಿ:
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -35,7 +35,7 @@ Add the **Music extension**:
 
 --- task ---
 
-Add a script to make the cymbal `switch costume`{:class="block3looks"} and `play a drum sound`{:class="block3extensions"}:
+ಸಿಂಬಲ್‌ `switch costume`{:class="block3looks"} ಮತ್ತು `play a drum sound`{:class="block3extensions"} ಮಾಡುವಂತೆ ಮಾಡಲು ಬರಹ ಸೇರಿಸಿ:
 
 ![](images/cymbal-icon.png)
 
@@ -50,15 +50,15 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test:** Test your cymbal by clicking on it. Make sure you hear a sound and see the costume change.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಸಿಂಬಲ್‌ನ್ನು ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಪರೀಕ್ಷೆ ಮಾಡಿ. ನೀವು ಧ್ವನಿ ಕೇಳಿಸಿಕೊಳ್ಳುವುದನ್ನು ಮತ್ತು ಉಡುಪು ಬದಲಾವಣೆ ನೋಡುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 --- /task ---
 
-The **Drum-cymbal** sprite will earn you one beat each time you click it.
+ನೀವು ಪ್ರತಿಬಾರಿ ಅದನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ **Drum-cymbal** ಸ್ಪ್ರೈಟ್‌ ನಿಮಗೆ ಒಂದು ಹೊಡೆತವನ್ನು ಗಳಿಸುತ್ತದೆ.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `beats`:
+`beats` ಎನ್ನುವ `variable`{:class="block3variables"} ರಚಿಸಿ:
 
 ![](images/beats-variable.png)
 
@@ -66,7 +66,7 @@ Create a `variable`{:class="block3variables"} called `beats`:
 
 --- task ---
 
-Add a block to `change beats by 1`{:class="block3variables"} when the **Drum-cymbal** sprite is clicked:
+**Drum-cymbal** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ `change beats by 1`{:class="block3variables"}ನ್ನು ಮಾಡಲು ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ:
 
 ![](images/cymbal-icon.png)
 
@@ -82,17 +82,17 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it and watch the `beats`{:class="block3variables"} increase.
+**ಪರೀಕ್ಷೆ:** **Drum-cymbal** ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಅದನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು `beats`{:class="block3variables"} ಹೆಚ್ಚಾಗುವುದನ್ನು ಗಮನಿಸಿ.
 
 --- /task ---
 
-The `beats`{:class="block3variables"} variable needs to start at `0` beats when you start a new game.
+`beats`{:class="block3variables"} ವೇರಿಯೇಬಲ್ `0` ಹೊಡೆತದಲ್ಲಿ ಹೊಸ ಆಟವನ್ನು ಪ್ರಾರಂಭಿಸಬೇಕು.
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab to add code to the Stage.
+Stage ಪೇನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರ Stage ಗೆ ಕೋಡ್‌ ಸೇರಿಸಲು **Code** ಟ್ಯಾಬ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-Add a block to `set beats to`{:class="block3variables"} `0`:
+`set beats to`{:class="block3variables"} `0` ಮಾಡಲು ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ:
 
 ![](images/stage-icon.png)
 
@@ -106,7 +106,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Test:** Click the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಬಾವುಟ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ `beats`{:class="block3variables"} ವೇರಿಯೇಬಲ್ `0`ದಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 --- /task ---
 

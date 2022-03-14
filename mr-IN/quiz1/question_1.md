@@ -1,60 +1,60 @@
-## Reflection
+## परावर्तन
 
-Well done, you have made a clicker game that people want to play!
+छान, तुम्ही एक क्लिकर गेम बनवला आहे जो लोकांना खेळायचा आहे!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
+तुम्ही `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, आणि `Looks`{:class="block3looks"} ब्लॉक्स वापरलेत!
 
-Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
+आता चिंतन करण्याची वेळ आली आहे. आता, चिंतन करण्याची वेळ आहे - चिंतन हा अभ्यासाचा महत्वाचा भाग आहे, कारण त्यामुळे तुमच्या मेंदूला नवीन माहिती मिळण्यास मदत होते.
 
-Answer the three questions below to reflect on what you've learned.
+तुम्ही काय शिकलात याचे चिंतन करण्यासाठी खालील तीन प्रश्नांची उत्तरे द्या.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+प्रत्येक प्रश्नानंतर submit दाबा. तुम्हाला योग्य उत्तराचे मार्गदर्शन केले जाईल. तुम्हाला हवे तेवढ्या वेळा तुम्ही ही कृती करू शकता.
 
-Have fun!
+मजा करा!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: प्रश्न 3 पैकी 1
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+तुमच्या प्रोजेक्टमध्ये तुम्ही व्हेरिएबल्स तयार केले आणि वापरले. यापैकी कोणती मूल्ये व्हेरिएबलमध्ये साठवली जाऊ शकतात?
 
 `6` , `Tom` , `151` , `Aadya`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- ( ) केवळ संख्या `6` आणि`151`
 
  --- feedback ---
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
+ तुम्ही संख्या स्टोअर करण्यासाठी `beats`{:class="block3variables"} व्हेरिएबल वापरलेत. परंतु तुम्ही दुसऱ्या कशासाठी तरी व्हेरिएबल वापरले.
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) केवळ टेक्स्ट (शब्द) `Tom` आणि `Aadya`
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ तुम्ही प्रश्न `ask`{:class="block3sensing"} साठी `answer`{:class="block3sensing"} साठी टेक्स्ट (शब्द) स्टोअर करण्यासाठी `name`{:class="block3variables"} व्हेरिएबल वापरले. परंतु तुम्ही दुसऱ्या कशासाठी तरी `variable`{:class="block3variables"} वापरले.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- (x) कोणतीही संख्या किंवा टेक्स्ट (शब्द)
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
+ हो, तुम्ही `beats`{:class="block3variables"} `variable`{:class="block3variables"} मध्ये संख्या स्टोअर केली आणि `name`{:class="block3variables"} `variable`{:class="block3variables"} मध्ये टेक्स्ट (शब्द) स्टोअर केले.
 
- A variable can store a number or text (words).
+ व्हेरिएबल संख्या किंवा टेक्स्ट (शब्द) स्टोअर करू शकतो.
 
  --- /feedback ---
 
-- ( ) None of them
+- ( ) त्यांच्या पैकी कोणीच नाही
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+नाही. तुम्ही वापरलेल्या `beats`{:class="block3variables"} आणि `name`{:class="block3variables"} व्हेरिएबल्सचा विचार करा.
 
  --- /feedback ---
 

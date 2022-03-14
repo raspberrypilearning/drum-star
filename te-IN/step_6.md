@@ -1,8 +1,8 @@
-## Play and customise
+## ప్లే చేయండి మరియు కస్టమైజ్ చేయండి
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's time to make your game work just the way that you want it to.
+మీ ఆట మీరు కోరుకున్న విధంగానే పని చేసే సమయం వచ్చింది.
 </div>
 <div>
 ![](images/play-customise.png){:width="300px"}
@@ -11,23 +11,23 @@ It's time to make your game work just the way that you want it to.
 
 --- task ---
 
-Play your game and earn beats.
+మీ ఆట ఆడండి మరియు బీట్స్ సంపాదించండి.
 
-Watch the `beats`{:class="block3variables"} variable change and make sure you understand how beats increase when you click the drums and decrease when you get a new drum.
+`beats`{:class="block3variables"} వేరియబుల్ మార్పును చూడండి మరియు మీరు డ్రమ్‌లను క్లిక్ చేసినప్పుడు బీట్‌లు ఎలా పెరుగుతాయో మరియు మీరు కొత్త డ్రమ్‌ని పొందినప్పుడు తగ్గుతాయో అర్థం చేసుకున్నారని నిర్ధారించుకోండి.
 
-Are you happy with how many beats you earn for each drum? You can change this if you like.
+ఒక్కో డ్రమ్‌కి మీరు ఎన్ని బీట్‌లు సంపాదిస్తున్నారనే దానితో మీరు సంతోషంగా ఉన్నారా? మీకు నచ్చితే దీన్ని మార్చుకోవచ్చు.
 
-Are you happy with how many beats it costs to get a new drum?
+కొత్త డ్రమ్‌ని పొందడానికి ఎన్ని బీట్‌లు ఖర్చవుతాయనే దానిపై మీరు సంతృప్తిగా ఉన్నారా?
 
-**Tip:** Test your project regularly so you can find and fix any bugs.
+**చిట్కా:** మీ ప్రాజెక్ట్‌ను క్రమం తప్పకుండా పరీక్షించండి, తద్వారా మీరు ఏవైనా బగ్‌లను కనుగొని పరిష్కరించవచ్చు.
 
 --- /task ---
 
 --- task ---
 
-If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back and set your rock star name.
+మీరు Stage పై `ask`{:class="block3sensing"} బ్లాక్‌ని వేరు చేసినట్లయితే, దాన్ని తిరిగి ఉంచండి మరియు మీ రాక్ స్టార్ పేరును సెట్ చేయండి.
 
-Notice that the name displayed on the Stage changes.
+Stageపై ప్రదర్శించబడే పేరు మారుతుందని గమనించండి.
 
 --- /task ---
 

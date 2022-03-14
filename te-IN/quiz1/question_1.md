@@ -1,60 +1,60 @@
-## Reflection
+## విశ్లేషణ
 
-Well done, you have made a clicker game that people want to play!
+బాగా చేసారు, మీరు అందరు ఆడాలనుకునే క్లిక్కర్ గేమ్‌ని చేసారు!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
+మీరు `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, మరియు `Looks`{:class="block3looks"} బ్లాకులను ఉపయోగించారు!
 
-Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
+ఇప్పుడు విశ్లేషించుకొనే సమయం వచ్చింది. విశ్లేషించడం అనేది నేర్చుకోవడంలో ముఖ్యమైన భాగం, ఎందుకంటే ఇది మీ మెదడులో కొత్త కనెక్షన్‌లను ఏర్పరచడంలో సహాయపడుతుంది.
 
-Answer the three questions below to reflect on what you've learned.
+మీరు నేర్చుకున్న వాటిని పరిశీలించడానికి దిగువ మూడు ప్రశ్నలకు సమాధానం ఇవ్వండి.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+ప్రతి ప్రశ్న తర్వాత, సబ్మిట్ నొక్కండి. మీరు సరైన సమాధానం వైపు మార్గనిర్దేశం చేయబడతారు. మీరు ఈ చర్యను మీకు కావలసినన్ని సార్లు చేయవచ్చు.
 
-Have fun!
+ఆస్వాదించండి!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: 3లో 1వ ప్రశ్న
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+మీ ప్రాజెక్ట్‌లో, మీరు వేరియబుల్‌లను సృష్టించారు మరియు ఉపయోగించారు. వేరియబుల్‌లో ఈ విలువలలో ఏది నిల్వ చేయబడుతుంది?
 
 `6` , `Tom` , `151` , `Aadya`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- ()`6` మరియు `151` సంఖ్యలు మాత్రమే
 
  --- feedback ---
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
+ సంఖ్యలను నిల్వ చేయడానికి మీరు `beats`{:class="block3variables"} వేరియబుల్‌ని ఉపయోగించారు. కానీ మీరు వేరే వాటి కోసం కూడా వేరియబుల్‌ని ఉపయోగించారు.
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) వచనం (పదాలు) `Tom` మరియు `Aadya` మాత్రమే
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ `ask`{:class="block3sensing"} ప్రశ్నకు `answer`{:class="block3sensing"} కోసం, మీరు టెక్స్ట్ (పదాలు) నిల్వ చేయడానికి `name`{:class="block3variables"} వేరియబుల్‌ని ఉపయోగించారు. కానీ మీరు వేరే వాటి కోసం కూడా `variable`{:class="block3variables"} ని ఉపయోగించారు.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- (x) ఏదైనా సంఖ్యలు లేదా వచనం (పదాలు)
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
+ అపును, మీరు `beats`{:class="block3variables"} `వేరియబుల్`{:class="block3variables"} లో ఒక సంఖ్యను నిల్వ చేసారు `name`{:class="block3variables"} `వేరియబుల్`{:class="block3variables"} లో టెక్స్ట్ (పదాలు) నిల్వ చేసారు.
 
- A variable can store a number or text (words).
+ వేరియబుల్ ఒక సంఖ్యను లేదా వచనాన్ని (పదాలు) నిల్వ చేయగలదు.
 
  --- /feedback ---
 
-- ( ) None of them
+- ( ) వాటిలో ఏది కాదు
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+లేదు. మీరు ఉపయోగించిన `beats`{:class="block3variables"} మరియు `name`{:class="block3variables"} వేరియబుల్స్ గురించి ఆలోచించండి.
 
  --- /feedback ---
 

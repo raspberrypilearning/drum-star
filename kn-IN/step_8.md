@@ -19,13 +19,13 @@
 
 ಹಿಂದಿನ **drum** ಸ್ಪ್ರೈಟ್‌ ನಕಲು ಮಾಡಿ ಮತ್ತು ಎರಡು ಉಡುಪುಗಳನ್ನು ಸೇರಿಸಿ.
 
---- /ಕಾರ್ಯ ---
+--- /task ---
 
---- ಕಾರ್ಯ ---
+--- task ---
 
 `when this sprite clicked`{:class="block3events"} ಬರಹದಲ್ಲಿ ಉಪಯೋಗಿಸಿದ `costume`{:class="block3looks"} ಮತ್ತು `sound`{:class="block3sound"} ನ್ನು ಬದಲಾಯಿಸಿ.
 
---- /ಕಾರ್ಯ ---
+--- /task ---
 
 --- task ---
 

@@ -1,8 +1,8 @@
-## Starter drum
+## स्टार्टर ड्रम
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a **cymbal** sprite that you can click to earn beats and play a sound.
+**cymbal** स्प्राईट तुम्ही जोडाल जो तुम्ही बीट्स मिळवण्यासाठी आणि साऊंड प्ले करण्यासाठी क्लिक करू शकता.
 </div>
 <div>
 ![](images/starter-drum.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add a **cymbal** sprite that you can click to earn beats and play a sou
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to your project.
+**Choose a Sprite** क्लिक करा आणि `cymbal` सर्च करा. तुमच्या प्रोजेक्टला **Drum-cymbal** स्प्राईट जोडा.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to
 
 --- task ---
 
-Position your cymbal on the Stage:
+तुमच्या cymbal ला Stage वर पोजिशन करा:
 
 ![](images/cymbal-stage.png)
 
@@ -27,7 +27,7 @@ Position your cymbal on the Stage:
 
 --- task ---
 
-Add the **Music extension**:
+**Music extension** जोडा:
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -35,7 +35,7 @@ Add the **Music extension**:
 
 --- task ---
 
-Add a script to make the cymbal `switch costume`{:class="block3looks"} and `play a drum sound`{:class="block3extensions"}:
+Cymbal `switch costume`{:class="block3looks"} आणि `play a drum sound`{:class="block3extensions"} तयार करण्यासाठी स्क्रिप्ट जोडा:
 
 ![](images/cymbal-icon.png)
 
@@ -50,15 +50,15 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test:** Test your cymbal by clicking on it. Make sure you hear a sound and see the costume change.
+**चाचणी:** तुमच्या cymbal वर क्लिक त्याची तपासणी करा. तुम्ही साऊंड ऐकलात आणि कॉश्चुम बदल बघितलात याची खात्री करा.
 
 --- /task ---
 
-The **Drum-cymbal** sprite will earn you one beat each time you click it.
+**Drum-cymbal** स्प्राईट तुम्हाला प्रत्येक वेळी तुम्ही क्लिक केल्यावर एक बीट मिळवून देईल.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `beats`:
+`variable`{:class="block3variables"} तयार करा ज्याला `beats` म्हणतात:
 
 ![](images/beats-variable.png)
 
@@ -66,7 +66,7 @@ Create a `variable`{:class="block3variables"} called `beats`:
 
 --- task ---
 
-Add a block to `change beats by 1`{:class="block3variables"} when the **Drum-cymbal** sprite is clicked:
+**Drum-cymbal** स्प्राईट क्लिक केल्यावर `change beats by 1`{:class="block3variables"} मध्ये ब्लॉक जोडा:
 
 ![](images/cymbal-icon.png)
 
@@ -82,17 +82,17 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it and watch the `beats`{:class="block3variables"} increase.
+**चाचणी:** **Drum-cymbal** वर क्लिक करून त्याची तपासणी करा आणि `beats`{:class="block3variables"} वाढतात का ते बघा.
 
 --- /task ---
 
-The `beats`{:class="block3variables"} variable needs to start at `0` beats when you start a new game.
+तुम्ही नवीन गेम चालू केल्यावर `beats`{:class="block3variables"} व्हेरिएबल `0` बीट्सला चालू व्हायला हवा.
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab to add code to the Stage.
+Stage pane वर क्लिक करा आणि त्यानंतर Stage ला कोड जोडण्यासाठी **Code** टॅबवर क्लिक करा.
 
-Add a block to `set beats to`{:class="block3variables"} `0`:
+`set beats to`{:class="block3variables"} `0` ला ब्लॉक जोडा:
 
 ![](images/stage-icon.png)
 
@@ -106,7 +106,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Test:** Click the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
+**चाचणी:** हिरव्या झेंड्यावर क्लिक करा आणि तुमचा `beats`{:class="block3variables"} व्हेरिएबल`0` ला चालू होतो का याची खात्री करा.
 
 --- /task ---
 

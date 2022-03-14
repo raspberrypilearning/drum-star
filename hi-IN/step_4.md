@@ -1,8 +1,8 @@
-## First upgrade
+## पहला अपग्रेड
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add your first upgrade. The **Get snare** button will show at the start, so the player knows which drum they are working towards.
+आप अपना पहला अपग्रेड जोड़ेंगे। **Get snare** बटन शुरुआत में दिखाई देगा, ताकि खिलाड़ी को पता हो कि वे किस ड्रम की ओर काम कर रहे हैं।
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add your first upgrade. The **Get snare** button will show at the start
 
 --- task ---
 
-Add the **Drum-snare** sprite to your project and position it on the Stage:
+अपने प्रोजेक्ट में **Drum-snare** स्प्राइट जोड़ें और इसे Stage पर जमाएँ:
 
 ![](images/snare-stage.png)
 
@@ -19,7 +19,7 @@ Add the **Drum-snare** sprite to your project and position it on the Stage:
 
 --- task ---
 
-Drag the `when this sprite clicked`{:class="block3events"} script from the **Drum-cymbal** sprite to the **Drum-snare** sprite.
+`when this sprite clicked`{:class="block3events"} स्क्रिप्ट को **Drum-cymbal** स्प्राइट से **Drum-snare** स्प्राइट में खीचें
 
 [[[scratch3-copy-code]]]
 
@@ -27,9 +27,9 @@ Drag the `when this sprite clicked`{:class="block3events"} script from the **Dru
 
 --- task ---
 
-Change the costumes and the drum sound.
+परिधान और ढोल की ध्वनि बदलें।
 
-Change the number of beats earned to `2`:
+अर्जित बीट्स की संख्या को `2` में बदलें:
 
 ![](images/snare-icon.png)
 
@@ -45,15 +45,15 @@ when this sprite clicked
 
 --- task ---
 
-**Test:** Try out your project. Make sure that you earn 2 beats when you click on the snare drum.
+**टेस्ट:** अपने प्रोजेक्ट का परीक्षण करें। स्नेयर ड्रम पर क्लिक करने पर सुनिश्चित करें कि आप 2 बीट अर्जित करते हैं।
 
 --- /task ---
 
-Upgrades are not available when you start the project. They have to be earned with beats.
+जब आप प्रोजेक्ट प्रारंभ करते हैं तो अपग्रेड उपलब्ध नहीं होते हैं। उन्हें बीट्स के साथ अर्जित करना होगा।
 
 --- task ---
 
-Add a script to hide this **drum** sprite at the start of the project:
+प्रोजेक्ट की शुरुआत में **drum** स्प्राइट को छिपाने के लिए एक स्क्रिप्ट जोड़ें:
 
 ![](images/snare-icon.png)
 
@@ -64,15 +64,15 @@ hide
 
 --- /task ---
 
-A button will show which drum is the next upgrade option and how many beats it will cost.
+एक बटन दिखाएगा कि कौन सा ड्रम अगला अपग्रेड विकल्प है और इसकी लागत कितनी बीट्स होंगी।
 
 --- task ---
 
-**Duplicate** the **Get** sprite:
+**Get** स्प्राइट को **Duplicate** करें:
 
 ![](images/duplicate-get.png)
 
-Change the visibility to **Show** and change its name to `Get snare`. Position it in the bottom-right corner of the Stage:
+दृश्यता को **Show** में बदलें और उसका नाम `Get snare` बदलें। इसे Stage के निचले-दाएँ कोने में रखें:
 
 ![](images/get-snare.png)
 
@@ -80,7 +80,7 @@ Change the visibility to **Show** and change its name to `Get snare`. Position i
 
 --- task ---
 
-Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Select** (arrow) tool to highlight the not hit costume of your drum. Click on the **Group** icon then the **Copy** icon:
+**Drum-snare**स्प्राइट पर क्लिक करें **Costumes** टैब पर जाएं। अपने ड्रम के पोशाक जो सफल नहीं है को हाइलाइट करने के लिए **Select** तीर का उपयोग करें **Group** आइकन पर फिर **Copy** आइकन पर क्लिक करें:
 
 ![](images/snare-icon.png)
 
@@ -90,7 +90,7 @@ Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Sel
 
 --- task ---
 
-Click on your **Get snare** sprite and **Paste** the snare costume. You might need to resize and position it to fit your button:
+**Get snare** स्प्राइट पर क्लिक करें और स्नेयर कॉस्ट्यूम **Paste** करें । आपको अपने बटन को फिट करने के लिए इसका आकार बदलने और स्थिति बदलने की आवश्यकता हो सकती है:
 
 ![](images/get-snare-icon.png)
 
@@ -100,7 +100,7 @@ Click on your **Get snare** sprite and **Paste** the snare costume. You might ne
 
 --- task ---
 
-Click on the **Code** tab and add a script to show the **Get snare** sprite at the start of the project:
+**Code** टैब पर क्लिक करें और प्रोजेक्ट की शुरुआत में **Get snare** स्प्राइट दिखाने के लिए एक स्क्रिप्ट जोड़ें:
 
 ![](images/get-snare-icon.png)
 
@@ -111,17 +111,17 @@ show
 
 --- /task ---
 
-The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, you learned about making decisions with `if`{:class="block3control"} blocks.
+अपग्रेड केवल तभी खरीदा जा सकता है जब उपयोगकर्ता के पास `10` या अधिक बीट्स हों। [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, में आपने `if`{:class="block3control"} ब्लॉक के साथ निर्णय लेने के बारे में सीखा।
 
-An `if ... else`{:class="block3control"} block is used to make a decision and will do different things if a condition is `true` or `false`.
+एक `if ... else`{:class="block3control"} ब्लॉक का उपयोग निर्णय लेने के लिए किया जाता है और यदि कोई शर्त `true` या `false` है तो अलग-अलग काम करेगा।
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up, you check `if`{:class="block3control"} it is morning. You get up, or `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
+हम निर्णय लेने के लिए हर समय <span style="color: #0faeb0">**if ... else**</span> का उपयोग करते हैं जब आप जागते हैं, तो आप जांचते हैं कि `if`{:class="block3control"} सुबह हो चुकी है। आप उठते हैं, या `else`{:class="block3control"} आप वापस सो जाते हैं। क्या आप अपने द्वारा लिए गए कोई `if ... else`{:class="block3control"} निर्णयों के बारे में सोच सकते हैं? 
 </p>
 
 --- task ---
 
-Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `Not enough beats!` if they are not able to upgrade:
+अपग्रेड प्राप्त करने के लिए इस कोड को जोड़ें `if`{:class="block3control"} खिलाड़ी के पास पर्याप्त बीट्स हैं, या `say`{:class="block3looks"} `Not enough beats!`अगर वे अपग्रेड करने में सक्षम नहीं हैं:
 
 ![](images/get-snare-icon.png)
 
@@ -137,11 +137,11 @@ end
 
 --- /task ---
 
-Let other sprites and the Stage know that the snare upgrade has been bought.
+अन्य स्प्राइट्स और Stage को बता दें कि स्नेयर अपग्रेड खरीदा गया है।
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+नया `snare` संदेश भेजने के लिए `broadcast`{:class="block3events"} ब्लॉक जोड़ें:
 
 ![](images/get-snare-icon.png)
 
@@ -160,7 +160,7 @@ end
 
 --- task ---
 
-Click on the **Drum-snare** sprite. Add this script:
+**Drum-snare** स्प्राइट पर क्लिक करें। इस स्क्रिप्ट को जोड़ें:
 
 ![](images/snare-icon.png)
 
@@ -171,13 +171,14 @@ show
 
 --- /task ---
 
-When you upgrade your equipment, you will be able to play at bigger venues.
+जब आप अपने यंत्रों को अपग्रेड करते हैं, तो आप बड़े स्थानों पर बजाने में सक्षम होंगे।
 
 --- task ---
 
-Add another backdrop. We chose **Chalkboard** to play our second gig at school.
+एक और पृष्ठभूमि जोड़ें। हमने स्कूल में अपना दूसरा गिग चलाने के लिए **Chalkboard** का चयन करेंगे
 
-Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+जब अपग्रेड संदेश प्राप्त होता है, तो Stage में कोड `switch backdrop`{:class="block3looks"}
+ को जोड़ें:
 
 ![](images/stage-icon.png)
 
@@ -186,15 +187,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
+**टिप:** ऐसा स्थान चुनें जो बेडरूम से थोड़ा बेहतर हो। आप बाद के लिए बड़े स्थानों को बचा कर रखना चाहते हैं।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
+**टेस्ट:** अपने प्रोजेक्ट का परीक्षण करें। आपके पास पर्याप्त बीट्स होने से पहले कोशिश करें और स्नेयर अपग्रेड खरीद लें।
 
-When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
+जब आप अपग्रेड चेक खरीदते हैं: स्नेयर दिखाई देता है, बटन गायब हो जाता है, स्थान बदल जाता है और `beats`{:class="block3variables"} `10`नीचे चला जाता है।
 
 --- /task ---
 

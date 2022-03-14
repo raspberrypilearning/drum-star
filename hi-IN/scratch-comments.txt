@@ -1,57 +1,57 @@
-your backdrop name
+आपका बैक्ड्राप (पृष्ठभूमि) नाम
 
-your variable
+आपका वेरिएबल (चर)
 
-your question
+आपका प्रश्न
 
-hit costume
+सफल पोशाक
 
-drum sound
+ड्रम की ध्वनि
 
-not hit costume
+पोशाक जो सफल नहीं है
 
-2 beats per click
+2 बीट्स प्रति क्लिक
 
-if 10 or more beats
+अगर बीट्स 10 या अधिक हैं
 
-take away the cost upgrade
+लागत में हुए अपग्रेड को वापिस ले लो
 
-your drum name
+आपका ड्रम नाम
 
-5 beats per click
+5 बीट्स प्रति क्लिक
 
-your hit costume
+आपकी सफल पोशाक
 
-your drum sound
+आपकी ड्रम की ध्वनि
 
-your not hit costume
+पोशाक जो सफल नहीं है
 
-appear when previous drum is bought
+जब पिछला ड्रम खरीदा जाता है तो दिखाई देते हैं
 
-show button for next available drum
+अगले उपलब्ध ड्रम के लिए शो बटन
 
-change to 29
+29 में बदलें
 
-change to 30
+30 में बदलें
 
-change to your drum name
+अपने ड्रम नाम में बदलें
 
-player has upgraded to this drum
+खिलाडी ने इस ड्रम में अपग्रेड किया है
 
-this drum earns 2 beats
+यह ड्रम 2 बीट कमाता है
 
-this drum earns 5 beats
+यह ड्रम 5 बीट कमाता है
 
-first upgrade visible from the start
+प्रारंभ से दिखाई देने वाला पहला अपग्रेड
 
-need at least 10 beats
+कम से कम 10 बीट चाहिए
 
-cost of the snare drum
+स्नेयर ड्रम की कीमत
 
-not available at the start
+प्रारंभ में उपलब्ध नहीं है
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+दिखाओ जब पिछला ड्रम (स्नेयर) खरीद लिया गया है और यह ही वह अपग्रेड है जिसके लिए खिलाड़ी काम कर रहा है।
 
-need at least 30 beats
+कम से कम 30 बीट चाहिए
 
-cost of the drum
+ड्रम की कीमत

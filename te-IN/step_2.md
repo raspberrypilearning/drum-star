@@ -1,8 +1,8 @@
-## Set the stage
+## Stage ను సెట్ చేయండి
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the stage for your first gig and choose a rock star name.
+ఈ దశలో, మీరు మీ మొదటి ప్రదర్శనకు stage ను సెట్ చేస్తారు మరియు రాక్ స్టార్ పేరును ఎంచుకుంటారు.
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}
@@ -11,35 +11,35 @@ In this step, you will set the stage for your first gig and choose a rock star n
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
+[డ్రమ్ స్టార్ స్టార్టర్ ప్రాజెక్ట్](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}ని తెరవండి. Scratch మరొక బ్రౌజర్ ట్యాబ్‌లో తెరవబడుతుంది.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. They produce their own songs by themselves then release them online for everyone to hear. 
+<span style="color: #0faeb0">**DIY artists**</span> అని పిలవబడే సంగీత విద్వాంసులు వారి బెడ్‌రూమ్‌ల నుండి సంగీతాన్ని రికార్డ్ చేయడం ప్రారంభిస్తారు. వారు వారి స్వంత పాటలను తయారు చేస్తారు, ఆపై ప్రతి ఒక్కరూ వినడానికి వాటిని ఆన్‌లైన్‌లో విడుదల చేస్తారు. 
 </p>
 
-The game starts in a bedroom like a DIY artist.
+గేమ్ DIY కళాకారుడి వంటి బెడ్‌రూమ్‌లో ప్రారంభమవుతుంది.
 
 --- task ---
 
-Click **Choose a Backdrop** and search for `bedroom`.
+**Choose a Backdrop**ని క్లిక్ చేసి, `bedroom` (బెడ్ రూమ్) కోసం శోధించండి.
 
-**Choose:** Select a bedroom and add it to your project. We chose `Bedroom 3`.
+**ఎంచుకోండి:** బెడ్‌రూమ్‌ని ఎంచుకుని, దానిని మీ ప్రాజెక్ట్‌కి జోడించండి. మనము `Bedroom 3` ని ఎంచుకున్నాము.
 
-![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
+!['Bedroom 3' బ్యాక్‌డ్రాప్‌ను చూపుతున్న stage.](images/bedroom3.png)
 
 --- /task ---
 
 --- task ---
 
-In Scratch, you can add code to the Stage.
+Scratchలో, మీరు Stage కి కోడ్‌ని జోడించవచ్చు.
 
-Click on your bedroom backdrop from the Stage pane and add this code:
+Stage పేన్ నుండి మీ బెడ్‌రూమ్ బ్యాక్‌డ్రాప్‌పై క్లిక్ చేసి, ఈ కోడ్‌ని జోడించండి:
 
-![The backdrop thumbnail in the stage pane.](images/bedroom-icon.png)
+![Stage పేన్‌లో బ్యాక్‌డ్రాప్ థంబ్‌నెయిల్.](images/bedroom-icon.png)
 
 ```blocks3
 when flag clicked
@@ -48,27 +48,27 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-Every musician needs to choose a rock star name.
+ప్రతి సంగీతకారుడు ఒక రాక్ స్టార్ పేరును ఎంచుకోవాలి.
 
-A **variable** is a way of storing numbers and/or text. Your rockstar name will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
+**వేరియబుల్** అనేది సంఖ్యలు మరియు/లేదా వచనాన్ని పొందుపరిచే మార్గం. మీ రాక్‌స్టార్ పేరు `variable`{:class="block3variables"}లో నిల్వ చేయబడుతుంది కనుక దీనిని ఎప్పుడైనా ఉపయోగించవచ్చు.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+`Variables`{:class="block3variables"} బ్లాక్స్ మెను నుండి, **Make a Variable** బటన్ క్లిక్ చేయండి.
 
-Call your new variable `name`:
+మీ కొత్త వేరియబుల్ ను `name` అని పిలవండి:
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+![టెక్స్ట్ ఇన్‌పుట్ 'name'తో New Variable పాప్ అప్ విండో.](images/new-variable.png)
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**సూచన:** కొత్త `name` వేరియబుల్ Stage పై కనిపిస్తుంది మరియు దీనిని ఇప్పుడు `Variable`{:class="block3variables"} బ్లాక్‌లలో ఉపయోగించవచ్చు.
 
 --- /task ---
 
 --- task ---
 
-At the start of the project, your rockstar name is unknown.
+ప్రాజెక్ట్ ప్రారంభంలో, మీ రాక్‌స్టార్ పేరు తెలియదు.
 
-Add a block to `set name to`{:class="block3variables"} `???`:
+`set name to`{:class="block3variables"} కు బ్లాక్‌ని జోడించండి `???`:
 
 ![](images/stage-icon.png)
 
@@ -80,11 +80,11 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-You can `ask`{:class="block3sensing"} a question in Scratch, then use a `variable`{:class="block3variables"} to store the `answer`{:class="block3sensing"}.
+మీరు Scratch లో ఒక ప్రశ్నను `ask`{:class="block3sensing"} ఉపయోగించి అడగవచ్చు, ఆపై `answer`{:class="block3sensing"} నిల్వ చేయడానికి `variable`{:class="block3variables"}ని ఉపయోగించవచ్చు.
 
 --- task ---
 
-Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
+`Sensing`{:class="block3sensing"} బ్లాక్‌ల మెనుపై క్లిక్ చేసి, మీ `ask`{:class="block3sensing"} బ్లాక్‌ని జోడించండి:
 
 ![](images/stage-icon.png)
 
@@ -99,7 +99,7 @@ set [name v] to [???] //your variable
 
 --- task ---
 
-Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+`name`{:class="block3variables"} `variable`{:class="block3variables"} ని `answer`{:class="block3sensing"}:కి సెట్ చేయండి
 
 ![](images/stage-icon.png)
 
@@ -113,11 +113,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
-Change the way your `variable`{:class="block3variables"} looks on the Stage.
+`Variable`{:class="block3variables"} Stage పై కనిపించే విధానాన్ని మార్చండి.
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**:
+`variable`{:class="block3variables"} పై రైట్-క్లిక్ చేసి, **large readout**:ని సెలెక్ట్ చేయండి:
 
 ![](images/large-readout.png)
 
@@ -125,7 +125,7 @@ Right-click on the `variable`{:class="block3variables"} on the Stage and choose 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage:
+మీ `variable`{:class="block3variables"}ని Stage యొక్క కుడి ఎగువ భాగంలో ఉంచడానికి డ్రాగ్ చేయండి:
 
 ![](images/repositioned-variable.png)
 
@@ -133,13 +133,13 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- task ---
 
-**Test:** Run your project to make sure the `variable`{:class="block3variables"} starts as `???` then updates to your `answer`{:class="block3sensing"}.
+**పరీక్ష:** `variable`{:class="block3variables"} `???`గా ప్రారంభమవుతుందని, ఆపై మీ `answer`{:class="block3sensing"} కి అప్ డేట్ అవుతుందని నిర్ధారించుకోవడానికి మీ ప్రాజెక్ట్‌ని అమలు చేయండి. CONTEXTREQUEST.
 
 --- /task ---
 
 --- task ---
 
-Now that you have tested that the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"}, you can drag the last 2 blocks of code away from the rest of the script. This means you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
+ఇప్పుడు మీరు `variable`{:class="block3variables"} `answer`{:class="block3sensing"}కి మారుతుందని పరీక్షించారు, కాబట్టి మీరు చివరి 2 బ్లాక్‌ల కోడ్‌ని మిగిలిన స్క్రిప్ట్ నుండి దూరంగా డ్రాగ్ చేయవచ్చు. దీని అర్థం మీరు మీ ప్రాజెక్ట్ ని పరీక్షించిన ప్రతిసారి `answer`{:class="block3sensing"} టైప్ చేయనవసరం లేదు:
 
 ![](images/stage-icon.png)
 

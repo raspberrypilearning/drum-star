@@ -1,57 +1,57 @@
-your backdrop name
+ನಿಮ್ಮ ಹಿನ್ನೆಲೆಯ ಹೆಸರು
 
-your variable
+ನಿಮ್ಮ ವೇರಿಯೇಬಲ್
 
-your question
+ನಿಮ್ಮ ಪ್ರಶ್ನೆ
 
-hit costume
+hit ಉಡುಪು
 
-drum sound
+ಡ್ರಮ್‌ ಧ್ವನಿ
 
-not hit costume
+not hit ಉಡುಪು
 
-2 beats per click
+ಪ್ರತಿ ಕ್ಲಿಕ್‌ಗೆ 2 ಹೊಡೆತಗಳು
 
-if 10 or more beats
+10 ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚು ಹೊಡೆತಗಳಿದ್ದರೆ
 
-take away the cost upgrade
+ಅಪ್‌ಗ್ರೇಡ್‌ ಬೆಲೆಯನ್ನು ತೆಗೆದುಹಾಕಿ
 
-your drum name
+ನಿಮ್ಮ ಡ್ರಮ್‌ ಹೆಸರು
 
-5 beats per click
+ಪ್ತತಿ ಕ್ಲಿಕ್‌ಗೆ 5 ಹೊಡೆತಗಳು
 
-your hit costume
+ನಿಮ್ಮ hit ಉಡುಪು
 
-your drum sound
+ನಿಮ್ಮ ಡ್ರಮ್‌ ಶಬ್ದ
 
-your not hit costume
+ನಿಮ್ಮ not hit ಉಡುಪು
 
-appear when previous drum is bought
+ಹಿಂದಿನ ಡ್ರಮ್‌ನ್ನು ಖರೀದಿಸಿದಾಗ ಕಾಣುತ್ತದೆ
 
-show button for next available drum
+ಲಭ್ಯವಿರುವ ಮುಂದಿನ ಡ್ರಮ್‌ ತೋರಿಸುವ ಬಟನ್
 
-change to 29
+29‌ ಕ್ಕೆ ಬದಲಾಯಿಸಿ
 
-change to 30
+30 ಕ್ಕೆ ಬದಲಾಯಿಸಿ
 
-change to your drum name
+ನಿಮ್ಮ ಡ್ರಮ್‌ ಹೆಸರಿಗೆ ಬದಲಾಯಿಸಿ
 
-player has upgraded to this drum
+ಆಟಗಾರ ಈ ಡ್ರಮ್‌ಗೆ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿಕೊಂಡಿದ್ದಾರೆ
 
-this drum earns 2 beats
+ಈ ಡ್ರಮ್ 2 ಹೊಡೆತಗಳನ್ನು ಗಳಿಸುತ್ತದೆ
 
-this drum earns 5 beats
+ಈ ಡ್ರಮ್ 5 ಹೊಡೆತಗಳನ್ನು ಗಳಿಸುತ್ತದೆ
 
-first upgrade visible from the start
+ಪ್ರಾರಂಭದಿಂದ ಕಾಣುತ್ತಿರುವ ಮೊದಲನೆಯ ಅಪ್‌ಗ್ರೇಡ್
 
-need at least 10 beats
+ಕನಿಷ್ಠ 10 ಹೊಡೆತಗಳು ಬೇಕು
 
-cost of the snare drum
+snare ಡ್ರಮ್‌ನ ಬೆಲೆ
 
-not available at the start
+ಪ್ರಾರಂಭದಲ್ಲಿ ಲಭ್ಯವಿರುವುದಿಲ್ಲ
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+ಹಿಂದಿನ ಡ್ರಮ್‌ (ಸ್ನೇರ್)‌ ಖರೀದಿಸಿದಾಗ ತೋರಿಸಿ ಮತ್ತು ಆಟಗಾರ ಈ ಅಪ್‌ಗ್ರೇಡ್‌ ಕಡೆಗೆ ಕೆಲಸಮಾಡುತ್ತಿರುತ್ತಾರೆ.
 
-need at least 30 beats
+ಕನಿಷ್ಠ 30 ಹೊಡೆತಗಳು ಬೇಕು
 
-cost of the drum
+ಡ್ರಮ್‌ನ ಬೆಲೆ

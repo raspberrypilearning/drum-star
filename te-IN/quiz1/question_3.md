@@ -22,7 +22,7 @@ end
 
 --- choices ---
 
-- ( ) sprite `hide` {:class="block3looks"} అవుతుంది
+- ( ) sprite `hide`{:class="block3looks"} అవుతుంది
 
   --- feedback ---
 
@@ -42,7 +42,7 @@ end
 
   --- feedback ---
 
-  లేదు, `beats`{:class="block3variables"} వేరియబుల్ విలువ అలాగే ఉంటుంది. `beats`{:class="block3variables"} విలువ `29` అంటే `beats`{:class="block3variables"} `> 29` తప్పు, కాబట్టి ` if `{:class ="block3control"} బ్లాక్ అమలు చేయబడదు.
+  లేదు, `beats`{:class="block3variables"} వేరియబుల్ విలువ అలాగే ఉంటుంది. `beats`{:class="block3variables"} విలువ `29` అంటే `beats`{:class="block3variables"} `> 29` తప్పు, కాబట్టి `if`{:class ="block3control"} బ్లాక్ అమలు చేయబడదు.
 
   --- /feedback ---
 

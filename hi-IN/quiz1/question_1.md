@@ -53,8 +53,8 @@ legend: 3 में से पहला प्रश्न
 - ( ) इनमें से कोई भी नहीं
 
  --- feedback ---
-
-नहीं। आपके द्वारा उपयोग किए गए `beats`{:class="block3variables"} और `name`{:class="block3variables"} वेरिएबल के बारे में सोचें।
+ 
+ नहीं। आपके द्वारा उपयोग किए गए `beats`{:class="block3variables"} और `name`{:class="block3variables"} वेरिएबल के बारे में सोचें।
 
  --- /feedback ---
 

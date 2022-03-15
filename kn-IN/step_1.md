@@ -20,7 +20,7 @@
 ಹೊಸ ಡ್ರಮ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ಎಷ್ಟು `beats`{:class="block3variables"}ಗಳನ್ನು ನೀವು ಗಳಿಸುತ್ತೀರಿ?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/660063023/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

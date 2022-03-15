@@ -147,7 +147,7 @@ title: मला नवीन ड्रम मिळाल्यावर बी
 title: पूर्ण झालेला प्रोजेक्ट
 ---
 
-तुम्ही [पूर्ण झालेला प्रोजेक्ट येथे](https://scratch.mit.edu/projects/522323676/){:target="_blank"} बघू शकता.
+तुम्ही [पूर्ण झालेला प्रोजेक्ट येथे](https://scratch.mit.edu/projects/660064555/){:target="_blank"} बघू शकता.
 
 --- /collapse ---
 

@@ -147,7 +147,7 @@ title: ನಾನು ಹೊಸ ಡ್ರಮ್‌ ಪಡೆದಾಗ ಹೊಡೆ
 title: ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್
 ---
 
-ನೀವು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್ ನೋಡಬಹುದು](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+ನೀವು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್ ನೋಡಬಹುದು](https://scratch.mit.edu/projects/660063023/){:target="_blank"}.
 
 --- /collapse ---
 

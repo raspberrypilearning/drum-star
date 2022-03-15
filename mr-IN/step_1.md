@@ -20,7 +20,7 @@
 नवीन ड्रमवर क्लिक केल्यावर तुम्ही किती `beats`{:class="block3variables"} मिळवलेत?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/660064555/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

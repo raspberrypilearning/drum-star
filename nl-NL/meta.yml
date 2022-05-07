@@ -1,0 +1,35 @@
+---
+title: Drum star
+hero_image: images/banner.png
+description: Make a clicker game where you earn beats to play new drums and bigger venues
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-04-28"
+steps:
+  - 
+    title: Introduction
+  - 
+    title: Set the Stage
+  - 
+    title: Starter drum
+    completion: engaged
+  - 
+    title: First upgrade
+  - 
+    title: Second upgrade
+  - 
+    title: Play and customise
+    completion: internal
+  - 
+    title: Reflection
+    completion: external
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - 
+    title: Upgrade your project
+  - 
+    title: What next?

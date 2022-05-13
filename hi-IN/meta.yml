@@ -3,8 +3,8 @@ title: ड्रम स्टार
 hero_image: images/banner.png
 description: एक क्लिकर गेम बनाएं जहां आप नए ड्रम और बड़े स्थानों को बजाने के लिए बीट्स अर्जित करेंगे
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 

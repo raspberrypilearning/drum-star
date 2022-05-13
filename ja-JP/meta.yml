@@ -3,8 +3,8 @@ title: Drum star
 hero_image: images/banner.png
 description: Make a clicker game where you earn beats to play new drums and bigger venues
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 

@@ -3,8 +3,8 @@ title: డ్రమ్ స్టార్
 hero_image: images/banner.png
 description: ఈ ప్రాజెక్ట్‌లో, మీరు పెద్ద వేదికల వద్ద డ్రమ్స్ వాయించేందుకు కొత్త బీట్‌లను సంపాదించే క్లిక్కర్ గేమ్‌ను తయారు చేస్తారు
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 

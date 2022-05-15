@@ -1,13 +1,13 @@
-name
+nom
 
-What's your rock star name?
+Quel est ton nom de rockstar ?
 
-beats
+battements
 
-Not enough beats!
+Pas assez de battements !
 
-snare
+caisse clair
 
 conga
 
-What's your name?
+Quel est ton nom ?

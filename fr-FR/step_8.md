@@ -1,91 +1,91 @@
-## Upgrade your project
+## Améliorer ton projet
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Upgrade your project with more drums and more backdrops as you play more amazing venues. 
+Améliore ton projet avec plus de tambours et plus de décors à mesure que tu joues dans des salles plus prestigieuses. 
 </div>
 <div>
 ![](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-There are lots more drum costumes to choose from to add more upgrades to your project.
+Il y a beaucoup plus de costumes de tambour parmi lesquels choisir pour ajouter plus d'améliorations à ton projet.
 
-To add another drum to upgrade to, look back at the earlier steps of the project.
+Pour ajouter un autre tambour à améliorer, reviens aux étapes précédentes du projet.
 
-For the **drum**, you will need to:
+Pour le **tambour**, il te faudra :
 
 --- task ---
 
-Duplicate the previous **drum** sprite and add two costumes.
+Dupliquer le précédent sprite **tambour** et ajouter deux costumes.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script.
+Modifier le `costume`{:class="block3looks"} et le `son`{:class="block3sound"} utilisés dans le script `Quand ce sprite est cliqué`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script.
+Modifier le nombre de `battements`{:class="block3variables"} gagnés dans le script `quand ce sprite est cliqué`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**.
+Changer le `message`{:class="block3events"} qui fait que le tambour `montre`{:class="block3looks"} un message pour le **nouveau tambour**.
 
 --- /task ---
 
-For the **button**, you will need to:
+Pour le **bouton**, il te faudra :
 
 --- task ---
 
-Duplicate the previous **Get** sprite.
-
---- /task ---
-
---- task ---
-
-Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**.
+Dupliquer le précédent sprite **Avoir**.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} including the cost of the new drum.
+Changer le `message`{:class="block3events"} qui fait apparaître le bouton au `message`{:class="block3events"} `diffusé`{:class="block3events"} par le **tambour précédent**.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
-
---- /task ---
-
-For the **venue**, you will need to:
-
---- task ---
-
-Add a new backdrop.
+Changer le `costume`{:class="block3looks"} ainsi que le coût du nouveau tambour.
 
 --- /task ---
 
 --- task ---
 
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved.
+Modifier le nombre de `battements`{:class="block3variables"} que tu dois avoir pour obtenir ce tambour dans la condition `si`{:class="block3events"}. Changer le nombre négatif de `battements`{:class="block3variables"} que tu `mets`{:class="block3variables"} lorsque tu obtiens ce tambour. Remplacer le message qui obtient `envoyé à tous`{:class="block3events"} par le nom du **nouveau tambour**.
 
 --- /task ---
 
-You might find that your drums need to be in a new position on a different backdrop.
+Pour la **salle**, il te faudra :
 
 --- task ---
 
-Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
+Ajouter un nouvel arrière-plan.
 
-You will also need to set their starting position `when flag clicked`{:class="block3events"}.
+--- /task ---
+
+--- task ---
+
+Ajouter un script à la scène pour `basculer l'arrière-plan`{:class="block3looks"} sur le nouveau décor lorsque le `message`{:class="block3events"} pour ce tambour est reçu.
+
+--- /task ---
+
+Tu constateras peut-être que tes tambours doivent être dans une nouvelle position sur un arrière-plan différent.
+
+--- task ---
+
+Ajoute un script commençant par `quand l'arrière-plan bascule sur`{:class="block3events"} à chaque sprite **tambour** avec un bloc `aller à`{:class="block3motion"} pour les faire changer de position.
+
+Tu devras également définir leur position de départ `quand le drapeau est cliqué`{:class="block3events"}.
 
 --- /task ---
 

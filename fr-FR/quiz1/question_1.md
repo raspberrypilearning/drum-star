@@ -1,60 +1,60 @@
-## Reflection
+## Réflexion
 
-Well done, you have made a clicker game that people want to play!
+Bravo, tu as créé un jeu de clics auquel les gens veulent jouer !
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
+Tu as utilisé des blocs `Événements`{:class="block3events"}, `Contrôle`{:class="block3control"}, `Capteurs`{:class="block3sensing"}, `Opérateurs`{:class="block3operators"} , `Variables`{:class="block3variables"}, `Musique`{:class="block3extensions"} et `Apparences`{:class="block3looks"} !
 
-Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
+Il est maintenant temps de réfléchir. La réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
 
-Answer the three questions below to reflect on what you've learned.
+Réponds aux trois questions ci-dessous pour réfléchir sur ce que tu as appris.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Après chaque question, appuie sur Soumettre. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
 
-Have fun!
+Amuse-toi bien  !
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Question 1 sur 3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+Dans ton projet, tu as créé et utilisé des variables. Laquelle de ces valeurs peut être stockée dans une variable ?
 
-`6` , `Tom` , `151` , `Aadya`
+`6` , `Tom` , `151` , `Adya`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- ( ) Seuls les nombres `6` et `151`
 
  --- feedback ---
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
+ Tu as utilisé la variable `battements`{:class="block3variables"} pour stocker un nombre. Mais tu as également utilisé une variable pour autre chose.
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) Seul le texte (mots) `Tom` et `Aadya`
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ Tu as utilisé la variable `nom`{:class="block3variables"} pour stocker du texte (mots), pour la `réponse`{:class="block3sensing"} à la question `demander`{:class="block3sensing"}. Mais tu as également utilisé une `variable`{:class="block3variables"} pour autre chose.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- (x) Des nombres ou du texte (mots)
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
+ Oui, tu as stocké un nombre dans la `variable`{:class="block3variables"} `battements`{:class="block3variables"} et tu as stocké du texte (mots) dans la `variable`{:class="block3variables"} `nom`{:class="block3variables"} .
 
- A variable can store a number or text (words).
+ Une variable peut stocker un nombre ou du texte (mots).
 
  --- /feedback ---
 
-- ( ) None of them
+- ( ) Aucun d'entre eux
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+Non. Pense aux variables `battements` {:class="block3variables"} et ` nom` {:class="block3variables"} que tu as utilisées.
 
  --- /feedback ---
 

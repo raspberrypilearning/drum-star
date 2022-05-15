@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Question 3 sur 3
 ---
 
-You used this script to control what happens when the player clicks on the button to upgrade their drum:
+Tu as utilisé ce script pour contrôler ce qui se passe lorsque le joueur clique sur le bouton pour améliorer son tambour :
 
 ```blocks3
 when this sprite clicked
@@ -18,39 +18,39 @@ say [Not enough beats!] for [2] seconds
 end
 ```
 
-If the value of the `beats`{:class="block3variables"} variable is `29`, what will happen when the player clicks on the button?
+Si la valeur de la variable `battements`{:class="block3variables"} est `29`, que se passera-t-il lorsque le joueur cliquera sur le bouton ?
 
 --- choices ---
 
-- ( ) The sprite will `hide`{:class="block3looks"}
+- ( ) Le sprite sera `caché`{:class="block3looks"}
 
   --- feedback ---
 
-  Not quite, there is a `hide`{:class="block3looks"} block in the script, but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again.
+  Pas tout à fait, il y a un bloc `cacher`{:class="block3looks"} dans le script, mais il ne fonctionnera pas avec `29` `battements`{:class="block3variables"}. Jette à nouveau un coup d'œil au script.
 
   --- /feedback ---
 
-- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`
+- (x) Le sprite du bouton `dira`{:class="block3looks"} `Pas assez de battements !`
 
   --- feedback ---
 
-Yes, the condition checks if `beats`{:class="block3variables"} is greater than `29`, but `beats`{:class="block3variables"} is equal to `29` so the player does not have enough.
+Oui, la condition vérifie si `battements`{:class="block3variables"} est supérieur à `29`, mais `battements`{:class="block3variables"} est égal à `29` donc le joueur n'en a pas assez.
 
   --- /feedback ---
 
-- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable
+- ( ) 30 sera retiré de la valeur de la variable `battements`{:class="block3variables"}
 
   --- feedback ---
 
-  No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is `29` which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
+  Non, la valeur de la variable `battements`{:class="block3variables"} restera la même. `battements`{:class="block3variables"} est à `29` ce qui signifie que `battements`{:class="block3variables"} `> 29` est faux, donc les blocs dans la première partie du bloc `si`{:class="block3control"} ne s'exécuteront pas.
 
   --- /feedback ---
 
-- ( ) Nothing
+- ( ) Rien
 
   --- feedback ---
 
-  No, the script will always do something. Take a closer look to see which part of the script will run when you have `29` `beats`{:class="block3variables"}.
+  Non, le script fera toujours quelque chose. Regarde de plus près pour voir quelle partie du script s'exécutera lorsque tu auras `29` `battements`{:class="block3variables"}.
 
   --- /feedback ---
 

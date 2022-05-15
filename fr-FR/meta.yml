@@ -1,7 +1,7 @@
 ---
-title: Drum star
+title: Star du tambour
 hero_image: images/banner.png
-description: Make a clicker game where you earn beats to play new drums and bigger venues
+description: Créer un jeu de clics où tu gagnes des battements pour jouer de nouveaux tambours et dans de plus grandes salles
 version: 4
 listed: true
 copyedit: true
@@ -10,19 +10,19 @@ steps:
   - 
     title: Introduction
   - 
-    title: Set the Stage
+    title: Mise en place de la scène
   - 
-    title: Starter drum
+    title: Tambour de départ
     completion: engaged
   - 
-    title: First upgrade
+    title: Première amélioration
   - 
-    title: Second upgrade
+    title: Deuxième amélioration
   - 
-    title: Play and customise
+    title: Jouer et personnaliser
     completion: internal
   - 
-    title: Reflection
+    title: Réflexion
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -30,6 +30,6 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: What next?
+    title: Et ensuite ?

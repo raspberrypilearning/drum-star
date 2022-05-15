@@ -1,57 +1,57 @@
-your backdrop name
+ton nom d'arrière-plan
 
-your variable
+ta variable
 
-your question
+ta question
 
-hit costume
+costume frappé
 
-drum sound
+son de tambour
 
-not hit costume
+costume pas frappé
 
-2 beats per click
+2 battements par clic
 
-if 10 or more beats
+si 10 battements ou plus
 
-take away the cost upgrade
+enlever le coût de l'amélioration
 
-your drum name
+ton nom de tambour
 
-5 beats per click
+5 battements par clic
 
-your hit costume
+ton costume frappé
 
-your drum sound
+ton son de tambour
 
-your not hit costume
+ton costume pas frappé
 
-appear when previous drum is bought
+apparaît lorsque le tambour précédent est acheté
 
-show button for next available drum
+afficher le bouton pour le prochain tambour disponible
 
-change to 29
+changer à 29
 
-change to 30
+changer à 30
 
-change to your drum name
+changer le nom de ton tambour
 
-player has upgraded to this drum
+le joueur a fait une amélioration vers ce tambour
 
-this drum earns 2 beats
+ce tambour gagne 2 battements
 
-this drum earns 5 beats
+ce tambour gagne 5 battements
 
-first upgrade visible from the start
+première amélioration visible dès le départ
 
-need at least 10 beats
+besoin d'au moins 10 battements
 
-cost of the snare drum
+prix de la caisse claire
 
-not available at the start
+non disponible au départ
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+Visible quand le tambour précédent (caisse claire) a été acheté et c'est l'amélioration vers laquelle le joueur travaille.
 
-need at least 30 beats
+besoin d'au moins 30 battements
 
-cost of the drum
+prix du tambour

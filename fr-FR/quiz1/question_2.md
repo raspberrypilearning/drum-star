@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+Un projet comporte ce script pour `demander`{:class="block3sensing"} à l'utilisateur son nom :
 
 ```blocks3
 when flag clicked
@@ -16,15 +16,15 @@ set [name v] to (answer)
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+Quelle sera la valeur de la variable `nom`{:class="block3variables"} une fois que le joueur aura cliqué sur la coche et que le script se terminera ?
 
 --- choices ---
 
-- ( )  name
+- ( ) nom
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+Non, `nom`{:class="block3variables"} est le nom de la variable.
 
   --- /feedback ---
 
@@ -32,23 +32,23 @@ No, `name`{:class="block3variables"} is what the variable is called.
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+Non, `???` est la valeur de la variable `nom`{:class="block3variables"} avant l'exécution du bloc `demander`{:class="block3sensing"}.
 
   --- /feedback ---
 
-- ( ) answer
+- ( ) réponse
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+Non, `réponse`{:class="block3sensing"} est la variable intégrée que Scratch utilise pour stocker la réponse qu'un utilisateur tape lorsque tu `demandes`{:class="block3sensing"} une question. --- /feedback ---
 
 - (x) Bobo
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+Oui, le bloc `mettre [nom v] à`{:class="block3variables"} définit la **valeur** de la variable `nom`{:class="block3variables"} sur la valeur de `demande`{:class= "block3sensing"} qui est le texte saisi par l'utilisateur.
 
-The value `Bobo` will also be shown on the Stage.
+La valeur `Bobo` sera également affichée sur la Scène.
 
   --- /feedback ---
 

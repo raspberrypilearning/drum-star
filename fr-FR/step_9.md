@@ -1,11 +1,11 @@
-## What next?
+## Et ensuite ?
 
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Next customer please!](https://projects.raspberrypi.org/en/projects/next-customer-please) project, where you will make a shop where customers can buy items and check out.
+Si tu suis le parcours [Plus de Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), tu peux passer au [Client suivant s'il vous plaît !](https://projects.raspberrypi.org/en/projects/next-customer-please), où tu créeras une boutique où les clients pourront acheter des articles et passer à la caisse.
 
 --- print-only ---
 
-![Next customer please](images/next-customer-please.png)
+![Client suivant s'il vous plait](images/next-customer-please.png)
 
 --- /print-only ---
 
@@ -17,4 +17,4 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
+Si tu veux t'amuser davantage en explorant Scratch, tu peux essayer l'un des [projets suivants](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.

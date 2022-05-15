@@ -91,52 +91,52 @@ Tu devras également définir leur position de départ `quand le drapeau est cli
 
 --- task ---
 
-**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
+**Bien rangé :** Si tu as le temps, alors c'est une bonne idée de t'assurer que les sprites dans la liste des sprites sont dans un ordre raisonnable, en commençant par les tambours dans leur ordre d'amélioration, puis les boutons dans l'ordre.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
+**Débogage :** Assure-toi d'abord que tu comprends vraiment quand le tambour et les boutons doivent s'afficher et comment la variable `battements`{:class="block3variables"} doit changer. Il est beaucoup plus facile de déboguer un projet si tu sais clairement ce qu'il est censé faire.
 
 --- collapse ---
 ---
-title: My drum doesn't show/hide correctly
+title: Mon tambour ne s'affiche/se cache pas correctement
 ---
 
-Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}. And it should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
+À moins qu'il ne s'agisse du premier tambour, ton tambour doit avoir un script `quand le drapeau est cliqué`{:class="block3events"} pour `cacher`{:class="block3looks"}. Et il devrait avoir un script `quand je reçois`{:class="block3events"} `ce tambour` pour `montrer`{:class="block3looks"}.
 
-Check that the **Get** button for this drum `broadcasts`{:class="block3events"} the same message.
+Vérifie que le bouton **Avoir** de ce tambour `envoyer à tous`{:class="block3events"} le même message.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Get button doesn't show/hide correctly
+title: Mon bouton Avoir ne s'affiche/ne se cache pas correctement
 ---
 
-Unless the button is for the very first drum, then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receieve`{:class="block3events"} the message for the **previous drum**. The **Get** button should `show`{:class="block3looks"} to let the player know about the next upgrade they are working towards.
+À moins que le bouton ne soit destiné au tout premier tambour, il doit être `caché`{:class="block3looks"} `quand le drapeau est cliqué`{:class="block3events"}. Et il devrait se `montrer`{:class="block3looks"} `quand je reçois`{:class="block3events"} le message pour le **tambour précédent**. Le bouton **Avoir** doit s'`afficher`{:class="block3looks"} pour informer le joueur de la prochaine amélioration vers laquelle il travaille.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I can buy a drum when I don't have enough beats
+title: Je peux acheter un tambour quand je n'ai pas assez de battements
 ---
 
-Check that you have changed the number of `beats`{:class="block3variables"} needed `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Vérifie que tu as modifié le nombre de `battements`{:class="block3variables"} nécessaires `quand ce sprite est cliqué`{:class="block3events"} dans le script pour le bouton **Avoir** le tambour.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The number of beats doesn't change correctly when I get a new drum
+title: Le nombre de battements ne change pas correctement lorsque je reçois un nouveau tambour
 ---
 
-Check that you have `changed beats by`{:class="block3variables"} a negative number `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Vérifie que tu as `ajouter à battements`{:class="block3variables"} un nombre négatif `quand ce sprite est cliqué`{:class="block3events"} dans le script pour le bouton **Avoir** le tambour.
 
-Make sure this matches the number on the drum button costume.
+Assure-toi que cela correspond au numéro sur le costume de bouton de tambour.
 
 --- /collapse ---
 
@@ -144,13 +144,13 @@ Make sure this matches the number on the drum button costume.
 
 --- collapse ---
 ---
-title: Completed project
+title: Le projet terminé
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
 
 --- /collapse ---
 
-**Tip:** If you get really muddled then it's fine to delete the new drum and its button, and start again. Sometimes it is hard to spot a bug.
+**Astuce :** Si tu t'embrouilles vraiment, tu peux supprimer le nouveau tambour et son bouton, puis recommencer. Parfois, il est difficile de repérer un bug.
 
 --- save ---

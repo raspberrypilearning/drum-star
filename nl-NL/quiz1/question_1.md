@@ -1,60 +1,60 @@
-## Reflection
+## Reflectie
 
-Well done, you have made a clicker game that people want to play!
+Goed gedaan, je hebt een clicker-spel gemaakt dat mensen willen spelen!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
+Je hebt `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Waarnemen`{:class="block3sensing"}, `Functies`{:class="block3operators"}, `Variabelen`{:class="block3motion"}, `Muziek`{:class="block3looks"} en `Uiterlijken`{:class="block3sound"} blokken gebruikt!
 
-Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
+Nu is het tijd om na te denken. Reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen te maken in je hersenen.
 
-Answer the three questions below to reflect on what you've learned.
+Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunnen worden opgeslagen in een variabele?
 
 `6` , `Tom` , `151` , `Aadya`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- ( ) alleen de cijfers `6` en `151`
 
  --- feedback ---
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
+ Je hebt de `slagen`{:class="block3variables"} variabele gebruikt om een getal op te slaan. Maar je hebt ook een variabele voor iets anders gebruikt.
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) alleen de tekst (woorden) `Tom` en `Aadya`
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ Je hebt de variabele `naam`{:class="block3variables"} gebruikt om tekst (woorden) op te slaan, voor het `antwoord`{:class="block3sensing"} op de vraag `Ask`{:class="block3sensing"}. Maar je hebt ook een `variabele`{:class="block3variables"} voor iets anders gebruikt.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- (x) een van de getallen of tekst (woorden)
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
+ Ja, je hebt een getal opgeslagen in de `slagen`{:class="block3variables"} `variabele`{:class="block3variables"} en je hebt tekst (woorden) opgeslagen in de `naam`{:class="block3variables"} `variabele`{:class="block3variables"}.
 
- A variable can store a number or text (words).
+ Een variabele kan een getal of tekst (woorden) opslaan.
 
  --- /feedback ---
 
-- ( ) None of them
+- ( ) Geen van deze
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+Nee. Denk aan de `slagen`{:class="block3variables"} en `naam`{:class="block3variables"} variabelen die je hebt gebruikt.
 
  --- /feedback ---
 

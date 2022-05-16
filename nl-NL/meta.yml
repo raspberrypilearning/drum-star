@@ -1,28 +1,28 @@
 ---
-title: Drum star
+title: Drum ster
 hero_image: images/banner.png
-description: Make a clicker game where you earn beats to play new drums and bigger venues
+description: Maak een clicker spel waar je beats verdient om nieuwe drums en grotere locaties te spelen
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: Set the Stage
+    title: Stel het speelveld in
   - 
-    title: Starter drum
+    title: Starttrommel
     completion: engaged
   - 
-    title: First upgrade
+    title: Eerste upgrade
   - 
-    title: Second upgrade
+    title: Tweede upgrade
   - 
-    title: Play and customise
+    title: Speel en pas aan
     completion: internal
   - 
-    title: Reflection
+    title: Reflectie
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -30,6 +30,6 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?

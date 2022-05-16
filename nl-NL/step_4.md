@@ -1,8 +1,8 @@
-## First upgrade
+## Eerste uitbreiding
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add your first upgrade. The **Get snare** button will show at the start, so the player knows which drum they are working towards.
+Je voegt je eerste uitbreiding toe. De **Get snare** knop zal aan het begin getoond worden, zodat de speler weet naar welke trommel ze werken.
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add your first upgrade. The **Get snare** button will show at the start
 
 --- task ---
 
-Add the **Drum-snare** sprite to your project and position it on the Stage:
+Voeg de **Drum-snare** sprite toe aan je project en plaats deze op het speelveld:
 
 ![](images/snare-stage.png)
 
@@ -19,7 +19,7 @@ Add the **Drum-snare** sprite to your project and position it on the Stage:
 
 --- task ---
 
-Drag the `when this sprite clicked`{:class="block3events"} script from the **Drum-cymbal** sprite to the **Drum-snare** sprite.
+Sleep het `wanneer deze sprite klikt`{:class="block3events"} script van de **Drum-cymbal** sprite naar de **Drum-snare** sprite.
 
 [[[scratch3-copy-code]]]
 
@@ -27,9 +27,9 @@ Drag the `when this sprite clicked`{:class="block3events"} script from the **Dru
 
 --- task ---
 
-Change the costumes and the drum sound.
+Verander de uiterlijken en het trommelgeluid.
 
-Change the number of beats earned to `2`:
+Wijzig het aantal slagen dat wordt verdiend in `2`:
 
 ![](images/snare-icon.png)
 
@@ -45,15 +45,15 @@ when this sprite clicked
 
 --- task ---
 
-**Test:** Try out your project. Make sure that you earn 2 beats when you click on the snare drum.
+**Test:** Probeer je project uit. Zorg ervoor dat je 2 slagen verdient wanneer je op de snare drum klikt.
 
 --- /task ---
 
-Upgrades are not available when you start the project. They have to be earned with beats.
+Uitbreidingen zijn niet beschikbaar wanneer je het project start. Ze moeten worden verdiend met beats.
 
 --- task ---
 
-Add a script to hide this **drum** sprite at the start of the project:
+Voeg een script toe om deze **drum** sprite aan het begin van het project te verbergen:
 
 ![](images/snare-icon.png)
 
@@ -64,7 +64,7 @@ hide
 
 --- /task ---
 
-A button will show which drum is the next upgrade option and how many beats it will cost.
+Een knop laat zien welke drum de volgende upgrade-optie is en hoeveel slagen het zal kosten.
 
 --- task ---
 
@@ -160,7 +160,7 @@ end
 
 --- task ---
 
-Click on the **Drum-snare** sprite. Add this script:
+Klik op de **Drum-snare** sprite. Voeg dit script toe:
 
 ![](images/snare-icon.png)
 
@@ -175,7 +175,7 @@ When you upgrade your equipment, you will be able to play at bigger venues.
 
 --- task ---
 
-Add another backdrop. We chose **Chalkboard** to play our second gig at school.
+Voeg nog een achtergrond toe. We kozen **Chalkboard** om ons tweede optreden op school te spelen.
 
 Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
 
@@ -192,7 +192,7 @@ switch backdrop to [Chalkboard v]
 
 --- task ---
 
-**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
+**Test: ** Voer je project uit. Try and buy the snare upgrade before you have enough beats.
 
 When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
 

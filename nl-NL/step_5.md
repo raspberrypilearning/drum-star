@@ -1,8 +1,8 @@
-## Second upgrade
+## Tweede upgrade
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your drum skills are improving. Time for a second upgrade! In this step, you will choose which drum to add.
+Your drum skills are improving. Tijd voor een tweede upgrade! In deze stap kies je welke drum je wilt toevoegen.
 </div>
 <div>
 ![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
@@ -23,11 +23,11 @@ The **Drum Costumes** sprite has lots of drum costumes for you to choose from.
 
 Click on the **Drum Costumes** sprite and select the **Costumes** tab.
 
-**Choose:** a drum for the next upgrade. We chose **Conga**.
+**Choose:** a drum for the next upgrade. We kozen voor **Conga**.
 
-Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
+Sleep de 'geraakt'- en 'niet geraakt'-uiterlijken van de door jou gekozen drum naar je nieuwe **Drum-snare2** sprite:
 
-![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
+![Geanimeerde afbeelding die laat zien hoe je uiterlijken van de ene sprite naar de andere sleept.](images/drag-costumes.gif)
 
 ![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
 
@@ -43,7 +43,7 @@ Name your drum to match the costumes you chose.
 
 --- task ---
 
-Click on the **Code** tab. Change the code to use the correct costumes and choose a sound for your new drum.
+Klik op het **Code** tabblad. Wijzig de code om de juiste uiterlijken te gebruiken en kies een geluid voor je nieuwe drum.
 
 Change the number of beats you earn by clicking the new drum to `5`:
 
@@ -104,7 +104,7 @@ when flag clicked
 + hide
 ```
 
-**Tip:** To delete a block, drag it to the Blocks menu, or right-click and choose **Delete Block**. On a computer, you can also click on a block and then tap <kbd>Delete</kbd> to remove a block.
+**Tip:** To delete a block, drag it to the Blocks menu, or right-click and choose **Delete Block**. Op een computer kun je ook op een blok klikken en vervolgens op <kbd>Delete</kbd> tikken om een blok te verwijderen.
 
 --- /task ---
 
@@ -123,9 +123,9 @@ show // show button for next available drum
 
 --- task ---
 
-Change the number of beats needed to buy this drum, and the number of beats that are removed, when the player gets this drum.
+Wijzig het aantal slagen dat nodig is om deze drum te kopen, en het aantal slagen dat wordt verwijderd wanneer de speler deze drum krijgt.
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Create a new message with the name of your new drum:
+Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Maak een nieuw bericht met de naam van je nieuwe drum:
 
 ![](images/get-drum-3-icon.png)
 
@@ -157,7 +157,7 @@ show
 
 --- task ---
 
-Add the **Party** backdrop.
+Voeg de **Feest** achtergrond toe.
 
 Add a script to the Stage to switch the backdrop when the player upgrades to the new drum:
 
@@ -172,9 +172,9 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test:** Click the green flag to start the game and test that you can earn enough beats to get your new drum.
+**Test:** Klik op de groene vlag om het spel te starten en test dat je genoeg slagen kunt verdienen om je nieuwe trommel te krijgen.
 
-What happens if you click the button before you have earned enough beats?
+Wat gebeurt er als je op de knop klikt voordat je genoeg slagen hebt verdiend?
 
 --- /task ---
 

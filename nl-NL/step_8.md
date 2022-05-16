@@ -69,7 +69,7 @@ For the **venue**, you will need to:
 
 --- task ---
 
-Add a new backdrop.
+Voeg een nieuwe achtergrond toe.
 
 --- /task ---
 
@@ -85,7 +85,7 @@ You might find that your drums need to be in a new position on a different backd
 
 Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
-You will also need to set their starting position `when flag clicked`{:class="block3events"}.
+Je moet ook de beginpositie instellen `wanneer op de vlag wordt geklikt`{:class="block3events"}.
 
 --- /task ---
 
@@ -97,7 +97,7 @@ You will also need to set their starting position `when flag clicked`{:class="bl
 
 --- task ---
 
-**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
+**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. Het is veel gemakkelijker om een project te debuggen als je weet wat het moet doen.
 
 --- collapse ---
 ---

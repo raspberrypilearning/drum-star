@@ -11,7 +11,7 @@ Tes compétences de batteur s'améliorent. Il est temps pour une deuxième amél
 
 --- task ---
 
-Duplique le sprite **caisse claire**:
+Duplique le sprite **caisse claire** :
 
 ![](images/duplicate-snare-drum.png)
 
@@ -21,7 +21,7 @@ Le sprite **Tambour** propose de nombreux costumes de tambour.
 
 --- task ---
 
-Clique sur le sprite **Tambour ** et sélectionne l'onglet **Costumes**.
+Clique sur le sprite **Tambour** et sélectionne l'onglet **Costumes**.
 
 **Choisir :** un tambour pour la prochaine amélioration. Nous avons choisi **Conga**.
 
@@ -71,11 +71,11 @@ Ensuite, tu as besoin d'un bouton pour que les joueurs puissent passer à ce nou
 
 --- task ---
 
-Duplique le sprite **Avoir caisse claire**.
+Duplique le sprite **avoir caisse claire**.
 
 Positionne-le dans le coin inférieur droit de la scène. Change son nom en `Avoir` puis le nom de ton nouveau tambour :
 
-![La liste Sprite avec le sprite "Avoir caisse claire" dupliqué. Le nom du sprite a été modifié pour correspondre au nouveau tambour et positionné en bas à droite de la scène.](images/get-drum-3.png)
+![La liste Sprite avec le sprite "avoir caisse claire" dupliqué. Le nom du sprite a été modifié pour correspondre au nouveau tambour et positionné en bas à droite de la scène.](images/get-drum-3.png)
 
 --- /task ---
 

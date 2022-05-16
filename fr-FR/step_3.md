@@ -27,7 +27,7 @@ Positionne ta cymbale sur la scène :
 
 --- task ---
 
-Ajoute l'extension **Musique**:
+Ajoute l'extension **Musique** :
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -66,7 +66,7 @@ Crée une `variable`{:class="block3variables"} appelée `battements` :
 
 --- task ---
 
-Ajoute un bloc à `ajouter 1 a battements`{:class="block3variables"} lorsque le sprite **cymbale** est cliqué :
+Ajoute un bloc à `ajouter 1 à battements`{:class="block3variables"} lorsque le sprite **cymbale** est cliqué :
 
 ![](images/cymbal-icon.png)
 

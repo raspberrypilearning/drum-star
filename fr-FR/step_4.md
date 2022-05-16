@@ -64,7 +64,7 @@ hide
 
 --- /task ---
 
-Un bouton indiquera quel tambour est la prochaine option d'amélioration et combien de battements cela coûtera.
+Un bouton indiquera quel tambour est la prochaine amélioration et combien de battements cela coûtera.
 
 --- task ---
 
@@ -72,7 +72,7 @@ Un bouton indiquera quel tambour est la prochaine option d'amélioration et comb
 
 ![](images/duplicate-get.png)
 
-Change la visibilité en **montrer** et change son nom en `Avoir caisse claire`. Positionne-le dans le coin inférieur droit de la scène :
+Change Afficher en **montrer** et change son nom en `avoir caisse claire`. Positionne-le dans le coin inférieur droit de la scène :
 
 ![](images/get-snare.png)
 
@@ -90,7 +90,7 @@ Clique sur le sprite **caisse claire** et va dans l'onglet **Costumes**. Utilise
 
 --- task ---
 
-Clique sur ton sprite **Avoir caisse claire** et **Colle** le costume de caisse claire. Tu devras peut-être le redimensionner et le positionner pour l'adapter à ton bouton :
+Clique sur ton sprite **avoir caisse claire** et **colle** le costume de caisse claire. Tu devras peut-être le redimensionner et le positionner pour l'adapter à ton bouton :
 
 ![](images/get-snare-icon.png)
 
@@ -100,7 +100,7 @@ Clique sur ton sprite **Avoir caisse claire** et **Colle** le costume de caisse 
 
 --- task ---
 
-Clique sur l'onglet **Code** et ajoute un script pour afficher le sprite **Avoir caisse claire** au début du projet :
+Clique sur l'onglet **Code** et ajoute un script pour afficher le sprite **avoir caisse claire** au début du projet :
 
 ![](images/get-snare-icon.png)
 
@@ -121,7 +121,7 @@ Nous utilisons <span style="color: #0faeb0">**si ... sinon**</span> tout le temp
 
 --- task ---
 
-Ajoute ce code pour obtenir l'amélioration `si`{:class="block3control"} le joueur a assez de battements, ou `dire`{:class="block3looks"} `pas assez de battements !` s'ils ne peuvent pas faire une amélioration :
+Ajoute ce code pour obtenir l'amélioration `si`{:class="block3control"} le joueur a assez de battements, ou `dire`{:class="block3looks"} `Pas assez de battements !` s'ils ne peuvent pas faire une amélioration :
 
 ![](images/get-snare-icon.png)
 

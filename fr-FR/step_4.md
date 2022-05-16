@@ -45,7 +45,7 @@ when this sprite clicked
 
 --- task ---
 
-**Test :** Essaye ton projet. Assure-toi de gagner 2 battements lorsque tu cliques sur la caisse claire.
+**Test :** Essaie ton projet. Assure-toi de gagner 2 battements lorsque tu cliques sur la caisse claire.
 
 --- /task ---
 

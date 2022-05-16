@@ -20,7 +20,7 @@ legend: Question 1 sur 3
 
 Dans ton projet, tu as créé et utilisé des variables. Laquelle de ces valeurs peut être stockée dans une variable ?
 
-`6` , `Tom` , `151` , `Adya`
+`6` , `Tom` , `151` , `Aadya`
 
 --- choices ---
 
@@ -44,7 +44,7 @@ Dans ton projet, tu as créé et utilisé des variables. Laquelle de ces valeurs
 
  --- feedback ---
 
- Oui, tu as stocké un nombre dans la `variable`{:class="block3variables"} `battements`{:class="block3variables"} et tu as stocké du texte (mots) dans la `variable`{:class="block3variables"} `nom`{:class="block3variables"} .
+ Oui, tu as stocké un nombre dans la `variable`{:class="block3variables"} `battements`{:class="block3variables"} et tu as stocké du texte (mots) dans la `variable`{:class="block3variables"} `nom`{:class="block3variables"}.
 
  Une variable peut stocker un nombre ou du texte (mots).
 
@@ -54,7 +54,7 @@ Dans ton projet, tu as créé et utilisé des variables. Laquelle de ces valeurs
 
  --- feedback ---
 
-Non. Pense aux variables `battements` {:class="block3variables"} et ` nom` {:class="block3variables"} que tu as utilisées.
+Non. Pense aux variables `battements` {:class="block3variables"} et `nom` {:class="block3variables"} que tu as utilisées.
 
  --- /feedback ---
 

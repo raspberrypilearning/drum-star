@@ -1,23 +1,23 @@
-## Introduction
+## Inleiding
 
-Make a clicker game where you earn beats to play new drums at bigger venues.
+Maak een clicker spel waar je beats verdient om nieuwe drums op grotere locaties te spelen.
 
-You will:
-+ Use `variables`{:class="block3variables"} to store and change numbers and text (words)
-+ `ask`{:class="block3sensing"} a question and use the `answer`{:class="block3sensing"} to customise the game
-+ Use `if...else`{:class="block3control"} blocks to make decisions
+Je gaat:
++ Gebruik `variabelen`{:class="block3variables"} om getallen en tekst (woorden) op te slaan en te wijzigen
++ `stel`{:class="block3sensing"} een vraag en gebruik het `antwoord`{:class="block3sensing"} om het spel aan te passen
++ Gebruik `als...dan`{:class="block3control"} blokken om beslissingen te nemen
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">**clicker games**</span> where you have to click to make progress and buy upgrades that help you go faster. Have you ever played a clicker game? There are also <span style="color: #0faeb0">**idle games**</span> that keep going even when you're not playing them. These games are fun as long as you don't spend too much time playing them!</p>
+Er zijn veel <span style="color: #0faeb0">**clicker games**</span> waar je moet klikken om vooruitgang te boeken en upgrades kopen die je helpen sneller te gaan. Heb je ooit een clicker-spel gespeeld? Er zijn ook <span style="color: #0faeb0">**idle games**</span> die doorgaan, zelfs als je ze niet speelt. Deze games zijn leuk zolang je niet te veel tijd aan het spelen ervan besteedt!</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### Probeer het uit
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the drum and watch the number of `beats`{:class="block3variables"} go up. Get a new drum when you have enough beats. 
+Klik op de trommel en kijk hoe het aantal 'slagen'{:class="block3variables"} omhoog gaat. Pak een nieuwe trommel als je genoeg beats hebt. 
 
-How many `beats`{:class="block3variables"} do you earn when clicking the new drum?
+Hoeveel 'beats'{:class="block3variables"} verdien je als je op de nieuwe drum klikt?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Voltooid project](images/showcase_static.png)
 
 --- /print-only ---

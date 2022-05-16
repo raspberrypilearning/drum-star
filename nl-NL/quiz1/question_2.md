@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+Een project heeft dit script om de gebruiker `te vragen`{:class="block3sensing"} naar zijn naam:
 
 ```blocks3
 when flag clicked
@@ -16,15 +16,15 @@ set [name v] to (answer)
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+Wat is de waarde van de `naam`{:class="block3variables"} variabele nadat de speler op het vinkje (vinkje) heeft geklikt en het script is voltooid?
 
 --- choices ---
 
-- ( )  name
+- ( ) naam
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+Nee, `naam`{:class="block3variables"} is hoe de variabele wordt genoemd.
 
   --- /feedback ---
 
@@ -32,23 +32,23 @@ No, `name`{:class="block3variables"} is what the variable is called.
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+Nee, `???` is de waarde van de `naam`{:class="block3variables"} variabele voordat het `Vraag`{:class="block3sensing"} blok wordt uitgevoerd.
 
   --- /feedback ---
 
-- ( ) answer
+- ( ) antwoord
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+Nee, `antwoord`{:class="block3sensing"} is de ingebouwde variabele die Scratch gebruikt om het antwoord op te slaan dat een gebruiker typt wanneer je een vraag `stelt`{:class="block3sensing"}. --- /feedback ---
 
-- (x) Bobo
+- (X) Bobo
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+Ja, het `stel [naam v] in op`{:class="block3variables"} blok zet de **waarde** van de `naam`{:class="block3variables"} variabele op de waarde van `antwoord`{:class="block3sensing"} die de gebruiker heeft ingevoerd.
 
-The value `Bobo` will also be shown on the Stage.
+De waarde `Bobo` wordt ook op het speelveld weergegeven.
 
   --- /feedback ---
 

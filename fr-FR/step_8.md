@@ -43,7 +43,7 @@ Pour le **bouton**, il te faudra :
 
 --- task ---
 
-Dupliquer le précédent sprite **Avoir**.
+Dupliquer le précédent sprite **avoir**.
 
 --- /task ---
 
@@ -75,7 +75,7 @@ Ajouter un nouvel arrière-plan.
 
 --- task ---
 
-Ajouter un script à la scène pour `basculer l'arrière-plan`{:class="block3looks"} sur le nouveau décor lorsque le `message`{:class="block3events"} pour ce tambour est reçu.
+Ajouter un script à la scène pour `basculer sur l'arrière-plan`{:class="block3looks"} sur le nouveau décor lorsque le `message`{:class="block3events"} pour ce tambour est reçu.
 
 --- /task ---
 
@@ -125,7 +125,7 @@ title: Mon bouton Avoir ne s'affiche/ne se cache pas correctement
 title: Je peux acheter un tambour quand je n'ai pas assez de battements
 ---
 
-Vérifie que tu as modifié le nombre de `battements`{:class="block3variables"} nécessaires `quand ce sprite est cliqué`{:class="block3events"} dans le script pour le bouton **Avoir** le tambour.
+Vérifie que tu as modifié le nombre de `battements`{:class="block3variables"} nécessaires `quand ce sprite est cliqué`{:class="block3events"} dans le script pour le bouton **avoir** le tambour.
 
 --- /collapse ---
 
@@ -134,7 +134,7 @@ Vérifie que tu as modifié le nombre de `battements`{:class="block3variables"} 
 title: Le nombre de battements ne change pas correctement lorsque je reçois un nouveau tambour
 ---
 
-Vérifie que tu as `ajouter à battements`{:class="block3variables"} un nombre négatif `quand ce sprite est cliqué`{:class="block3events"} dans le script pour le bouton **Avoir** le tambour.
+Vérifie que tu as `ajouter à battements`{:class="block3variables"} un nombre négatif `quand ce sprite est cliqué`{:class="block3events"} dans le script pour le bouton **avoir** le tambour.
 
 Assure-toi que cela correspond au numéro sur le costume de bouton de tambour.
 

@@ -11,13 +11,13 @@ Het is tijd om je spel precies zoals je wilt te laten werken.
 
 --- task ---
 
-Speel je spel en verdien beats.
+Speel je spel en verdien slagen.
 
 Kijk hoe de `slagen`{:class="block3variables"} variabele verandert en zorg ervoor dat je begrijpt hoe de slagen toenemen wanneer je op de drums klikt en afnemen wanneer je een nieuwe drum krijgt.
 
-Are you happy with how many beats you earn for each drum? Je kunt dit veranderen als je wilt.
+Ben je blij met hoeveel slagen je voor elke drum verdient? Je kunt dit veranderen als je wilt.
 
-Are you happy with how many beats it costs to get a new drum?
+Ben je blij met hoeveel slagen het kost om een nieuwe drum te krijgen?
 
 **Tip:** Test je project regelmatig zodat je eventuele bugs kunt vinden en oplossen.
 
@@ -25,7 +25,7 @@ Are you happy with how many beats it costs to get a new drum?
 
 --- task ---
 
-If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back and set your rock star name.
+Als je het `vraag`{:class="block3sensing"} blok op het speelveld hebt losgemaakt, zet het dan terug en vul de naam van je rockster in.
 
 Merk op dat de naam die wordt weergegeven op het speelveld verandert.
 

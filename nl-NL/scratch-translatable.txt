@@ -1,13 +1,13 @@
 name
 
-What's your rock star name?
+Wat is de naam van je rockstar?
 
 beats
 
-Not enough beats!
+Niet genoeg beats!
 
 snare
 
 conga
 
-What's your name?
+Hoe heet jij?

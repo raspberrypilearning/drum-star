@@ -1,35 +1,35 @@
-## Upgrade your project
+## Verbeter je project
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Upgrade your project with more drums and more backdrops as you play more amazing venues. 
+Upgrade je project met meer drums en meer achtergronden terwijl je op meer verbazingwekkende locaties speelt. 
 </div>
 <div>
 ![](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-There are lots more drum costumes to choose from to add more upgrades to your project.
+Er zijn veel meer drum uiterlijken om uit te kiezen om meer upgrades aan je project toe te voegen.
 
-To add another drum to upgrade to, look back at the earlier steps of the project.
+Als je nog een drum wilt toevoegen om naar te upgraden, kijk dan terug naar de eerdere stappen van het project.
 
-For the **drum**, you will need to:
+Voor de **drum** moet je:
 
 --- task ---
 
-Duplicate the previous **drum** sprite and add two costumes.
+Kopieer de vorige **drum** sprite en voeg twee uiterlijken toe.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script.
+Wijzig het `uiterlijk`{:class="block3looks"} en `geluid`{:class="block3sound"} dat wordt gebruikt in het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script.
+Wijzig het aantal `slagen`{:class="block3variables"} dat wordt verdiend in het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script.
 
 --- /task ---
 
@@ -39,7 +39,7 @@ Change the `message`{:class="block3events"} that makes the drum `show`{:class="b
 
 --- /task ---
 
-For the **button**, you will need to:
+Voor de **knop** moet je:
 
 --- task ---
 
@@ -144,13 +144,13 @@ Make sure this matches the number on the drum button costume.
 
 --- collapse ---
 ---
-title: Completed project
+title: Voltooid project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/522323676/){:target="_blank"} bekijken.
 
 --- /collapse ---
 
-**Tip:** If you get really muddled then it's fine to delete the new drum and its button, and start again. Sometimes it is hard to spot a bug.
+**Tip:** als je echt in de war raakt, is het goed om de nieuwe drum en de bijbehorende knop te verwijderen en opnieuw te beginnen. Soms is het moeilijk om een bug te vinden.
 
 --- save ---

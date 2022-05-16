@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the stage for your first gig and choose a rock star name.
+In deze stap zet je het podium voor je eerste optreden en kies je een naam voor je rockster.
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}
@@ -11,35 +11,35 @@ In this step, you will set the stage for your first gig and choose a rock star n
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
+Open het [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. They produce their own songs by themselves then release them online for everyone to hear. 
+Muzikanten genaamd <span style="color: #0faeb0">**doe-het-zelf-artiesten**</span> beginnen muziek op te nemen vanuit hun slaapkamers. Ze produceren zelf hun eigen nummers en geven ze vervolgens online vrij zodat iedereen ze kan horen. 
 </p>
 
-The game starts in a bedroom like a DIY artist.
+Het spel begint in een slaapkamer als een doe-het-zelf-artiest.
 
 --- task ---
 
-Click **Choose a Backdrop** and search for `bedroom`.
+Klik op **Kies een achtergrond** en zoek naar `slaapkamer`.
 
-**Choose:** Select a bedroom and add it to your project. We chose `Bedroom 3`.
+**Kies:** Selecteer een slaapkamer en voeg deze toe aan je project. We kozen `Slaapkamer 3`.
 
-![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
+![Het podium met de achtergrond van 'Slaapkamer 3'.](images/bedroom3.png)
 
 --- /task ---
 
 --- task ---
 
-In Scratch, you can add code to the Stage.
+In Scratch kun je code toevoegen aan het speelveld.
 
-Click on your bedroom backdrop from the Stage pane and add this code:
+Klik op de achtergrond van je slaapkamer in het deelvenster Speelveld en voeg deze code toe:
 
-![The backdrop thumbnail in the stage pane.](images/bedroom-icon.png)
+![De background thumbnail in het deelvenster speelveld.](images/bedroom-icon.png)
 
 ```blocks3
 when flag clicked
@@ -48,27 +48,27 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-Every musician needs to choose a rock star name.
+Elke muzikant moet een rockster naam kiezen.
 
-A **variable** is a way of storing numbers and/or text. Your rockstar name will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
+Een **variabele** is een manier om getallen en/of tekst op te slaan. Je rockstar-naam wordt opgeslagen in een `variabele`{:class="block3variables"} zodat deze op elk gewenst moment kan worden gebruikt.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+Klik op het `Variabelen`{:class="block3variables"} blokkenmenu en selecteer de **Maak een variabele** knop.
 
-Call your new variable `name`:
+Noem je nieuwe variabele `naam`:
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+![Het pop-upvenster nieuwe variabele met tekstinvoer 'naam'.](images/new-variable.png)
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**Opmerking:** de nieuwe `naam` variabele verschijnt op het speelveld en kan nu worden gebruikt in de `variabele`{:class="block3variables"} blokken.
 
 --- /task ---
 
 --- task ---
 
-At the start of the project, your rockstar name is unknown.
+Aan het begin van het project is de naam van je rockster onbekend.
 
-Add a block to `set name to`{:class="block3variables"} `???`:
+Voeg een blok toe aan `Stel naam in op`{:class="block3variables"} `???`:
 
 ![](images/stage-icon.png)
 
@@ -80,11 +80,11 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-You can `ask`{:class="block3sensing"} a question in Scratch, then use a `variable`{:class="block3variables"} to store the `answer`{:class="block3sensing"}.
+Je kunt `een vraag stellen`{:class="block3sensing"} in Scratch en vervolgens een `variabele`{:class="block3variables"} gebruiken om het `antwoord`{:class="block3sensing"} op te slaan.
 
 --- task ---
 
-Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
+Klik op het blokken menu `Waarnemen`{:class="block3sensing"} en voeg een `Vraag`{:class="block3sensing"} blok toe aan je code:
 
 ![](images/stage-icon.png)
 
@@ -99,7 +99,7 @@ set [name v] to [???] //your variable
 
 --- task ---
 
-Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+Stel de `naam`{:class="block3variables"} `variabele`{:class="block3variables"} in op het `antwoord`{:class="block3sensing"}:
 
 ![](images/stage-icon.png)
 
@@ -113,11 +113,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
-Change the way your `variable`{:class="block3variables"} looks on the Stage.
+Verander de manier hoe je `variabele`{:class="block3variables"} op het podium eruit ziet.
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**:
+Klik met de rechtermuisknop op de `variabele`{:class="block3variables"} op het podium en kies **groot uitlezen**:
 
 ![](images/large-readout.png)
 
@@ -125,7 +125,7 @@ Right-click on the `variable`{:class="block3variables"} on the Stage and choose 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage:
+Sleep je `variabele`{:class="block3variables"} om deze in de rechterbovenhoek van het speelveld te plaatsen:
 
 ![](images/repositioned-variable.png)
 
@@ -133,13 +133,13 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- task ---
 
-**Test:** Run your project to make sure the `variable`{:class="block3variables"} starts as `???` then updates to your `answer`{:class="block3sensing"}.
+**Test:** Voer je project uit om ervoor te zorgen dat de `variabele`{:class="block3variables"} begint als `???` en vervolgens wordt bijgewerkt naar je `antwoord`{:class="block3sensing"}.
 
 --- /task ---
 
 --- task ---
 
-Now that you have tested that the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"}, you can drag the last 2 blocks of code away from the rest of the script. This means you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
+Nu je hebt getest dat de `variabele`{:class="block3variables"} verandert in het `antwoord`{:class="block3sensing"}, kun je de laatste 2 blokken code wegslepen van de rest van het script. Dit betekent dat je geen `antwoord`{:class="block3sensing"} hoeft in te voeren telkens wanneer je je project test:
 
 ![](images/stage-icon.png)
 

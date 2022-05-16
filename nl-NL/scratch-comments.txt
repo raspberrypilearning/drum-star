@@ -1,57 +1,57 @@
-your backdrop name
+de naam van je achtergrond
 
-your variable
+jouw variabele
 
-your question
+je vraag
 
-hit costume
+raak uiterlijk
 
-drum sound
+drumgeluid
 
-not hit costume
+niet geraakt uiterlijk
 
-2 beats per click
+2 beats per klik
 
-if 10 or more beats
+als 10 of meer beats
 
-take away the cost upgrade
+neem de kostenupgrade weg
 
-your drum name
+je drumnaam
 
-5 beats per click
+5 beats per klik
 
-your hit costume
+je geraakt uiterlijk
 
-your drum sound
+je drumgeluid
 
-your not hit costume
+je niet geraakt uiterlijk
 
-appear when previous drum is bought
+verschijnt wanneer de vorige drum is gekocht
 
-show button for next available drum
+toon knop voor volgende beschikbare drum
 
-change to 29
+verander naar 29
 
-change to 30
+verander naar 30
 
-change to your drum name
+verander in je drumnaam
 
-player has upgraded to this drum
+speler heeft een upgrade naar deze drum uitgevoerd
 
-this drum earns 2 beats
+deze trommel verdient 2 slagen
 
-this drum earns 5 beats
+deze trommel verdient 5 slagen
 
-first upgrade visible from the start
+eerste upgrade zichtbaar vanaf het begin
 
-need at least 10 beats
+je hebt minstens 10 slagen nodig
 
-cost of the snare drum
+kosten van de snare drum
 
-not available at the start
+niet beschikbaar aan het begin
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+Laat zien wanneer de vorige drum (snare) is gekocht en dit is de upgrade waar de speler naar werkt.
 
-need at least 30 beats
+je hebt minstens 30 slagen nodig
 
-cost of the drum
+kosten van de drum

@@ -2,40 +2,40 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your drum skills are improving. Tijd voor een tweede upgrade! In deze stap kies je welke drum je wilt toevoegen.
+Je drumskills verbeteren. Tijd voor een tweede upgrade! In deze stap kies je welke drum je wilt toevoegen.
 </div>
 <div>
-![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
+![het speelveld met de achtergrond van een feestje met 3 drums.](images/second-upgrade.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Drum-snare** sprite:
+Dupliceer de **Drum-snare** sprite:
 
 ![](images/duplicate-snare-drum.png)
 
 --- /task ---
 
-The **Drum Costumes** sprite has lots of drum costumes for you to choose from.
+De **Drum uiterlijk** sprite heeft veel drum uiterlijken waar je uit kunt kiezen.
 
 --- task ---
 
-Click on the **Drum Costumes** sprite and select the **Costumes** tab.
+Klik op de **Drum Uiterlijken** sprite en selecteer het tabblad **Uiterlijken**.
 
-**Choose:** a drum for the next upgrade. We kozen voor **Conga**.
+**Kies:** een drum voor de volgende upgrade. We kozen voor **Conga**.
 
 Sleep de 'geraakt'- en 'niet geraakt'-uiterlijken van de door jou gekozen drum naar je nieuwe **Drum-snare2** sprite:
 
 ![Geanimeerde afbeelding die laat zien hoe je uiterlijken van de ene sprite naar de andere sleept.](images/drag-costumes.gif)
 
-![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
+![De verf editor van de nieuwe sprite met twee extra uiterlijken in de uiterlijkenlijst.](images/drum-3-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Name your drum to match the costumes you chose.
+Geef je drum een naam die past bij het uiterlijk dat je hebt gekozen.
 
 ![](images/drum-3-named.png)
 
@@ -45,7 +45,7 @@ Name your drum to match the costumes you chose.
 
 Klik op het **Code** tabblad. Wijzig de code om de juiste uiterlijken te gebruiken en kies een geluid voor je nieuwe drum.
 
-Change the number of beats you earn by clicking the new drum to `5`:
+Wijzig het aantal slagen dat je verdient door op de nieuwe drum te klikken in `5`:
 
 ![](images/drum-3-icon.png)
 
@@ -61,33 +61,33 @@ when this sprite clicked
 
 --- task ---
 
-Drag your new drum into position on the Stage:
+Sleep je nieuwe drum naar de juiste positie op het speelveld:
 
-![New drum to the right of the other drums.](images/drum-3-positioned.png)
-
---- /task ---
-
-Next, you need a button so that players can upgrade to this new drum.
-
---- task ---
-
-Duplicate the **Get snare** sprite.
-
-Position it in the bottom-right corner of the Stage. Change its name to `Get` and then the name of your new drum:
-
-![The Sprite list with duplicated 'Get snare' sprite. The sprite name changed to match the new drum and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+![Nieuwe drum rechts van de andere drums.](images/drum-3-positioned.png)
 
 --- /task ---
 
+Vervolgens heb je een knop nodig zodat spelers naar deze nieuwe drum kunnen upgraden.
+
 --- task ---
 
-Delete the **snare drum** from the button costume. Copy and paste the 'not hit' costume for your new drum to the button costume.
+Dupliceer de **Get snare** sprite.
 
-Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
+Plaats het in de rechterbenedenhoek van het speelveld. Wijzig de naam in `Get` en vervolgens de naam van je nieuwe drum:
 
-Your button should look like this:
+![De Sprite lijst met gedupliceerde 'get snare' sprite. De naam van de sprite is gewijzigd om overeen te komen met de nieuwe drum en wordt rechtsonder in het speelveld geplaatst.](images/get-drum-3.png)
 
-![The paint editor showing the new button costume with chosen drum image and text updated to 30.](images/get-drum-copy.png)
+--- /task ---
+
+--- task ---
+
+Verwijder de **snare drum** uit het knop uiterlijk. Kopieer en plak het 'niet geraakt' uiterlijk van je nieuwe drum in het uiterlijk van je knop.
+
+Klik op de **Tekst** tool en wijzig het getal in `30` om de kosten van de nieuwe drum weer te geven.
+
+Je knop zou er als volgt uit moeten zien:
+
+![De Paint editor toont het nieuwe uiterlijk van de knop met de gekozen drumafbeelding en de tekst bijgewerkt naar 30.](images/get-drum-copy.png)
 
 --- /task ---
 

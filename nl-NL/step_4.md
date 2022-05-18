@@ -68,11 +68,11 @@ Een knop laat zien welke drum de volgende upgrade-optie is en hoeveel slagen het
 
 --- task ---
 
-**Duplicate** the **Get** sprite:
+**Dupliceer** de **Get** sprite:
 
 ![](images/duplicate-get.png)
 
-Change the visibility to **Show** and change its name to `Get snare`. Position it in the bottom-right corner of the Stage:
+Wijzig de zichtbaarheid in **Toon** en wijzig de naam in `Get snare`. Plaats het in de rechterbenedenhoek van het speelveld:
 
 ![](images/get-snare.png)
 
@@ -80,7 +80,7 @@ Change the visibility to **Show** and change its name to `Get snare`. Position i
 
 --- task ---
 
-Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Select** (arrow) tool to highlight the not hit costume of your drum. Click on the **Group** icon then the **Copy** icon:
+Klik op de **Drum-snare** sprite en ga naar het tabblad **Uiterlijken**. Gebruik de **Selecteren** (pijl) tool om het niet geraakt uiterlijk van je drum te markeren. Klik op het pictogram **Groeperen** en vervolgens op het pictogram **Kopiëren**:
 
 ![](images/snare-icon.png)
 
@@ -90,7 +90,7 @@ Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Sel
 
 --- task ---
 
-Click on your **Get snare** sprite and **Paste** the snare costume. You might need to resize and position it to fit your button:
+Klik op je **Get snare** sprite en **Plak** het snare uiterlijk. Mogelijk moet je de grootte en de positie aanpassen zodat het op je knop past:
 
 ![](images/get-snare-icon.png)
 
@@ -100,7 +100,7 @@ Click on your **Get snare** sprite and **Paste** the snare costume. You might ne
 
 --- task ---
 
-Click on the **Code** tab and add a script to show the **Get snare** sprite at the start of the project:
+Klik op het tabblad **Code** en voeg een script toe om de **Get snare** sprite aan het begin van het project weer te geven:
 
 ![](images/get-snare-icon.png)
 
@@ -111,17 +111,17 @@ show
 
 --- /task ---
 
-The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, you learned about making decisions with `if`{:class="block3control"} blocks.
+De upgrade kan alleen worden gekocht als de gebruiker `10` of meer slagen heeft. In [Laat een libel groeien](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"} heb je geleerd over het nemen van beslissingen met `als`{:class="block3control"} blokken.
 
-An `if ... else`{:class="block3control"} block is used to make a decision and will do different things if a condition is `true` or `false`.
+Een `als ... dan`{:class="block3control"} blok wordt gebruikt om een beslissing te nemen en zal verschillende dingen doen als een voorwaarde `waar` of `onwaar` is.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up, you check `if`{:class="block3control"} it is morning. You get up, or `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
+We gebruiken <span style="color: #0faeb0">**als ... dan**</span> de hele tijd om beslissingen te nemen. Wanneer je wakker wordt, vink je 'als'{:class="block3control"} het is ochtend aan. Je staat op, of 'anders'{:class="block3control"} je gaat terug naar de slaap. Kun je denken aan een andere 'als ... anders'{:class="block3control"} beslissing die je neemt? 
 </p>
 
 --- task ---
 
-Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `Not enough beats!` if they are not able to upgrade:
+Voeg deze code toe om de upgrade te krijgen `als`{:class="block3control"} de speler genoeg beats heeft, of `zeg`{:class="block3looks"} `niet genoeg beats!` als ze niet in staat zijn om te upgraden:
 
 ![](images/get-snare-icon.png)
 
@@ -137,11 +137,11 @@ end
 
 --- /task ---
 
-Let other sprites and the Stage know that the snare upgrade has been bought.
+Laat andere sprites en het Speelveld weten dat de snare-upgrade is gekocht.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+Voeg een `zend signaal`{:class="block3events"} blok toe om een nieuw `snare` bericht te verzenden:
 
 ![](images/get-snare-icon.png)
 
@@ -171,13 +171,13 @@ show
 
 --- /task ---
 
-When you upgrade your equipment, you will be able to play at bigger venues.
+Wanneer je je apparatuur opwaardeert, kun je op grotere locaties spelen.
 
 --- task ---
 
 Voeg nog een achtergrond toe. We kozen **Chalkboard** om ons tweede optreden op school te spelen.
 
-Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+Voeg code toe aan het speelveld om `de achtergrond te wisselen`{:class="block3looks"} wanneer het upgradebericht wordt ontvangen:
 
 ![](images/stage-icon.png)
 
@@ -186,15 +186,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
+**Tip:** Kies een locatie die een kleine verbetering is ten opzichte van de slaapkamer. Je wilt grotere locaties bewaren voor later.
 
 --- /task ---
 
 --- task ---
 
-**Test: ** Voer je project uit. Try and buy the snare upgrade before you have enough beats.
+**Test: ** Voer je project uit. Probeer de snare-upgrade te kopen voordat je genoeg beats hebt.
 
-When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
+Wanneer je de upgrade-check koopt: verschijnt de snare, verdwijnt de knop, verandert de locatie en gaan de `slagen`{:class="block3variables"} omlaag met `10`.
 
 --- /task ---
 

@@ -92,7 +92,7 @@ Je knop zou er als volgt uit moeten zien:
 --- /task ---
 
 
-This button should `hide`{:class="block3looks"} at the start, then `show`{:class="block3looks"} when the player upgrades to the snare drum, so they know which drum they are working towards.
+Deze knop moet `verbergen`{:class="block3looks"} aan het begin, dan `tonen`{:class="block3looks"} wanneer de speler een upgrade uitvoert naar de snare drum, zodat ze weten naar welke drum ze werken.
 
 --- task ---
 
@@ -104,13 +104,13 @@ when flag clicked
 + hide
 ```
 
-**Tip:** To delete a block, drag it to the Blocks menu, or right-click and choose **Delete Block**. Op een computer kun je ook op een blok klikken en vervolgens op <kbd>Delete</kbd> tikken om een blok te verwijderen.
+**Tip:** om een blok te verwijderen, sleep je hem naar het blokken menu, of klik je met de rechtermuisknop en kies je**Blok verwijderen**. Op een computer kun je ook op een blok klikken en vervolgens op <kbd>Delete</kbd> tikken om een blok te verwijderen.
 
 --- /task ---
 
 --- task ---
 
-Add a `when I recieve`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
+Voeg een `wanneer ik signaal ontvang`{:class="block3events"} script toe dat je nieuwe drum knop zal laten zien als de volgende upgrade wanneer de speler de **Drum-snare** drum krijgt:
 
 ![](images/get-drum-3-icon.png)
 
@@ -125,7 +125,7 @@ show // show button for next available drum
 
 Wijzig het aantal slagen dat nodig is om deze drum te kopen, en het aantal slagen dat wordt verwijderd wanneer de speler deze drum krijgt.
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Maak een nieuw bericht met de naam van je nieuwe drum:
+Wijzig ook het bericht dat `zend signaal`{:class="block3events"} verstuurt wanneer de speler de nieuwe drum krijgt. Maak een nieuw bericht met de naam van je nieuwe drum:
 
 ![](images/get-drum-3-icon.png)
 
@@ -144,7 +144,7 @@ end
 
 --- task ---
 
-Change the `when I receive snare`{:class="block3events"} script to `broadcast`{:class="block3events"} the name of your new drum. The drum will `show`{:class="block3looks"} when the player upgrades to the new drum:
+Verander het `wanneer ik snare ontvang`{:class="block3events"} script om de naam van je nieuwe drum te`zenden`{:class="block3events"}. De drum `wordt getoond`{:class="block3looks"} wanneer de speler een upgrade uitvoert naar de nieuwe drum:
 
 ![](images/drum-3-icon.png)
 
@@ -159,7 +159,7 @@ show
 
 Voeg de **Feest** achtergrond toe.
 
-Add a script to the Stage to switch the backdrop when the player upgrades to the new drum:
+Voeg een script toe aan het speelveld om de achtergrond te veranderen wanneer de speler een upgrade uitvoert naar de nieuwe drum:
 
 ![](images/stage-icon.png)
 

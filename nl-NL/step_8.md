@@ -35,7 +35,7 @@ Wijzig het aantal `slagen`{:class="block3variables"} dat wordt verdiend in het `
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**.
+Verander het `bericht`{:class="block3events"} dat de drum laat `verschijnen`{:class="block3looks"} in een bericht voor de **nieuwe drum**.
 
 --- /task ---
 
@@ -43,29 +43,29 @@ Voor de **knop** moet je:
 
 --- task ---
 
-Duplicate the previous **Get** sprite.
+Kopieer de vorige **Get** sprite.
 
 --- /task ---
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**.
+Wijzig het `bericht`{:class="block3events"} waardoor de knop verschijnt in het `bericht`{:class="block3events"} `verzonden`{:class="block3events"} door de **vorige drum**.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} including the cost of the new drum.
+Verander het `uiterlijk`{:class="block3looks"} inclusief de kosten voor de nieuwe drum.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
+Verander het aantal `slagen`{:class="block3variabelen"} dat je moet hebben om deze drum te krijgen in de `als`{:class="block3events"} conditie. Verander het negatieve aantal `slagen`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum krijgt. Wijzig het bericht dat het`zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
 
 --- /task ---
 
-For the **venue**, you will need to:
+Voor de **locatie** moet je:
 
 --- task ---
 
@@ -75,15 +75,15 @@ Voeg een nieuwe achtergrond toe.
 
 --- task ---
 
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved.
+Voeg een script toe aan het speelveld om `achtergrond te veranderen in`{:class="block3looks"} de nieuwe achtergrond wanneer het `bericht`{:class="block3events"} voor deze drum wordt ontvangen.
 
 --- /task ---
 
-You might find that your drums need to be in a new position on a different backdrop.
+Het kan zijn dat je vindt dat je drums in een nieuwe positie moeten staan op een andere achtergrond.
 
 --- task ---
 
-Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
+Voeg een script toe dat begint met `wanneer de achtergrond verandert in`{:class="block3events"} aan elke **drum** sprite met een `ga naar`{:class="block3motion"} blok om de positie te veranderen.
 
 Je moet ook de beginpositie instellen `wanneer op de vlag wordt geklikt`{:class="block3events"}.
 
@@ -91,52 +91,52 @@ Je moet ook de beginpositie instellen `wanneer op de vlag wordt geklikt`{:class=
 
 --- task ---
 
-**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
+**Opruimen:** als je tijd hebt, dan is het een goed idee om ervoor te zorgen dat de sprites in de sprite-lijst in een logische volgorde staan, te beginnen met de drums in de volgorde waarmee ze upgraden en vervolgens de knoppen in de juiste volgorde.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. Het is veel gemakkelijker om een project te debuggen als je weet wat het moet doen.
+**Debug:** Zorg er eerst voor dat je echt begrijpt wanneer de drums en knoppen getoond moeten worden en hoe de `slagen`{:class="block3variables"} variabele moet veranderen. Het is veel gemakkelijker om een project te debuggen als je weet wat het moet doen.
 
 --- collapse ---
 ---
-title: My drum doesn't show/hide correctly
+title: Mijn drum wordt niet correct weergegeven/verborgen
 ---
 
-Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}. And it should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
+Tenzij het de eerste drum is, zou je drum een `wanneer op de vlag wordt geklikt`{:class="block3events"} script moeten hebben om `te verbergen`{:class="block3looks"}. En het zou een `wanneer ik signaal`{:class="block3events"} `deze drum` ontvang script moeten hebben om `te tonen`{:class="block3looks"}.
 
-Check that the **Get** button for this drum `broadcasts`{:class="block3events"} the same message.
+Controleer of de **Get** knop voor deze drum `hetzelfde bericht uitzendt`{:class="block3events"}.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Get button doesn't show/hide correctly
+title: Mijn Get-knop wordt niet correct weergegeven/verborgen
 ---
 
-Unless the button is for the very first drum, then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receieve`{:class="block3events"} the message for the **previous drum**. The **Get** button should `show`{:class="block3looks"} to let the player know about the next upgrade they are working towards.
+Tenzij de knop voor de allereerste drum is, moet deze `verbergen`{:class="block3looks"} `wanneer op de vlag wordt geklikt`{:class="block3events"}. En `verschijnen`{:class="block3looks"} `wanneer ik`{:class="block3events"} het bericht ontvang voor de **vorige drum**. De **Get** knop moet `verschijnen`{:class="block3looks"} om de speler laten weten naar welke volgende upgrade ze werken.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I can buy a drum when I don't have enough beats
+title: Ik kan een drum kopen als ik niet genoeg beats heb
 ---
 
-Check that you have changed the number of `beats`{:class="block3variables"} needed `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Controleer of je het aantal `slagen`{:class="block3variables"} hebt gewijzigd `wanneer deze sprite op`{:class="block3events"} klikt in het script voor de **Get** knop voor de trommel.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The number of beats doesn't change correctly when I get a new drum
+title: Het aantal beats verandert niet correct als ik een nieuwe drum krijg
 ---
 
-Check that you have `changed beats by`{:class="block3variables"} a negative number `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Controleer of je `de beats hebt veranderd met`{:class="block3variables"} een negatief getal `wanneer op deze sprite wordt geklikt`{:class="block3events"} in het script van de **Get** knop voor de drum.
 
-Make sure this matches the number on the drum button costume.
+Zorg ervoor dat dit overeenkomt met het getal op het uiterlijk van de drum knop.
 
 --- /collapse ---
 

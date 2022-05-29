@@ -1,7 +1,7 @@
 ---
-title: Drum star
+title: Ένα αστέρι στα τύμπανα
 hero_image: images/banner.png
-description: Make a clicker game where you earn beats to play new drums and bigger venues
+description: Δημιούργησε ένα παιχνίδι με κλικ όπου κερδίζεις χτυπήματα για να παίξεις νέα τύμπανα και μεγαλύτερους χώρους
 version: 4
 listed: true
 copyedit: true
@@ -12,7 +12,7 @@ steps:
   - 
     title: Επίλεξε το Σκηνικό
   - 
-    title: Starter drum
+    title: Αρχικό τύμπανο
     completion: engaged
   - 
     title: Πρώτη αναβάθμιση

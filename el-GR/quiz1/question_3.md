@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Ερώτηση 3 από 3
 ---
 
-You used this script to control what happens when the player clicks on the button to upgrade their drum:
+Χρησιμοποίησες αυτό το σενάριο για να ελέγξεις τι συμβαίνει όταν ο παίκτης κάνει κλικ στο κουμπί για να αναβαθμίσει το τύμπανο:
 
 ```blocks3
 when this sprite clicked
@@ -18,39 +18,39 @@ say [Not enough beats!] for [2] seconds
 end
 ```
 
-If the value of the `beats`{:class="block3variables"} variable is `29`, what will happen when the player clicks on the button?
+Εάν η τιμή της μεταβλητής `beats`{:class="block3variables"} είναι `29`, τι θα συμβεί όταν ο παίκτης κάνει κλικ στο κουμπί;
 
 --- choices ---
 
-- ( ) The sprite will `hide`{:class="block3looks"}
+- ( ) Το αντικείμενο θα `εξαφανιστεί`{:class="block3looks"}
 
   --- feedback ---
 
-  Not quite, there is a `hide`{:class="block3looks"} block in the script, but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again.
+  Όχι ακριβώς, υπάρχει ένα μπλοκ `εξαφανίσου`{:class="block3looks"} στο script, αλλά δεν θα εκτελεστεί με `29` `χτυπήματα`{:class="block3variables"}. Ρίξε μια ματιά ξανά στο σενάριο.
 
   --- /feedback ---
 
-- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`
+- (x) Το αντικείμενο του κουμπιού θα `πει`{:class="block3looks"} `Δεν υπάρχουν αρκετά χτυπήματα!`
 
   --- feedback ---
 
-Yes, the condition checks if `beats`{:class="block3variables"} is greater than `29`, but `beats`{:class="block3variables"} is equal to `29` so the player does not have enough.
+Ναι, η συνθήκη ελέγχει εάν τα `χτυπήματα`{:class="block3variables"} είναι περισσότερα από το `29`, αλλά τα `χτυπήματα`{:class="block3variables"} ισούνται με `29`, επομένως ο παίκτης δεν έχει αρκετά.
 
   --- /feedback ---
 
-- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable
+- ( ) Το 30 θα αφαιρεθεί από την τιμή της μεταβλητής `χτυπήματα`{:class="block3variables"}
 
   --- feedback ---
 
-  No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is `29` which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
+  Όχι, η τιμή της μεταβλητής `χτυπήματα`{:class="block3variables"} θα παραμείνει η ίδια. Τα `χτυπήματα`{:class="block3variables"} είναι `29` που σημαίνει το `χτυπήμετα`{:class="block3variables"} `> 29` είναι ψευδές, επομένως τα μπλοκ στο πρώτο μέρος του μπλοκ `αν`{:class="block3control"} δεν θα εκτελεστούν.
 
   --- /feedback ---
 
-- ( ) Nothing
+- ( ) Τίποτα
 
   --- feedback ---
 
-  No, the script will always do something. Take a closer look to see which part of the script will run when you have `29` `beats`{:class="block3variables"}.
+  Όχι, το σενάριο πάντα κάτι θα κάνει. Ρίξε μια πιο προσεκτική ματιά για να δείς ποιο μέρος του script θα εκτελεστεί όταν έχεις `29` `χτυπήματα`{:class="block3variables"}.
 
   --- /feedback ---
 

@@ -1,8 +1,8 @@
-## Starter drum
+## Αρχικό τύμπανο
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a **cymbal** sprite that you can click to earn beats and play a sound.
+Θα προσθέσεις ένα αντικείμενο **κύμβαλο** (cymbal) στο οποίο μπορείς να κάνεις κλικ για να κερδίσεις χτυπήματα και να παίξεις έναν ήχο.
 </div>
 <div>
 ![](images/starter-drum.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add a **cymbal** sprite that you can click to earn beats and play a sou
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to your project.
+Κάνε κλικ στο **Επιλέξτε ένα Αντικείμενο** και αναζητήσε το `cymbal`. Πρόσθεσε το αντικείμενο **Drum-cymbal** στο έργο σου.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to
 
 --- task ---
 
-Position your cymbal on the Stage:
+Τοποθέτησε το κύμβαλο σου στη σκηνή:
 
 ![](images/cymbal-stage.png)
 
@@ -27,7 +27,7 @@ Position your cymbal on the Stage:
 
 --- task ---
 
-Add the **Music extension**:
+Πρόσθεσε την **επέκταση Μουσική**:
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -35,7 +35,7 @@ Add the **Music extension**:
 
 --- task ---
 
-Add a script to make the cymbal `switch costume`{:class="block3looks"} and `play a drum sound`{:class="block3extensions"}:
+Πρόσθεσε ένα script για να κάνεις το κύμβαλο `αλλάξει ενδυμασία`{:class="block3looks"} και να `παίζει έναν ήχο τυμπάνου`{:class="block3extensions"}:
 
 ![](images/cymbal-icon.png)
 
@@ -50,15 +50,15 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test:** Test your cymbal by clicking on it. Make sure you hear a sound and see the costume change.
+**Δοκιμή:** Δοκίμασε το κύμβαλό σου κάνοντας κλικ σε αυτό. Βεβαιώσου ότι ακούς έναν ήχο και κοίτα την ενδυμασία να αλλάζει.
 
 --- /task ---
 
-The **Drum-cymbal** sprite will earn you one beat each time you click it.
+Το αντικείμενο **Drum-cymbal** θα σου δίνει ένα χτύπημα κάθε φορά που κάνεις κλικ σε αυτό.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `beats`:
+Δημιούργησε μια `μεταβλητή`{:class="block3variables"} που ονομάζεται `χτυπήματα`:
 
 ![](images/beats-variable.png)
 
@@ -66,7 +66,7 @@ Create a `variable`{:class="block3variables"} called `beats`:
 
 --- task ---
 
-Add a block to `change beats by 1`{:class="block3variables"} when the **Drum-cymbal** sprite is clicked:
+Πρόσθεσε ένα μπλοκ για να `αλλάξεις τα χτυπήματα κατά 1`{:class="block3variables"} όταν κάνεις κλικ στο αντικείμενο **Drum-cymbal**:
 
 ![](images/cymbal-icon.png)
 
@@ -82,17 +82,17 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it and watch the `beats`{:class="block3variables"} increase.
+**Δοκιμή:** Δοκίμασε το **Drum-cymbal** κάνοντας κλικ πάνω του και κοίτα τα `χτυπήματα`{:class="block3variables"} να αυξάνονται.
 
 --- /task ---
 
-The `beats`{:class="block3variables"} variable needs to start at `0` beats when you start a new game.
+Η μεταβλητή `χτυπήματα`{:class="block3variables"} πρέπει να ξεκινά με `0` χτυπήματα όταν ξεκινάς ένα νέο παιχνίδι.
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab to add code to the Stage.
+Κάνε κλικ στο παράθυρο Σκηνή και στη συνέχεια στην καρτέλα **Κώδικας** για να προσθέσεις κώδικα στη Σκηνή.
 
-Add a block to `set beats to`{:class="block3variables"} `0`:
+Πρόσθεσε ένα μπλοκ για να `ορίσεις χτυπήματα σε`{:class="block3variables"} `0`:
 
 ![](images/stage-icon.png)
 
@@ -106,7 +106,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Test:** Click the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία και βεβαιώσου η μεταβλητή `χτυπήματα`{:class="block3variables"} ξεκινά από `0`.
 
 --- /task ---
 

@@ -8,21 +8,21 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Set the Stage
+    title: Επίλεξε το Σκηνικό
   - 
     title: Starter drum
     completion: engaged
   - 
-    title: First upgrade
+    title: Πρώτη αναβάθμιση
   - 
-    title: Second upgrade
+    title: Δεύτερη αναβάθμιση
   - 
-    title: Play and customise
+    title: Παίξε και προσάρμοσε
     completion: internal
   - 
-    title: Reflection
+    title: Αναστοχασμός
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -30,6 +30,6 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Αναβάθμισε το έργο σου
   - 
-    title: What next?
+    title: Και τώρα;

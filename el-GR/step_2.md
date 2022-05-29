@@ -11,17 +11,17 @@
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
+Άνοιξε το αρχικό έργο [Ένα αστέρι στα τύμπανα](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. Παράγουν τα δικά τους τραγούδια μόνοι τους και στη συνέχεια τα κυκλοφορούν στο διαδίκτυο για να τα ακούσουν όλοι. 
+Μουσικοί που καλούνται <span style="color: #0faeb0">**αυτοδημιούργητοι**</span> αρχίζουν να ηχογραφούν μουσική από τα υπνοδωμάτιά τους. Παράγουν τα δικά τους τραγούδια μόνοι τους και στη συνέχεια τα κυκλοφορούν στο διαδίκτυο για να τα ακούσουν όλοι. 
 </p>
 
-The game starts in a bedroom like a DIY artist.
+Το παιχνίδι ξεκινά σε μια κρεβατοκάμαρα σαν αυτοδημιούργητος καλλιτέχνης.
 
 --- task ---
 

@@ -1,8 +1,8 @@
-## Set the stage
+## Επίλεξε το Σκηνικό
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the stage for your first gig and choose a rock star name.
+Σε αυτό το βήμα, θα δημιουργήσεις τη σκηνή για την πρώτη σου συναυλία και θα επιλέξεις ένα όνομα ροκ σταρ.
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}
@@ -11,35 +11,35 @@ In this step, you will set the stage for your first gig and choose a rock star n
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. They produce their own songs by themselves then release them online for everyone to hear. 
+Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. Παράγουν τα δικά τους τραγούδια μόνοι τους και στη συνέχεια τα κυκλοφορούν στο διαδίκτυο για να τα ακούσουν όλοι. 
 </p>
 
 The game starts in a bedroom like a DIY artist.
 
 --- task ---
 
-Click **Choose a Backdrop** and search for `bedroom`.
+Κάνε κλικ στο **Επιλέξτε Υπόβαθρο** και αναζήτησε `υπνοδωμάτιο (bedroom)`.
 
-**Choose:** Select a bedroom and add it to your project. We chose `Bedroom 3`.
+**Διάλεξε:** Επίλεξε το υπνοδωμάτιο που προτιμάς στο έργο σου. Επιλέξαμε `Bedroom 3`.
 
-![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
+![Η σκηνή που δείχνει το υπόβαθρο "Bedroom 3".](images/bedroom3.png)
 
 --- /task ---
 
 --- task ---
 
-In Scratch, you can add code to the Stage.
+Στο Scratch, μπορείς να προσθέσεις κώδικα στο Υπόβαθρο.
 
-Click on your bedroom backdrop from the Stage pane and add this code:
+Κάνε κλικ στο σκηνικό του υπνοδωματίου σου από το παράθυρο της Σκηνής και πρόσθεσε αυτόν τον κώδικα:
 
-![The backdrop thumbnail in the stage pane.](images/bedroom-icon.png)
+![Η μικρογραφία του υπόβαθρου στο παράθυρο σκηνής.](images/bedroom-icon.png)
 
 ```blocks3
 when flag clicked
@@ -48,27 +48,27 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-Every musician needs to choose a rock star name.
+Κάθε μουσικός πρέπει να επιλέξει ένα όνομα ροκ σταρ.
 
-A **variable** is a way of storing numbers and/or text. Your rockstar name will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
+Μια **μεταβλητή** είναι ένας τρόπος αποθήκευσης αριθμών ή/και κειμένου. Το όνομά του ροκ σταρ σου, θα αποθηκευτεί σε μια `μεταβλητή`{:class="block3variables"}, ώστε να μπορεί να χρησιμοποιηθεί ανά πάσα στιγμή.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+Από το μενού μπλοκ `Μεταβλητές`{:class="block3variables"} κάνε κλικ στο κουμπί **Δημιουργία μεταβλητής**.
 
-Call your new variable `name`:
+Κάλεσε τη νέα σου μεταβλητή `όνομα`:
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+![Το αναδυόμενο παράθυρο Νέα μεταβλητή με εισαγωγή κειμένου «όνομα».](images/new-variable.png)
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**Σημείωση:** Η νέα μεταβλητή `όνομα` εμφανίζεται στη Σκηνή και μπορεί πλέον να χρησιμοποιηθεί στα μπλοκ `Μεταβλητές`{:class="block3variables"}.
 
 --- /task ---
 
 --- task ---
 
-At the start of the project, your rockstar name is unknown.
+Στην αρχή του έργου, το όνομα του ροκ σταρ σου είναι άγνωστο.
 
-Add a block to `set name to`{:class="block3variables"} `???`:
+Πρόσθεσε ένα μπλοκ στο `όρισε όνομα σε`{:class="block3variables"} `???`:
 
 ![](images/stage-icon.png)
 
@@ -80,11 +80,11 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-You can `ask`{:class="block3sensing"} a question in Scratch, then use a `variable`{:class="block3variables"} to store the `answer`{:class="block3sensing"}.
+Μπορείς να προσθέσεις ένα μπλοκ`ρώτησε`{:class="block3sensing"} στο Scratch και μετά να χρησιμοποιήσεις μια `μεταβλητή`{:class="block3variables"} για να αποθηκεύσεις τις `απαντήσεις`{:class="block3sensing"}.
 
 --- task ---
 
-Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
+Κάνε κλικ στο μενού μπλοκ `Αισθητήρες`{:class="block3sensing"} και πρόσθεσε ένα μπλοκ `ρώτησε`{:class="block3sensing"} στον κώδικά σου:
 
 ![](images/stage-icon.png)
 
@@ -99,7 +99,7 @@ set [name v] to [???] //your variable
 
 --- task ---
 
-Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+Όρισε τη `μεταβλητή`{:class="block3variables"} `όνομα`{:class="block3variables"} ως την `απάντηση`{:class="block3sensing"}:
 
 ![](images/stage-icon.png)
 
@@ -113,11 +113,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
-Change the way your `variable`{:class="block3variables"} looks on the Stage.
+Άλλαξε τον τρόπο εμφάνισης της `μεταβλητής`{:class="block3variables"} στη Σκηνή.
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**:
+Κάνε δεξί κλικ ξανά στη `μεταβλητή`{:class="block3variables"} που εμφανίζεται στη Σκηνή και επίλεξε **αλλαγή εύρους γραμμής κύλισης**:
 
 ![](images/large-readout.png)
 
@@ -125,7 +125,7 @@ Right-click on the `variable`{:class="block3variables"} on the Stage and choose 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage:
+Σύρε τη `μεταβλητή`{:class="block3variables"} για να την τοποθετήσεις στην επάνω δεξιά γωνία της Σκηνής:
 
 ![](images/repositioned-variable.png)
 
@@ -133,13 +133,13 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- task ---
 
-**Test:** Run your project to make sure the `variable`{:class="block3variables"} starts as `???` then updates to your `answer`{:class="block3sensing"}.
+**Δοκιμή:** Εκτέλεσε το έργο σου για να βεβαιωθείς ότι η `μεταβλητή`{:class="block3variables"} ξεκινά ως `???` και στη συνέχεια ενημερώνεται με την τιμή της `απάντησης`{:class="block3sensing"}.
 
 --- /task ---
 
 --- task ---
 
-Now that you have tested that the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"}, you can drag the last 2 blocks of code away from the rest of the script. This means you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
+Τώρα που δοκίμασες ότι η `μεταβλητή`{:class="block3variables"} αλλάζει στην την τιμή της `απάντησης`{:class="block3sensing"}, μπορείς να σύρεις τα τελευταία 2 μπλοκ κώδικα μακριά από το υπόλοιπο σενάριο. Αυτό σημαίνει ότι δεν χρειάζεται να πληκτρολογήσεις μια `απάντηση`{:class="block3sensing"} κάθε φορά που δοκιμάζεις το έργο σου:
 
 ![](images/stage-icon.png)
 

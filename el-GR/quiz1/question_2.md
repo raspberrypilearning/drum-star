@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+Ένα έργο έχει αυτό το scriptγια να `ρωτήσει`{:class="block3sensing"} από τον χρήστη το όνομά του:
 
 ```blocks3
 when flag clicked
@@ -16,15 +16,15 @@ set [name v] to (answer)
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+Ποια θα είναι η τιμή της μεταβλητής `όνομα`{:class="block3variables"} αφού ο παίκτης κάνει κλικ στο τικ (σημάδι ελέγχου) και τελειώσει το script;
 
 --- choices ---
 
-- ( )  name
+- ( ) όνομα
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+Όχι, `name`{:class="block3variables"} ονομάζεται η μεταβλητή.
 
   --- /feedback ---
 
@@ -32,23 +32,23 @@ No, `name`{:class="block3variables"} is what the variable is called.
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+Όχι, το `???` είναι η τιμή της μεταβλητής `όνομα`{:class="block3variables"} πριν από την εκτέλεση του μπλοκ `ρώτησε`{:class="block3sensing"}.
 
   --- /feedback ---
 
-- ( ) answer
+- ( ) απάντηση
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+Όχι, `απάντηση`{:class="block3sensing"} είναι η ενσωματωμένη μεταβλητή που χρησιμοποιεί η Scratch για να αποθηκεύσει την απάντηση που πληκτρολογεί ένας χρήστης όταν `ρωτάς`{:class="block3sensing"} μια ερώτηση. --- /feedback ---
 
-- (x) Bobo
+- (x) Μπόμπο
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+Ναι, το μπλοκ`όρισε [name v] σε`{:class="block3variables"} ορίζει την **τιμή** της μεταβλητής `όνομα`{:class="block3variables"} στην τιμή `απάντηση`{:class= "block3sensing"} που είναι το κείμενο που εισήγαγε ο χρήστης.
 
-The value `Bobo` will also be shown on the Stage.
+Η τιμή `Μπόμπο` θα εμφανίζεται επίσης στη Σκηνή.
 
   --- /feedback ---
 

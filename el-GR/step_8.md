@@ -1,142 +1,142 @@
-## Upgrade your project
+## Αναβάθμισε το έργο σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Upgrade your project with more drums and more backdrops as you play more amazing venues. 
+Αναβάθμισε το έργο σου, με περισσότερα τύμπανα και περισσότερα σκηνικά καθώς παίζεις σε πιο εκπληκτικούς χώρους. 
 </div>
 <div>
 ![](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-There are lots more drum costumes to choose from to add more upgrades to your project.
+Υπάρχουν πολλές περισσότερες ενδυμασίες τυμπάνων να διαλέξεις, για να προσθέσεις περισσότερες αναβαθμίσεις στο έργο σου.
 
-To add another drum to upgrade to, look back at the earlier steps of the project.
+Για να προσθέσεις ένα ακόμη τύμπανο για αναβάθμιση, ανάτρεξε στα προηγούμενα βήματα του έργου.
 
-For the **drum**, you will need to:
+Για το **τύμπανο**, θα χρειαστείς:
 
 --- task ---
 
-Duplicate the previous **drum** sprite and add two costumes.
+Αντίγραψε το προηγούμενο αντικείμενο **τύμπανο** και πρόσθεσε δύο ενδυμασίες.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script.
+Άλλαξε την `ενδυμασία`{:class="block3looks"} και τον `ήχο`{:class="block3sound"} που χρησιμοποιούνται στο script `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script.
+Άλλαξε τον αριθμό των `χτυπημάτων`{:class="block3variables"} που κέρδισες στο script `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**.
+Άλλαξε το `μήνυμα`{:class="block3events"} που κάνει το τύμπανο να `εμφανίζεται`{:class="block3looks"} σε ένα μήνυμα για το **νέο τύμπανο**.
 
 --- /task ---
 
-For the **button**, you will need to:
+Για το **κουμπί**, θα χρειαστεί να:
 
 --- task ---
 
-Duplicate the previous **Get** sprite.
-
---- /task ---
-
---- task ---
-
-Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**.
+Διπλασιάσεις το αντικείμενο **Πάρε**.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} including the cost of the new drum.
+Αλλάξεις το `μήνυμα`{:class="block3events"} που κάνει το κουμπί να εμφανίζεται στο `μήνυμα`{:class="block3events"} `μετάδωσε`{:class="block3events"} με το **προηγούμενο τύμπανο**.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
-
---- /task ---
-
-For the **venue**, you will need to:
-
---- task ---
-
-Add a new backdrop.
+Αλλάξεις την `ενδυμασία`{:class="block3looks"} συμπεριλαμβανομένου του κόστους του νέου τυμπάνου.
 
 --- /task ---
 
 --- task ---
 
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved.
+Αλλάξεις τον αριθμό των `χτυπημάτων`{:class="block3variables"} που πρέπει να έχειςε για να λάβεις αυτό το τύμπανο στην συνθήκη `εάν`{:class="block3events"}. Αλλάξεις τον αρνητικό αριθμό των `χτυπημάτων`{:class="block3variables"} που `αλλάζεις κατά`{:class="block3variables"} όταν παίρνεις αυτό το τύμπανο. Αλλάξεις το μήνυμα που `μεταδίδεται`{:class="block3events"} στο όνομα του **νέου τυμπάνου**.
 
 --- /task ---
 
-You might find that your drums need to be in a new position on a different backdrop.
+Για τον **χώρο**, θα χρειαστεί να:
 
 --- task ---
 
-Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
-
-You will also need to set their starting position `when flag clicked`{:class="block3events"}.
-
---- /task ---
-
---- task ---
-
-**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
+Προσθέσεις ένα νέο υπόβαθρο.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
+Προσθέσεις ένα script στο υπόβαθρο για να `αλλάξεις υπόβαθρο στο`{:class="block3looks"} νέο όταν λάβεις το `μήνυμα`{:class="block3events"} για αυτό το τύμπανο.
+
+--- /task ---
+
+Μπορεί να διαπιστώσεις ότι τα τύμπανά σου πρέπει να βρίσκονται σε νέα θέση σε ένα διαφορετικό υπόβαθρο.
+
+--- task ---
+
+Προσθέσε σενάριο ξεκινώντας με `όταν το υπόβαθρο αλλάζει σε`{:class="block3events"} σε κάθε αντικείμενο **τύμπανο** με ένα μπλοκ `πήγαινε σε`{:class="block3motion"} για να τα κάνεις να αλλάξουν θέση.
+
+Θα χρειαστεί επίσης να ορίσεις την αρχική τους θέση `όταν γίνει κλικ στην πράσινη σημαία`{:class="block3events"}.
+
+--- /task ---
+
+--- task ---
+
+**Τακτοποίηση:** Εάν έχεις χρόνο, τότε είναι καλή ιδέα να βεβαιωθείς ότι τα αντικείμενα στη λίστα αντικειμένων είναι σε λογική σειρά, ξεκινώντας από τα τύμπανα στη σειρά αναβάθμισής τους και μετά τα κουμπιά με τη σειρά.
+
+--- /task ---
+
+--- task ---
+
+**Εντοπισμός σφαλμάτων:** Πρώτα βεβαιώσου ότι καταλαβαίνεις πραγματικά πότε πρέπει να εμφανίζονται τα τύμπανα και τα κουμπιά και πώς πρέπει να αλλάζει η μεταβλητή `χτυπήματα`{:class="block3variables"}. Είναι πολύ πιο εύκολο να διορθώσεις ένα έργο εάν είσαι ξεκάθαρος σχετικά με το τι πρέπει να κάνει.
 
 --- collapse ---
 ---
-title: My drum doesn't show/hide correctly
+title: Το τύμπανο μου δεν εμφανίζεται/εξαφανίζεται σωστά
 ---
 
-Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}. And it should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
+Εκτός και αν είναι το πρώτο τύμπανο, το τύμπανο σου θα πρέπει να έχει ένα script `όταν γίνει κλικ στην πράσινη σημαία`{:class="block3events"} για να `εξαφανίζεται`{:class="block3looks"}. Και θα πρέπει να έχει ένα script `όταν λάβω`{:class="block3events"} `αυτό το τύπανο` για να `εμφανιστεί`{:class="block3looks"}.
 
-Check that the **Get** button for this drum `broadcasts`{:class="block3events"} the same message.
+Έλεγξε ότι το κουμπί **Πάρε** για αυτό το τύμπανο `μεταδίδει`{:class="block3events"} το ίδιο μήνυμα.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Get button doesn't show/hide correctly
+title: Το κουμπί μου "Πάρε" δεν εμφανίζεται/κρύβεται σωστά
 ---
 
-Unless the button is for the very first drum, then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receieve`{:class="block3events"} the message for the **previous drum**. The **Get** button should `show`{:class="block3looks"} to let the player know about the next upgrade they are working towards.
+Εκτός αν το κουμπί είναι για το πρώτο τύμπανο, τότε θα πρέπει να `εξαφανίζεται`{:class="block3looks"} `όταν γίνει κλικ στημ πράσινη σημαία`{:class="block3events"}. Και θα πρέπει να `να εμφανίζεται`{:class="block3looks"} `όταν λάβει`{:class="block3events"} το μήνυμα για το προηγούμενο **τύμπανο**. Το κουμπί **Πάρε** θα πρέπει να `εμφανίζεται`{:class="block3looks"} για να ενημερώνεται ο παίκτης σχετικά με την επόμενη αναβάθμιση για την οποία προσπαθεί.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I can buy a drum when I don't have enough beats
+title: Μπορώ να αγοράσω ένα τύμπανο όταν δεν έχω αρκετά χτυπήματα
 ---
 
-Check that you have changed the number of `beats`{:class="block3variables"} needed `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Βεβαιώσου ότι έχεις αλλάξει τον αριθμό των `χτυπημάτων`{:class="block3variables"} που απαιτούνται `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"} στο σενάριο για το κουμπί **Πάρε** για το τύμπανο.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The number of beats doesn't change correctly when I get a new drum
+title: Ο αριθμός των χτυπημάτων δεν αλλάζει σωστά όταν παίρνω ένα νέο τύμπανο
 ---
 
-Check that you have `changed beats by`{:class="block3variables"} a negative number `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Έλεγξε ότι έχεις το `άλλαξε χτυπήματα κατα`{:class="block3variables"} έναν αρνητικό αριθμό `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"} στο σενάριο για το κουμπί **Πάρε** για το τύμπανο.
 
-Make sure this matches the number on the drum button costume.
+Βεβαιώσου ότι αυτό ταιριάζει με τον αριθμό στην ενδυμασία του κουμπιού του τυμπάνου.
 
 --- /collapse ---
 
@@ -144,13 +144,13 @@ Make sure this matches the number on the drum button costume.
 
 --- collapse ---
 ---
-title: Completed project
+title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+Μπορείς να δεις το [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
 
 --- /collapse ---
 
-**Tip:** If you get really muddled then it's fine to delete the new drum and its button, and start again. Sometimes it is hard to spot a bug.
+**Συμβουλή:** Εάν μπερδευτείς πολύ, τότε είναι καλό να διαγράψείς το νέο τύμπανο και το κουμπί του και να ξεκινήσεις ξανά. Μερικές φορές είναι δύσκολο να εντοπίσεις ένα σφάλμα.
 
 --- save ---

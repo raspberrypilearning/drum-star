@@ -1,60 +1,61 @@
-## Reflection
+## Αναστοχασμός
 
-Well done, you have made a clicker game that people want to play!
+Μπράβο, έφτιαξες ένα παιχνίδι με κλικ το οποίο θέλει να παίξει ο κόσμος!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
+Έχεις χρησιμοποιήσει τα μπλοκ `Συμβάντα`{:class="block3events"}, `Έλεγχος`{:class="block3control"}, `Αισθητήρες`{:class="block3sensing"}, `Τελεστές`{:class="block3operators"}, `Κίνηση`{:class="block3motion"}, `Όψεις`{:class="block3looks"} και `Ήχος`{:class="block3sound"}!
 
-Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
+Τώρα είναι ώρα να αναστοχαστείς. Τώρα ήρθε η ώρα να εξετάσεις τις νέες γνώσεις — ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
-Answer the three questions below to reflect on what you've learned.
+Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Μετά από κάθε ερώτηση, πάτησε Υποβολή. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+Στο έργο σου, δημιούργησες και χρησιμοποίησες μεταβλητές. Ποια από αυτές τις τιμές μπορεί να αποθηκευτεί σε μια μεταβλητή;
 
 `6` , `Tom` , `151` , `Aadya`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- ( ) Μόνο οι αριθμοί `6` και `151`
 
  --- feedback ---
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
+ Χρησιμοποίησες τη μεταβλητή `χτυπήματα`{:class="block3variables"} για να αποθηκεύσεις έναν αριθμό. Αλλά χρησιμοποίησες μια μεταβλητή και για κάτι άλλο.
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) Μόνο το κείμενο (λέξεις) `Tom` και `Aadya`
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ Χρησιμοποίησες τη μεταβλητή `όνομα`{:class="block3variables"} για την αποθήκευση κειμένου (λέξεων), για την `απάντηση`{:class="block3sensing"} στην `ερώτηση`{:class="block3sensing"}. Αλλά χρησιμοποίησες επίσης μια `μεταβλητή`{:class="block3variables"} για κάτι άλλο.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- (x) Οποιοσδήποτε από τους αριθμούς ή το κείμενο (λέξεις)
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
+ Ναι, αποθήκευσες έναν αριθμό στη `μεταβλητή`{:class="block3variables"}
+`χτυπήματα`{:class="block3variables"}  και αποθήκευσες κείμενο (λέξεις) στη `μεταβλητή`{:class="block3variables"}  `όνομα`{:class="block3variables"}.
 
- A variable can store a number or text (words).
+ Μια μεταβλητή μπορεί να αποθηκεύσει έναν αριθμό ή ένα κείμενο (λέξεις).
 
  --- /feedback ---
 
-- ( ) None of them
+- ( ) Κανένας από αυτούς
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+Όχι. Σκέψου τις μεταβλητές `χτυπήματα`{:class="block3variables"} και `όνομα`{:class="block3variables"} που χρησιμοποίησες.
 
  --- /feedback ---
 

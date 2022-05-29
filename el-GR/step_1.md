@@ -1,9 +1,9 @@
-## Introduction
+## Εισαγωγή
 
 Make a clicker game where you earn beats to play new drums at bigger venues.
 
 You will:
-+ Use `variables`{:class="block3variables"} to store and change numbers and text (words)
++ Χρησιμοποιήσεις `μεταβλητές`{:class="block3variables"} για να αποθηκεύσεις και να αλλάξεις αριθμούς και κείμενο (λέξεις)
 + `ask`{:class="block3sensing"} a question and use the `answer`{:class="block3sensing"} to customise the game
 + Use `if...else`{:class="block3control"} blocks to make decisions
 

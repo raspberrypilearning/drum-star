@@ -1,41 +1,41 @@
-## Second upgrade
+## Δεύτερη αναβάθμιση
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your drum skills are improving. Time for a second upgrade! In this step, you will choose which drum to add.
+Οι ικανότητές σου στα τύμπανα βελτιώνονται. Ώρα για δεύτερη αναβάθμιση! Σε αυτό το βήμα, θα επιλέξεις ποιο τύμπανο θα προσθέσεις.
 </div>
 <div>
-![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
+![Η σκηνή δείχνει σκηνικό πάρτι με 3 τύμπανα.](images/second-upgrade.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Drum-snare** sprite:
+Διπλασίασε το αντικείμενο **Drum-snare**:
 
 ![](images/duplicate-snare-drum.png)
 
 --- /task ---
 
-The **Drum Costumes** sprite has lots of drum costumes for you to choose from.
+Το αντικείμενο **Ενδυμασίες Τυμπάνων** έχει πολλές ενδυμασίες τυμπάνων από τις οποίες μπορείς να επιλέξεις.
 
 --- task ---
 
-Click on the **Drum Costumes** sprite and select the **Costumes** tab.
+Κάνε κλικ στο αντικείμενο **Ενδυμασίες Τυμπάνων** και επίλεξε την καρτέλα **Ενδυμασίες**.
 
-**Choose:** a drum for the next upgrade. We chose **Conga**.
+**Επίλεξε:** ένα τύμπανο για την επόμενη αναβάθμιση. Επιλέξαμε **Κόνγκα (Conga)**.
 
-Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
+Σύρε τις ενδυμασίες «χτυπημένο» και «μη χτυπημένο» του τυμπάνου που έχεις επιλέξει στο νέο σου αντικείμενο **Drum-snare2**:
 
-![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
+![Κινούμενη εικόνα που δείχνει πώς να σύρεις τις ενδυμασίες από το ένα αντικείμενο στο άλλο.](images/drag-costumes.gif)
 
-![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
+![Ο επεξεργαστής ζωγραφικής χρωμάτων του νέου αντικειμένου με δύο επιπλέον ενδυμασίες στη λίστα ενδυμασίων.](images/drum-3-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Name your drum to match the costumes you chose.
+Ονόμασε το τύμπανο σου ώστε να ταιριάζει με τις ενδυμασίες που επέλεξες.
 
 ![](images/drum-3-named.png)
 
@@ -43,9 +43,9 @@ Name your drum to match the costumes you chose.
 
 --- task ---
 
-Click on the **Code** tab. Change the code to use the correct costumes and choose a sound for your new drum.
+Κάνε κλικ στην καρτέλα **Κώδικας**. Άλλαξε τον κώδικα για να χρησιμοποιήσεις τις σωστές ενδυμασίες και επίλεξε έναν ήχο για το νέο του τύμπανο.
 
-Change the number of beats you earn by clicking the new drum to `5`:
+Άλλαξε τον αριθμό των χτυπημάτων που κερδίζεις κάνοντας κλικ στο νέο τύμπανο σε `5`:
 
 ![](images/drum-3-icon.png)
 
@@ -61,19 +61,19 @@ when this sprite clicked
 
 --- task ---
 
-Drag your new drum into position on the Stage:
+Σύρε το νέο σου τύμπανο στη θέση του στη Σκηνή:
 
-![New drum to the right of the other drums.](images/drum-3-positioned.png)
+![Νέο τύμπανο στα δεξιά των άλλων τυμπάνων.](images/drum-3-positioned.png)
 
 --- /task ---
 
-Next, you need a button so that players can upgrade to this new drum.
+Στη συνέχεια, χρειάζεσαι ένα κουμπί για να μπορούν οι παίκτες να κάνουν αναβάθμιση σε αυτό το νέο τύμπανο.
 
 --- task ---
 
-Duplicate the **Get snare** sprite.
+Αντίγραψε το αντικείμενο **Πάρε ταμπούρο**.
 
-Position it in the bottom-right corner of the Stage. Change its name to `Get` and then the name of your new drum:
+Τοποθέτησε το στην κάτω δεξιά γωνία του Σκηνικού. Άλλαξε το όνομά του σε `Πάρε` και μετά το όνομα του νέου σου τυμπάνου:
 
 ![The Sprite list with duplicated 'Get snare' sprite. The sprite name changed to match the new drum and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
 

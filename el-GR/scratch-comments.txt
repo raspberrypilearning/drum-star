@@ -1,57 +1,57 @@
-your backdrop name
+το όνομα του υπόβαθρου
 
-your variable
+η μεταβλητή σου
 
-your question
+η ερώτηση σου
 
-hit costume
+ενδυμασία χτυπημένου
 
-drum sound
+ήχος τυμπάνου
 
-not hit costume
+ενδυμασία μη χτυπημένου
 
-2 beats per click
+2 χτυπήματα ανά κλικ
 
-if 10 or more beats
+εάν 10 ή περισσότερα χτυπήματα
 
-take away the cost upgrade
+αφαίρεσε το κόστος της αναβάθμισης
 
-your drum name
+το όνομα του τυμπάνου σου
 
-5 beats per click
+5 χτυπήματα ανά κλικ
 
-your hit costume
+ενδυμασία μη χτυπημένο
 
-your drum sound
+ο ήχος του τυμπάνου σου
 
-your not hit costume
+ενδυμασία μη χτυπημένο
 
-appear when previous drum is bought
+εμφανίζεται όταν αγοράζεις το προηγούμενο τύμπανο
 
-show button for next available drum
+εμφάνισε το κουμπί για το επόμενο διαθέσιμο τύμπανο
 
-change to 29
+αλλαγή σε 29
 
-change to 30
+αλλαγή σε 30
 
-change to your drum name
+άλλαξε το όνομα του τυμπάνου σου
 
-player has upgraded to this drum
+ο παίκτης έχει αναβαθμιστεί σε αυτό το τύμπανο
 
-this drum earns 2 beats
+αυτό το τύμπανο κερδίζει 2 χτυπήματα
 
-this drum earns 5 beats
+αυτό το τύμπανο κερδίζει 5 χτυπήματα
 
-first upgrade visible from the start
+η πρώτη αναβάθμιση είναι ορατή από την αρχή
 
-need at least 10 beats
+χρειάζονται τουλάχιστον 10 χτυπήματα
 
-cost of the snare drum
+κόστος του ταμπούρου
 
-not available at the start
+δεν είναι διαθέσιμο στην αρχή
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+Δείξε πότε το προηγούμενο τύμπανο (ταμπούρο) έχει αγοραστεί, και αυτή είναι η αναβάθμιση την οποία προσπαθεί να καταφέρει ο παίκτης.
 
-need at least 30 beats
+χρειάζονται τουλάχιστον 30 χτυπήματα
 
-cost of the drum
+κόστος του τυμπάνου

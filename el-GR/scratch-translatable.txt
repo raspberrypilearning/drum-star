@@ -1,13 +1,13 @@
-name
+όνομα
 
-What's your rock star name?
+Ποιό είναι το όνομα του ροκ σταρ σου;
 
-beats
+χτυπήματα
 
-Not enough beats!
+Όχι αρκετά χτύπήματα!
 
-snare
+ταμπούρο
 
-conga
+κόνγκα
 
-What's your name?
+Πώς σε λένε?

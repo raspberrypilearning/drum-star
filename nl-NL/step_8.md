@@ -61,7 +61,7 @@ Verander het `uiterlijk`{:class="block3looks"} inclusief de kosten voor de nieuw
 
 --- task ---
 
-Verander het aantal `slagen`{:class="block3variabelen"} dat je moet hebben om deze drum te krijgen in de `als`{:class="block3events"} conditie. Verander het negatieve aantal `slagen`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum krijgt. Wijzig het bericht dat het`zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
+Verander het aantal `slagen`{:class="block3variables"} dat je moet hebben om deze drum te krijgen in de `als`{:class="block3events"} conditie. Verander het negatieve aantal `slagen`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum krijgt. Wijzig het bericht dat het`zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
 
 --- /task ---
 

@@ -1,0 +1,26 @@
+---
+title: Star du tambour
+hero_image: images/banner.png
+description: Créer un jeu de clics où tu gagnes des battements pour jouer de nouveaux tambours et dans de plus grandes salles
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-04-28'
+steps:
+  - title: Introduction
+  - title: Mise en place de la scène
+  - title: Tambour de départ
+    completion: engaged
+  - title: Première amélioration
+  - title: Deuxième amélioration
+  - title: Jouer et personnaliser
+    completion: internal
+  - title: Réflexion
+    completion: external
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Améliorer ton projet
+  - title: Et ensuite ?

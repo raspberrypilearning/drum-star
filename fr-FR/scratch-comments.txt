@@ -1,0 +1,57 @@
+ton nom d'arrière-plan
+
+ta variable
+
+ta question
+
+costume frappé
+
+son de tambour
+
+costume pas frappé
+
+2 battements par clic
+
+si 10 battements ou plus
+
+enlever le coût de l'amélioration
+
+ton nom de tambour
+
+5 battements par clic
+
+ton costume frappé
+
+ton son de tambour
+
+ton costume pas frappé
+
+apparaît lorsque le tambour précédent est acheté
+
+afficher le bouton pour le prochain tambour disponible
+
+changer à 29
+
+changer à 30
+
+changer le nom de ton tambour
+
+le joueur a fait une amélioration vers ce tambour
+
+ce tambour gagne 2 battements
+
+ce tambour gagne 5 battements
+
+première amélioration visible dès le départ
+
+besoin d'au moins 10 battements
+
+prix de la caisse claire
+
+non disponible au départ
+
+Visible quand le tambour précédent (caisse claire) a été acheté et c'est l'amélioration vers laquelle le joueur travaille.
+
+besoin d'au moins 30 battements
+
+prix du tambour

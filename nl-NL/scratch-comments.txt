@@ -1,0 +1,57 @@
+de naam van je achtergrond
+
+jouw variabele
+
+je vraag
+
+raak uiterlijk
+
+drumgeluid
+
+niet geraakt uiterlijk
+
+2 beats per klik
+
+als 10 of meer beats
+
+neem de kostenupgrade weg
+
+je drumnaam
+
+5 beats per klik
+
+je geraakt uiterlijk
+
+je drumgeluid
+
+je niet geraakt uiterlijk
+
+verschijnt wanneer de vorige drum is gekocht
+
+toon knop voor volgende beschikbare drum
+
+verander naar 29
+
+verander naar 30
+
+verander in je drumnaam
+
+speler heeft een upgrade naar deze drum uitgevoerd
+
+deze trommel verdient 2 slagen
+
+deze trommel verdient 5 slagen
+
+eerste upgrade zichtbaar vanaf het begin
+
+je hebt minstens 10 slagen nodig
+
+kosten van de snare drum
+
+niet beschikbaar aan het begin
+
+Laat zien wanneer de vorige drum (snare) is gekocht en dit is de upgrade waar de speler naar werkt.
+
+je hebt minstens 30 slagen nodig
+
+kosten van de drum

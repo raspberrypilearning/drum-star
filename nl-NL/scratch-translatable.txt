@@ -1,0 +1,13 @@
+name
+
+Wat is de naam van je rockstar?
+
+beats
+
+Niet genoeg beats!
+
+snare
+
+conga
+
+Hoe heet jij?

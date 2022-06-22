@@ -13,7 +13,7 @@ Het is tijd om je spel precies zoals je wilt te laten werken.
 
 Speel je spel en verdien slagen.
 
-Kijk hoe de `slagen`{:class="block3variables"} variabele verandert en zorg ervoor dat je begrijpt hoe de slagen toenemen wanneer je op de drums klikt en afnemen wanneer je een nieuwe drum krijgt.
+Kijk hoe de `beats`{:class="block3variables"} variabele verandert en zorg ervoor dat je begrijpt hoe de slagen toenemen wanneer je op de drums klikt en afnemen wanneer je een nieuwe drum krijgt.
 
 Ben je blij met hoeveel slagen je voor elke drum verdient? Je kunt dit veranderen als je wilt.
 

@@ -194,7 +194,7 @@ switch backdrop to [Chalkboard v]
 
 **Test:** Voer je project uit. Probeer de snare-upgrade te kopen voordat je genoeg beats hebt.
 
-Wanneer je de upgrade-check koopt: verschijnt de snare, verdwijnt de knop, verandert de locatie en gaan de `slagen`{:class="block3variables"} omlaag met `10`.
+Wanneer je de upgrade-check koopt: verschijnt de snare, verdwijnt de knop, verandert de locatie en gaan de `beats`{:class="block3variables"} omlaag met `10`.
 
 --- /task ---
 

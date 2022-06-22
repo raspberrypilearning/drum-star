@@ -29,7 +29,7 @@ Wijzig het `uiterlijk`{:class="block3looks"} en `geluid`{:class="block3sound"} d
 
 --- task ---
 
-Wijzig het aantal `slagen`{:class="block3variables"} dat wordt verdiend in het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script.
+Wijzig het aantal `beats`{:class="block3variables"} dat wordt verdiend in het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script.
 
 --- /task ---
 
@@ -61,7 +61,7 @@ Verander het `uiterlijk`{:class="block3looks"} inclusief de kosten voor de nieuw
 
 --- task ---
 
-Verander het aantal `slagen`{:class="block3variables"} dat je moet hebben om deze drum te krijgen in de `als`{:class="block3events"} conditie. Verander het negatieve aantal `slagen`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum krijgt. Wijzig het bericht dat het`zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
+Verander het aantal `beats`{:class="block3variables"} dat je moet hebben om deze drum te krijgen in de `als`{:class="block3events"} conditie. Verander het negatieve aantal `beats`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum krijgt. Wijzig het bericht dat het `zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
 
 --- /task ---
 
@@ -97,7 +97,7 @@ Je moet ook de beginpositie instellen `wanneer op de vlag wordt geklikt`{:class=
 
 --- task ---
 
-**Debug:** Zorg er eerst voor dat je echt begrijpt wanneer de drums en knoppen getoond moeten worden en hoe de `slagen`{:class="block3variables"} variabele moet veranderen. Het is veel gemakkelijker om een project te debuggen als je weet wat het moet doen.
+**Debug:** Zorg er eerst voor dat je echt begrijpt wanneer de drums en knoppen getoond moeten worden en hoe de `beats`{:class="block3variables"} variabele moet veranderen. Het is veel gemakkelijker om een project te debuggen als je weet wat het moet doen.
 
 --- collapse ---
 ---
@@ -125,7 +125,7 @@ Tenzij de knop voor de allereerste drum is, moet deze `verbergen`{:class="block3
 title: Ik kan een drum kopen als ik niet genoeg beats heb
 ---
 
-Controleer of je het aantal `slagen`{:class="block3variables"} hebt gewijzigd `wanneer deze sprite op`{:class="block3events"} klikt in het script voor de **Get** knop voor de trommel.
+Controleer of je het aantal `beats`{:class="block3variables"} hebt gewijzigd `wanneer deze sprite op`{:class="block3events"} klikt in het script voor de **Get** knop voor de trommel.
 
 --- /collapse ---
 

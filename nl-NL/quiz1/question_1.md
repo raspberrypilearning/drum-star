@@ -28,7 +28,7 @@ In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunn
 
  --- feedback ---
 
- Je hebt de `slagen`{:class="block3variables"} variabele gebruikt om een getal op te slaan. Maar je hebt ook een variabele voor iets anders gebruikt.
+ Je hebt de `beats`{:class="block3variables"} variabele gebruikt om een getal op te slaan. Maar je hebt ook een variabele voor iets anders gebruikt.
 
  --- /feedback ---
 
@@ -44,7 +44,7 @@ In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunn
 
  --- feedback ---
 
- Ja, je hebt een getal opgeslagen in de `slagen`{:class="block3variables"} `variabele`{:class="block3variables"} en je hebt tekst (woorden) opgeslagen in de `naam`{:class="block3variables"} `variabele`{:class="block3variables"}.
+ Ja, je hebt een getal opgeslagen in de `beats`{:class="block3variables"} `variabele`{:class="block3variables"} en je hebt tekst (woorden) opgeslagen in de `naam`{:class="block3variables"} `variabele`{:class="block3variables"}.
 
  Een variabele kan een getal of tekst (woorden) opslaan.
 
@@ -54,7 +54,7 @@ In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunn
 
  --- feedback ---
 
-Nee. Denk aan de `slagen`{:class="block3variables"} en `naam`{:class="block3variables"} variabelen die je hebt gebruikt.
+Nee. Denk aan de `beats`{:class="block3variables"} en `naam`{:class="block3variables"} variabelen die je hebt gebruikt.
 
  --- /feedback ---
 

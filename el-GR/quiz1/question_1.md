@@ -45,7 +45,7 @@ legend: Ερώτηση 1 από 3
  --- feedback ---
 
  Ναι, αποθήκευσες έναν αριθμό στη `μεταβλητή`{:class="block3variables"}
-`χτυπήματα`{:class="block3variables"}  και αποθήκευσες κείμενο (λέξεις) στη `μεταβλητή`{:class="block3variables"}  `όνομα`{:class="block3variables"}.
+`χτυπήματα`{:class="block3variables"}  και αποθήκευσες κείμενο (λέξεις) στη `μεταβλητή`{:class="block3variables"} `όνομα`{:class="block3variables"}.
 
  Μια μεταβλητή μπορεί να αποθηκεύσει έναν αριθμό ή ένα κείμενο (λέξεις).
 

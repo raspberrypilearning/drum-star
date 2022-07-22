@@ -21,7 +21,7 @@
 Πόσα `χτυπήματα`{:class="block3variables"} κερδίζεις όταν κάνεις κλικ στο νέο τύμπανο;
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707222411/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/716225080/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

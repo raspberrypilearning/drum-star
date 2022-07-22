@@ -147,7 +147,7 @@ title: Ο αριθμός των χτυπημάτων δεν αλλάζει σω�
 title: Ολοκληρωμένο έργο
 ---
 
-Μπορείς να δεις το [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/707222411/){:target="_blank"}.
+Μπορείς να δεις το [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/716225080/){:target="_blank"}.
 
 --- /collapse ---
 

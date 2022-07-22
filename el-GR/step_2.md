@@ -80,7 +80,7 @@ switch backdrop to (Bedroom 3 v) //το όνομα του υπόβαθρου
 
 --- /task ---
 
-Μπορείς να προσθέσεις ένα μπλοκ`ρώτησε`{:class="block3sensing"} στο Scratch και μετά να χρησιμοποιήσεις μια `μεταβλητή`{:class="block3variables"} για να αποθηκεύσεις τις `απαντήσεις`{:class="block3sensing"}.
+Μπορείς να προσθέσεις ένα μπλοκ `ρώτησε`{:class="block3sensing"} στο Scratch και μετά να χρησιμοποιήσεις μια `μεταβλητή`{:class="block3variables"} για να αποθηκεύσεις τις `απαντήσεις`{:class="block3sensing"}.
 
 --- task ---
 

@@ -52,9 +52,9 @@
 ```blocks3
 when this sprite clicked
 +change [χτυπήματα v] by [5] //5 χτυπήματα ανά κλικ
-+switch costume to [ v] //ενδυμασία μη χτυπημένο
++switch costume to [ v] //your hit costume
 +play drum [ v] for [0.25] beats //ο ήχος του τυμπάνου σου
-+switch costume to [ v] //ενδυμασία μη χτυπημένο
++switch costume to [ v] //your not hit costume
 ```
 
 --- /task ---

@@ -9,9 +9,9 @@ legend: Ερώτηση 2 από 3
 
 ```blocks3
 when flag clicked
-set [Πώς σε λένε? v] to [???] 
+set [όνομα v] to [???] 
 ask [Πώς σε λένε?] and wait 
-set [Πώς σε λένε? v] to (answer)
+set [όνομα v] to (answer)
 ```
 
 ![](images/q1-chatbot.png)
@@ -24,7 +24,7 @@ set [Πώς σε λένε? v] to (answer)
 
   --- feedback ---
 
-Όχι, `Πώς σε λένε?`{:class="block3variables"} ονομάζεται η μεταβλητή.
+Όχι, `όνομα`{:class="block3variables"} ονομάζεται η μεταβλητή.
 
   --- /feedback ---
 
@@ -47,7 +47,7 @@ set [Πώς σε λένε? v] to (answer)
 
   --- feedback ---
 
-Ναι, το μπλοκ `όρισε [Πώς σε λένε? v] σε`{:class="block3variables"} ορίζει την **τιμή** της μεταβλητής `όνομα`{:class="block3variables"} στην τιμή `απάντηση`{:class="block3sensing"} που είναι το κείμενο που εισήγαγε ο χρήστης.
+Ναι, το μπλοκ`όρισε [όνομα v] σε`{:class="block3variables"} ορίζει την **τιμή** της μεταβλητής `όνομα`{:class="block3variables"} στην τιμή `απάντηση`{:class="block3sensing"} που είναι το κείμενο που εισήγαγε ο χρήστης.
 
 Η τιμή `Μπόμπο` θα εμφανίζεται επίσης στη Σκηνή.
 

@@ -37,7 +37,7 @@
 when this sprite clicked
 +change [χτυπήματα v] by [2] //2 χτυπήματα ανά κλικ
 +switch costume to [drum-snare-b v] //ενδυμασία χτυπημένου
-+play drum [(1) Snare Drum v] for [0.25] beats //ήχος τυμπάνου
++play drum [(1) Snare Drum v] for [0.25] beats //drum sound
 +switch costume to [drum-snare-a v] //ενδυμασία μη χτυπημένου
 ```
 
@@ -111,12 +111,12 @@ show
 
 --- /task ---
 
-Η αναβάθμιση μπορεί να αγοραστεί μόνο εάν ο χρήστης έχει `10` ή περισσότερα χτυπήματα. Στο [Μεγαλώνοντας μια λιβελούλα](https://projects.raspberrypi.org/el-GR/projects/grow-a-dragonfly){:target="_blank"}, έμαθες πώς να λαμβάνεις αποφάσεις με `εάν`{:class="block3control"} μπλοκ.
+Η αναβάθμιση μπορεί να αγοραστεί μόνο εάν ο χρήστης έχει `10` ή περισσότερα χτυπήματα. Στο [Grow a dragonfly](https://projects.raspberrypi.org/el-GR/projects/grow-a-dragonfly){:target="_blank"}, έμαθες πώς να λαμβάνεις αποφάσεις με `εάν`{:class="block3control"} μπλοκ.
 
 Ένα μπλοκ `εάν ... αλλιώς`{:class="block3control"} χρησιμοποιείται για τη λήψη μιας απόφασης και θα κάνει διαφορετικά πράγματα εάν μια συνθήκη είναι `αληθής` ή `ψευδής`.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Χρησιμοποιούμε <span style="color: #0faeb0">**αν ... αλλιώς**</span> όλη την ώρα για να λάβουμε αποφάσεις. Όταν ξυπνάς, ελέγχεις `εάν`{:class="block3control"} είναι πρωί. Σηκώνεσαι ή `αλλιώς`{:class="block3control"} κοιμάσαι ξανά. Μπορείς να σκεφτείς άλλες αποφάσεις `αν ... αλλιώς`{:class="block3control"} που λαμβάνεις; 
+Χρησιμοποιούμε <span style="color: #0faeb0">**αν ... αλλιώς**</span> όλη την ώρα για να λάβουμε αποφάσεις. Όταν ξυπνάς, ελέγχεις `εάν`{:class="block3control"} είναι πρωί. Σηκώνεσαι ή `αλλιώς`{:class="block3control"} κοιμάσαι ξανά. Μπορείς να σκεφτείς άλλες αποφάσεις «αν ... αλλιώς»{:class="block3control"} που λαμβάνεις; 
 </p>
 
 --- task ---
@@ -129,7 +129,7 @@ show
 when this sprite clicked
 if <(χτυπήματα)>  [9]> then //εάν 10 ή περισσότερα χτυπήματα
 hide
-change [χτυπήματα v] by [-10] //εάν 10 ή περισσότερα χτυπήματα
+change [χτυπήματα v] by [-10] //αφαίρεσε το κόστος της αναβάθμισης
 else
 say [Όχι αρκετά χτύπήματα!] for [2] seconds 
 end
@@ -149,7 +149,7 @@ end
 when this sprite clicked
 if <(χτυπήματα)>  [9]> then // εάν 10 ή περισσότερα χτυπήματα
 hide
-change [χτυπήματα v] by [-10] // εάν 10 ή περισσότερα χτυπήματα
+change [χτυπήματα v] by [-10] // αφαίρεσε το κόστος της αναβάθμισης
 + broadcast [ταμπούρο v] // το όνομα του τυμπάνου σου
 else
 say [Όχι αρκετά χτύπήματα!] for [2] seconds 

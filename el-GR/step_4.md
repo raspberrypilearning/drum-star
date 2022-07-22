@@ -37,7 +37,7 @@
 when this sprite clicked
 +change [χτυπήματα v] by [2] //2 χτυπήματα ανά κλικ
 +switch costume to [drum-snare-b v] //ενδυμασία χτυπημένου
-+play drum [(1) Snare Drum v] for [0.25] beats //drum sound
++play drum [(1) Snare Drum v] for [0.25] beats //ήχος τυμπάνου
 +switch costume to [drum-snare-a v] //ενδυμασία μη χτυπημένου
 ```
 

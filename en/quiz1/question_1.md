@@ -1,14 +1,8 @@
-## Reflection
+## Quick quiz
 
-Well done, you have made a clicker game that people want to play! 
+Answer the three questions. There are hints to guide you to the correct answer.
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
-
-Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
-
-Answer the three questions below to reflect on what you've learned.
-
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, click on **Check my answer**. 
 
 Have fun!
 

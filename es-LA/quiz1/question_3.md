@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-leyenda: Pregunta 3 de 3
+legend: Pregunta 3 de 3
 ---
 
 Usaste esta secuencia de comandos para controlar lo que sucede cuando se hace clic en el botón para actualizar el tambor:

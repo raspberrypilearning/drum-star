@@ -49,7 +49,7 @@ Duplicar la imagen anterior **Conseguir**.
 
 --- task ---
 
-Cambiar el `mensaje`{:class="block3events"} que hace aparecer al botón en el`mensaje`{:class="block3events"} `transmitir`{:class="block3events"} por el **tambor anterior**.
+Cambiar el `mensaje`{:class="block3events"} que hace aparecer al botón en el `mensaje`{:class="block3events"} `transmitir`{:class="block3events"} por el **tambor anterior**.
 
 --- /task ---
 
@@ -75,7 +75,7 @@ Agregar un nuevo fondo.
 
 --- task ---
 
-Agregar una secuencia de comandos al Escenario para `cambiar fondo a`:class="block3looks"} el nuevo fondo cuando se reciba el `mensaje`{:class="block3events"} para este tambor.
+Agregar una secuencia de comandos al Escenario para `cambiar fondo a`{:class="block3looks"} el nuevo fondo cuando se reciba el `mensaje`{:class="block3events"} para este tambor.
 
 --- /task ---
 

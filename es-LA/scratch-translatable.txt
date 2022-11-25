@@ -1,0 +1,13 @@
+nombre
+
+¿Cuál es tu nombre de estrella de rock?
+
+ritmos
+
+¡No hay suficientes ritmos!
+
+redoblante
+
+conga
+
+¿Cómo te llamas?

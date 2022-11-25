@@ -47,7 +47,7 @@ No, `respuesta`{:class="block3sensing"} es la variable integrada que utiliza Scr
 
   --- feedback ---
 
-Sí, el bloque `establecer [nombrar v] a`{:class="block3variables"} establece el **valor** de la variable `nombre`{:class="block3variables"} en el valor de `respuesta`{:class="block3sensing"} que es el texto que se ingresó.
+Sí, el bloque `fijar [nombre v] a`{:class="block3variables"} establece el **valor** de la variable `nombre`{:class="block3variables"} en el valor de `respuesta`{:class="block3sensing"} que es el texto que se ingresó.
 
 El valor `Bobo` también se mostrará en el Escenario.
 

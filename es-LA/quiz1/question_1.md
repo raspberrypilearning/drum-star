@@ -38,7 +38,7 @@ En tu proyecto, creaste y usaste variables. ¿Cuál de estos valores se puede al
 
  --- feedback ---
 
- Sí, almacenaste un número en la `variable`{:class="block3variables"} `ritmos`{:class="block3variables"} y almacenaste texto (palabras) en la `variable`{:clase="block3variables"} `nombre`{:class="block3variables"}.
+ Sí, almacenaste un número en la `variable`{:class="block3variables"} `ritmos`{:class="block3variables"} y almacenaste texto (palabras) en la `variable`{:class="block3variables"} `nombre`{:class="block3variables"}.
 
  Una variable puede almacenar un número o un texto (palabras).
 

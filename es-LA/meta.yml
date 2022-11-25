@@ -1,0 +1,29 @@
+---
+title: Estrella de los tambores
+hero_image: images/banner.png
+description: Crea un juego de clic en donde ganas ritmos para tocar nuevas baterias y en lugares más grandes
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-04-28"
+steps:
+  - title: Lo que harás
+  - title: Prepara el escenario
+  - title: Tambor de principiante
+    completion:
+      - engaged
+  - title: Primera actualización
+  - title: Segunda actualización
+  - title: Juega y personaliza
+    completion:
+      - internal
+  - title: Test rápido
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Mejora tu proyecto
+  - title: '¿Qué sigue?'

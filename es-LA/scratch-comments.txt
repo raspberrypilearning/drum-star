@@ -1,0 +1,57 @@
+tu nombre de fondo
+
+tu variable
+
+tu pregunta
+
+estilo tocado
+
+sonido de tambor
+
+estilo sin tocar
+
+2 ritmos por clic
+
+si 10 o más ritmos
+
+eliminar el costo de la actualización
+
+tu nombre de tambor
+
+5 ritmos por clic
+
+tu estilo tocado
+
+tu sonido de tambor
+
+tu estilo sin tocar
+
+aparecer cuando se compra el tambor anterior
+
+mostrar el botón para el siguiente tambor disponible
+
+cambiar a 29
+
+cambiar a 30
+
+cambiar a tu nombre de tambor
+
+jugador/a ha actualizado a este tambor
+
+este tambor otorga 2 ritmos
+
+este tambor otorga 5 ritmos
+
+primera actualización visible desde el inicio
+
+se necesitan al menos 10 ritmos
+
+precio del redoblante
+
+no disponible al inicio
+
+Mostrar cuándo se ha comprado el tambor anterior (redoblante) y esta es la actualización que se tiene en mira.
+
+se necesitan al menos 30 ritmos
+
+precio del tambor

@@ -17,7 +17,7 @@ steps:
   - title: Chwarae ac addasu
     completion:
       - internal
-  - title: Myfyrio
+  - title: Cwis cyflym
     knowledge_quiz:
       path: quiz1
       version: 1

@@ -36,7 +36,7 @@ Na, `???` yw gwerth y newidyn `enw`{:class="block3variables"} cyn i'r bloc `gofy
 
   --- /feedback ---
 
-- ( ) answer
+- ( ) ateb
 
   --- feedback ---
 

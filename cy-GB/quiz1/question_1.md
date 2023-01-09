@@ -1,4 +1,4 @@
-## Myfyrio
+## Cwis cyflym
 
 Ateba'r tri chwestiwn. Mae awgrymiadau ar gael i dy arwain at yr ateb cywir.
 

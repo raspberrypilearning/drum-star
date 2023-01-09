@@ -1,0 +1,57 @@
+enw dy gefnlen
+
+dy newidyn
+
+dy gwestiwn
+
+gwisg hit
+
+sain drwm
+
+gwisg not hit
+
+2 guriad y clic
+
+os oes 10 curiad neu fwy
+
+dileu'r uwchraddio costau
+
+enw dy ddrwm
+
+5 curiad y clic
+
+dy wisg hit
+
+sain dy ddrwm
+
+dy wisg not hit
+
+ymddangos pan brynir y drwm blaenorol
+
+botwm dangos ar gyfer y drwm nesaf sydd ar gael
+
+newid i 29
+
+newid i 30
+
+newid enw dy ddrwm
+
+mae'r chwaraewr wedi uwchraddio i'r drwm yma
+
+mae'r drwm yma yn ennill 2 guriad
+
+mae'r drwm yma yn ennill 5 curiad
+
+mae'r uwchraddiad cyntaf yn weladwy o'r dechrau
+
+angen o leiaf 10 curiad
+
+cost y drwm snare
+
+ddim ar gael ar y dechrau
+
+Dangos pryd mae'r drwm (snare) blaenorol wedi'i brynu ac mai dyma'r uwchraddiad y mae'r chwaraewr yn gweithio tuag ato.
+
+angen o leiaf 30 curiad
+
+cost y drwm

@@ -1,0 +1,29 @@
+---
+title: Seren ddrymiau
+hero_image: images/banner.png
+description: Creu gêm clicio lle rwyt ti'n ennill curiadau i chwarae drymiau newydd a lleoliadau mwy
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-04-28"
+steps:
+  - title: Cyflwyniad
+  - title: Gosod y Llwyfan
+  - title: Drwm cychwynnol
+    completion:
+      - engaged
+  - title: Uwchraddiad cyntaf
+  - title: Ail uwchraddiad
+  - title: Chwarae ac addasu
+    completion:
+      - internal
+  - title: Cwis cyflym
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Uwchraddio dy brosiect
+  - title: Beth nesaf?

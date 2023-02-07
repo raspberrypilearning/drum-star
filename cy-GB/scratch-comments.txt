@@ -4,11 +4,11 @@ dy newidyn
 
 dy gwestiwn
 
-gwisg hit
+gwisg guro
 
 sain drwm
 
-gwisg not hit
+gwisg heb guro
 
 2 guriad y clic
 
@@ -20,11 +20,11 @@ enw dy ddrwm
 
 5 curiad y clic
 
-dy wisg hit
+dy wisg guro
 
 sain dy ddrwm
 
-dy wisg not hit
+dy wisg heb guro
 
 ymddangos pan brynir y drwm blaenorol
 
@@ -46,11 +46,11 @@ mae'r uwchraddiad cyntaf yn weladwy o'r dechrau
 
 angen o leiaf 10 curiad
 
-cost y drwm snare
+cost y drwm gwifrau
 
 ddim ar gael ar y dechrau
 
-Dangos pryd mae'r drwm (snare) blaenorol wedi'i brynu ac mai dyma'r uwchraddiad y mae'r chwaraewr yn gweithio tuag ato.
+Dangos pryd mae'r drwm (gwifrau) blaenorol wedi'i brynu ac mai dyma'r uwchraddiad y mae'r chwaraewr yn gweithio tuag ato.
 
 angen o leiaf 30 curiad
 

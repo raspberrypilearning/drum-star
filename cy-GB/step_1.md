@@ -21,7 +21,7 @@ Clicia'r drwm i weld nifer y `curiadau`{:class="block3variables"} yn codi. Byddi
 Faint o `curiadau`{:class="block3variables"} wyt ti'n eu hennill wrth glicio ar y drwm newydd?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/799955066/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

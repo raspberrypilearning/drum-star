@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Byddi di'n ychwanegu dy uwchraddiad cyntaf. Bydd y botwm **Get snare** yn ymddangos ar y dechrau, fel bod y chwaraewr yn gwybod pa ddrwm mae'n gweithio tuag ato.
+Byddi di'n ychwanegu dy uwchraddiad cyntaf. Bydd y botwm **Dewis Drwm Gwifrau** yn ymddangos ar y dechrau, fel bod y chwaraewr yn gwybod pa ddrwm mae'n gweithio tuag ato.
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -36,9 +36,9 @@ Newidia nifer y curiadau sy'n cael eu hennill i `2`:
 ```blocks3
 when this sprite clicked
 +change [curiadau v] by [2] //2 guriad y clic
-+switch costume to [drum-snare-b v] //hit costume
++switch costume to [drum-snare-b v] //gwisg guro
 +play drum [(1) Snare Drum v] for [0.25] beats //sain drwm
-+switch costume to [drum-snare-a v] //not hit costume
++switch costume to [drum-snare-a v] //gwisg heb guro
 ```
 
 --- /task ---
@@ -68,11 +68,11 @@ Bydd botwm yn dangos pa ddrwm yw'r opsiwn uwchraddio nesaf a faint o guriadau fy
 
 --- task ---
 
-**Dyblyga** y corlun **Get**:
+**Dyblyga** y corlun **Dewis**:
 
 ![](images/duplicate-get.png)
 
-Newidia'r gwelededd i **Show** a newid ei enw i `Get snare`. Gosoda'r corlun yng nghornel dde isaf y Llwyfan:
+Newidia'r gwelededd i **Dangos** a newid ei enw i `Dewis Drwm Gwifrau`. Gosoda'r corlun yng nghornel dde isaf y Llwyfan:
 
 ![](images/get-snare.png)
 
@@ -80,7 +80,7 @@ Newidia'r gwelededd i **Show** a newid ei enw i `Get snare`. Gosoda'r corlun yng
 
 --- task ---
 
-Clicia'r corlun **Drum-snare** ac wedyn mynd i'r tab **Gwisgoedd**. Defnyddia'r offeryn **Dewis** (saeth) i amlygu gwisg not hit dy ddrwm. Clicia'r eicon **Grŵp** ac wedyn yr eicon **Copïo**:
+Clicia'r corlun **Drum-snare** ac wedyn mynd i'r tab **Gwisgoedd**. Defnyddia'r offeryn **Dewis** (saeth) i amlygu gwisg heb guro dy ddrwm. Clicia'r eicon **Grŵp** ac wedyn yr eicon **Copïo**:
 
 ![](images/snare-icon.png)
 
@@ -90,7 +90,7 @@ Clicia'r corlun **Drum-snare** ac wedyn mynd i'r tab **Gwisgoedd**. Defnyddia'r 
 
 --- task ---
 
-Clicia dy gorlun **Get snare** a **Gludo** gwisg y drwm gwifrau. Efallai bydd angen i ti newid ei faint a'i leoli i ffitio dy fotwm:
+Clicia dy gorlun **Dewis Drwm Gwifrau** a **Gludo** gwisg y drwm gwifrau. Efallai bydd angen i ti newid ei faint a'i leoli i ffitio dy fotwm:
 
 ![](images/get-snare-icon.png)
 
@@ -100,7 +100,7 @@ Clicia dy gorlun **Get snare** a **Gludo** gwisg y drwm gwifrau. Efallai bydd an
 
 --- task ---
 
-Clicia'r tab **Cod** ac ychwanegu sgript i ddangos y corlun **Get snare** ar ddechrau’r prosiect:
+Clicia'r tab **Cod** ac ychwanegu sgript i ddangos y corlun **Dewis Drwm Gwifrau** ar ddechrau’r prosiect:
 
 ![](images/get-snare-icon.png)
 
@@ -141,7 +141,7 @@ Rho wybod i'r corluniaid a'r Llwyfan fod diweddariad y drwm gwifrau wedi cael ei
 
 --- task ---
 
-Ychwanega floc `darlledu`{:class="block3events"} i anfon neges `snare` newydd:
+Ychwanega floc `darlledu`{:class="block3events"} i anfon neges `drwm gwifrau` newydd:
 
 ![](images/get-snare-icon.png)
 
@@ -150,7 +150,7 @@ when this sprite clicked
 if <(curiadau)>  [9]> then // os oes 10 curiad neu fwy
 hide
 change [curiadau v] by [-10] // dileu'r uwchraddio costau
-+ broadcast [snare v] // enw dy ddrwm
++ broadcast [drwm gwifrau v] // enw dy ddrwm
 else
 say [Dim digon o curiadau!] for [2] seconds 
 end
@@ -165,7 +165,7 @@ Clicia'r corlun **Drum-snare**. Ychwanegu'r sgript yma:
 ![](images/snare-icon.png)
 
 ```blocks3
-when I receive [snare v]
+when I receive [drwm gwifrau v]
 show
 ```
 
@@ -182,7 +182,7 @@ Ychwanega god i'r Llwyfan i `newid cefnlen`{:class="block3looks"} ar ôl derbyn 
 ![](images/stage-icon.png)
 
 ```blocks3
-when I receive [snare v]
+when I receive [drwm gwifrau v]
 switch backdrop to [Chalkboard v]
 ```
 

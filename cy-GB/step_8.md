@@ -43,7 +43,7 @@ Ar gyfer y **botwm**, bydd angen i chi:
 
 --- task ---
 
-Dyblyga'r corlun **Get** blaenorol.
+Dyblyga'r corlun **Dewis** blaenorol.
 
 --- /task ---
 
@@ -106,17 +106,17 @@ title: Dydy fy nrwm ddim yn ymddangos/cuddio yn gywir
 
 Oni bai mai hwn ydy'r drwm cyntaf, dylai dy ddrwm gael sgript `pan fydd y faner wedi'i chlicio`{:class="block3events"} i'w `guddio`{:class="block3looks"}. A dylai gael sgript `pan rwy'n derbyn`{:class="block3events"} `y drwm yma` i'w `ddangos`{:class="block3looks"}.
 
-Gwiria fod y botwm **Get** ar gyfer y drwm yma yn `darlledu`{:class="block3events"} yr un neges.
+Gwiria fod y botwm **Dewis** ar gyfer y drwm yma yn `darlledu`{:class="block3events"} yr un neges.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Dydy'r botwm Fy Get ddim yn ymddangos/cuddio yn gywir
+title: Dydy'r botwm Fy Dewis ddim yn ymddangos/cuddio yn gywir
 ---
 
-Oni bai fod y botwm ar gyfer y drwm cyntaf un, dylai `guddio`{:class="block3looks"} `pan fydd y faner wedi'i chlicio`{:class="block3events"}. A dylai `ddangos`{:class="block3looks"} `pan rwy'n derbyn`{:class="block3events"} y neges ar gyfer y **drwm blaenorol**. Dylai'r botwm **Get** `ddangos`{:class="block3looks"} i roi gwybod i'r chwaraewr am yr uwchraddiad nesaf mae'n yn gweithio tuag ato.
+Oni bai fod y botwm ar gyfer y drwm cyntaf un, dylai `guddio`{:class="block3looks"} `pan fydd y faner wedi'i chlicio`{:class="block3events"}. A dylai `ddangos`{:class="block3looks"} `pan rwy'n derbyn`{:class="block3events"} y neges ar gyfer y **drwm blaenorol**. Dylai'r botwm **Dewis** `ddangos`{:class="block3looks"} i roi gwybod i'r chwaraewr am yr uwchraddiad nesaf mae'n yn gweithio tuag ato.
 
 --- /collapse ---
 
@@ -125,7 +125,7 @@ Oni bai fod y botwm ar gyfer y drwm cyntaf un, dylai `guddio`{:class="block3look
 title: Dw i'n gallu prynu drwm pan nad oes gen i ddigon o guriadau
 ---
 
-Gwna'n siŵr dy fod wedi newid nifer y `curiadau`{:class="block3variables"} sydd eu hangen `pan gaiff y corlun hwn ei glicio`{:class="block3events"} yn y sgript ar gyfer y botwm **Get** ar gyfer y drwm.
+Gwna'n siŵr dy fod wedi newid nifer y `curiadau`{:class="block3variables"} sydd eu hangen `pan gaiff y corlun hwn ei glicio`{:class="block3events"} yn y sgript ar gyfer y botwm **Dewis** ar gyfer y drwm.
 
 --- /collapse ---
 
@@ -134,7 +134,7 @@ Gwna'n siŵr dy fod wedi newid nifer y `curiadau`{:class="block3variables"} sydd
 title: Dydy nifer y curiadau ddim yn newid yn gywir pan fydda i'n cael drwm newydd
 ---
 
-Gwna'n siŵr dy fod wedi `newid curiadau gan`{:class="block3variables"} gyda rhif negatif `pan gaiff y corlun hwn ei glicio`{:class="block3events"} yn y sgript ar gyfer y botwm **Get** ar gyfer y drwm.
+Gwna'n siŵr dy fod wedi `newid curiadau gan`{:class="block3variables"} gyda rhif negatif `pan gaiff y corlun hwn ei glicio`{:class="block3events"} yn y sgript ar gyfer y botwm **Dewis** ar gyfer y drwm.
 
 Sicrha fod hyn yn cyfateb i rif gwisg botwm y drwm.
 
@@ -147,7 +147,7 @@ Sicrha fod hyn yn cyfateb i rif gwisg botwm y drwm.
 title: Prosiect gorffenedig
 ---
 
-Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/799955066/){:target="_blank"}.
 
 --- /collapse ---
 

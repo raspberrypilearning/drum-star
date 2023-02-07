@@ -11,7 +11,7 @@ Yn y cam yma, byddi di'n gosod y llwyfan ar gyfer dy gig cyntaf ac yn dewis enw 
 
 --- task ---
 
-Agora'r [prosiect Seren ddrymiau](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
+Agora'r [prosiect Seren ddrymiau](https://scratch.mit.edu/projects/799963571/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
 [[[working-offline]]]
 

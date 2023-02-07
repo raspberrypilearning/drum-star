@@ -41,9 +41,9 @@ Ychwanega sgript i wneud i'r symbal `newid gwisg`{:class="block3looks"} a `chwar
 
 ```blocks3
 when this sprite clicked
-switch costume to [drum-cymbal-b v] // hit costume
+switch costume to [drum-cymbal-b v] // gwisg guro
 play drum [(5) Open High-Hat v] for [0.25] beats // sain drwm
-switch costume to [drum-cymbal-a v]  // not hit costume
+switch costume to [drum-cymbal-a v]  // gwisg heb guro
 ```
 
 --- /task ---

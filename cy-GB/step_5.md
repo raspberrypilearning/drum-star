@@ -17,15 +17,15 @@ Dyblyga'r corlun **Drum-snare**:
 
 --- /task ---
 
-Mae gan y corlun **Drum Costumes** lawer o wisgoedd drymiau i ti ddewis ohonyn nhw.
+Mae gan y corlun **Gwisgoedd drymiau** lawer o wisgoedd drymiau i ti ddewis ohonyn nhw.
 
 --- task ---
 
-Clicia'r corlun **Drum Costumes** ac wedyn mynd i'r tab **Gwisgoedd**.
+Clicia'r corlun **Gwisgoedd drymiau** ac wedyn mynd i'r tab **Gwisgoedd**.
 
 **Dewisa:** ddrwm ar gyfer yr uwchraddiad nesaf. Fe ddewison ni **Conga**.
 
-Llusga'r gwisgoedd 'hit' a 'not hit' o'r drwm y gwnes di ei ddewis i dy gorlun **Drum-snare2** newydd:
+Llusga'r gwisgoedd 'guro' a 'heb guro' o'r drwm y gwnes di ei ddewis i dy gorlun **Drum-snare2** newydd:
 
 ![Delwedd animeiddiedig yn dangos sut i lusgo gwisgoedd o un corlun i'r llall.](images/drag-costumes.gif)
 
@@ -52,9 +52,9 @@ Newidia nifer y curiadau rwyt ti'n eu hennill drwy glicio'r drwm newydd i `5`:
 ```blocks3
 when this sprite clicked
 +change [curiadau v] by [5] //5 curiad y clic
-+switch costume to [ v] //your hit costume
++switch costume to [ v] //eich gwisg guro
 +play drum [ v] for [0.25] beats //sain dy ddrwm
-+switch costume to [ v] //your not hit costume
++switch costume to [ v] //eich gwisg heb guro
 ```
 
 --- /task ---
@@ -71,11 +71,11 @@ Nesaf, mae angen botwm fel y gall chwaraewyr uwchraddio i'r drwm newydd yma.
 
 --- task ---
 
-Dyblyga'r corlun **Get snare**.
+Dyblyga'r corlun **Dewis Drwm Gwifrau**.
 
-Gosoda'r corlun yng nghornel dde isaf y Llwyfan. Newidia ei enw i `Get` ac wedyn i enw dy ddrwm newydd:
+Gosoda'r corlun yng nghornel dde isaf y Llwyfan. Newidia ei enw i `Dewis` ac wedyn i enw dy ddrwm newydd:
 
-![Y rhestr Sprite gyda chorlun 'Get snare' wedi'i ddyblygu. Enw'r corlun wedi'i newid i gyd-fynd â'r drwm newydd a'i osod ar waelod ochr dde'r Llwyfan.](images/get-drum-3.png)
+![Y rhestr Sprite gyda chorlun 'Dewis Drwm Gwifrau' wedi'i ddyblygu. Enw'r corlun wedi'i newid i gyd-fynd â'r drwm newydd a'i osod ar waelod ochr dde'r Llwyfan.](images/get-drum-3.png)
 
 --- /task ---
 
@@ -115,7 +115,7 @@ Ychwanega sgript `pan rwy'n derbyn`{:class="block3events"} y bydd dy fotwm drwm 
 ![](images/get-drum-3-icon.png)
 
 ```blocks3
-when I receive [snare v] // ymddangos pan brynir y drwm blaenorol
+when I receive [drwm gwifrau v] // ymddangos pan brynir y drwm blaenorol
 show // botwm dangos ar gyfer y drwm nesaf sydd ar gael
 ```
 

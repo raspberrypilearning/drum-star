@@ -1,60 +1,54 @@
-## Reflection
+## اختبار سريع
 
-Well done, you have made a clicker game that people want to play!
+اجب على الاسئلة الثلاثة. هناك تلميحات لإرشادك إلى الإجابة الصحيحة.
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
+عندما تجيب على كل سؤال، انقر فوق **تحقق من إجابتي**.
 
-Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
-
-Answer the three questions below to reflect on what you've learned.
-
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
-
-Have fun!
+استمتع!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+القائمة: السؤال 1 من 3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+في مشروعك، قمت بإنشاء واستخدام المتغيرات. أي من هذه القيم يمكن تخزينها في متغير؟
 
 `6` , `Tom` , `151` , `Aadya`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- () فقط الأرقام `6` و</code>151`</p>
 
- --- feedback ---
+<p spaces-before="1">--- feedback ---</p>
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
-
- --- /feedback ---
-
-- ( ) Only the text (words) `Tom` and `Aadya`
-
- --- feedback ---
-
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+<p spaces-before="1">لقد استخدمت المتغير <code> beats `{: class = "block3variables"} لتخزين رقم. لكنك استخدمت أيضًا متغيرًا لشيء آخر.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- () فقط النص (الكلمات) ` Tom ` و ` Aadya `
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
-
- A variable can store a number or text (words).
+ لقد استخدمت متغير ` اسم `{: class = "block3variables"} لتخزين النص (الكلمات) ، ` للإجابة `{: class = "block3sensing"} للسؤال `ask`{: class = "block3sensing"}. لكنك استخدمت أيضًا ` متغير `{: class = "block3variables"} لشيء آخر.
 
  --- /feedback ---
 
-- ( ) None of them
+- (خ) أي من الأرقام أو النص (الكلمات)
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+ نعم ، لقد قمت بتخزين رقم في ` beats `{: class = "block3variables"} `متغير`{: class = "block3variables"} وقمت بتخزين النص (الكلمات) في `name`{: class = "block3variables"} `متغير`{: class = "block3variables"}.
+
+ يمكن للمتغير تخزين رقم أو نص (كلمات).
+
+ --- /feedback ---
+
+- ( ) لا احد منهم
+
+ --- feedback ---
+
+لا. فكر في المتغيرات `beat`{: class = "block3variables"} و `name`{: class = "block3variables"} التي استخدمتها.
 
  --- /feedback ---
 

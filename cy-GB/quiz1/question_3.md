@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Cwestiwn 3 o 3
 ---
 
-You used this script to control what happens when the player clicks on the button to upgrade their drum:
+Fe wnes di ddefnyddio'r sgript yma i reoli beth sy'n digwydd pan fydd y chwaraewr yn clicio ar y botwm i uwchraddio ei ddrwm:
 
 ```blocks3
 when this sprite clicked
@@ -18,39 +18,39 @@ say [Not enough beats!] for [2] seconds
 end
 ```
 
-If the value of the `beats`{:class="block3variables"} variable is `29`, what will happen when the player clicks on the button?
+Os mai gwerth y newidyn `curiadau`{:class="block3variables"} yw `29`, beth fydd yn digwydd pan fydd y chwaraewr yn clicio ar y botwm?
 
 --- choices ---
 
-- ( ) The sprite will `hide`{:class="block3looks"}
+- ( ) Bydd y corlun yn `cuddio`{:class="block3looks"}
 
   --- feedback ---
 
-  Not quite, there is a `hide`{:class="block3looks"} block in the script, but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again.
+  Ddim yn hollol, mae bloc `cuddio`{:class="block3looks"} yn y sgript, ond ni fydd yn rhedeg gyda `curiadau`{:class="block3variables"} wedi osod i `29`. Cymer olwg eto ar y sgript.
 
   --- /feedback ---
 
-- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`
+- (x) Bydd botwm y corlun yn `dweud`{:class="block3looks"} `Dim digon o guriadau!`
 
   --- feedback ---
 
-Yes, the condition checks if `beats`{:class="block3variables"} is greater than `29`, but `beats`{:class="block3variables"} is equal to `29` so the player does not have enough.
+Cywir, mae'r amod yn gwirio os ydy `curiadau`{:class="block3variables"} yn fwy na `29`, ond mae `curiadau`{:class="block3variables"} yn hafal i `29` felly does gan y chwaraewr ddim digon.
 
   --- /feedback ---
 
-- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable
+- ( ) Bydd 30 yn cael ei dynnu o werth y newidyn `curiadau`{:class="block3variables"}
 
   --- feedback ---
 
-  No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is `29` which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
+  Na, bydd gwerth y newidyn `curiadau`{:class="block3variables"} yn aros yr un peth. Mae `curiadau`{:class="block3variables"} wedi'i osod i `29` sy'n golygu bod `curiadau`{:class="block3variables"} `> 29` yn anghywir, felly fydd rhan gyntaf y bloc `os`{:class="block3control"} ddim yn rhedeg.
 
   --- /feedback ---
 
-- ( ) Nothing
+- ( ) Dim byd
 
   --- feedback ---
 
-  No, the script will always do something. Take a closer look to see which part of the script will run when you have `29` `beats`{:class="block3variables"}.
+  Na, bydd y sgript bob amser yn gwneud rhywbeth. Cymer olwg agosach i weld pa ran o'r sgript fydd yn rhedeg pan fydd gen ti `29` o `guriadau`{:class="block3variables"}.
 
   --- /feedback ---
 

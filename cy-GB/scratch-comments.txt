@@ -1,57 +1,57 @@
-your backdrop name
+enw dy gefnlen
 
-your variable
+dy newidyn
 
-your question
+dy gwestiwn
 
-hit costume
+gwisg guro
 
-drum sound
+sain drwm
 
-not hit costume
+gwisg heb guro
 
-2 beats per click
+2 guriad y clic
 
-if 10 or more beats
+os oes 10 curiad neu fwy
 
-take away the cost upgrade
+dileu'r uwchraddio costau
 
-your drum name
+enw dy ddrwm
 
-5 beats per click
+5 curiad y clic
 
-your hit costume
+dy wisg guro
 
-your drum sound
+sain dy ddrwm
 
-your not hit costume
+dy wisg heb guro
 
-appear when previous drum is bought
+ymddangos pan brynir y drwm blaenorol
 
-show button for next available drum
+botwm dangos ar gyfer y drwm nesaf sydd ar gael
 
-change to 29
+newid i 29
 
-change to 30
+newid i 30
 
-change to your drum name
+newid enw dy ddrwm
 
-player has upgraded to this drum
+mae'r chwaraewr wedi uwchraddio i'r drwm yma
 
-this drum earns 2 beats
+mae'r drwm yma yn ennill 2 guriad
 
-this drum earns 5 beats
+mae'r drwm yma yn ennill 5 curiad
 
-first upgrade visible from the start
+mae'r uwchraddiad cyntaf yn weladwy o'r dechrau
 
-need at least 10 beats
+angen o leiaf 10 curiad
 
-cost of the snare drum
+cost y drwm gwifrau
 
-not available at the start
+ddim ar gael ar y dechrau
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+Dangos pryd mae'r drwm (gwifrau) blaenorol wedi'i brynu ac mai dyma'r uwchraddiad y mae'r chwaraewr yn gweithio tuag ato.
 
-need at least 30 beats
+angen o leiaf 30 curiad
 
-cost of the drum
+cost y drwm

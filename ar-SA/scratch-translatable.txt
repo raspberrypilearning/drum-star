@@ -1,13 +1,13 @@
-name
+الاسم
 
-What's your rock star name?
+ما هو اسم نجم الروك الخاص بك؟
 
-beats
+دقة
 
-Not enough beats!
+عدد غير كافي من الدقات
 
 snare
 
 conga
 
-What's your name?
+ما هو اسمك؟

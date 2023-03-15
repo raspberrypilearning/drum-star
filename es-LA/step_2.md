@@ -1,8 +1,8 @@
-## Set the stage
+## Prepara el escenario
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the stage for your first gig and choose a rock star name.
+En este paso, prepararás el escenario para tu primer concierto y elegirás tu nombre de estrella de rock.
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}
@@ -11,35 +11,35 @@ In this step, you will set the stage for your first gig and choose a rock star n
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
+Abre el [proyecto inicial de Estrella de la batería](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. They produce their own songs by themselves then release them online for everyone to hear. 
+Los músicos llamados <span style="color: #0faeb0">**artistas independientes**</span> empiezan grabando música en sus habitaciones. Ellos mismos producen sus canciones y luego las lanzan en internet para que todos las escuchen. 
 </p>
 
-The game starts in a bedroom like a DIY artist.
+El juego comienza en un dormitorio como el de un artista independiente.
 
 --- task ---
 
-Click **Choose a Backdrop** and search for `bedroom`.
+Haz clic en **Elegir un Fondo** y busca `Bedroom`.
 
-**Choose:** Select a bedroom and add it to your project. We chose `Bedroom 3`.
+**Elegir:** Selecciona un dormitorio y agrégalo a tu proyecto. Elegimos `Bedroom 3`.
 
-![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
+![El escenario muestra el telón de fondo 'Bedroom 3'.](images/bedroom3.png)
 
 --- /task ---
 
 --- task ---
 
-In Scratch, you can add code to the Stage.
+En Scratch, puede agregar código a Stage (el escenario).
 
-Click on your bedroom backdrop from the Stage pane and add this code:
+Haz clic en el fondo de tu dormitorio desde el panel Stage (Escenario) y agrega este código:
 
-![The backdrop thumbnail in the stage pane.](images/bedroom-icon.png)
+![La miniatura de fondo en el panel de escenario.](images/bedroom-icon.png)
 
 ```blocks3
 when flag clicked
@@ -48,27 +48,27 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-Every musician needs to choose a rock star name.
+Todo músico necesita elegir su nombre de estrella de rock.
 
-A **variable** is a way of storing numbers and/or text. Your rockstar name will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
+Una **variable ** es una forma de almacenar números y/o texto. Tu nombre de estrella de rock se almacenará en una `variable `{:class="block3variables"} para ser utilizado en cualquier momento.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+Haz clic en el menú de bloques `Variables`{:class="block3variables"} y selecciona el botón **Crear una Variable**.
 
-Call your new variable `name`:
+Asígnale un `nombre`:
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+![La ventana emergente Nueva Variable con la entrada de texto 'nombre'.](images/new-variable.png)
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**Aviso:** La nueva variable `nombre` aparece en el escenario y se puede usar ahora en los bloques `Variable`{:class="block3variables"}.
 
 --- /task ---
 
 --- task ---
 
-At the start of the project, your rockstar name is unknown.
+Al comienzo del proyecto, tu nombre de estrella de rock es desconocido.
 
-Add a block to `set name to`{:class="block3variables"} `???`:
+Agrega un bloque para `establecer nombre a`{:class="block3variables"} `???`:
 
 ![](images/stage-icon.png)
 
@@ -80,11 +80,11 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-You can `ask`{:class="block3sensing"} a question in Scratch, then use a `variable`{:class="block3variables"} to store the `answer`{:class="block3sensing"}.
+Puedes `preguntar`{:class="block3sensing"} en Scratch, luego usar una `variable`{:class="block3variables"} para almacenar la `respuesta`{:class="block3sensing"}.
 
 --- task ---
 
-Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
+Haz clic en el menú de bloques `Sensores`{:class="block3sensing"} y agrega un bloque `preguntar`{:class="block3sensing"} a tu código:
 
 ![](images/stage-icon.png)
 
@@ -99,7 +99,7 @@ set [name v] to [???] //your variable
 
 --- task ---
 
-Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+Establece la `variable`{:class="block3variables"} `nombre`{:class="block3variables"} para la `respuesta`{:class="block3sensing"}:
 
 ![](images/stage-icon.png)
 
@@ -113,11 +113,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
-Change the way your `variable`{:class="block3variables"} looks on the Stage.
+Cambia el estilo de tu `variable`{:class="block3variables"} en el Escenario.
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**:
+Haz clic con el botón derecho en la `variable `{:class="block3variables"} en el Escenario y elige **tamaño grande**:
 
 ![](images/large-readout.png)
 
@@ -125,7 +125,7 @@ Right-click on the `variable`{:class="block3variables"} on the Stage and choose 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage:
+Arrastra tu `variable`{:class="block3variables"} para colocarla en la parte superior derecha:
 
 ![](images/repositioned-variable.png)
 
@@ -133,13 +133,13 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- task ---
 
-**Test:** Run your project to make sure the `variable`{:class="block3variables"} starts as `???` then updates to your `answer`{:class="block3sensing"}.
+**Prueba:** Ejecuta tu proyecto para asegurarte de que la `variable`{:class="block3variables"} comience como `???`, luego se actualiza en tu`respuesta`{:class="block3sensing"}.
 
 --- /task ---
 
 --- task ---
 
-Now that you have tested that the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"}, you can drag the last 2 blocks of code away from the rest of the script. This means you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
+Ahora que has probado que la `variable `{:class="block3variables"} cambia según la `respuesta`{:class="block3sensing"}, puedes arrastrar los últimos 2 bloques de código fuera del resto del script. Esto quiere decir que no tienes que escribir una `respuesta`{:class="block3sensing"} cada vez que pruebas tu proyecto:
 
 ![](images/stage-icon.png)
 

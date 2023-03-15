@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+القائمة: السؤال 2 من 3
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+يحتوي المشروع على هذا البرنامج النصي ليسأل `{`class = "block3sensing"} المستخدم عن اسمه:
 
 ```blocks3
 when flag clicked
@@ -16,39 +16,42 @@ set [name v] to (answer)
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+ماذا ستكون قيمة المتغير `الاسم`{: class = "block3variables"} بعد أن ينقر المستخدم على علامة الاختيار (علامة الاختيار) وينتهي المقطع البرمجي؟
 
 --- choices ---
 
-- ( )  name
+- ( ) اسم
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+لا ، `الاسم`{: class = "block3variables"} هو ما يسمى المتغير.
 
   --- /feedback ---
 
-- ( ) ???
+- () ؟؟؟
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+لا `؟؟؟` هي قيمة متغير `الاسم`{: class = "block3variables"} قبل تنفيذ المقطع البرمجي `اسال`{: class = "block3sensing"}.
 
   --- /feedback ---
 
-- ( ) answer
+- ( ) إجابة
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+لا ، `إجابة`{: class = "block3sensing"} هو المتغير المضمن الذي يستخدمه Scratch لتخزين اجابتك عندما </code>تسال`: class = "block3sensing"} سؤالاً.
+  --- /feedback ---</p>
 
-- (x) Bobo
+<ul>
+<li><p spaces-before="0">(خ) Bobo</p>
 
-  --- feedback ---
+<p spaces-before="2">--- feedback ---</p></li>
+</ul>
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+<p spaces-before="0">نعم ، عيّن <code>اجعل [الاسم v] إلى`{: class = "block3variables"} ** القيمة ** من `name`{: class = "block3variables"} متغير على قيمة `الاجابة`{: class = "block3sensing"} وهو النص الذي أدخله المستخدم.
 
-The value `Bobo` will also be shown on the Stage.
+سيتم أيضًا عرض القيمة `Bobo` على المسرح.
 
   --- /feedback ---
 

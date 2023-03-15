@@ -1,8 +1,9 @@
-## Set the stage
+## جهز المنصة
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the stage for your first gig and choose a rock star name.
+في هذه الخطوة ، سوف تختار المنصة لاولى حفلة وتختار اسم نجم موسيقى الروك.
+gig هيرالأداء الموسيقي للفرقة 
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}
@@ -11,35 +12,35 @@ In this step, you will set the stage for your first gig and choose a rock star n
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
+أفتح [مشروع البدء لنجم الطبل](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. They produce their own songs by themselves then release them online for everyone to hear. 
+دعا الموسيقيون <span style="color: #0faeb0">** فنانيين محليين **</span> إلى بدء تسجيل الموسيقى من غرف نومهم. ينتجون الأغاني الخاصة بهم بأنفسهم ثم يطلقونها على الإنترنت ليسمعها الجميع. 
 </p>
 
-The game starts in a bedroom like a DIY artist.
+تبدأ اللعبة في غرفة نوم مثل الفنان المحلي.
 
 --- task ---
 
-Click **Choose a Backdrop** and search for `bedroom`.
+انقر فوق **اختر خلفية** وابحث عن ` bedroom `.
 
-**Choose:** Select a bedroom and add it to your project. We chose `Bedroom 3`.
+**اختر:** حدد غرفة نوم وأضفها إلى مشروعك. اخترنا `غرفة نوم 3`.
 
-![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
+![المسرح يظهر خلفية "غرفة النوم 3".](images/bedroom3.png)
 
 --- /task ---
 
 --- task ---
 
-In Scratch, you can add code to the Stage.
+في Scratch ، يمكنك إضافة رمز إلى للخلفية لتكون متميزة عن غيرها.
 
-Click on your bedroom backdrop from the Stage pane and add this code:
+انقر فوق خلفية غرفة نومك من جزء المرحلة وأضف هذا الرمز:
 
-![The backdrop thumbnail in the stage pane.](images/bedroom-icon.png)
+![الخلفية المصغرة  thumbnail في جزء المرحلة.](images/bedroom-icon.png)
 
 ```blocks3
 when flag clicked
@@ -48,27 +49,27 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-Every musician needs to choose a rock star name.
+يحتاج كل موسيقي إلى اختيار اسم نجم موسيقى لعبة الروك.
 
-A **variable** is a way of storing numbers and/or text. Your rockstar name will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
+** المتغير ** هو وسيلة لتخزين الأرقام و / أو النصوص. سيتم خزن اسم نجم الروك الخاص بك في `متغير`{: class = "block3variables"} حتى يمكن استخدامه في أي وقت.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+من المقاطع البرمجية انقر على `متغيرات`{: class = "block3variables"} و ثم انقر على زر**انشاء متغير**.
 
-Call your new variable `name`:
+قم باستدعاء المتغير الجديد الخاص بك `الاسم`:
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+![نافذة المتغير الجديد المنبثقة مع إدخال النص "اسم".](images/new-variable.png)
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**ملاحظة:** يظهر المتغير الجديد `الاسم` على المسرح ويمكن استخدامه الآن في المقاطع البرمجية `المتغيرات`{: class = "block3variables"}.
 
 --- /task ---
 
 --- task ---
 
-At the start of the project, your rockstar name is unknown.
+في بداية المشروع ، اسم نجم  موسيقى الروك الخاص بك يكون غير معروف
 
-Add a block to `set name to`{:class="block3variables"} `???`:
+قم باضافة مقطع برمجي `اجعل الاسم`{: class = "block3variables"} `؟؟؟`:
 
 ![](images/stage-icon.png)
 
@@ -80,11 +81,11 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-You can `ask`{:class="block3sensing"} a question in Scratch, then use a `variable`{:class="block3variables"} to store the `answer`{:class="block3sensing"}.
+يمكنك اضافة مقطع برمجي`اسال`{: class = "block3sensing"} في Scratch ، ثم استخدم ` متغير `{: class = "block3variables"} لتخزين `إجابة`{: class = "block3sensing"}.
 
 --- task ---
 
-Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
+انقر على المقاطع البرمجية `الاستشعارات`{: class = "block3sensing"} وأضف المقطع البرمجي `اسال وانتظر`{: class = "block3sensing"} إلى المقطع البرمجي الخاص بك:
 
 ![](images/stage-icon.png)
 
@@ -99,7 +100,7 @@ set [name v] to [???] //your variable
 
 --- task ---
 
-Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+عيّن `متغير`{: class = "block3variables"} `الاسم`{: class = "block3variables"} على`إجابة`{: class = "block3sensing"}:
 
 ![](images/stage-icon.png)
 
@@ -113,11 +114,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
-Change the way your `variable`{:class="block3variables"} looks on the Stage.
+غيّر طريقة ظهور `المتغير`{: class = "block3variables"} على المنصة.
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**:
+انقر بزر الماوس الأيمن فوق ` المتغير`{: class = "block3variables"} على المنصة واختر **عرض كبير**:
 
 ![](images/large-readout.png)
 
@@ -125,7 +126,7 @@ Right-click on the `variable`{:class="block3variables"} on the Stage and choose 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage:
+اسحب ` المتغير `الخاص بك{: class = "block3variables"} لوضعه في أعلى يمين المنصة:
 
 ![](images/repositioned-variable.png)
 
@@ -133,13 +134,13 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- task ---
 
-**Test:** Run your project to make sure the `variable`{:class="block3variables"} starts as `???` then updates to your `answer`{:class="block3sensing"}.
+**اختبار:** قم بتشغيل مشروعك للتأكد من أن ` المتغير `{: class = "block3variables"} يبدأ كـ `؟؟؟` ثم يتحدث حسب اجابتك `إجابتك`{: class = "block3sensing"}.
 
 --- /task ---
 
 --- task ---
 
-Now that you have tested that the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"}, you can drag the last 2 blocks of code away from the rest of the script. This means you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
+الآن بعد أن اختبرت أن ` المتغير`{: class = "block3variables"} يتغير حسب `إجابة`{: class = "block3sensing"} ، يمكنك سحب آخر مقطعين من التعليمات البرمجية بعيدًا عن بقية المقطع البرمجي الرئيسي. هذا يعني أنه ليس عليك كتابة `إجابة`{: class = "block3sensing"} في كل مرة تختبر فيها مشروعك:
 
 ![](images/stage-icon.png)
 

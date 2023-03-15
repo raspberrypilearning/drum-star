@@ -22,7 +22,7 @@ end
 
 --- choices ---
 
-- () الكائن سوف `يختفي `{:class="block3looks"}
+- ( ) الكائن سوف `يختفي `{:class="block3looks"}
 
 --- feedback ---
 
@@ -38,7 +38,7 @@ end
 
   --- /feedback ---
 
-- () سيتم أخذ 30 من قيمة متغيير `نبضة`{:class="block3variables"}
+- ( ) سيتم أخذ 30 من قيمة متغيير `نبضة`{:class="block3variables"}
 
   --- feedback ---
 

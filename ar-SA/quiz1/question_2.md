@@ -28,7 +28,7 @@ set [الاسم v] to (answer)
 
   --- /feedback ---
 
-- () ؟؟؟
+- ( ) ؟؟؟
 
   --- feedback ---
 
@@ -43,7 +43,7 @@ set [الاسم v] to (answer)
 لا ، `إجابة`{:class="block3sensing"} هو المتغير المضمن الذي يستخدمه Scratch لتخزين اجابتك عندما `تسال`{:class="block3sensing"} سؤالاً.
   --- /feedback ---
 
-(x) Bobo
+- (x) Bobo
 
 --- feedback ---
 

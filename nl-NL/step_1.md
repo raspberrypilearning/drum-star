@@ -1,4 +1,4 @@
-## Inleiding
+## You will make
 
 Maak een clicker spel waar je beats verdient om nieuwe drums op grotere locaties te spelen.
 
@@ -12,7 +12,7 @@ Er zijn veel <span style="color: #0faeb0">**clicker games**</span> waar je moet 
 
 --- no-print --- --- task ---
 
-### Probeer het uit
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Klik op de trommel en kijk hoe het aantal 'slagen'{:class="block3variables"} omhoog gaat. Pak een nieuwe trommel als je genoeg beats hebt. 

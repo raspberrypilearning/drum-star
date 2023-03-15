@@ -1,8 +1,8 @@
-## Starter drum
+## بداية  مرحلة الطبل
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a **cymbal** sprite that you can click to earn beats and play a sound.
+ستضيف كائن ** cymbal ** الذي يمكنك النقر فوقه لكسب الإيقاعات وتشغيل الصوت.
 </div>
 <div>
 ![](images/starter-drum.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add a **cymbal** sprite that you can click to earn beats and play a sou
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to your project.
+انقر فوق **اختر كائن** وابحث في `cymbal`. أضف كائن**Drum-cymbal** إلى مشروعك.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to
 
 --- task ---
 
-Position your cymbal on the Stage:
+ضع cymbal على المنصة:
 
 ![](images/cymbal-stage.png)
 
@@ -27,7 +27,7 @@ Position your cymbal on the Stage:
 
 --- task ---
 
-Add the **Music extension**:
+أضف ملحق **الموسيقى**:
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -35,7 +35,7 @@ Add the **Music extension**:
 
 --- task ---
 
-Add a script to make the cymbal `switch costume`{:class="block3looks"} and `play a drum sound`{:class="block3extensions"}:
+أضف مقطع برمجي  `غير مظهر` الــ cymbal{: class = "block3looks"} و `يقوم بتشغيل صوت طبل`{: class = "block3extensions"}:
 
 ![](images/cymbal-icon.png)
 
@@ -50,15 +50,15 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test:** Test your cymbal by clicking on it. Make sure you hear a sound and see the costume change.
+**اختبار:** اختبر cymbal الخاص بك بالضغط عليه. تأكد من سماع صوت ورؤية تغيير المظهر.
 
 --- /task ---
 
-The **Drum-cymbal** sprite will earn you one beat each time you click it.
+سوف يكسبك كائن**Drum-cymbal** نبضة واحدة في كل مرة تنقر عليه.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `beats`:
+قم بإنشاء ` متغير `{: class = "block3variables"} يسمى `نبضة`:
 
 ![](images/beats-variable.png)
 
@@ -66,7 +66,7 @@ Create a `variable`{:class="block3variables"} called `beats`:
 
 --- task ---
 
-Add a block to `change beats by 1`{:class="block3variables"} when the **Drum-cymbal** sprite is clicked:
+أضف مقطع برمجي إلى `إغير النبضة بمقدار ١`{: class = "block3variables"} عند النقر على كائن **Drum-cymbal** sprite:
 
 ![](images/cymbal-icon.png)
 
@@ -82,17 +82,17 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it and watch the `beats`{:class="block3variables"} increase.
+**اختبار:** اختبر كائن**Drum-cymbal** بالنقر عليه ومشاهدة الــ`دقات`{: class = "block3variables"} تزداد.
 
 --- /task ---
 
-The `beats`{:class="block3variables"} variable needs to start at `0` beats when you start a new game.
+يجب أن يبدأ المتغير `نبضة`{: class = "block3variables"}  بالـــ`0` عند بدء لعبة جديدة.
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab to add code to the Stage.
+انقر فوق جزء المنصة ثم علامة التبويب **المقاطع البرمجية** لإضافة مقطع برمجي إلى المنصة.
 
-Add a block to `set beats to`{:class="block3variables"} `0`:
+أضف مقطع برمجي إلى `اجعل نبضة مساوياً` الى{: class = "block3variables"} `0`:
 
 ![](images/stage-icon.png)
 
@@ -106,7 +106,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Test:** Click the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
+**اختبار:** انقر فوق العلم الأخضر وتأكد من أن المتغير `نبضات`{: class = "block3variables"} يبدأ عند `0`.
 
 --- /task ---
 

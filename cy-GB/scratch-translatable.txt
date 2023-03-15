@@ -1,13 +1,13 @@
-name
+enw
 
-What's your rock star name?
+Beth yw enw dy seren roc?
 
-beats
+curiadau
 
-Not enough beats!
+Dim digon o curiadau!
 
-snare
+drwm gwifrau
 
 conga
 
-What's your name?
+Beth yw dy enw?

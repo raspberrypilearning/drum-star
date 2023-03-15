@@ -1,35 +1,38 @@
 ---
-title: Drum star
+title: Seren ddrymiau
 hero_image: images/banner.png
-description: Make a clicker game where you earn beats to play new drums and bigger venues
+description: Creu gêm clicio lle rwyt ti'n ennill curiadau i chwarae drymiau newydd a lleoliadau mwy
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Introduction
+    title: Cyflwyniad
   - 
-    title: Set the Stage
+    title: Gosod y Llwyfan
   - 
-    title: Starter drum
-    completion: engaged
+    title: Drwm cychwynnol
+    completion:
+      - external
   - 
-    title: First upgrade
+    title: Uwchraddiad cyntaf
   - 
-    title: Second upgrade
+    title: Ail uwchraddiad
   - 
-    title: Play and customise
-    completion: internal
+    title: Chwarae ac addasu
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Myfyrio
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - internal
   - 
-    title: Upgrade your project
+    title: Uwchraddio dy brosiect
   - 
-    title: What next?
+    title: Beth nesaf?

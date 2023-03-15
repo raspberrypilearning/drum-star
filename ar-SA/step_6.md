@@ -1,8 +1,8 @@
-## Play and customise
+## العب وخصص
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's time to make your game work just the way that you want it to.
+حان الوقت لجعل لعبتك تعمل بالطريقة التي تريدها.
 </div>
 <div>
 ![](images/play-customise.png){:width="300px"}
@@ -11,23 +11,23 @@ It's time to make your game work just the way that you want it to.
 
 --- task ---
 
-Play your game and earn beats.
+العب لعبتك واكسب الإيقاعات.
 
-Watch the `beats`{:class="block3variables"} variable change and make sure you understand how beats increase when you click the drums and decrease when you get a new drum.
+شاهد المتغير ` beats `{: class = "block3variables"} وتأكد من فهم كيفية زيادة الإيقاعات عندما تنقر على الطبول وتنخفض عندما تحصل على طبلة جديدة.
 
-Are you happy with how many beats you earn for each drum? You can change this if you like.
+هل أنت سعيد بعدد النبضات التي تربحها لكل طبلة؟ يمكنك تغيير هذا إذا رغبت بذلك.
 
-Are you happy with how many beats it costs to get a new drum?
+هل أنت سعيد بعدد النبضات التي تربحها لكل طبلة؟
 
-**Tip:** Test your project regularly so you can find and fix any bugs.
+**نصيحة:** اختبر مشروعك بانتظام حتى تتمكن من العثور على أي أخطاء برمجية وإصلاحها.
 
 --- /task ---
 
 --- task ---
 
-If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back and set your rock star name.
+إذا فصلت المقطع البرمجي `اسال`{: class = "block3sensing"} على المنصة ، فأعدها وعيّن اسم نجم موسيقى الروك الخاص بك.
 
-Notice that the name displayed on the Stage changes.
+لاحظ أن الاسم المعروض على المسرح يتغير.
 
 --- /task ---
 

@@ -1,8 +1,8 @@
-## First upgrade
+## Primera actualización
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add your first upgrade. The **Get snare** button will show at the start, so the player knows which drum they are working towards.
+Agregarás tu primera actualización. El botón **Conseguir redoblante** aparecerá al principio, para que el jugador o la jugadora sepa qué tambor tiene en mira.
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add your first upgrade. The **Get snare** button will show at the start
 
 --- task ---
 
-Add the **Drum-snare** sprite to your project and position it on the Stage:
+Agrega la imagen del **Drum-snare** a tu proyecto, cámbiale el nombre a "redoblante" y colócalo en el Escenario:
 
 ![](images/snare-stage.png)
 
@@ -19,7 +19,7 @@ Add the **Drum-snare** sprite to your project and position it on the Stage:
 
 --- task ---
 
-Drag the `when this sprite clicked`{:class="block3events"} script from the **Drum-cymbal** sprite to the **Drum-snare** sprite.
+Arrastra el script `al hacer clic en este objeto`{:class="block3events"} de la imagen del **Platillo** al del **Redoblante**.
 
 [[[scratch3-copy-code]]]
 
@@ -27,9 +27,9 @@ Drag the `when this sprite clicked`{:class="block3events"} script from the **Dru
 
 --- task ---
 
-Change the costumes and the drum sound.
+Cambia los disfraces y el sonido del tambor.
 
-Change the number of beats earned to `2`:
+Cambia el número de ritmos ganados a `2`:
 
 ![](images/snare-icon.png)
 
@@ -45,15 +45,15 @@ when this sprite clicked
 
 --- task ---
 
-**Test:** Try out your project. Make sure that you earn 2 beats when you click on the snare drum.
+**Prueba:** Pon tu proyecto a prueba. Asegúrate de ganar 2 ritmos cuando hagas clic en el redoblante.
 
 --- /task ---
 
-Upgrades are not available when you start the project. They have to be earned with beats.
+Las actualizaciones no están disponibles cuando inicias el proyecto. Hay que ganárselas con los ritmos.
 
 --- task ---
 
-Add a script to hide this **drum** sprite at the start of the project:
+Agrega un script para ocultar el objeto del **tambor** al inicio del proyecto:
 
 ![](images/snare-icon.png)
 
@@ -64,15 +64,15 @@ hide
 
 --- /task ---
 
-A button will show which drum is the next upgrade option and how many beats it will cost.
+Un botón mostrará qué tambor es el próximo para actualizar y cuántos ritmos costará.
 
 --- task ---
 
-**Duplicate** the **Get** sprite:
+**Duplicar** el objeto de **Conseguir**:
 
 ![](images/duplicate-get.png)
 
-Change the visibility to **Show** and change its name to `Get snare`. Position it in the bottom-right corner of the Stage:
+Cambia la visibilidad a **Mostrar** y cámbiale el nombre a `Conseguir redoblante`. Colócalo en la esquina inferior derecha del Escenario:
 
 ![](images/get-snare.png)
 
@@ -80,7 +80,7 @@ Change the visibility to **Show** and change its name to `Get snare`. Position i
 
 --- task ---
 
-Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Select** (arrow) tool to highlight the not hit costume of your drum. Click on the **Group** icon then the **Copy** icon:
+Haz clic en la imagen **Redoblante** y ve a la pestaña **Estilos**. Usa la herramienta (flecha) **Seleccionar** para resaltar el disfraz de tu tambor que no fue tocado. Haz clic en el icono **Grupo** y luego en **Copiar**:
 
 ![](images/snare-icon.png)
 
@@ -90,7 +90,7 @@ Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Sel
 
 --- task ---
 
-Click on your **Get snare** sprite and **Paste** the snare costume. You might need to resize and position it to fit your button:
+Haz clic en tu objeto **Conseguir redoblante** y **Pega** el disfraz del redoblante. Es posible que debas ajustar el tamaño y reubicarlo para que quepa en tu botón:
 
 ![](images/get-snare-icon.png)
 
@@ -100,7 +100,7 @@ Click on your **Get snare** sprite and **Paste** the snare costume. You might ne
 
 --- task ---
 
-Click on the **Code** tab and add a script to show the **Get snare** sprite at the start of the project:
+Haz clic en la pestaña **Código** y agrega un script para mostrar el objeto **Conseguir redoblante** al inicio del proyecto:
 
 ![](images/get-snare-icon.png)
 
@@ -111,17 +111,17 @@ show
 
 --- /task ---
 
-The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, you learned about making decisions with `if`{:class="block3control"} blocks.
+Solo se puede comprar la actualización si se tienen `10` o más ritmos. En [Haz crecer una libélula](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, aprendiste a tomar decisiones con bloques `si`{:class="block3control"}.
 
-An `if ... else`{:class="block3control"} block is used to make a decision and will do different things if a condition is `true` or `false`.
+Un bloque `si … sino`{:class="block3control"} se usa para tomar una decisión y realizará diferentes acciones si una condición es `cierta` o `falsa`.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up, you check `if`{:class="block3control"} it is morning. You get up, or `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
+Usamos <span style="color: #0faeb0">**si … sino**</span> todo el tiempo para tomar decisiones. Cuando te despiertas, compruebas `si`{:class="block3control"} es de mañana. Te levantas, o `sino`{:class="block3control"} te vuelves a dormir. ¿Puedes pensar en alguna decisión `si ... sino`{:class="block3control"} que hayas tomado? 
 </p>
 
 --- task ---
 
-Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `Not enough beats!` if they are not able to upgrade:
+Agrega este código para obtener la actualización `si`{:class="block3control"} hay suficientes ritmos, o para `decir`{:class="block3looks"} `¡No hay suficientes ritmos!` si no se pueden actualizar:
 
 ![](images/get-snare-icon.png)
 
@@ -137,11 +137,11 @@ end
 
 --- /task ---
 
-Let other sprites and the Stage know that the snare upgrade has been bought.
+Hazle saber a los otros objetos y al Escenario que se compró la actualización para el redoblante.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+Agrega un bloque `transmitir`{:class="block3events"} para enviar un nuevo mensaje `redoblante`:
 
 ![](images/get-snare-icon.png)
 
@@ -160,7 +160,7 @@ end
 
 --- task ---
 
-Click on the **Drum-snare** sprite. Add this script:
+Haz clic en el objeto **Redoblante**. Agrega este script:
 
 ![](images/snare-icon.png)
 
@@ -171,13 +171,13 @@ show
 
 --- /task ---
 
-When you upgrade your equipment, you will be able to play at bigger venues.
+Cuando actualices tu equipo, podrás tocar en lugares más grandes.
 
 --- task ---
 
-Add another backdrop. We chose **Chalkboard** to play our second gig at school.
+Agrega otro fondo. Elegimos **Chalkboard** para tocar en nuestro segundo concierto en la escuela.
 
-Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+Agrega el código al Escenario para `cambiar fondo`{:class="block3looks"} cuando se reciba el mensaje de actualización:
 
 ![](images/stage-icon.png)
 
@@ -186,15 +186,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
+**Consejo:** Elige un lugar que sea una pequeña mejora al dormitorio. Desearás guardar los lugares más grandes para más adelante.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
+**Prueba:** Ejecuta tu proyecto. Prueba y compra la actualización del redoblante antes de que tengas suficientes ritmos.
 
-When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
+Cuando compras la verificación de actualización: el redoblante aparece, el botón desaparece, el lugar cambia y los `ritmos`{:class="block3variables"} descienden a `10`.
 
 --- /task ---
 

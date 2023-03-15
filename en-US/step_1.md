@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Make a clicker game where you earn beats to play new drums at bigger venues.
 
@@ -12,7 +12,7 @@ There are lots of <span style="color: #0faeb0">**clicker games**</span> where yo
 
 --- no-print --- --- task ---
 
-### Try it
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Click the drum and watch the number of `beats`{:class="block3variables"} go up. Get a new drum when you have enough beats. 

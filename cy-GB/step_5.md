@@ -1,41 +1,41 @@
-## Second upgrade
+## Ail uwchraddiad
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your drum skills are improving. Time for a second upgrade! In this step, you will choose which drum to add.
+Mae dy sgiliau drymio yn gwella. Mae'n amser uwchraddio eto! Yn y cam yma, byddi di'n yn dewis pa ddrwm i'w ychwanegu.
 </div>
 <div>
-![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
+![Y Llwyfan yn dangos golygfa o barti gyda thri drwm.](images/second-upgrade.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Drum-snare** sprite:
+Dyblyga'r corlun **Drum-snare**:
 
 ![](images/duplicate-snare-drum.png)
 
 --- /task ---
 
-The **Drum Costumes** sprite has lots of drum costumes for you to choose from.
+Mae gan y corlun **Drum Costumes** lawer o wisgoedd drymiau i ti ddewis ohonyn nhw.
 
 --- task ---
 
-Click on the **Drum Costumes** sprite and select the **Costumes** tab.
+Clicia'r corlun **Drum Costumes** ac wedyn mynd i'r tab **Gwisgoedd**.
 
-**Choose:** a drum for the next upgrade. We chose **Conga**.
+**Dewisa:** ddrwm ar gyfer yr uwchraddiad nesaf. Fe ddewison ni **Conga**.
 
-Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
+Llusga'r gwisgoedd 'hit' a 'not hit' o'r drwm y gwnes di ei ddewis i dy gorlun **Drum-snare2** newydd:
 
-![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
+![Delwedd animeiddiedig yn dangos sut i lusgo gwisgoedd o un corlun i'r llall.](images/drag-costumes.gif)
 
-![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
+![Golygydd paent y corlun newydd gyda dwy wisg ychwanegol yn y rhestr gwisgoedd.](images/drum-3-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Name your drum to match the costumes you chose.
+Enwa dy ddrwm i gyd-fynd â'r gwisgoedd y gwnes di eu dewis.
 
 ![](images/drum-3-named.png)
 
@@ -43,9 +43,9 @@ Name your drum to match the costumes you chose.
 
 --- task ---
 
-Click on the **Code** tab. Change the code to use the correct costumes and choose a sound for your new drum.
+Clicia'r tab **Cod**. Newidia'r cod i ddefnyddio'r gwisgoedd cywir a dewis sain ar gyfer dy ddrwm newydd.
 
-Change the number of beats you earn by clicking the new drum to `5`:
+Newidia nifer y curiadau rwyt ti'n eu hennill drwy glicio'r drwm newydd i `5`:
 
 ![](images/drum-3-icon.png)
 
@@ -61,38 +61,38 @@ when this sprite clicked
 
 --- task ---
 
-Drag your new drum into position on the Stage:
+Llusga dy ddrwm newydd i'w le ar y Llwyfan:
 
-![New drum to the right of the other drums.](images/drum-3-positioned.png)
+![Drwm newydd i'r dde o'r drymiau eraill.](images/drum-3-positioned.png)
 
 --- /task ---
 
-Next, you need a button so that players can upgrade to this new drum.
+Nesaf, mae angen botwm fel y gall chwaraewyr uwchraddio i'r drwm newydd yma.
 
 --- task ---
 
-Duplicate the **Get snare** sprite.
+Dyblyga'r corlun **Get snare**.
 
-Position it in the bottom-right corner of the Stage. Change its name to `Get` and then the name of your new drum:
+Gosoda'r corlun yng nghornel dde isaf y Llwyfan. Newidia ei enw i `Get` ac wedyn i enw dy ddrwm newydd:
 
-![The Sprite list with duplicated 'Get snare' sprite. The sprite name changed to match the new drum and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+![Y rhestr Sprite gyda chorlun 'Get snare' wedi'i ddyblygu. Enw'r corlun wedi'i newid i gyd-fynd â'r drwm newydd a'i osod ar waelod ochr dde'r Llwyfan.](images/get-drum-3.png)
 
 --- /task ---
 
 --- task ---
 
-Delete the **snare drum** from the button costume. Copy and paste the 'not hit' costume for your new drum to the button costume.
+Dilea'r **drwm gwifrau** o wisg y botwm. Copïa a gludo'r wisg 'not hit' ar gyfer dy ddrwm newydd i wisg y botwm.
 
-Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
+Clicia'r offeryn **Text** a newid y rhif i `30` i ddangos cost y drwm newydd.
 
-Your button should look like this:
+Dylai dy fotwm edrych fel hyn:
 
-![The paint editor showing the new button costume with chosen drum image and text updated to 30.](images/get-drum-copy.png)
+![Y golygydd paent yn dangos gwisg newydd y botwm gyda delwedd y drwm a ddewiswyd a'r testun wedi'i ddiweddaru i 30.](images/get-drum-copy.png)
 
 --- /task ---
 
 
-This button should `hide`{:class="block3looks"} at the start, then `show`{:class="block3looks"} when the player upgrades to the snare drum, so they know which drum they are working towards.
+Dylai'r botwm yma `guddio`{:class="block3looks"} ac wedyn `dangos`{:class="block3looks"} pan fydd y chwaraewr yn uwchraddio i'r drwm gwifrau, fel ei fod yn gwybod pa ddrwm mae'n gweithio tuag ato.
 
 --- task ---
 
@@ -104,13 +104,13 @@ when flag clicked
 + hide
 ```
 
-**Tip:** To delete a block, drag it to the Blocks menu, or right-click and choose **Delete Block**. On a computer, you can also click on a block and then tap <kbd>Delete</kbd> to remove a block.
+**Awgrym:** I ddileu bloc, rhaid ei lusgo i'r ddewislen Blociau, neu dde-glicio a dewis **Dileu'r Bloc**. Ar gyfrifiadur, galli di hefyd glicio ar floc ac yna taro <kbd>Dileu</kbd> i gael gwared ar floc.
 
 --- /task ---
 
 --- task ---
 
-Add a `when I recieve`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
+Ychwanega sgript `pan rwy'n derbyn`{:class="block3events"} y bydd dy fotwm drwm newydd yn ymddangos fel yr uwchraddiad nesaf pan fydd y chwaraewr yn ennill y drwm **Drum-snare**:
 
 ![](images/get-drum-3-icon.png)
 
@@ -123,9 +123,9 @@ show // show button for next available drum
 
 --- task ---
 
-Change the number of beats needed to buy this drum, and the number of beats that are removed, when the player gets this drum.
+Newidia nifer y curiadau sydd eu hangen i brynu'r drwm yma, a nifer y curiadau sy'n cael eu tynnu pan fydd y chwaraewr yn cael y drwm yma.
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Create a new message with the name of your new drum:
+Newidia hefyd y neges sy'n cael ei `darlledu`{:class="block3events"} pan fydd y chwaraewr yn cael y drwm newydd. Crea neges newydd gydag enw dy ddrwm newydd:
 
 ![](images/get-drum-3-icon.png)
 
@@ -144,7 +144,7 @@ end
 
 --- task ---
 
-Change the `when I receive snare`{:class="block3events"} script to `broadcast`{:class="block3events"} the name of your new drum. The drum will `show`{:class="block3looks"} when the player upgrades to the new drum:
+Newidia'r sgript `pan rwy'n derbyn snare`{:class="block3events"} i `ddarlledu`{:class="block3events"} enw dy ddrwm newydd. Bydd y drwm yn `dangos`{:class="block3looks"} pan fydd y chwaraewr yn uwchraddio i'r drwm newydd:
 
 ![](images/drum-3-icon.png)
 
@@ -157,9 +157,9 @@ show
 
 --- task ---
 
-Add the **Party** backdrop.
+Ychwanega'r gefnlen **Party**.
 
-Add a script to the Stage to switch the backdrop when the player upgrades to the new drum:
+Ychwanega sgript i'r Llwyfan i newid y gefnlen pan fydd y chwaraewr yn uwchraddio i'r drwm newydd:
 
 ![](images/stage-icon.png)
 
@@ -172,9 +172,9 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test:** Click the green flag to start the game and test that you can earn enough beats to get your new drum.
+**Prawf:** Clicia'r faner werdd i gychwyn y gêm a phrofi dy fod yn gallu ennill digon o guriadau i gael dy ddrwm newydd.
 
-What happens if you click the button before you have earned enough beats?
+Beth sy'n digwydd os wyt ti'n clicio'r botwm cyn ennill digon o guriadau?
 
 --- /task ---
 

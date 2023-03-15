@@ -1,41 +1,41 @@
-## Second upgrade
+## التطوير الثاني للمشروع
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your drum skills are improving. Time for a second upgrade! In this step, you will choose which drum to add.
+مهاراتك في استخدام الطبل في تحسن. حان الوقت للترقية الثانية! في هذه الخطوة ، ستختار الأسطوانة المراد إضافتها.
 </div>
 <div>
-![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
+! [يظهر المسرح خلفية الحفلة بثلاثة أسطوانات موسيقية.] (images / second-Upgrade.png) {: width = "300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Drum-snare** sprite:
+قم بتكرار كائن **Drum-snare**:
 
 ![](images/duplicate-snare-drum.png)
 
 --- /task ---
 
-The **Drum Costumes** sprite has lots of drum costumes for you to choose from.
+يوجد الكثير من**أزياء الطبل** لتختار من منها.
 
 --- task ---
 
-Click on the **Drum Costumes** sprite and select the **Costumes** tab.
+انقر فوق مظهر **ازياء او مظاهر الطبل** ثم حدد علامة التبويب **مظاهر**.
 
-**Choose:** a drum for the next upgrade. We chose **Conga**.
+**اختر:** أسطوانة للترقية التالية. اخترنا **Conga**.
 
-Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
+اسحب مظهر "hit" و "not hit" على الطبل الذي اخترته إلى **Drum-snare2** كائن الجديدة:
 
-![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
+![صورة متحركة توضح كيفية سحب المظاهر من كائن إلى آخر.](images/drag-costumes.gif)
 
-![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
+![محرر الرسم للكائن الجديد مع مظاهر إضافيية في قائمة المظاهر.](images/drum-3-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Name your drum to match the costumes you chose.
+قم بتسمية الطبل الخاص بك بما يتناسب مع الأزياء التي اخترتها.
 
 ![](images/drum-3-named.png)
 
@@ -43,9 +43,9 @@ Name your drum to match the costumes you chose.
 
 --- task ---
 
-Click on the **Code** tab. Change the code to use the correct costumes and choose a sound for your new drum.
+انقر فوق علامة التبويب **المقاطع البرمجية**. غيّر المقطع البرمجي لاستخدام الأزياء الصحيحة واختر صوتًا لطبلك الجديد.
 
-Change the number of beats you earn by clicking the new drum to `5`:
+غيّر عدد الإيقاعات التي تربحها بالنقر على الطبلة الجديدة إلى `5`:
 
 ![](images/drum-3-icon.png)
 
@@ -61,38 +61,38 @@ when this sprite clicked
 
 --- task ---
 
-Drag your new drum into position on the Stage:
+اسحب الأسطوانة او الطبل الجديدة إلى موقعها على المنصة:
 
-![New drum to the right of the other drums.](images/drum-3-positioned.png)
+![طبلة جديدة على يمين الطبول الأخرى.](images/drum-3-positioned.png)
 
 --- /task ---
 
-Next, you need a button so that players can upgrade to this new drum.
+بعد ذلك ، ستحتاج إلى كائن زر حتى يتمكن اللاعبون من الترقية إلى هذه الأسطوانة الجديدة.
 
 --- task ---
 
-Duplicate the **Get snare** sprite.
+ضاعف كائن**Get snare**.
 
-Position it in the bottom-right corner of the Stage. Change its name to `Get` and then the name of your new drum:
+ضعه في الركن الأيمن السفلي من المنصة. غيّر اسمه إلى `Get` ثم اسم طبلك الجديد:
 
-![The Sprite list with duplicated 'Get snare' sprite. The sprite name changed to match the new drum and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+![قائمة الكائنات التي تحتوي على كائن "Get snare" مكرر. تم تغيير اسم الكائن ليتناسب مع الأسطوانة الجديدة وتم وضعه في أسفل يمين المنصة.](images/get-drum-3.png)
 
 --- /task ---
 
 --- task ---
 
-Delete the **snare drum** from the button costume. Copy and paste the 'not hit' costume for your new drum to the button costume.
+احذف أسطوانة **snare drum** من مظهر الزر. انسخ والصق زي "not hit" لطبلتك الجديدة على مظهر الزر.
 
-Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
+انقر فوق أداة الــ**نص** وقم بتغيير الرقم إلى `30` لإظهار تكلفة الأسطوانة الجديدة.
 
-Your button should look like this:
+يجب أن يبدو الزر الخاص بك كما يلي:
 
-![The paint editor showing the new button costume with chosen drum image and text updated to 30.](images/get-drum-copy.png)
+![يعرض محرر الطلاء مظهر الزر الجديد مع صورة أسطوانة مختارة ونص محدث إلى 30.](images/get-drum-copy.png)
 
 --- /task ---
 
 
-This button should `hide`{:class="block3looks"} at the start, then `show`{:class="block3looks"} when the player upgrades to the snare drum, so they know which drum they are working towards.
+هذا الزر  يجب ان` يخفى{`class = "block3looks"} في البداية ، ثم ` يظهر`{: class = "block3looks"} عندما يقوم اللاعب بترقية المشروع إلى snare drum ، حتى يعرف الطبلة التي يعمل عليها.
 
 --- task ---
 
@@ -104,13 +104,13 @@ when flag clicked
 + hide
 ```
 
-**Tip:** To delete a block, drag it to the Blocks menu, or right-click and choose **Delete Block**. On a computer, you can also click on a block and then tap <kbd>Delete</kbd> to remove a block.
+**نصيحة:** لحذف Blocks ، اسحبها إلى قائمة Blocks ، أو انقر بزر الماوس الأيمن واختر **حذف اللبنة**. على جهاز الكمبيوتر ، يمكنك أيضًا النقر فوق اللبنة ثم النقر فوق <kbd>حذف</kbd> لإزالة اللبنة.
 
 --- /task ---
 
 --- task ---
 
-Add a `when I recieve`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
+أضف `عندما أتلقى ن {: class = "`"} مقطعاً برمجياً سيظهر زر الأسطوانة الجديد كترقية اخرى عندما يحصل اللاعب على طبلة **Drum-snare**:
 
 ![](images/get-drum-3-icon.png)
 
@@ -123,9 +123,9 @@ show // show button for next available drum
 
 --- task ---
 
-Change the number of beats needed to buy this drum, and the number of beats that are removed, when the player gets this drum.
+قم بتغيير عدد beats اللازمة لشراء هذا الطبل ، وعدد beats التي يتم إزالتها ، عندما يحصل اللاعب على هذه الطبلة.
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Create a new message with the name of your new drum:
+قم أيضًا بتغيير الرسالة التي هي `بث`{: class = "block3events"} عندما يحصل اللاعب على الطبلة الجديدة. أنشئ رسالة جديدة باسم طبلك الجديد:
 
 ![](images/get-drum-3-icon.png)
 
@@ -144,7 +144,7 @@ end
 
 --- task ---
 
-Change the `when I receive snare`{:class="block3events"} script to `broadcast`{:class="block3events"} the name of your new drum. The drum will `show`{:class="block3looks"} when the player upgrades to the new drum:
+غيّر الرقم `عندما أتلقى snare `{: class = "block3events"} مقطعاً برمجياً إلى `بث`{: class = "block3events"} اسم أسطوانتك الجديدة. الأسطوانة سوف تظهر `اظهر`{: class = "block3looks"} عندما يقوم اللاعب بالترقية إلى الأسطوانة الجديدة:
 
 ![](images/drum-3-icon.png)
 
@@ -157,9 +157,9 @@ show
 
 --- task ---
 
-Add the **Party** backdrop.
+أضف خلفية **Party**.
 
-Add a script to the Stage to switch the backdrop when the player upgrades to the new drum:
+أضف نصًا إلى المنصة لتبديل الخلفية عندما يقوم اللاعب بالترقية إلى الأسطوانة الجديدة:
 
 ![](images/stage-icon.png)
 
@@ -172,9 +172,9 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test:** Click the green flag to start the game and test that you can earn enough beats to get your new drum.
+**اختبار:** انقر فوق العلم الأخضر لبدء اللعبة واختبر أنه يمكنك كسب beats كافية للحصول على الطبلة الجديدة.
 
-What happens if you click the button before you have earned enough beats?
+ماذا يحدث إذا نقرت على الزر قبل أن تكسب beats كافية؟
 
 --- /task ---
 

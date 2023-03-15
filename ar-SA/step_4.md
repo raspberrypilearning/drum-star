@@ -20,7 +20,7 @@ snare نوع من انواع الطبل.
 
 --- task ---
 
-اسحب المقطع البرمجي `عند النقر على هذا الكائن`ن{:class="block3events"} من **Drum-cymbal** sprite إلى كائن **Drum-snare**.
+اسحب المقطع البرمجي `عند النقر على هذا الكائن`{:class="block3events"} ن من **Drum-cymbal** sprite إلى كائن **Drum-snare**.
 
 [[[scratch3-copy-code]]]
 

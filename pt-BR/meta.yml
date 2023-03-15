@@ -8,27 +8,30 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
     title: Set the Stage
   - 
     title: Starter drum
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: First upgrade
   - 
     title: Second upgrade
   - 
     title: Play and customise
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Upgrade your project
   - 

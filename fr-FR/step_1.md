@@ -1,4 +1,4 @@
-## Introduction
+## Ce que tu vas faire
 
 Crée un jeu de clics où tu gagnes des battements pour jouer de nouveaux tambours et dans de plus grandes salles.
 
@@ -12,7 +12,7 @@ Il existe de nombreux <span style="color: #0faeb0">**jeux de clic**</span> où t
 
 --- no-print --- --- task ---
 
-### Essaie-le
+### Joue ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Clique sur le tambour et regarde le nombre de « battements »{:class="block3variables"} augmenter. Obtiens un nouveau tambour lorsque tu as assez de battements. 

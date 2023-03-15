@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+القائمة: السؤال 3 من 3
 ---
 
-You used this script to control what happens when the player clicks on the button to upgrade their drum:
+لقد استخدمت هذا المقطع البرمجي للتحكم في ما يحدث عندما ينقر اللاعب على الزر لترقية الطبلة الخاصة به:
 
 ```blocks3
 when this sprite clicked
@@ -18,39 +18,39 @@ say [Not enough beats!] for [2] seconds
 end
 ```
 
-If the value of the `beats`{:class="block3variables"} variable is `29`, what will happen when the player clicks on the button?
+إذا كانت قيمة `النبضات`{: class = "block3variables"} هو `29`، ماذا سيحدث عندما ينقر اللاعب على الزر؟
 
 --- choices ---
 
-- ( ) The sprite will `hide`{:class="block3looks"}
+- () الكائن سوف </code> يختفي `: class = "block3looks"}</p>
 
-  --- feedback ---
+<p spaces-before="2">--- feedback ---</p>
 
-  Not quite, there is a `hide`{:class="block3looks"} block in the script, but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again.
-
-  --- /feedback ---
-
-- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`
-
-  --- feedback ---
-
-Yes, the condition checks if `beats`{:class="block3variables"} is greater than `29`, but `beats`{:class="block3variables"} is equal to `29` so the player does not have enough.
+<p spaces-before="2">ليس تمامًا ، هناك لبنة <code>إخفاء`{: class = "block3looks"} في المقطع البرمجي ، لكنها لن تعمل مع `29` `ضربات`{: class = "block3variables"}. ألق نظرة على المقطع البرمجي مرة أخرى.
 
   --- /feedback ---
 
-- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable
+- (x) نكائن الزر `سيقول`{: class = "block3looks"} `لا توجد نبضات كافية!`
 
   --- feedback ---
 
-  No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is `29` which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
+نعم ، يتحقق الشرط مما إذا كانت `نبضة`{: class = "block3variables"} أكبر من `29`، لكن `ضربات`{: class = "block3variables"} تساوي `29` لذلك لا يملك اللاعب ما يكفي.
 
   --- /feedback ---
 
-- ( ) Nothing
+- () سيتم أخذ 30 من قيمة متغيير `نبضة`{: class = "block3variables"}
 
   --- feedback ---
 
-  No, the script will always do something. Take a closer look to see which part of the script will run when you have `29` `beats`{:class="block3variables"}.
+  لا ، قيمة المتغير `نبضة`{: class = "block3variables"} ستبقى كما هي. `نبضة`{: class = "block3variables"} هي `29` مما يعني أن `ضربات`{: class = "block3variables"} `> 29` خاطئة ، لذا فإن اللبنة في الجزء الأول من `اذا`{: class = لن يتم تشغيل اللبنة "block3control"}.
+
+  --- /feedback ---
+
+- ( ) لا شئ
+
+  --- feedback ---
+
+  لا ، هذا المقطع البرمجي سيفعل شيئًا دائمًا. ألق نظرة فاحصة لمعرفة أي جزء من المقطع البرمجي سيتم تشغيله عندما يكون لديك `29` `نبضات`{: class = "block3variables"}.
 
   --- /feedback ---
 

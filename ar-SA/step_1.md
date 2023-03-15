@@ -1,23 +1,23 @@
-## Introduction
+## سوف تصنع
 
-Make a clicker game where you earn beats to play new drums at bigger venues.
+اصنع لعبة نقر، حيث تربح ايقاعات لعزف جديد في أماكن أكبر ومختلفة.
 
-You will:
-+ Use `variables`{:class="block3variables"} to store and change numbers and text (words)
-+ `ask`{:class="block3sensing"} a question and use the `answer`{:class="block3sensing"} to customise the game
-+ Use `if...else`{:class="block3control"} blocks to make decisions
+سوف تقوم بمايلي:
++ استخدم `متغيرًا`{: class = "block3variables"} لتخزين وتغيير الأرقام والنصوص (الكلمات)
++ `اسأل`{: class = "block3sensing"} سؤال واستخدم الإجابة ``{: class = "block3sensing"} لتخصيص اللعبة
++ استخدم التعليمة البرمجية `إذا ... والا` {: class = "block3control"} لاتخاذ القرارات
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">**clicker games**</span> where you have to click to make progress and buy upgrades that help you go faster. Have you ever played a clicker game? There are also <span style="color: #0faeb0">**idle games**</span> that keep going even when you're not playing them. These games are fun as long as you don't spend too much time playing them!</p>
+هناك الكثير من <span style="color: #0faeb0">** ألعاب النقر **</span> حيث يتعين عليك النقر لإحراز تقدم وشراء ترقيات تساعدك لتصبح اسرع. هل سبق لك أن لعبت لعبة النقر؟ هناك أيضًا <span style="color: #0faeb0">**idle games**</span> تستمر حتى عندما لا تلعبها. هذه الألعاب ممتعة طالما أنك لا تقضي الكثير من الوقت في لعبها!</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### العب ▶ ️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the drum and watch the number of `beats`{:class="block3variables"} go up. Get a new drum when you have enough beats. 
+انقر فوق الطبل وشاهد عدد "النغمات" {: class = "block3variables"} يرتفع. احصل على طبلة جديدة عندما يكون لديك دقات كافية. 
 
-How many `beats`{:class="block3variables"} do you earn when clicking the new drum?
+كم عدد `النغمات` {: class =" block3variables "} التي تربحها عند النقر على الأسطوانة الجديدة؟
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![مشروع مكتمل](images/showcase_static.png)
 
 --- /print-only ---

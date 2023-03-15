@@ -1,142 +1,142 @@
-## Upgrade your project
+## قم بترقية مشروعك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Upgrade your project with more drums and more backdrops as you play more amazing venues. 
+قم بترقية مشروعك بمزيد من الطبول والمزيد من الخلفيات كلما لعبت المزيد من الأماكن المذهلة. 
 </div>
 <div>
 ![](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-There are lots more drum costumes to choose from to add more upgrades to your project.
+هناك الكثير من أزياء الطبل للاختيار من بينها لإضافة المزيد من الترقيات إلى مشروعك.
 
-To add another drum to upgrade to, look back at the earlier steps of the project.
+لإضافة طبل آخر للترقية إليه، راجع الخطوات السابقة للمشروع.
 
-For the **drum**, you will need to:
+بالنسبة **طبل**، ستحتاج إلى:
 
 --- task ---
 
-Duplicate the previous **drum** sprite and add two costumes.
+كرر شخصية **الطبل** السابق وأضف مظهر.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script.
+غيّر ` المظهر`{: class = "block3looks"} و `الصوت`{: class = "block3sound"} المستخدم في `عندما نقر هذا الكائن على`{: class = "block3events"} البرنامج النصي.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script.
+غيّر عدد `نبضة`{: class = "block3variables"} المكتسبة في `عندما نقر هذا الكائن على`{: class = "block3events"} نص برمجي.
 
 --- /task ---
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**.
+قم بتغيير ` رسالة `{: class = "block3events"} التي تجعل الطبل `تعرض`{: class = "block3looks"} رسالى إلى للطبل **الجديد**.
 
 --- /task ---
 
-For the **button**, you will need to:
+بالنسبة ** للزر **، ستحتاج إلى:
 
 --- task ---
 
-Duplicate the previous **Get** sprite.
-
---- /task ---
-
---- task ---
-
-Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**.
+قم بتكرار الكائن السابق **احصل على** كائن.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} including the cost of the new drum.
+قم بتغيير ` الرسالة`{: class = "block3events"} التي تجعل الزر يظهر ` للرسالة `{: class = "block3events"} `البث`{: class = "block3events"} بواسطة ** الأسطوانة السابقة**.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
-
---- /task ---
-
-For the **venue**, you will need to:
-
---- task ---
-
-Add a new backdrop.
+قم بتغيير `المظهر`{: class = "block3looks"} بما في ذلك تكلفة الأسطوانة الجديدة.
 
 --- /task ---
 
 --- task ---
 
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved.
+قم بتغيير عدد `نبضات`{: class = "block3variables"} يجب أن تحصل على هذه الأسطوانة في حالة `اذا`{: class = "block3events"}. غيّر العدد السالب للـ `نبضات`{: class = "block3variables"} أنت `غير بمقدار`{: class = "block3variables"} عندما تحصل على هذه الأسطوانة. غيّر الرسالة التي تحصل على `بث`{: class = "block3events"} إلى اسم  **الأسطوانة الجديدة**.
 
 --- /task ---
 
-You might find that your drums need to be in a new position on a different backdrop.
+بالنسبة ** للمكان **، سوف تحتاج إلى:
 
 --- task ---
 
-Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
-
-You will also need to set their starting position `when flag clicked`{:class="block3events"}.
-
---- /task ---
-
---- task ---
-
-**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
+أضف خلفية جديدة.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
+أضف مقطعاً برمجياً إلى المرحلة `قم بتبديل الخلفية إلى`{: class = "block3looks"} خلفية جديدة عندما يتم استلام ` الرسالة `{: class = "block3events"} لهذا الأسطوانة.
+
+--- /task ---
+
+قد تجد أن طبولك يجب أن تكون في موقع جديد مع خلفية مختلفة.
+
+--- task ---
+
+أضف مقطعاً برجياً يبدأ بـ `عندما تتبدل الخلفية إلى`{: class = "block3events"} لكل **أسطوانة** مع `انتقل` الى مقطع برمجي{: class = "block3motion"} لجعلها تغير موقعها.
+
+ستحتاج أيضًا إلى تحديد موقع البداية `عند النقر على المقطع لبرمجي العلم الاخضر`{: class = "block3events"}.
+
+--- /task ---
+
+--- task ---
+
+**مرتب:** إذا كان لديك وقت ، فمن المستحسن التأكد من أن الكائنات الموجودة في قائمة الكائنات في ترتيب معقول ، بدءًا من الأسطوانات psf ترتيب ترقيتها ثم الأزرار بالترتيب.
+
+--- /task ---
+
+--- task ---
+
+**تصحيح:** تأكد أولاً من أنك تفهم حقًا متى يجب أن تظهر الطبول والأزرار وكيف يجب ان متغيير`النبضات` يتغيير{:class="block3variables"} . من الأسهل بكثير تصحيح أخطاء مشروع إذا كنت واضحة .
 
 --- collapse ---
 ---
-title: My drum doesn't show/hide correctly
+العنوان: طبلي لا يظهر / يختفي بشكل صحيح
 ---
 
-Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}. And it should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
+ما لم تكن الأسطوانة الأولى ، يجب أن تحتوي الأسطوانة على `عند النقر فوق العلم`{: class = "block3events"} مقطع برمجي ` للإخفاء `{: class = "block3looks"}. ويجب أن يحتوي المقطع البرمجي`عندما أتلقى`{: class = "block3events"} `للطبل على` مقطع برمجي `اظهر`{: class = "block3looks"}.
 
-Check that the **Get** button for this drum `broadcasts`{:class="block3events"} the same message.
+تأكد من أن زر **Get** لهذا الطبل `يبث`{: class = "block3events"} نفس الرسالة.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Get button doesn't show/hide correctly
+العنوان: الزر Get الخاص بي لا يظهر / يختفي بشكل صحيح
 ---
 
-Unless the button is for the very first drum, then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receieve`{:class="block3events"} the message for the **previous drum**. The **Get** button should `show`{:class="block3looks"} to let the player know about the next upgrade they are working towards.
+ما لم يكن الزر للطبل</code>يختفي`: class = "block3looks"} <code>عند النقر فوق العلم`{: class = "block3events"}. ويجب أن ` يُظهر `{: class = "block3looks"} `عندما أتلقى`{: class = "block3events"} رسالة للطبل **السابق**. يجب أن زر **Get** ` يظهر `{: class = "block3looks"} لإعلام اللاعب بالترقية التالية التي يعملون عليها.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I can buy a drum when I don't have enough beats
+العنوان: يمكنني شراء طبلة عندما لا يكون لدي دقات كافية
 ---
 
-Check that you have changed the number of `beats`{:class="block3variables"} needed `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+تأكد من أنك قمت بتغيير عدد `نبضات`{: class = "block3variables"} تحتاجها `عند نقر هذا الكائن `{: class = "block3events"} في المقطع البرمجي لزر **Get** للأسطوانة.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The number of beats doesn't change correctly when I get a new drum
+العنوان: لا يتغير عدد النبضات بشكل صحيح عندما أحصل على طبلة جديدة
 ---
 
-Check that you have `changed beats by`{:class="block3variables"} a negative number `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+تأكد من ` تغيير نبضة بمفدار` برقم سالب `عندما نقر هذا الكائن`: class = "block3events"} في المقطع البرمجي لزر **Get** للطبل.
 
-Make sure this matches the number on the drum button costume.
+تأكد من أن هذا يتطابق مع الرقم الموجود على زي زر الأسطوانة.
 
 --- /collapse ---
 
@@ -144,13 +144,13 @@ Make sure this matches the number on the drum button costume.
 
 --- collapse ---
 ---
-title: Completed project
+العنوان: مشروع مكتمل
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
 
 --- /collapse ---
 
-**Tip:** If you get really muddled then it's fine to delete the new drum and its button, and start again. Sometimes it is hard to spot a bug.
+**نصيحة:** إذا كنت غير متاكد ، فلا بأس من حذف الأسطوانة الجديدة وزرها ، والبدء من جديد. في بعض الأحيان يكون من الصعب اكتشاف الخلل.
 
 --- save ---

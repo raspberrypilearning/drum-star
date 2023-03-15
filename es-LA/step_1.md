@@ -1,23 +1,23 @@
-## Introduction
+## Lo que harás
 
-Make a clicker game where you earn beats to play new drums at bigger venues.
+Crea un juego de clics en donde ganas ritmos para tocar nuevos tambores en lugares más grandes.
 
-You will:
-+ Use `variables`{:class="block3variables"} to store and change numbers and text (words)
-+ `ask`{:class="block3sensing"} a question and use the `answer`{:class="block3sensing"} to customise the game
-+ Use `if...else`{:class="block3control"} blocks to make decisions
+Vas a:
++ Usa `variables`{:class="block3variables"} para almacenar, y cambiar números y texto (palabras)
++ `pregunta`{:class="block3sensing"} y usa la `respuesta`{:class="block3sensing"} para personalizar el juego
++ Usa bloques `si...sino`{:class="block3control"} para tomar decisiones
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">**clicker games**</span> where you have to click to make progress and buy upgrades that help you go faster. Have you ever played a clicker game? There are also <span style="color: #0faeb0">**idle games**</span> that keep going even when you're not playing them. These games are fun as long as you don't spend too much time playing them!</p>
+Hay muchos <span style="color: #0faeb0">**juegos de clics**</span> en los que tienes que hacer clic para avanzar y comprar mejoras que te ayudan a ir más rápido. ¿Alguna vez has jugado un juego de clics? Existen también <span style="color: #0faeb0">**juegos de inactividad**</span> que avanzan incluso cuando no estás jugando. ¡Son divertidos siempre y cuando no pases demasiado tiempo jugándolos!</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### Reproducir ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the drum and watch the number of `beats`{:class="block3variables"} go up. Get a new drum when you have enough beats. 
+Haz clic en el tambor y observa cómo aumenta el número de `ritmos`{:class="block3variables"}. Consigue un tambor nuevo cuando obtengas suficientes ritmos. 
 
-How many `beats`{:class="block3variables"} do you earn when clicking the new drum?
+¿Cuántos `ritmos`{:class="block3variables"} ganas al hacer clic en el nuevo tambor?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Proyecto terminado](images/showcase_static.png)
 
 --- /print-only ---

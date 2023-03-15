@@ -11,7 +11,7 @@
 
 --- task ---
 
-انقر فوق **اختر كائن** وابحث في `cymbal`. أضف كائن**Drum-cymbal** إلى مشروعك.
+انقر فوق **اختيار كائن** وابحث في `cymbal`. أضف كائن**Drum-cymbal** إلى مشروعك.
 
 ![](images/cymbal-gallery.png)
 

@@ -116,7 +116,7 @@ title: నా డ్రమ్ సరిగ్గా చూపడం/దాగడ
 title: నా డ్రమ్ సరిగ్గా చూపడం/దాగడం లేదు
 ---
 
-బటన్ మొదటి డ్రమ్ కోసం తప్ప,`when flag clicked`{:class="block3events"} అది `hide`{:class="block3looks"} చేయాలి. మరియు `when I receive`{:class="block3events"} సందేశం **మునుపటి డ్రమ్** కోసం అందినప్పుడు `show`{:class="block looks"} అవబడాలి. **Get** బటన్ `show`{:class="block3looks"} అవడం ద్వారా, ప్లేయర్‌కు వారు పని చేస్తున్న తదుపరి అప్‌గ్రేడ్ గురించి తెలియజేయాలి.
+బటన్ మొదటి డ్రమ్ కోసం తప్ప,`when flag clicked`{:class="block3events"} అది `hide`{:class="block3looks"} చేయాలి. And it should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**. **Get** బటన్ `show`{:class="block3looks"} అవడం ద్వారా, ప్లేయర్‌కు వారు పని చేస్తున్న తదుపరి అప్‌గ్రేడ్ గురించి తెలియజేయాలి.
 
 --- /కొలాప్స్ ---
 

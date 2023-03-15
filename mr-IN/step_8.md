@@ -116,7 +116,7 @@ title: माझा ड्रम योग्यपणे दाखवत ना
 title: माझे Get बटन योग्यपणे दाखवत नाही/लपवत नाही
 ---
 
-बटन फार पहिल्या ड्रमसाठी असल्याशिवाय, ते `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. आणि त्याने **previous drum** साठी मेसेज `show`{:class="block3looks"} `when I receieve`{:class="block3events"} हवा. **Get** बटन प्लेयरला ते कार्य करत असलेल्या पुढील अपग्रेडबद्दल माहिती असण्यासाठी `show`{:class="block3looks"} हवे.
+बटन फार पहिल्या ड्रमसाठी असल्याशिवाय, ते `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**. **Get** बटन प्लेयरला ते कार्य करत असलेल्या पुढील अपग्रेडबद्दल माहिती असण्यासाठी `show`{:class="block3looks"} हवे.
 
 --- /collapse ---
 

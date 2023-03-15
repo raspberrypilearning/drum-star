@@ -1,23 +1,23 @@
-## Introduction
+## Cyflwyniad
 
-Make a clicker game where you earn beats to play new drums at bigger venues.
+Creu gêm clicio lle rwyt ti'n ennill curiadau i chwarae drymiau newydd mewn lleoliadau mwy.
 
-You will:
-+ Use `variables`{:class="block3variables"} to store and change numbers and text (words)
-+ `ask`{:class="block3sensing"} a question and use the `answer`{:class="block3sensing"} to customise the game
-+ Use `if...else`{:class="block3control"} blocks to make decisions
+Byddi di'n:
++ Defnyddio `newidynnau`{:class="block3variables"} i storio a newid rhifau a thestun (geiriau)
++ `gofyn`{:class="block3sensing"} cwestiwn a defnyddio'r `ateb`{:class="block3sensing"} i addasu'r gêm
++ Defnyddio blociau `os...yna`{:class="block3control"} i wneud dewisiadau
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">**clicker games**</span> where you have to click to make progress and buy upgrades that help you go faster. Have you ever played a clicker game? There are also <span style="color: #0faeb0">**idle games**</span> that keep going even when you're not playing them. These games are fun as long as you don't spend too much time playing them!</p>
+Mae yna lawer o <span style="color: #0faeb0">**gemau clicio**</span> lle mae'n rhaid i ti glicio i wneud cynnydd a phrynu uwchraddiadau sy'n dy helpu i fynd yn gyflymach. Wyt ti erioed wedi chwarae gêm clicio? Mae yna hefyd <span style="color: #0faeb0">**gemau segur**</span> sy'n dal i fynd hyd yn oed pan nad wyt ti'n eu chwarae. Mae'r gemau yma yn hwyl os nad wyt ti'n treulio gormod o amser yn eu chwarae!</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### Chwarae ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the drum and watch the number of `beats`{:class="block3variables"} go up. Get a new drum when you have enough beats. 
+Clicia'r drwm i weld nifer y `curiadau`{:class="block3variables"} yn codi. Byddi di'n cael drwm newydd pan fydd gen ti ddigon o guriadau. 
 
-How many `beats`{:class="block3variables"} do you earn when clicking the new drum?
+Faint o `guriadau`{:class="block3variables"} wyt ti'n eu hennill wrth glicio ar y drwm newydd?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Prosiect wedi'i gwblhau](images/showcase_static.png)
 
 --- /print-only ---

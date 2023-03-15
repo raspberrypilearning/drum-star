@@ -116,7 +116,7 @@ Controleer of de **Get** knop voor deze drum `hetzelfde bericht uitzendt`{:class
 title: Mijn Get-knop wordt niet correct weergegeven/verborgen
 ---
 
-Tenzij de knop voor de allereerste drum is, moet deze `verbergen`{:class="block3looks"} `wanneer op de vlag wordt geklikt`{:class="block3events"}. En `verschijnen`{:class="block3looks"} `wanneer ik`{:class="block3events"} het bericht ontvang voor de **vorige drum**. De **Get** knop moet `verschijnen`{:class="block3looks"} om de speler laten weten naar welke volgende upgrade ze werken.
+Tenzij de knop voor de allereerste drum is, moet deze `verbergen`{:class="block3looks"} `wanneer op de vlag wordt geklikt`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**. De **Get** knop moet `verschijnen`{:class="block3looks"} om de speler laten weten naar welke volgende upgrade ze werken.
 
 --- /collapse ---
 

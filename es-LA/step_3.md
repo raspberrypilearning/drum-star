@@ -1,8 +1,8 @@
-## Starter drum
+## Tambor de principiante
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a **cymbal** sprite that you can click to earn beats and play a sound.
+Agregarás una imagen de un **platillo** en el que puedes hacer clics para ganar ritmos y reproducir un sonido.
 </div>
 <div>
 ![](images/starter-drum.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add a **cymbal** sprite that you can click to earn beats and play a sou
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to your project.
+Haz clic en **Elegir un objeto** y busca `cymbal`. Agrega la imagen del**Drum-cymbal** a tu proyecto y cambia el nombre a "platillo".
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to
 
 --- task ---
 
-Position your cymbal on the Stage:
+Coloca tu platillo en el Escenario:
 
 ![](images/cymbal-stage.png)
 
@@ -27,7 +27,7 @@ Position your cymbal on the Stage:
 
 --- task ---
 
-Add the **Music extension**:
+Agrega la **Extensión musical**:
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -35,7 +35,7 @@ Add the **Music extension**:
 
 --- task ---
 
-Add a script to make the cymbal `switch costume`{:class="block3looks"} and `play a drum sound`{:class="block3extensions"}:
+Agrega una secuencia de comandos para hacer `cambiar disfraz a`{:class="block3looks"} y `reproducir un sonido de tambor`{:class="block3extensions"} al platillo:
 
 ![](images/cymbal-icon.png)
 
@@ -50,15 +50,15 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test:** Test your cymbal by clicking on it. Make sure you hear a sound and see the costume change.
+**Prueba:** Prueba tu platillo haciendo clic en él. Asegúrate de escuchar un sonido y que cambie el disfraz.
 
 --- /task ---
 
-The **Drum-cymbal** sprite will earn you one beat each time you click it.
+La imágen del **Platillo** te otorgará un ritmo cada vez que hagas clic en él.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `beats`:
+Crea una `variable`{:class="block3variables"} llamada `ritmos`:
 
 ![](images/beats-variable.png)
 
@@ -66,7 +66,7 @@ Create a `variable`{:class="block3variables"} called `beats`:
 
 --- task ---
 
-Add a block to `change beats by 1`{:class="block3variables"} when the **Drum-cymbal** sprite is clicked:
+Agrega un bloque para `cambiar ritmos en 1`{:class="block3variables"} cuando hagas clic en la imagen del **Platillo**:
 
 ![](images/cymbal-icon.png)
 
@@ -82,17 +82,17 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it and watch the `beats`{:class="block3variables"} increase.
+**Prueba:** Haz clic en el **Platillo** para probar y observa cómo aumentan los `ritmos`{:class="block3variables"}.
 
 --- /task ---
 
-The `beats`{:class="block3variables"} variable needs to start at `0` beats when you start a new game.
+La variable `ritmos`{:class="block3variables"} debe comenzar en `0`cuando comienzas un nuevo juego.
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab to add code to the Stage.
+Haz clic en el panel y luego en la pestaña **Código** para añadirle el código al escenario.
 
-Add a block to `set beats to`{:class="block3variables"} `0`:
+Agrega un bloque `fijar ritmos a`{:class="block3variables"} `0`:
 
 ![](images/stage-icon.png)
 
@@ -106,7 +106,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Test:** Click the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
+**Prueba:** Haz clic en la bandera verde y asegúrate de que tu variable `ritmos`{:class="block3variables"} comienza en `0`.
 
 --- /task ---
 

@@ -8,27 +8,30 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: परिचय
+    title: You will make
   - 
     title: Stage सेट करा
   - 
     title: स्टार्टर ड्रम
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: प्रथम अपग्रेड
   - 
     title: दुसरे अपग्रेड
   - 
     title: खेळा आणि कस्टमाइज करा
-    completion: internal
+    completion:
+      - internal
   - 
-    title: परावर्तन
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: तुमचा प्रोजेक्ट अपग्रेड करा
   - 

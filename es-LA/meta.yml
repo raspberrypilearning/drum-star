@@ -1,35 +1,38 @@
 ---
-title: Drum star
+title: Estrella de la bateria
 hero_image: images/banner.png
-description: Make a clicker game where you earn beats to play new drums and bigger venues
+description: Crea un juego de clics en donde ganas ritmos para tocar nuevos tambores y en lugares más grandes
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Introduction
+    title: Lo que harás
   - 
-    title: Set the Stage
+    title: Prepara el escenario
   - 
-    title: Starter drum
-    completion: engaged
+    title: Tambor de principiante
+    completion:
+      - engaged
   - 
-    title: First upgrade
+    title: Primera actualización
   - 
-    title: Second upgrade
+    title: Segunda actualización
   - 
-    title: Play and customise
-    completion: internal
+    title: Juega y personaliza
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Examen rápido
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: Mejora tu proyecto
   - 
-    title: What next?
+    title: '¿Qué sigue?'

@@ -8,27 +8,30 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: పరిచయం
+    title: You will make
   - 
     title: Stage ను సెట్ చేయండి
   - 
     title: స్టార్టర్ డ్రమ్
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: మొదటి అప్‌గ్రేడ్
   - 
     title: రెండవ అప్‌గ్రేడ్
   - 
     title: ప్లే చేయండి మరియు కస్టమైజ్ చేయండి
-    completion: internal
+    completion:
+      - internal
   - 
-    title: విశ్లేషణ
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
   - 

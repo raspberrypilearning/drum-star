@@ -1,8 +1,9 @@
-## First upgrade
+## التطوير الاول
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add your first upgrade. The **Get snare** button will show at the start, so the player knows which drum they are working towards.
+سوف تضيف الترقية او التطوير الأول الخاصة بك. سيظهر زر ** الحصول على snare ** في البداية ، حتى يعرف اللاعب الطبلة التي يعمل عليها.
+snare نوع من انواع الطبل.
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -11,7 +12,7 @@ You will add your first upgrade. The **Get snare** button will show at the start
 
 --- task ---
 
-Add the **Drum-snare** sprite to your project and position it on the Stage:
+أضف الكائن **Drum-snare** إلى مشروعك وقم بوضعه على المنصة:
 
 ![](images/snare-stage.png)
 
@@ -19,7 +20,7 @@ Add the **Drum-snare** sprite to your project and position it on the Stage:
 
 --- task ---
 
-Drag the `when this sprite clicked`{:class="block3events"} script from the **Drum-cymbal** sprite to the **Drum-snare** sprite.
+اسحب المقطع البرمجي `عند النقر على هذا الكائن`ن {: class = "block3events"} من **Drum-cymbal** sprite إلى كائن **Drum-snare**.
 
 [[[scratch3-copy-code]]]
 
@@ -27,9 +28,9 @@ Drag the `when this sprite clicked`{:class="block3events"} script from the **Dru
 
 --- task ---
 
-Change the costumes and the drum sound.
+تغيير المظاهر وصوت الطبل.
 
-Change the number of beats earned to `2`:
+قم بتغيير عدد الدقات التي حصلت عليه إلى `2`:
 
 ![](images/snare-icon.png)
 
@@ -45,15 +46,15 @@ when this sprite clicked
 
 --- task ---
 
-**Test:** Try out your project. Make sure that you earn 2 beats when you click on the snare drum.
+**اختبار:** قم بتجربة مشروعك. تأكد من حصولك على دقاتين عند النقر على طبلة snare.
 
 --- /task ---
 
-Upgrades are not available when you start the project. They have to be earned with beats.
+الترقيات غير متوفرة عند بدء المشروع. يجب أن يكتسبوا بالضربات الى الطبل.
 
 --- task ---
 
-Add a script to hide this **drum** sprite at the start of the project:
+أضف مقطع برمجي لإخفاء هذا الكائن **drum** في بداية المشروع:
 
 ![](images/snare-icon.png)
 
@@ -64,15 +65,15 @@ hide
 
 --- /task ---
 
-A button will show which drum is the next upgrade option and how many beats it will cost.
+سيظهر الزر أي طبل هي من الخيارات التالية للترقية وعدد الإيقاعات التي ستكلفها.
 
 --- task ---
 
-**Duplicate** the **Get** sprite:
+**مضاعفة** ، **، احصل على** مظهر:
 
 ![](images/duplicate-get.png)
 
-Change the visibility to **Show** and change its name to `Get snare`. Position it in the bottom-right corner of the Stage:
+قم بتغيير حالة الاظهار إلى **اظهار** وقم بتغيير اسمه إلى `Get snare`. وقم بوضعه في الركن الأيمن السفلي من المنصة:
 
 ![](images/get-snare.png)
 
@@ -80,7 +81,7 @@ Change the visibility to **Show** and change its name to `Get snare`. Position i
 
 --- task ---
 
-Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Select** (arrow) tool to highlight the not hit costume of your drum. Click on the **Group** icon then the **Copy** icon:
+انقر فوق كائن **Drum-snare** وانتقل إلى علامة التبويب **المظاهر**. استخدم أداة **تحديد** (السهم) لتحديد الكائن بالكامل. انقر على أيقونة **تجمع** ثم أيقونة **نسخ**:
 
 ![](images/snare-icon.png)
 
@@ -90,7 +91,7 @@ Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Sel
 
 --- task ---
 
-Click on your **Get snare** sprite and **Paste** the snare costume. You might need to resize and position it to fit your button:
+انقر على **الحصول على snare ** و **لصق** مظهر الــ snare  . قد تحتاج إلى تغيير حجمه وl,rui ليلائم الزر الخاص بك:
 
 ![](images/get-snare-icon.png)
 
@@ -100,7 +101,7 @@ Click on your **Get snare** sprite and **Paste** the snare costume. You might ne
 
 --- task ---
 
-Click on the **Code** tab and add a script to show the **Get snare** sprite at the start of the project:
+انقر فوق علامة التبويب **المقطاع البرمجية** وأضف مقطع برمجي لاظهار الكائن **Get snare** في بداية المشروع:
 
 ![](images/get-snare-icon.png)
 
@@ -111,17 +112,17 @@ show
 
 --- /task ---
 
-The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, you learned about making decisions with `if`{:class="block3control"} blocks.
+يمكن شراء الترقية فقط إذا كان لدى المستخدم `10` نبضة أو أكثر. في مشروع[نمو اليعسوبب](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){: target = "_ blank"} ، تعلمت كيفية اتخاذ القرارات باستخدام المقطع البرمجي `اذا`{: class = "block3control"}.
 
-An `if ... else`{:class="block3control"} block is used to make a decision and will do different things if a condition is `true` or `false`.
+يتم استخدام المقطع البرمجي `اذا ... والا`{: class = "block3control"} لاتخاذ قرار وستقوم بأشياء مختلفة إذا كان الشرط `صحيحًا` أو `خطأ`.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up, you check `if`{:class="block3control"} it is morning. You get up, or `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
+نستخدم <span style="color: #0faeb0">** اذا ... والا **</span> طوال الوقت لاتخاذ القرارات. عندما تستيقظ ، تتحقق من `اذا` {: class =" block3control "} هذا الصباح. استيقظ ، أو `والا` {: class =" block3control "} تعود للنوم. هل يمكنك التفكير في أي قرارات تتخذها بشأن "اذا ... else" {: والا = "block3control"}؟ 
 </p>
 
 --- task ---
 
-Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `Not enough beats!` if they are not able to upgrade:
+أضف هذا النقطع البرمجي للحصول على الترقية `إذا `{: class = "block3control"} لدى اللاعب عدد كافٍ من النبضات ، أو `قل`{: class = "block3looks"} `لا توجد نبضات كافية!` إذا لم يتمكنوا من الترقية:
 
 ![](images/get-snare-icon.png)
 
@@ -137,11 +138,11 @@ end
 
 --- /task ---
 
-Let other sprites and the Stage know that the snare upgrade has been bought.
+دع الكائنات المتحركة الأخرى والمسرح يعلمان أنه تم شراء ترقية snare.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+أضف المقطع البرمجي ` بث `{: class = "block3events"} لإرسال `snare` رسالة جديدة:
 
 ![](images/get-snare-icon.png)
 
@@ -160,7 +161,7 @@ end
 
 --- task ---
 
-Click on the **Drum-snare** sprite. Add this script:
+انقر فوق كائن **Drum-snare**. أضف هذا المقطع البرمجي:
 
 ![](images/snare-icon.png)
 
@@ -171,13 +172,13 @@ show
 
 --- /task ---
 
-When you upgrade your equipment, you will be able to play at bigger venues.
+عندما تقوم بترقية معداتك ، ستتمكن من اللعب في أماكن أكبر.
 
 --- task ---
 
-Add another backdrop. We chose **Chalkboard** to play our second gig at school.
+أضف خلفية أخرى. اخترنا خلفية**Chalkboard** للعب الحفلة الثانية في المدرسة.
 
-Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+أضف مقطع برمجي إلى المرحلة إلى `غير الخلفية الى`{: class = "block3looks"} عند تلقي رسالة الترقية:
 
 ![](images/stage-icon.png)
 
@@ -186,15 +187,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
+**نصيحة:** اختر مكانًا على بعد خطوة صغيرة من غرفة النوم. تريد حفظ أماكن أكبر لوقت لاحق.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
+**اختبار:** قم بتشغيل مشروعك. حاول وشراء ترقية snare قبل أن يكون لديك ما يكفي من الإيقاعات.
 
-When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
+عند شراء فحص الترقية: يظهر snare ، ويختفي الزر ، ويتغير المكان ، وتنخفض النبضات ``{: class = "block3variables"} بمقدار `10`.
 
 --- /task ---
 

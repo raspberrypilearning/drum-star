@@ -1,8 +1,8 @@
-## Set the stage
+## Gosod y Llwyfan
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the stage for your first gig and choose a rock star name.
+Yn y cam yma, byddi di'n gosod y llwyfan ar gyfer dy gig cyntaf ac yn dewis enw seren roc.
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}
@@ -11,35 +11,35 @@ In this step, you will set the stage for your first gig and choose a rock star n
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
+Agora'r [prosiect Seren ddrymiau](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. They produce their own songs by themselves then release them online for everyone to hear. 
+Mae cerddorion sy'n cael eu galw'n <span style="color: #0faeb0">**artistiaid DIY**</span> yn dechrau recordio cerddoriaeth o'u hystafelloedd gwely. Maen nhw'n cynhyrchu eu caneuon eu hunain ar eu pennau eu hunain ac yna'n eu rhyddhau ar-lein i bawb eu clywed. 
 </p>
 
-The game starts in a bedroom like a DIY artist.
+Mae'r gêm yn dechrau mewn ystafell wely fel artist DIY.
 
 --- task ---
 
-Click **Choose a Backdrop** and search for `bedroom`.
+Clicia **Dewiswch Gefnlen** a chwilio am `bedroom`.
 
-**Choose:** Select a bedroom and add it to your project. We chose `Bedroom 3`.
+**Dewis:** Dewisa ystafell wely a'i hychwanegu at dy brosiect. Fe ddewison ni `Bedroom 3`.
 
-![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
+![Y llwyfan yn dangos y gefnlen 'Bedroom 3'.](images/bedroom3.png)
 
 --- /task ---
 
 --- task ---
 
-In Scratch, you can add code to the Stage.
+Yn Scratch, galli di ychwanegu cod at y Llwyfan.
 
-Click on your bedroom backdrop from the Stage pane and add this code:
+Clicia ar dy gefnlen ystafell wely o gwarel y Llwyfan ac ychwanegu'r cod yma:
 
-![The backdrop thumbnail in the stage pane.](images/bedroom-icon.png)
+![Mân lun o'r gefnlen yng nghwarel y llwyfan.](images/bedroom-icon.png)
 
 ```blocks3
 when flag clicked
@@ -48,27 +48,27 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-Every musician needs to choose a rock star name.
+Mae angen i bob cerddor ddewis enw seren roc.
 
-A **variable** is a way of storing numbers and/or text. Your rockstar name will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
+Mae **newidyn** yn ffordd o storio rhifau a/neu destun. Bydd enw dy seren roc yn cael ei storio mewn `newidyn`{:class="block3variables"} fel bod modd ei ddefnyddio unrhyw bryd.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+O'r ddewislen blociau `Newidynnau`{:class="block3variables"} clicia'r botwm **Creu Newidyn**.
 
-Call your new variable `name`:
+Newidia enw dy newidyn i `enw`:
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+![Y ffenestr naid Newidyn Newdd gyda'r testun 'name'.](images/new-variable.png)
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**Nodyn:** Bydd y newidyn `enw` newydd yn ymddangos ar y Llwyfan a bydd modd ei ddefnyddio nawr yn y blociau `Newidyn`{:class="block3variables"}.
 
 --- /task ---
 
 --- task ---
 
-At the start of the project, your rockstar name is unknown.
+Ar ddechrau'r prosiect, mae enw dy seren roc yn anhysbys.
 
-Add a block to `set name to`{:class="block3variables"} `???`:
+Ychwanega floc i `gosod enw i`{:class="block3variables"} `???`:
 
 ![](images/stage-icon.png)
 
@@ -80,11 +80,11 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-You can `ask`{:class="block3sensing"} a question in Scratch, then use a `variable`{:class="block3variables"} to store the `answer`{:class="block3sensing"}.
+Galli di `ofyn`{:class="block3sensing"} cwestiwn yn Scratch, ac wedyn defnyddio `newidyn`{:class="block3variables"} i storio'r `ateb`{:class="block3sensing"}.
 
 --- task ---
 
-Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
+Clicia ar y ddewislen flociau `Synhwyro`{:class="block3sensing"} ac ychwanegu bloc `gofyn`{:class="block3sensing"} at dy god:
 
 ![](images/stage-icon.png)
 
@@ -99,7 +99,7 @@ set [name v] to [???] //your variable
 
 --- task ---
 
-Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+Gosoda'r `newidyn`{:class="block3variables"} `enw`{:class="block3variables"} i'r `ateb`{:class="block3sensing"}:
 
 ![](images/stage-icon.png)
 
@@ -113,11 +113,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
-Change the way your `variable`{:class="block3variables"} looks on the Stage.
+Newidia'r ffordd mae dy `newidyn`{:class="block3variables"} yn edrych ar y Llwyfan.
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**:
+De-glicia ar y `newidyn`{:class="block3variables"} ar y Llwyfan a dewis **sgrîn fawr**:
 
 ![](images/large-readout.png)
 
@@ -125,7 +125,7 @@ Right-click on the `variable`{:class="block3variables"} on the Stage and choose 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage:
+Llusga dy `newidyn`{:class="block3variables"} er mwyn ei leoli ar ochr dde uchaf y Llwyfan:
 
 ![](images/repositioned-variable.png)
 
@@ -133,13 +133,13 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- task ---
 
-**Test:** Run your project to make sure the `variable`{:class="block3variables"} starts as `???` then updates to your `answer`{:class="block3sensing"}.
+**Prawf:** Rheda dy brosiect i wneud yn siŵr bod y `newidyn`{:class="block3variables"} yn dechrau fel `???` ac wedyn yn diweddaru i dy `ateb`{:class="block3sensing"}.
 
 --- /task ---
 
 --- task ---
 
-Now that you have tested that the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"}, you can drag the last 2 blocks of code away from the rest of the script. This means you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
+Nawr dy fod ti wedi profi i wneud yn siŵr bod y `newidyn`{:class="block3variables"} yn newid i'r `ateb`{:class="block3sensing"}, galli di lusgo'r 2 floc o god i ffwrdd o weddill y sgript. Mae hyn yn golygu nad oes rhaid i ti deipio `ateb`{:class="block3sensing"} bob tro rwyt ti'n profi dy brosiect:
 
 ![](images/stage-icon.png)
 

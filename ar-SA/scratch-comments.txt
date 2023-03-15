@@ -1,57 +1,57 @@
-your backdrop name
+اسم الخلفية الخاصة بك
 
-your variable
+المتغير الخاص بك
 
-your question
+سؤالك
 
-hit costume
+المظهر التالي
 
-drum sound
+صوت الطبل
 
-not hit costume
+مظهر آخر بدون تغيير
 
-2 beats per click
+ دقتان لكل نقرة
 
-if 10 or more beats
+إذا كان 10 دقات أو أكثر
 
-take away the cost upgrade
+تكلفة التطوير
 
-your drum name
+اسم الطبلة الخاصة بك
 
-5 beats per click
+ ٥ دقات لكل نقرة
 
-your hit costume
+المظهر الثاني للطبل
 
-your drum sound
+صوت الطبل الخاص بك
 
-your not hit costume
+المظهر الاول للطبل
 
-appear when previous drum is bought
+تظهر عدما يتم شراء الطبل السابق
 
-show button for next available drum
+عرض زر الطبل المتاح التالي
 
-change to 29
+غيّر الى 29
 
-change to 30
+غيّر الى 30
 
-change to your drum name
+تغيير اسم الطبل الخاص بك
 
-player has upgraded to this drum
+قام اللاعب بالتطوير إلى هذا الطبل
 
-this drum earns 2 beats
+هذا الطبل يكسب ٢ دقة
 
-this drum earns 5 beats
+هذا الطبل يكسب 5 دقات
 
-first upgrade visible from the start
+أول تطوير مرئي منذ البداية
 
-need at least 10 beats
+تحتاج الى ما لا يقل عن 10 دقات
 
-cost of the snare drum
+تكلفة طبلة الـــ snare 
 
-not available at the start
+غير متوفر في البداية
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+أظهر متى يتم شراء الطبلة السابقة (snare) وهذه هي الترقية التي يعمل اللاعب على تحقيقها.
 
-need at least 30 beats
+تحتاج الى ما لا يقل عن 30 دقات
 
-cost of the drum
+تكلفة الطبل

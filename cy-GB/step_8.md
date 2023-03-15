@@ -1,142 +1,142 @@
-## Upgrade your project
+## Uwchraddio dy brosiect
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Upgrade your project with more drums and more backdrops as you play more amazing venues. 
+Galli di uwchraddio dy brosiect gyda rhagor o ddrymiau a mwy o gefnlenni wrth i ti chwarae mewn mwy o leoliadau anhygoel. 
 </div>
 <div>
 ![](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-There are lots more drum costumes to choose from to add more upgrades to your project.
+Mae llawer mwy o wisgoedd drymiau i ddewis ohonyn nhw i ychwanegu rhagor o uwchraddiadau i'ch prosiect.
 
-To add another drum to upgrade to, look back at the earlier steps of the project.
+I ychwanegu drwm arall i uwchraddio iddo, edrycha yn ôl ar gamau cynharach y prosiect.
 
-For the **drum**, you will need to:
+Ar gyfer y **drwm**, bydd angen i ti:
 
 --- task ---
 
-Duplicate the previous **drum** sprite and add two costumes.
+Ddyblygu'r corlun **drum** blaenorol ac ychwanegu dwy wisg.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script.
+Newid y `wisg`{:class="block3looks"} a'r `sain`{:class="block3sound"} sy'n cael eu defnyddio yn y sgript `pan gaiff y corlun hwn ei glicio`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script.
+Newid nifer y `curiadau`{:class="block3variables"} sy'n cael eu hennill yn y sgript `pan gaiff y corlun hwn ei glicio`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**.
+Newid y `neges`{:class="block3events"} sy'n gwneud i'r drwm `ddangos`{:class="block3looks"} i neges ar gyfer y **drwm newydd**.
 
 --- /task ---
 
-For the **button**, you will need to:
+Ar gyfer y **botwm**, bydd angen i chi:
 
 --- task ---
 
-Duplicate the previous **Get** sprite.
-
---- /task ---
-
---- task ---
-
-Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**.
+Dyblyga'r corlun **Get** blaenorol.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} including the cost of the new drum.
+Newidia'r `neges`{:class="block3events"} sy'n gwneud i'r botwm ymddangos i'r `neges`{:class="block3events"} sy'n cael ei `darlledu`{:class="block3events"} gan y **drwm blaenorol**.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
-
---- /task ---
-
-For the **venue**, you will need to:
-
---- task ---
-
-Add a new backdrop.
+Newidia'r `wisg`{:class="block3looks"} gan gynnwys cost y drwm newydd.
 
 --- /task ---
 
 --- task ---
 
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved.
+Newidia nifer y `curiadau`{:class="block3variables"} sydd ei angen i enill y drwm yma yn yr amod `os`{:class="block3events"}. Newidia'r nifer negyddol o `guriadau`{:class="block3variables"} sy'n `newid gan`{:class="block3variables"} pan fydd rhywun yn cael y drwm yma. Newidia'r neges sy'n cael ei `darlledu`{:class="block3events"} i enw'r **drwm newydd**.
 
 --- /task ---
 
-You might find that your drums need to be in a new position on a different backdrop.
+Ar gyfer y **lleoliad**, bydd angen i ti:
 
 --- task ---
 
-Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
-
-You will also need to set their starting position `when flag clicked`{:class="block3events"}.
-
---- /task ---
-
---- task ---
-
-**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
+Ychwanegu cefnlen newydd.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
+Ychwanegu sgript i'r Llwyfan i `newid cefnlen i`{:class="block3looks"} y gefnlen newydd pan fydd y `neges`{:class="block3events"} ar gyfer y drwm yma yn cael ei derbyn.
+
+--- /task ---
+
+Efallai y gweli fod angen i dy ddrymiau fod mewn safle newydd ar gefnlen wahanol.
+
+--- task ---
+
+Ychwanega sgript sy'n dechrau gyda `pan fydd cefndir yn newid i`{:class="block3events"} i bob corlun **drwm** gyda bloc `mynd i`{:class="block3motion"} i wneud iddyn nhw newid eu safle.
+
+Bydd hefyd angen i ti osod eu safleoedd cychwynnol `ar ôl clicio'r faner`{:class="block3events"}.
+
+--- /task ---
+
+--- task ---
+
+**Tacluso:** Os oes gen ti amser, mae'n syniad gwneud yn siŵr bod y corluniau ar y rhestr corluniau mewn trefn synhwyrol, gan gychwyn gyda'r drymiau yn y drefn y cawson nhw eu huwchraddio ac yna'r botymau mewn trefn.
+
+--- /task ---
+
+--- task ---
+
+**Debug:** Yn gyntaf gwna'n siŵr dy fod yn deall yn iawn pryd y dylai'r drymiau a'r botymau ymddangos a sut y dylai'r newidyn `curiadau`{:class="block3variables"} newid. Mae'n llawer haws difa chwilod prosiect os wyt ti'n glir am yr hyn mae i fod i'w wneud.
 
 --- collapse ---
 ---
-title: My drum doesn't show/hide correctly
+title: Dydy fy nrwm ddim yn ymddangos/cuddio yn gywir
 ---
 
-Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}. And it should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
+Oni bai mai hwn ydy'r drwm cyntaf, dylai dy ddrwm gael sgript `pan fydd y faner wedi'i chlicio`{:class="block3events"} i'w `guddio`{:class="block3looks"}. A dylai gael sgript `pan rwy'n derbyn`{:class="block3events"} `y drwm yma` i'w `ddangos`{:class="block3looks"}.
 
-Check that the **Get** button for this drum `broadcasts`{:class="block3events"} the same message.
+Gwiria fod y botwm **Get** ar gyfer y drwm yma yn `darlledu`{:class="block3events"} yr un neges.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Get button doesn't show/hide correctly
+title: Dydy'r botwm Fy Get ddim yn ymddangos/cuddio yn gywir
 ---
 
-Unless the button is for the very first drum, then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receieve`{:class="block3events"} the message for the **previous drum**. The **Get** button should `show`{:class="block3looks"} to let the player know about the next upgrade they are working towards.
+Oni bai fod y botwm ar gyfer y drwm cyntaf un, dylai `guddio`{:class="block3looks"} `pan fydd y faner wedi'i chlicio`{:class="block3events"}. A dylai `ddangos`{:class="block3looks"} `pan rwy'n derbyn`{:class="block3events"} y neges ar gyfer y **drwm blaenorol**. Dylai'r botwm **Get** `ddangos`{:class="block3looks"} i roi gwybod i'r chwaraewr am yr uwchraddiad nesaf mae'n yn gweithio tuag ato.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I can buy a drum when I don't have enough beats
+title: Dw i'n gallu prynu drwm pan nad oes gen i ddigon o guriadau
 ---
 
-Check that you have changed the number of `beats`{:class="block3variables"} needed `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Gwna'n siŵr dy fod wedi newid nifer y `curiadau`{:class="block3variables"} sydd eu hangen `pan gaiff y corlun hwn ei glicio`{:class="block3events"} yn y sgript ar gyfer y botwm **Get** ar gyfer y drwm.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The number of beats doesn't change correctly when I get a new drum
+title: Dydy nifer y curiadau ddim yn newid yn gywir pan fydda i'n cael drwm newydd
 ---
 
-Check that you have `changed beats by`{:class="block3variables"} a negative number `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Gwna'n siŵr dy fod wedi `newid curiadau gan`{:class="block3variables"} gyda rhif negatif `pan gaiff y corlun hwn ei glicio`{:class="block3events"} yn y sgript ar gyfer y botwm **Get** ar gyfer y drwm.
 
-Make sure this matches the number on the drum button costume.
+Sicrha fod hyn yn cyfateb i rif gwisg botwm y drwm.
 
 --- /collapse ---
 
@@ -144,13 +144,13 @@ Make sure this matches the number on the drum button costume.
 
 --- collapse ---
 ---
-title: Completed project
+teitl: Prosiect gorffenedig
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
 
 --- /collapse ---
 
-**Tip:** If you get really muddled then it's fine to delete the new drum and its button, and start again. Sometimes it is hard to spot a bug.
+**Awgrym:** Os wyt ti'n dechrau drysu, mae'n iawn dileu'r drwm newydd a'i fotwm, a dechrau eto. Weithiau mae'n anodd dod o hyd i chwilod.
 
 --- save ---

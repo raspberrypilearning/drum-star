@@ -1,60 +1,54 @@
-## Reflection
+## Examen rápido
 
-Well done, you have made a clicker game that people want to play!
+Contesta las tres preguntas. Hay pistas para guiarte hacia la respuesta correcta.
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
+Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
-Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
-
-Answer the three questions below to reflect on what you've learned.
-
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
-
-Have fun!
+¡Qué te diviertas!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Pregunta 1 de 3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+En tu proyecto, creaste y usaste variables. ¿Cuál de estos valores se puede almacenar en una variable?
 
 `6` , `Tom` , `151` , `Aadya`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- ( ) Solo los números `6` y `151`
 
  --- feedback ---
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
+ Usaste la variable `ritmos`{:class="block3variables"} para almacenar un número. Pero también usaste una variable para otra cosa.
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) Solo el texto (palabras) `Tom` y `Aadya`
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ Usaste la variable `nombre`{:class="block3variables"} para almacenar texto (palabras), para la `respuesta`{:class="block3sensing"} a la `pregunta`{:class="block3sensing"}. Pero también usaste una `variable`{:class="block3variables"} para otra cosa.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- (x) Cualquiera de los números o texto (palabras)
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
+ Sí, almacenaste un número en la `variable`{:class="block3variables"}`ritmos`{:class="block3variables"} y almacenaste texto (palabras) en la `variable`{:clase="block3variables"} `nombre`{:class="block3variables"}.
 
- A variable can store a number or text (words).
+ Una variable puede almacenar un número o un texto (palabras).
 
  --- /feedback ---
 
-- ( ) None of them
+- ( ) Ninguno de ellos
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+No. Piensa en las variables `ritmos`{:class="block3variables"} y `nombre`{:class="block3variables"} que usaste.
 
  --- /feedback ---
 

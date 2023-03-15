@@ -126,7 +126,7 @@ ask [ما هو اسم نجم الروك الخاص بك؟] and wait //سؤالك
 
 --- task ---
 
-اسحب `المتغير`الخاص بك{:class="block3variables"} لوضعه في أعلى يمين المنصة:
+اسحب `المتغير`{:class="block3variables"} الخاص بك لوضعه في أعلى يمين المنصة:
 
 ![](images/repositioned-variable.png)
 

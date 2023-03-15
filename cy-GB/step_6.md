@@ -1,8 +1,8 @@
-## Play and customise
+## Chwarae ac addasu
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's time to make your game work just the way that you want it to.
+Mae'n bryd gwneud i dy gêm weithio'r union ffordd rwyt ti am iddi wneud.
 </div>
 <div>
 ![](images/play-customise.png){:width="300px"}
@@ -11,23 +11,23 @@ It's time to make your game work just the way that you want it to.
 
 --- task ---
 
-Play your game and earn beats.
+Chwaraea dy gêm ac ennill curiadau.
 
-Watch the `beats`{:class="block3variables"} variable change and make sure you understand how beats increase when you click the drums and decrease when you get a new drum.
+Gwylia wrth i'r newidyn `curiadau`{:class="block3variables"} newid a gwna'n siŵr dy fod yn deall sut mae curiadau'n cynyddu pan fyddi di'n clicio ar y drymiau ac yn lleihau pan fyddi di'n cael drwm newydd.
 
-Are you happy with how many beats you earn for each drum? You can change this if you like.
+Wyt ti'n hapus gyda faint o guriadau rwyt ti'n eu hennill ar gyfer pob drwm? Galli di newid hyn os wyt ti eisiau.
 
-Are you happy with how many beats it costs to get a new drum?
+Wyt ti'n hapus gyda faint o guriadau mae'n ei gostio i brynu drwm newydd?
 
-**Tip:** Test your project regularly so you can find and fix any bugs.
+**Awgrym:** Profa dy brosiect yn rheolaidd fel y galli di ddod o hyd i unrhyw chwilod a'u trwsio.
 
 --- /task ---
 
 --- task ---
 
-If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back and set your rock star name.
+Os wyt ti wedi gwahanu'r bloc `gofyn`{:class="block3sensing"} ar y Llwyfan, dylet ti ei roi yn ôl a gosod enw dy seren roc.
 
-Notice that the name displayed on the Stage changes.
+Sylwa fod yr enw sy'n cael ei ddangos ar y Llwyfan yn newid.
 
 --- /task ---
 

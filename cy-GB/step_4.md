@@ -1,8 +1,8 @@
-## First upgrade
+## Uwchraddiad cyntaf
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add your first upgrade. The **Get snare** button will show at the start, so the player knows which drum they are working towards.
+Byddi di'n ychwanegu dy uwchraddiad cyntaf. Bydd y botwm **Get snare** yn ymddangos ar y dechrau, fel bod y chwaraewr yn gwybod pa ddrwm mae'n gweithio tuag ato.
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add your first upgrade. The **Get snare** button will show at the start
 
 --- task ---
 
-Add the **Drum-snare** sprite to your project and position it on the Stage:
+Ychwanega'r corlun **Drum-snare** at dy brosiect a’i osod ar y Llwyfan:
 
 ![](images/snare-stage.png)
 
@@ -19,7 +19,7 @@ Add the **Drum-snare** sprite to your project and position it on the Stage:
 
 --- task ---
 
-Drag the `when this sprite clicked`{:class="block3events"} script from the **Drum-cymbal** sprite to the **Drum-snare** sprite.
+Llusga'r sgript `pan gaiff y corlun hwn ei glicio`{:class="block3events"} o'r corlun **Drum-cymbal** i'r corlun **Drum-snare**.
 
 [[[scratch3-copy-code]]]
 
@@ -27,9 +27,9 @@ Drag the `when this sprite clicked`{:class="block3events"} script from the **Dru
 
 --- task ---
 
-Change the costumes and the drum sound.
+Newidia'r gwisgoedd a sain y drwm.
 
-Change the number of beats earned to `2`:
+Newidia nifer y curiadau sy'n cael eu hennill i `2`:
 
 ![](images/snare-icon.png)
 
@@ -45,15 +45,15 @@ when this sprite clicked
 
 --- task ---
 
-**Test:** Try out your project. Make sure that you earn 2 beats when you click on the snare drum.
+**Profi:** Profa dy brosiect. Gwna'n yn siŵr dy fod ti'n ennill 2 guriad pan fyddi di'n clicio ar y drwm gwifrau.
 
 --- /task ---
 
-Upgrades are not available when you start the project. They have to be earned with beats.
+Dydy uwchraddiadau ddim ar gael wrth i ti ddechrau'r prosiect. Mae'n rhaid eu hennill gyda churiadau.
 
 --- task ---
 
-Add a script to hide this **drum** sprite at the start of the project:
+Ychwanega sgript i guddio'r corlun **drwm** yma ar ddechrau'r prosiect:
 
 ![](images/snare-icon.png)
 
@@ -64,15 +64,15 @@ hide
 
 --- /task ---
 
-A button will show which drum is the next upgrade option and how many beats it will cost.
+Bydd botwm yn dangos pa ddrwm yw'r opsiwn uwchraddio nesaf a faint o guriadau fydd yn ei gostio.
 
 --- task ---
 
-**Duplicate** the **Get** sprite:
+**Dyblyga** y corlun **Get**:
 
 ![](images/duplicate-get.png)
 
-Change the visibility to **Show** and change its name to `Get snare`. Position it in the bottom-right corner of the Stage:
+Newidia'r gwelededd i **Show** a newid ei enw i `Get snare`. Gosoda'r corlun yng nghornel dde isaf y Llwyfan:
 
 ![](images/get-snare.png)
 
@@ -80,7 +80,7 @@ Change the visibility to **Show** and change its name to `Get snare`. Position i
 
 --- task ---
 
-Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Select** (arrow) tool to highlight the not hit costume of your drum. Click on the **Group** icon then the **Copy** icon:
+Clicia'r corlun **Drum-snare** ac wedyn mynd i'r tab **Gwisgoedd**. Defnyddia'r offeryn **Dewis** (saeth) i amlygu gwisg not hit dy ddrwm. Clicia'r eicon **Grŵp** ac wedyn yr eicon **Copïo**:
 
 ![](images/snare-icon.png)
 
@@ -90,7 +90,7 @@ Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Sel
 
 --- task ---
 
-Click on your **Get snare** sprite and **Paste** the snare costume. You might need to resize and position it to fit your button:
+Clicia dy gorlun **Get snare** a **Gludo** gwisg y drwm gwifrau. Efallai bydd angen i ti newid ei faint a'i leoli i ffitio dy fotwm:
 
 ![](images/get-snare-icon.png)
 
@@ -100,7 +100,7 @@ Click on your **Get snare** sprite and **Paste** the snare costume. You might ne
 
 --- task ---
 
-Click on the **Code** tab and add a script to show the **Get snare** sprite at the start of the project:
+Clicia'r tab **Code** ac ychwanegu sgript i ddangos y corlun **Get snare** ar ddechrau’r prosiect:
 
 ![](images/get-snare-icon.png)
 
@@ -111,17 +111,17 @@ show
 
 --- /task ---
 
-The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, you learned about making decisions with `if`{:class="block3control"} blocks.
+Dim ond os oes gan y defnyddiwr `10` curiad neu fwy y gellir prynu'r uwchraddiad. Yn [Tyfu gwas y neidr](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, wnes di ddysgu sut i wneud penderfyniadau gyda blociau `os`{:class="block3control"}.
 
-An `if ... else`{:class="block3control"} block is used to make a decision and will do different things if a condition is `true` or `false`.
+Mae bloc `os...yna`{:class="block3control"} yn cael ei ddefnyddio i wneud penderfyniad a bydd yn gwneud pethau gwahanol os mae amod yn `wir` neu `anwir`.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up, you check `if`{:class="block3control"} it is morning. You get up, or `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
+Rydyn ni'n defnyddio <span style="color: #0faeb0">**os ... yna**</span> drwy'r amser i wneud penderfyniadau. Pan fyddi di'n deffro, rwyt ti'n edrych i weld `os`{:class="block3control"} ydy hi'n fore. Rwyt ti'n codi, neu `fel arall`{:class="block3control"} rwyt ti'n mynd yn ôl i gysgu. Allet ti feddwl am unrhyw benderfyniadau `os ... yna`{:class="block3control"} rwyt ti'n eu gwneud? 
 </p>
 
 --- task ---
 
-Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `Not enough beats!` if they are not able to upgrade:
+Ychwanega'r cod yma i gael yr uwchraddiad `os`{:class="block3control"} mae gan y chwaraewr ddigon o guriadau, neu `ddweud`{:class="block3looks"} `Dim digon o guriadau!` os nad yw'n gallu uwchraddio:
 
 ![](images/get-snare-icon.png)
 
@@ -137,11 +137,11 @@ end
 
 --- /task ---
 
-Let other sprites and the Stage know that the snare upgrade has been bought.
+Rho wybod i'r corluniaid a'r Llwyfan fod diweddariad y drwm gwifrau wedi cael ei brynu.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+Ychwanega floc `darlledu`{:class="block3events"} i anfon neges `snare` newydd:
 
 ![](images/get-snare-icon.png)
 
@@ -160,7 +160,7 @@ end
 
 --- task ---
 
-Click on the **Drum-snare** sprite. Add this script:
+Clicia'r corlun **Drum-snare**. Ychwanegu'r sgript yma:
 
 ![](images/snare-icon.png)
 
@@ -171,13 +171,13 @@ show
 
 --- /task ---
 
-When you upgrade your equipment, you will be able to play at bigger venues.
+Pan fyddi di'n uwchraddio dy offer, byddi di'n gallu chwarae mewn lleoliadau mwy.
 
 --- task ---
 
-Add another backdrop. We chose **Chalkboard** to play our second gig at school.
+Ychwanega gefnlen arall. Fe ddewison ni **Chalkboard** er mwyn chwarae ein ail gig yn yr ysgol.
 
-Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+Ychwanega god i'r Llwyfan i `newid cefnlen`{:class="block3looks"} ar ôl derbyn y neges uwchraddio:
 
 ![](images/stage-icon.png)
 
@@ -186,15 +186,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
+**Awgrym:** Dewisa leoliad sy'n gam bach i fyny o'r ystafell wely. Dylet ti gadw'r lleoliadau mwy tan yn nes ymlaen.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
+**Profi:** Rheda dy brosiect. Rho gynnig ar brynu uwchraddiad y drwm gwifrau cyn i ti gael digon o guriadau.
 
-When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
+Pan fyddi di'n prynu'r uwchraddiad, gwna'n siŵr bod y canlynol yn digwydd: mae'r drwm gwifrau yn ymddangos, mae'r botwm yn diflannu, mae'r lleoliad yn newid ac mae'r `curiadau`{:class="block3variables"} yn gostwng `10`.
 
 --- /task ---
 

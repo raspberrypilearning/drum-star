@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Cwestiwn 2 o 3
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+Mae gan brosiect y sgript ganlynol i `ofyn`{:class="block3sensing"} y defnyddiwr am ei enw:
 
 ```blocks3
 when flag clicked
@@ -16,15 +16,15 @@ set [name v] to (answer)
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+Beth fydd gwerth y newidyn `enw`{:class="block3variables"} ar ôl i'r chwaraewr glicio'r tic (marc gwirio) ar ôl i'r sgript orffen?
 
 --- choices ---
 
-- ( )  name
+- ( )  enw
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+Na, `enw`{:class="block3variables"} yw enw'r newidyn.
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ No, `name`{:class="block3variables"} is what the variable is called.
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+Na, `???` yw gwerth y newidyn `enw`{:class="block3variables"} cyn i'r bloc `gofyn`{:class="block3sensing"} redeg.
 
   --- /feedback ---
 
@@ -40,15 +40,15 @@ No, `???` is the value of the `name`{:class="block3variables"} variable before t
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+Na, `ateb`{:class="block3sensing"} yw'r newidyn parod mae Scratch yn ei ddefnyddio i storio'r ateb y bydd defnyddiwr yn ei deipio pan fyddi di'n `gofyn`{:class="block3sensing"} cwestiwn. --- /feedback ---
 
 - (x) Bobo
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+Cywir, roedd y bloc `gosod [enw v] i`{:class="block3variables"} yn gosod **gwerth** y newidyn `enw`{:class="block3variables"} i werth yr `ateb`{:class="block3sensing"} sef y testun a roddodd y defnyddiwr.
 
-The value `Bobo` will also be shown on the Stage.
+Bydd y gwerth `Bobo` hefyd yn cael ei ddangos ar y Llwyfan.
 
   --- /feedback ---
 

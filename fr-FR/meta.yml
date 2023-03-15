@@ -8,27 +8,30 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Introduction
+    title: Ce que tu vas faire
   - 
     title: Mise en place de la scène
   - 
     title: Tambour de départ
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Première amélioration
   - 
     title: Deuxième amélioration
   - 
     title: Jouer et personnaliser
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Réflexion
-    completion: external
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Améliorer ton projet
   - 

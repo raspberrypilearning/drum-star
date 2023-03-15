@@ -22,7 +22,7 @@
 
 <p spaces-before="1">--- feedback ---</p>
 
-<p spaces-before="1">لقد استخدمت المتغير <code> beats `{: class = "block3variables"} لتخزين رقم. لكنك استخدمت أيضًا متغيرًا لشيء آخر.
+<p spaces-before="1">لقد استخدمت المتغير <code> دقة`{: class = "block3variables"} لتخزين رقم. لكنك استخدمت أيضًا متغيرًا لشيء آخر.
 
  --- /feedback ---
 
@@ -38,7 +38,7 @@
 
  --- feedback ---
 
- نعم ، لقد قمت بتخزين رقم في ` beats `{: class = "block3variables"} `متغير`{: class = "block3variables"} وقمت بتخزين النص (الكلمات) في `name`{: class = "block3variables"} `متغير`{: class = "block3variables"}.
+ نعم ، لقد قمت بتخزين رقم في ` دقة`{: class = "block3variables"} `متغير`{: class = "block3variables"} وقمت بتخزين النص (الكلمات) في `الاسم`{: class = "block3variables"} `متغير`{: class = "block3variables"}.
 
  يمكن للمتغير تخزين رقم أو نص (كلمات).
 
@@ -48,7 +48,7 @@
 
  --- feedback ---
 
-لا. فكر في المتغيرات `beat`{: class = "block3variables"} و `name`{: class = "block3variables"} التي استخدمتها.
+لا. فكر في المتغيرات `دقة`{: class = "block3variables"} و `الاسم`{: class = "block3variables"} التي استخدمتها.
 
  --- /feedback ---
 

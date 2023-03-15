@@ -8,27 +8,30 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Inleiding
+    title: You will make
   - 
     title: Stel het speelveld in
   - 
     title: Starttrommel
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Eerste upgrade
   - 
     title: Tweede upgrade
   - 
     title: Speel en pas aan
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Reflectie
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Verbeter je project
   - 

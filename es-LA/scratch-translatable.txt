@@ -1,13 +1,13 @@
-name
+nombre
 
-What's your rock star name?
+¿Cuál es tu nombre de estrella de rock?
 
-beats
+ritmos
 
-Not enough beats!
+¡No hay suficientes ritmos!
 
-snare
+redoblante
 
 conga
 
-What's your name?
+¿Cómo te llamas?

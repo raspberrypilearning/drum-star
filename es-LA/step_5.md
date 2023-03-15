@@ -1,41 +1,41 @@
-## Second upgrade
+## Segunda actualización
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your drum skills are improving. Time for a second upgrade! In this step, you will choose which drum to add.
+Tus habilidades con los tambores están mejorando. ¡Es hora de una segunda actualización! En este paso, elegirás qué tambor agregar.
 </div>
 <div>
-![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
+![El Escenario muestra un fondo de la fiesta con 3 tambores.](images/second-upgrade.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Drum-snare** sprite:
+Duplica la imagen del **Redoblante**:
 
 ![](images/duplicate-snare-drum.png)
 
 --- /task ---
 
-The **Drum Costumes** sprite has lots of drum costumes for you to choose from.
+El objeto **Drum Costumes** tiene muchos disfraces para elegir.
 
 --- task ---
 
-Click on the **Drum Costumes** sprite and select the **Costumes** tab.
+Haz clic en el objeto **Drum Costumes** y selecciona la pestaña **Disfraces**.
 
-**Choose:** a drum for the next upgrade. We chose **Conga**.
+**Elige:** un tambor para la próxima actualización. Elegimos **Conga**.
 
-Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
+Arrastra los disfraces 'hit' y 'not hit' del tambor elegido a tu nuevo objeto **Redoblante2**:
 
-![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
+![Imagen animada que muestra cómo arrastrar disfraces de un objeto a otro.](images/drag-costumes.gif)
 
-![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
+![El editor de pintura del nuevo objeto con dos disfraces adicionales en la lista de disfraces.](images/drum-3-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Name your drum to match the costumes you chose.
+Dale un nombre a tu tambor para que coincida con los disfraces que elegiste.
 
 ![](images/drum-3-named.png)
 
@@ -43,9 +43,9 @@ Name your drum to match the costumes you chose.
 
 --- task ---
 
-Click on the **Code** tab. Change the code to use the correct costumes and choose a sound for your new drum.
+Haz clic en la pestaña **Código**. Cambia el código para usar los disfraces correctos y elige un sonido para tu nuevo tambor.
 
-Change the number of beats you earn by clicking the new drum to `5`:
+Cambia el número de ritmos que ganas haciendo clic en el nuevo tambor a `5`:
 
 ![](images/drum-3-icon.png)
 
@@ -61,38 +61,38 @@ when this sprite clicked
 
 --- task ---
 
-Drag your new drum into position on the Stage:
+Arrastra tu nuevo tambor a su posición en el Escenario:
 
-![New drum to the right of the other drums.](images/drum-3-positioned.png)
+![Tambor nuevo a la derecha de los demás.](images/drum-3-positioned.png)
 
 --- /task ---
 
-Next, you need a button so that players can upgrade to this new drum.
+A continuación, necesitas un botón para que los jugadores puedan actualizar a este nuevo tambor.
 
 --- task ---
 
-Duplicate the **Get snare** sprite.
+Duplica el objeto **Conseguir redoblante**.
 
-Position it in the bottom-right corner of the Stage. Change its name to `Get` and then the name of your new drum:
+Colócalo en la esquina inferior derecha del Escenario. Cambia su nombre a `Conseguir` seguido del nombre de tu nuevo tambor:
 
-![The Sprite list with duplicated 'Get snare' sprite. The sprite name changed to match the new drum and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+![La lista de objetos con el objeto 'Conseguir redoblante' duplicado. El nombre del objeto cambió para coincidir con el nuevo tambor y se colocó en la parte inferior derecha del Escenario.](images/get-drum-3.png)
 
 --- /task ---
 
 --- task ---
 
-Delete the **snare drum** from the button costume. Copy and paste the 'not hit' costume for your new drum to the button costume.
+Elimina el **redoblante** del disfraz del botón. Copia y pega el disfraz 'sin tocar' para tu nuevo tambor en el disfraz del botón.
 
-Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
+Haz clic en la herramienta **Texto** y cambia el número a `30` para mostrar el precio del nuevo tambor.
 
-Your button should look like this:
+Tu botón debería verse así:
 
-![The paint editor showing the new button costume with chosen drum image and text updated to 30.](images/get-drum-copy.png)
+![El editor de pintura que muestra el nuevo disfraz del botón con la imagen del tambor elegido y el texto actualizado a 30.](images/get-drum-copy.png)
 
 --- /task ---
 
 
-This button should `hide`{:class="block3looks"} at the start, then `show`{:class="block3looks"} when the player upgrades to the snare drum, so they know which drum they are working towards.
+Este botón se debe `ocultar`{:class="block3looks"} al principio, luego `aparecer`{:class="block3looks"} cuando se actualice al redoblante, para que se sepa qué tambor está en la mira.
 
 --- task ---
 
@@ -104,13 +104,13 @@ when flag clicked
 + hide
 ```
 
-**Tip:** To delete a block, drag it to the Blocks menu, or right-click and choose **Delete Block**. On a computer, you can also click on a block and then tap <kbd>Delete</kbd> to remove a block.
+**Consejo:** Para eliminar un bloque, arrástralo al menú Bloques o haga clic con el botón derecho y elige **Eliminar bloque**. En una computadora, también puedes hacer clic en un bloque y luego presionar el botón <kbd>Eliminar bloque</kbd> para eliminarlo.
 
 --- /task ---
 
 --- task ---
 
-Add a `when I recieve`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
+Agrega una secuencia de comandos `al recibir`{:class="block3events"} que el nuevo botón de tambor mostrará como la próxima actualización cuando se obtenga el tambor **Redoblante**:
 
 ![](images/get-drum-3-icon.png)
 
@@ -123,9 +123,9 @@ show // show button for next available drum
 
 --- task ---
 
-Change the number of beats needed to buy this drum, and the number of beats that are removed, when the player gets this drum.
+Cambia la cantidad de ritmos necesarios para comprar este tambor y la cantidad de ritmos que se eliminan cuando se obtiene.
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Create a new message with the name of your new drum:
+También, cambia el mensaje que se `envía`{:class="block3events"} cuando el jugador obtiene un nuevo tambor. Crea un nuevo mensaje con el nombre de tu nuevo tambor:
 
 ![](images/get-drum-3-icon.png)
 
@@ -144,7 +144,7 @@ end
 
 --- task ---
 
-Change the `when I receive snare`{:class="block3events"} script to `broadcast`{:class="block3events"} the name of your new drum. The drum will `show`{:class="block3looks"} when the player upgrades to the new drum:
+También cambia el script `al recibir redoblante`{:class="block3events"} por `transmitir`{:class="block3events"} el nombre de tu nuevo tambor. El tambor va a`aparecer`{:class="block3looks"} cuando se actualice al nuevo tambor:
 
 ![](images/drum-3-icon.png)
 
@@ -157,9 +157,9 @@ show
 
 --- task ---
 
-Add the **Party** backdrop.
+Agrega el fondo **Party**.
 
-Add a script to the Stage to switch the backdrop when the player upgrades to the new drum:
+Agrega un script al Escenario para cambiar el fondo cuando se actualice al nuevo tambor:
 
 ![](images/stage-icon.png)
 
@@ -172,9 +172,9 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test:** Click the green flag to start the game and test that you can earn enough beats to get your new drum.
+**Prueba:** Haz clic en la bandera verde para iniciar el juego y prueba que puedas ganar suficientes ritmos para así conseguir tu nuevo tambor.
 
-What happens if you click the button before you have earned enough beats?
+¿Qué sucede si haces clic en el botón antes de haber ganado suficientes ritmos?
 
 --- /task ---
 

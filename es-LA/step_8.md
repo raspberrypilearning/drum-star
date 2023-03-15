@@ -116,7 +116,7 @@ Comprueba que el botón **Conseguir** para este tambor `envía`{:class="block3ev
 title: Mi botón Conseguir no aparece/no se oculta correctamente
 ---
 
-A menos que el botón sea para el primer tambor, se debería `ocultar`{:class="block3looks"} `cuando se hace clic en la bandera`{:class="block3events"}. Y debería `aparecer`{:class="block3looks"} el mensaje `cuando recibo`{:class="block3events"} para el **tambor anterior**. El botón **Conseguir** debería `aparecer`{:class="block3looks"} para informar acerca de la próxima actualización que se tiene en la mira.
+A menos que el botón sea para el primer tambor, se debería `ocultar`{:class="block3looks"} `cuando se hace clic en la bandera`{:class="block3events"}. Y debería `aparecer`{:class="block3looks"} el mensaje `cuando recibo`{:class="block3events"} para el **tambor anterior**. El botón **Conseguir** debería `aparecer`{:class="block3looks"} para informar acerca de la próxima actualización que se viene.
 
 --- /collapse ---
 
@@ -125,7 +125,7 @@ A menos que el botón sea para el primer tambor, se debería `ocultar`{:class="b
 título: Puedo comprar un tambor cuando no tengo suficientes ritmos
 ---
 
-Comprueba que hayas cambiado el número de `ritmos`{:class="block3variables"} necesarios `al hacer clic en este objeto`{:class="block3events"} en la secuencia de comandos del botón **Conseguir** para el tambor.
+Comprueba que hayas cambiado el número de `ritmos`{:class="block3variables"} necesarios `al hacer clic en este objeto`{:class="block3events"} en el del botón **Conseguir** para el tambor.
 
 --- /collapse ---
 
@@ -134,9 +134,9 @@ Comprueba que hayas cambiado el número de `ritmos`{:class="block3variables"} ne
 title: El número de ritmos no cambia correctamente cuando consigo un tambor nuevo
 ---
 
-Comprueba que hayas`cambiado ritmos en`{:class="block3variables"} un número negativo `al hacer clic en este objeto`{:class="block3events"} en la secuencia de comandos del botón **Conseguir** para el tambor.
+Comprueba que hayas`cambiado ritmos en`{:class="block3variables"} un número negativo `al hacer clic en este objeto`{:class="block3events"} en el script del botón **Conseguir** para el tambor.
 
-Asegúrate de que coincida con el número del disfraz del botón del tambor.
+Asegúrate de que coincida con el número del disfraz del botón.
 
 --- /collapse ---
 
@@ -147,10 +147,10 @@ Asegúrate de que coincida con el número del disfraz del botón del tambor.
 title: Proyecto terminado
 ---
 
-Puedes ver el [proyecto completo aquí](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
 
 --- /collapse ---
 
-**Sugerencia:** Si te confundes mucho, no hay problemas si eliminas el nuevo tambor y su botón y comienzas de nuevo. A veces es difícil detectar un error.
+**Consejo:** Si te confundes, no hay problema si eliminas el nuevo tambor y su botón y comienzas de nuevo. A veces es difícil detectar un error.
 
 --- save ---

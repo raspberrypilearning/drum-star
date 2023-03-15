@@ -1,63 +1,57 @@
-## Reflection
+## Myfyrio
 
-Well done, you have made a clicker game that people want to play!
+Ateba'r tri chwestiwn. Mae awgrymiadau ar gael i dy arwain at yr ateb cywir.
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} blocks!
+Pan fyddi di wedi ateb bob cwestiwn, clicia ar **Gwirio fy ateb**.
 
-Now it's time to reflect. Reflecting is an important part of learning, because it helps make new connections in your brain.
+Mwynha!
 
-Answer the three questions below to reflect on what you've learned.
-
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
-
-Have fun!
-
---- question ---
+--- cwestiwn ---
 
 ---
-legend: Question 1 of 3
+legend: Cwestiwn 1 o 3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+Yn dy brosiect, fe wnes di greu a defnyddio newidynnau. Pa un o'r gwerthoedd hyn y gellir ei storio mewn newidyn?
 
 `6` , `Tom` , `151` , `Aadya`
 
---- choices ---
+--- dewisiadau ---
 
-- ( ) Only the numbers `6` and `151`
-
- --- feedback ---
-
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
-
- --- /feedback ---
-
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) Dim ond y rhifau `6` ac `151`
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ Fe wnes di ddefnyddio'r newidyn `curiadau`{:class="block3variables"} i storio rhif. Ond wnes di hefyd ddefnyddio newidyn ar gyfer rhywbeth arall.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- ( ) Dim ond y testun (geiriau) `Tom` ac `Aadya`
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
-
- A variable can store a number or text (words).
+ Fe wnes di ddefnyddio'r newidyn `enw`{:class="block3variables"} i storio'r testun (geiriau), ar gyfer yr `ateb`{:class="block3sensing"} i'r cwestiwn `gofyn`{:class="block3sensing"}. Ond wnes di hefyd ddefnyddio `newidyn`{:class="block3variables"} ar gyfer rhywbeth arall.
 
  --- /feedback ---
 
-- ( ) None of them
+- (x) Unrhyw un o'r rhifau neu'r testun (geiriau)
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+ Cywir, fe wnes di storio rhif yn y `newidyn`{:class="block3variables"} `curiadau`{:class="block3variables"} ac fe wnes di storio testun (geiriau) yn y `newidyn`{:class="block3variables"} `enw`{:class="block3variables"}.
+
+ Gall newidyn storio rhif neu destun (geiriau).
 
  --- /feedback ---
 
---- /choices ---
+- ( ) Dim un o'r rhain
 
---- /question ---
+ --- feedback ---
+
+Na. Meddylia am y newidynnau `curiadau`{:class="block3variables"} ac `enw`{:class="block3variables"} y gwnes di eu defnyddio.
+
+ --- /feedback ---
+
+--- /dewisiadau ---
+
+--- /cwestiwn ---

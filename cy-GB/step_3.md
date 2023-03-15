@@ -1,8 +1,8 @@
-## Starter drum
+## Drwm cychwynnol
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a **cymbal** sprite that you can click to earn beats and play a sound.
+Byddi di'n ychwanegu corlun **symbal** y galli di ei glicio i ennill curiadau a chwarae sain.
 </div>
 <div>
 ![](images/starter-drum.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add a **cymbal** sprite that you can click to earn beats and play a sou
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to your project.
+Clicia **Dewiswch Gorlun** a chwilia am `cymbal`. Ychwanega'r corlun **Drum-cymbal** at dy brosiect.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to
 
 --- task ---
 
-Position your cymbal on the Stage:
+Rho dy symbal ar y Llwyfan:
 
 ![](images/cymbal-stage.png)
 
@@ -27,7 +27,7 @@ Position your cymbal on the Stage:
 
 --- task ---
 
-Add the **Music extension**:
+Ychwanega'r **Estyniad sain**:
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -35,7 +35,7 @@ Add the **Music extension**:
 
 --- task ---
 
-Add a script to make the cymbal `switch costume`{:class="block3looks"} and `play a drum sound`{:class="block3extensions"}:
+Ychwanega sgript i wneud i'r symbal `newid gwisg`{:class="block3looks"} a `chwarae sain drwm`{:class="block3extensions"}:
 
 ![](images/cymbal-icon.png)
 
@@ -50,15 +50,15 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test:** Test your cymbal by clicking on it. Make sure you hear a sound and see the costume change.
+**Prawf:** Profa dy cymbal trwy glicio arno. Gwna'n siŵr dy fod yn clywed sain ac yn gweld y gwisgoedd yn newid.
 
 --- /task ---
 
-The **Drum-cymbal** sprite will earn you one beat each time you click it.
+Bydd y corlun **Drum-cymbal** yn ennill un curiad i ti bob tro byddi di'n ei glicio.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `beats`:
+Crea `newidyn`{:class="block3variables"} o'r enw `curiadau`:
 
 ![](images/beats-variable.png)
 
@@ -66,7 +66,7 @@ Create a `variable`{:class="block3variables"} called `beats`:
 
 --- task ---
 
-Add a block to `change beats by 1`{:class="block3variables"} when the **Drum-cymbal** sprite is clicked:
+Ychwanega floc er mwyn `newid curiadau gan 1`{:class="block3variables"} pan gaiff y corlun **Drum-cymbal** ei glicio:
 
 ![](images/cymbal-icon.png)
 
@@ -82,17 +82,17 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it and watch the `beats`{:class="block3variables"} increase.
+**Profi:** Profa'r **Drum-cymbal** drwy glicio arno a gwylia'r `curiadau`{:class="block3variables"} yn codi.
 
 --- /task ---
 
-The `beats`{:class="block3variables"} variable needs to start at `0` beats when you start a new game.
+Mae angen i'r newidyn `curiadau`{:class="block3variables"} ddechrau ar `0` curiad pan fyddi di'n dechrau gêm newydd.
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab to add code to the Stage.
+Clicia gwarel y Llwyfan ac yna ar y tab **Cod** i ychwanegu cod at y Llwyfan.
 
-Add a block to `set beats to`{:class="block3variables"} `0`:
+Ychwanega floc er mwyn `gosod curiadau i`{:class="block3variables"} `0`:
 
 ![](images/stage-icon.png)
 
@@ -106,7 +106,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Test:** Click the green flag and make sure your `beats`{:class="block3variables"} variable starts at `0`.
+**Prawf:** Clicia'r faner werdd a gwneud yn siŵr bod dy newidyn `curiadau`{:class="block3variables"} yn dechrau ar `0`.
 
 --- /task ---
 

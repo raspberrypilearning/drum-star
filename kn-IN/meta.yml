@@ -8,27 +8,30 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: ಪರಿಚಯ
+    title: You will make
   - 
     title: ವೇದಿಕೆ ಸಿದ್ಧಪಡಿಸಿ
   - 
     title: ಸ್ಟಾರ್ಟರ್ ಡ್ರಮ್
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: ಮೊದಲನೆಯ ಅಪ್‌ಗ್ರೇಡ್
   - 
     title: ಎರಡನೆಯ ಅಪ್‌ಗ್ರೇಡ್
   - 
     title: ನುಡಿಸಿ ಮತ್ತು ಬೇಕಾದಂತೆ ಮಾರ್ಪಾಡು ಮಾಡಿ
-    completion: internal
+    completion:
+      - internal
   - 
-    title: ಪುನರ್ಮನನ
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
   - 

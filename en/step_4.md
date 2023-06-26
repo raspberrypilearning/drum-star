@@ -153,7 +153,7 @@ if <(beats)>  [9]> then //if 10 or more beats
 hide
 change [beats v] by [-10] //take away the cost of upgrade
 else
-say (join ((10) - (beats)) [beats needed!]) for [2] seconds
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 

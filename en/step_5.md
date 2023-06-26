@@ -110,7 +110,7 @@ when flag clicked
 
 --- task ---
 
-Add a `when I recieve`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
+Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
 
 ![](images/get-drum-3-icon.png)
 

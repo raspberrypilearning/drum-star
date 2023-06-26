@@ -61,7 +61,8 @@ Change the `costume`{:class="block3looks"} including the cost of the new drum.
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
+Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. 
+Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
@@ -83,7 +84,7 @@ You might find that your drums need to be in a new position on a different backd
 
 --- task ---
 
-Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 You will also need to set their starting position `when flag clicked`{:class="block3events"}.
 

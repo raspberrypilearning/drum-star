@@ -61,7 +61,7 @@ Newidia'r `wisg`{:class="block3looks"} gan gynnwys cost y drwm newydd.
 
 --- task ---
 
-Newidia nifer y `curiadau`{:class="block3variables"} sydd ei angen i enill y drwm yma yn yr amod `os`{:class="block3events"}. Newidia'r nifer negyddol o `guriadau`{:class="block3variables"} sy'n `newid gan`{:class="block3variables"} pan fydd rhywun yn cael y drwm yma. Newidia'r neges sy'n cael ei `darlledu`{:class="block3events"} i enw'r **drwm newydd**.
+Newidia nifer y `curiadau`{:class="block3variables"} sydd ei angen i enill y drwm yma yn yr amod `os`{:class="block3events"}. Newidia'r nifer negyddol o `guriadau`{:class="block3variables"} sy'n `newid gan`{:class="block3variables"} pan fydd rhywun yn cael y drwm yma. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
@@ -83,7 +83,7 @@ Efallai y gweli fod angen i dy ddrymiau fod mewn safle newydd ar gefnlen wahanol
 
 --- task ---
 
-Ychwanega sgript sy'n dechrau gyda `pan fydd cefndir yn newid i`{:class="block3events"} i bob corlun **drwm** gyda bloc `mynd i`{:class="block3motion"} i wneud iddyn nhw newid eu safle.
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 Bydd hefyd angen i ti osod eu safleoedd cychwynnol `ar ôl clicio'r faner`{:class="block3events"}.
 

@@ -121,7 +121,7 @@ show
 
 --- task ---
 
-अपग्रेड प्राप्त करने के लिए इस कोड को जोड़ें `if`{:class="block3control"} खिलाड़ी के पास पर्याप्त बीट्स हैं, या `say`{:class="block3looks"} `Not enough beats!`अगर वे अपग्रेड करने में सक्षम नहीं हैं:
+Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they are not able to upgrade:
 
 ![](images/get-snare-icon.png)
 
@@ -131,17 +131,37 @@ if <(beats)>  [9]> then //if 10 or more beats
 hide
 change [beats v] by [-10] //take away the cost of upgrade
 else
-say [Not enough beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
 --- /task ---
 
-अन्य स्प्राइट्स और Stage को बता दें कि स्नेयर अपग्रेड खरीदा गया है।
+Instead of only telling the player they need **more** beats, you can tell the player exactly **how many more** beats are needed to get the upgrade.
+
+A `join`{:class="block3operators"} block is used to concatenate, or 'link' two values together.
+
+![](images/get-snare-icon.png)
 
 --- task ---
 
-नया `snare` संदेश भेजने के लिए `broadcast`{:class="block3events"} ब्लॉक जोड़ें:
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they are not able to upgrade:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
 
 ![](images/get-snare-icon.png)
 
@@ -152,7 +172,7 @@ hide
 change [beats v] by [-10] // take away the cost of upgrade
 + broadcast [snare v] // your drum name
 else
-say [Not enough beats!] for [2] seconds 
+say (join ((10) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 
@@ -160,7 +180,7 @@ end
 
 --- task ---
 
-**Drum-snare** स्प्राइट पर क्लिक करें। इस स्क्रिप्ट को जोड़ें:
+Click on the **Drum-snare** sprite. Add this script:
 
 ![](images/snare-icon.png)
 
@@ -171,14 +191,13 @@ show
 
 --- /task ---
 
-जब आप अपने यंत्रों को अपग्रेड करते हैं, तो आप बड़े स्थानों पर बजाने में सक्षम होंगे।
+When you upgrade your equipment, you will be able to play at bigger venues.
 
 --- task ---
 
-एक और पृष्ठभूमि जोड़ें। हमने स्कूल में अपना दूसरा गिग चलाने के लिए **Chalkboard** का चयन करेंगे
+Add another backdrop. We chose **Chalkboard** to play our second gig at school.
 
-जब अपग्रेड संदेश प्राप्त होता है, तो Stage में कोड `switch backdrop`{:class="block3looks"}
- को जोड़ें:
+Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
 
 ![](images/stage-icon.png)
 
@@ -187,15 +206,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**टिप:** ऐसा स्थान चुनें जो बेडरूम से थोड़ा बेहतर हो। आप बाद के लिए बड़े स्थानों को बचा कर रखना चाहते हैं।
+**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
 
 --- /task ---
 
 --- task ---
 
-**टेस्ट:** अपने प्रोजेक्ट का परीक्षण करें। आपके पास पर्याप्त बीट्स होने से पहले कोशिश करें और स्नेयर अपग्रेड खरीद लें।
+**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
 
-जब आप अपग्रेड चेक खरीदते हैं: स्नेयर दिखाई देता है, बटन गायब हो जाता है, स्थान बदल जाता है और `beats`{:class="block3variables"} `10`नीचे चला जाता है।
+When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
 
 --- /task ---
 

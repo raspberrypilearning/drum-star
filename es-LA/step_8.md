@@ -61,7 +61,7 @@ Cambiar el `disfraz`{:class="block3looks"} incluyendo el precio del nuevo tambor
 
 --- task ---
 
-Cambia el número de `ritmos`{:class="block3variables"} que debes poseer para conseguir este tambor en la condición `si`{:class="block3events"}. Cambia el número negativo de `ritmos`{:class="block3variables"} al `cambiar por`{:class="block3variables"} cuando consigas este tambor. Cambia el mensaje que recibe `transmitir`{:class="block3events"} por el nombre de los **nuevos tambores**.
+Cambia el número de `ritmos`{:class="block3variables"} que debes poseer para conseguir este tambor en la condición `si`{:class="block3events"}. Cambia el número negativo de `ritmos`{:class="block3variables"} al `cambiar por`{:class="block3variables"} cuando consigas este tambor. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
@@ -83,7 +83,7 @@ Es posible que descubras que tus tambores deben estar en una nueva posición sob
 
 --- task ---
 
-Agrega un script que comience con `cuando el fondo cambia a`{:class="block3events"} para cada objeto de **tambor** con un bloque `ir a`{:class="block3motion"} para que cambie de posición.
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 También deberás fijar tu posición inicial en `al hacer clic en la bandera`{:class="block3events"}.
 

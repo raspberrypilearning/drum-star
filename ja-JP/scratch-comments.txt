@@ -1,57 +1,57 @@
-your backdrop name
+あなたの選んだ背景の名前
 
-your variable
+あなたのつけた変数名
 
-your question
+質問を入力
 
-hit costume
+たたいているコスチューム
 
-drum sound
+ドラム音
 
-not hit costume
+たたいていないコスチューム
 
-2 beats per click
+クリックするたび2ビートふやす
 
-if 10 or more beats
+10ビート以上の場合
 
-take away the cost upgrade
+アップグレードにかかるコスト分へらす
 
-your drum name
+あなたの選んだドラムの名前
 
-5 beats per click
+クリックするたび5ビートふやす
 
-your hit costume
+たたいているコスチューム
 
-your drum sound
+ドラム音
 
-your not hit costume
+たたいていないコスチューム
 
-appear when previous drum is bought
+前のドラムを買った時に表示する
 
-show button for next available drum
+次に買えるドラムのボタンを表示
 
-change to 29
+29にかえる
 
-change to 30
+30にかえる
 
-change to your drum name
+あなたの選んだドラム名に変更
 
-player has upgraded to this drum
+プレイヤーがこのドラムにアップグレードしました。
 
-this drum earns 2 beats
+このドラムでは、2ビートずつかせぐことができる
 
-this drum earns 5 beats
+このドラムでは5ビートずつかせぐことができる
 
-first upgrade visible from the start
+スタート時から最初のアップグレードは表示しておく
 
-need at least 10 beats
+少なくとも10ビートが必要
 
-cost of the snare drum
+スネアドラムのねだん
 
-not available at the start
+スタートの時には選ぶことができない
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+前のドラム(スネア) を買った時に表示され、プレーヤーが次のアップグレードにいくら必要か表示する
 
-need at least 30 beats
+少なくとも 30 ビートが必要
 
-cost of the drum
+ドラムのねだん

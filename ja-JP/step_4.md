@@ -1,8 +1,8 @@
-## First upgrade
+## アップグレード第一弾
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add your first upgrade. The **Get snare** button will show at the start, so the player knows which drum they are working towards.
+アップグレードの第一弾を作りましょう。 **スネアをゲット** ボタンが最初に表示されるため、プレーヤーはどのドラムをめざしてプレーをしているのかがわかります。
 </div>
 <div>
 ![](images/first-upgrade.png){:width="300px"}
@@ -11,7 +11,7 @@ You will add your first upgrade. The **Get snare** button will show at the start
 
 --- task ---
 
-Add the **Drum-snare** sprite to your project and position it on the Stage:
+プロジェクトに **Drum-snare** スプライトを追加して、ステージ上におきます。
 
 ![](images/snare-stage.png)
 
@@ -19,7 +19,7 @@ Add the **Drum-snare** sprite to your project and position it on the Stage:
 
 --- task ---
 
-Drag the `when this sprite clicked`{:class="block3events"} script from the **Drum-cymbal** sprite to the **Drum-snare** sprite.
+**Drum-cymbal**スプライトから `このスプライトが押されたとき`{:class="block3events"}を **Drum-snare**スプライトにドラッグします。
 
 [[[scratch3-copy-code]]]
 
@@ -27,9 +27,9 @@ Drag the `when this sprite clicked`{:class="block3events"} script from the **Dru
 
 --- task ---
 
-Change the costumes and the drum sound.
+コスチュームとドラムの音を変えます。
 
-Change the number of beats earned to `2`:
+ゲットするビート数を `2`に変えます。
 
 ![](images/snare-icon.png)
 
@@ -45,15 +45,15 @@ when this sprite clicked
 
 --- task ---
 
-**Test:** Try out your project. Make sure that you earn 2 beats when you click on the snare drum.
+**テスト：**プロジェクトを実行します。 スネアドラムをクリックしたときに 2 ビートをゲットできることを確認します。
 
 --- /task ---
 
-Upgrades are not available when you start the project. They have to be earned with beats.
+プロジェクトのスタート時には、アップグレードは使えないようにします。 ビートを稼いでゲットできるようにします。
 
 --- task ---
 
-Add a script to hide this **drum** sprite at the start of the project:
+プロジェクトのスタート時に、この **drum** スプライトを非表示にするスクリプトを追加します。
 
 ![](images/snare-icon.png)
 
@@ -64,15 +64,15 @@ hide
 
 --- /task ---
 
-A button will show which drum is the next upgrade option and how many beats it will cost.
+ボタンには、次のアップグレードオプションであるドラムと、それにかかるビート数を表示します。
 
 --- task ---
 
-**Duplicate** the **Get** sprite:
+**ゲット**スプライト を **複製（ふくせい）**します:
 
 ![](images/duplicate-get.png)
 
-Change the visibility to **Show** and change its name to `Get snare`. Position it in the bottom-right corner of the Stage:
+表示/非表示を **表示** に変更し、名前を `スネアをゲット`に変えます。 ステージの右下におきます。
 
 ![](images/get-snare.png)
 
@@ -80,7 +80,7 @@ Change the visibility to **Show** and change its name to `Get snare`. Position i
 
 --- task ---
 
-Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Select** (arrow) tool to highlight the not hit costume of your drum. Click on the **Group** icon then the **Copy** icon:
+**Drum-snare** スプライトをクリックしてから、**コスチューム** タブをクリックします。 **選択** (矢印) ツールを使って、ドラムの叩いていないコスチュームをハイライト（強調表示）します。 **グループ化**アイコンをクリックしてから**コピー**アイコンをクリックします。
 
 ![](images/snare-icon.png)
 
@@ -90,7 +90,7 @@ Click on the **Drum-snare** sprite and go to the **Costumes** tab. Use the **Sel
 
 --- task ---
 
-Click on your **Get snare** sprite and **Paste** the snare costume. You might need to resize and position it to fit your button:
+**スネアをゲット** スプライト をクリックし、 スネアのコスチュームを**貼り付け** ます。 ボタンに合わせてサイズや位置を調整しましょう。
 
 ![](images/get-snare-icon.png)
 
@@ -100,7 +100,7 @@ Click on your **Get snare** sprite and **Paste** the snare costume. You might ne
 
 --- task ---
 
-Click on the **Code** tab and add a script to show the **Get snare** sprite at the start of the project:
+**コード** タブをクリックして、プロジェクトのスタート時に **スネアゲット** スプライトを表示するスクリプトを追加します。
 
 ![](images/get-snare-icon.png)
 
@@ -111,17 +111,17 @@ show
 
 --- /task ---
 
-The upgrade can only be bought if the user has `10` or more beats. In [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, you learned about making decisions with `if`{:class="block3control"} blocks.
+アップグレードは、プレーヤーが `10` 以上のビートを持っているときだけにしか購入することができません。 [トンボを育てる](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"} プロジェクトでは、`もし`{:class="block3control"} ブロックで決定を行うことについて学びました。
 
-An `if ... else`{:class="block3control"} block is used to make a decision and will do different things if a condition is `true` or `false`.
+`もし ... でなければ`{:class="block3control"} ブロックは決定を行う時に使います。条件が `true（真）` か `false（偽）`によって別々の処理を実行します。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**if ... else**</span> all the time to make decisions. When you wake up, you check `if`{:class="block3control"} it is morning. You get up, or `else`{:class="block3control"} you go back to sleep. Can you think of any `if ... else`{:class="block3control"} decisions you make? 
+私たちは常に<span style="color: #0faeb0">**条件**</span>で判断しています。 起きたとき、朝'かどうか'{:class="block3control"}を確認します。 起き上がるか、 `でなければ`{:class="block3control"} また眠りに戻ります。 `もし... でなければ`{:class="block3control"} で行う決定は他に何か思いつきますか？ 
 </p>
 
 --- task ---
 
-Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `Not enough beats!` if they are not able to upgrade:
+Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they are not able to upgrade:
 
 ![](images/get-snare-icon.png)
 
@@ -131,13 +131,33 @@ if <(beats)>  [9]> then //if 10 or more beats
 hide
 change [beats v] by [-10] //take away the cost of upgrade
 else
-say [Not enough beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
 --- /task ---
 
-Let other sprites and the Stage know that the snare upgrade has been bought.
+Instead of only telling the player they need **more** beats, you can tell the player exactly **how many more** beats are needed to get the upgrade.
+
+A `join`{:class="block3operators"} block is used to concatenate, or 'link' two values together.
+
+![](images/get-snare-icon.png)
+
+--- task ---
+
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they are not able to upgrade:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+--- /task ---
 
 --- task ---
 
@@ -152,7 +172,7 @@ hide
 change [beats v] by [-10] // take away the cost of upgrade
 + broadcast [snare v] // your drum name
 else
-say [Not enough beats!] for [2] seconds 
+say (join ((10) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 

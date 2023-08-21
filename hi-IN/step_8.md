@@ -61,7 +61,7 @@
 
 --- task ---
 
-`beats`{:class="block3variables"} की संख्या को उससे बदलें जो आपके पास इस ड्रम को पाने के लिए होनी चाहिए `if`{:class="block3events"} कंडीशन में। `beats`{:class="block3variables"} की ऋणात्मक संख्या बदलें `change by`{:class="block3variables"} जब आप इस ड्रम को पाते हैं । `broadcast`{:class="block3events"} प्राप्त करने वाले संदेश **new drum** के नाम से बदलें।
+`beats`{:class="block3variables"} की संख्या को उससे बदलें जो आपके पास इस ड्रम को पाने के लिए होनी चाहिए `if`{:class="block3events"} कंडीशन में। `beats`{:class="block3variables"} की ऋणात्मक संख्या बदलें `change by`{:class="block3variables"} जब आप इस ड्रम को पाते हैं । Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
@@ -83,7 +83,7 @@
 
 --- task ---
 
-हर **drum** स्प्राइट पर `when backdrop changes to`{:class="block3events"} से शुरू होने वाली स्क्रिप्ट जोड़ें और उसके साथ `go to`{:class="block3motion"} ब्लॉक जोड़ें ताकि वह अपनी स्थिति बदलें।
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 आपको प्रारंभिक स्थिति को `when flag clicked`{:class="block3events"} पर भी सेट करना होगा।
 

@@ -1,8 +1,8 @@
-## Set the stage
+## ステージを作る
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the stage for your first gig and choose a rock star name.
+このステップでは、最初の演奏会のステージを作り、ロックスターの名前を選びます。
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}
@@ -11,35 +11,35 @@ In this step, you will set the stage for your first gig and choose a rock star n
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
+[ドラムスタースタータープロジェクト](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}を開きます。 Scratchはブラウザの別のタブで開きます。
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. They produce their own songs by themselves then release them online for everyone to hear. 
+<span style="color: #0faeb0">**DIY アーティスト**</span> と呼ばれるミュージシャンは、ベッドルームでレコーディングをはじめます。 彼らは自分たちの曲を自分たちで制作し、オンラインで公開してみんなに聴いてもらいます。 
 </p>
 
-The game starts in a bedroom like a DIY artist.
+このゲームはDIYアーティストのようにベッドルームからスタートします。
 
 --- task ---
 
-Click **Choose a Backdrop** and search for `bedroom`.
+**背景を選ぶ** をクリックし、 `Bedroom`を検索（けんさく）しよう。
 
-**Choose:** Select a bedroom and add it to your project. We chose `Bedroom 3`.
+**選択：** すきなベッドルームをえらんでプロジェクトに追加します。 この例では`Bedroom 3`を選択しました。
 
-![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
+![Bedroom 3の背景を使ったステージ。](images/bedroom3.png)
 
 --- /task ---
 
 --- task ---
 
-In Scratch, you can add code to the Stage.
+Scratch では、ステージにコードを追加することができます。
 
-Click on your bedroom backdrop from the Stage pane and add this code:
+ステージペインからベッドルームの背景（はいけい）をクリックして、次のコードを追加しよう。
 
-![The backdrop thumbnail in the stage pane.](images/bedroom-icon.png)
+![ステージペインの背景のサムネイル。](images/bedroom-icon.png)
 
 ```blocks3
 when flag clicked
@@ -48,27 +48,27 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-Every musician needs to choose a rock star name.
+ミュージシャンにはロックスターの名前が必要です。
 
-A **variable** is a way of storing numbers and/or text. Your rockstar name will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
+**変数（へんすう）** を使うと、数字および/またはテキストを保存することが出来ます。 あなたのロックスター ネームは `変数`{:class="block3variables"} に保存されるため、いつでも使うことができます。
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+`変数`{:class="block3variables"} ブロックメニューから、**変数を作る** ボタンをクリックします。
 
-Call your new variable `name`:
+新しい変数`名前`を作ります：
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+![テキスト入力「名前」を含む新しい変数ポップアップウィンドウ。](images/new-variable.png)
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**注意:** 新しい `名前` という変数がステージの上にあらわれ、 `変数`{:class="block3variables"}ブロックの中で使うことができるようになりました。
 
 --- /task ---
 
 --- task ---
 
-At the start of the project, your rockstar name is unknown.
+プロジェクトのスタート時には、あなたのロックスターにはまだ名前がついてません。
 
-Add a block to `set name to`{:class="block3variables"} `???`:
+ブロックを追加して `名前を...にする`に {:class="block3variables"} `???`を入力します。
 
 ![](images/stage-icon.png)
 
@@ -80,11 +80,11 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 --- /task ---
 
-You can `ask`{:class="block3sensing"} a question in Scratch, then use a `variable`{:class="block3variables"} to store the `answer`{:class="block3sensing"}.
+Scratch で `質問`{:class="block3sensing"} をして、 `変数`{:class="block3variables"} に`答え`{:class="block3sensing"}を保存することができます。
 
 --- task ---
 
-Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
+`調べる`{:class="block3sensing"} ブロック メニューをクリックして、コードに `...と聞いて待つ`{:class="block3sensing"} ブロックを追加します。
 
 ![](images/stage-icon.png)
 
@@ -99,7 +99,7 @@ set [name v] to [???] //your variable
 
 --- task ---
 
-Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+`名前`{:class="block3sensing"} という `変数`{:class="block3variables"} に`答え`{:class="block3sensing"} をセットします。
 
 ![](images/stage-icon.png)
 
@@ -113,11 +113,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
-Change the way your `variable`{:class="block3variables"} looks on the Stage.
+ステージ上の `変数`{:class="block3variables"} の見た目を変更します。
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**:
+ステージ上の `変数`{:class="block3variables"} を右クリックして、 **大きな表示**を選びます:
 
 ![](images/large-readout.png)
 
@@ -125,7 +125,7 @@ Right-click on the `variable`{:class="block3variables"} on the Stage and choose 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage:
+`変数`{:class="block3variables"} をドラッグして、ステージの右上におきます:
 
 ![](images/repositioned-variable.png)
 
@@ -133,13 +133,13 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- task ---
 
-**Test:** Run your project to make sure the `variable`{:class="block3variables"} starts as `???` then updates to your `answer`{:class="block3sensing"}.
+**テスト:** プロジェクトを実行して、 `変数`{:class="block3variables"} が `???`ではじまって、 次に、あなたの `答え`{:class="block3sensing"} にかわることを確認（かくにん）します。
 
 --- /task ---
 
 --- task ---
 
-Now that you have tested that the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"}, you can drag the last 2 blocks of code away from the rest of the script. This means you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
+`変数`{:class="block3variables"} が `答え`{:class="block3sensing"} に変更されることをテストしたので、コードの最後の 2 ブロックをスクリプトの残りの部分からドラッグして外しておくことができます。 こうすることによって、プロジェクトをテストするたびに `答え`{:class="block3sensing"} を入力しなくてもよくなります。
 
 ![](images/stage-icon.png)
 

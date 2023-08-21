@@ -61,7 +61,7 @@
 
 --- task ---
 
-Αλλάξεις τον αριθμό των `χτυπημάτων`{:class="block3variables"} που πρέπει να έχειςε για να λάβεις αυτό το τύμπανο στην συνθήκη `εάν`{:class="block3events"}. Αλλάξεις τον αρνητικό αριθμό των `χτυπημάτων`{:class="block3variables"} που `αλλάζεις κατά`{:class="block3variables"} όταν παίρνεις αυτό το τύμπανο. Αλλάξεις το μήνυμα που `μεταδίδεται`{:class="block3events"} στο όνομα του **νέου τυμπάνου**.
+Αλλάξεις τον αριθμό των `χτυπημάτων`{:class="block3variables"} που πρέπει να έχειςε για να λάβεις αυτό το τύμπανο στην συνθήκη `εάν`{:class="block3events"}. Αλλάξεις τον αρνητικό αριθμό των `χτυπημάτων`{:class="block3variables"} που `αλλάζεις κατά`{:class="block3variables"} όταν παίρνεις αυτό το τύμπανο. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
@@ -83,7 +83,7 @@
 
 --- task ---
 
-Προσθέσε σενάριο ξεκινώντας με `όταν το υπόβαθρο αλλάζει σε`{:class="block3events"} σε κάθε αντικείμενο **τύμπανο** με ένα μπλοκ `πήγαινε σε`{:class="block3motion"} για να τα κάνεις να αλλάξουν θέση.
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 Θα χρειαστεί επίσης να ορίσεις την αρχική τους θέση `όταν γίνει κλικ στην πράσινη σημαία`{:class="block3events"}.
 

@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+凡例：質問2/3
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+このプロジェクトには 、名前を質問するために、`..と聞いて待つ`{:class="block3sensing"} スクリプトがあります:
 
 ```blocks3
 when flag clicked
@@ -16,15 +16,15 @@ set [name v] to (answer)
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+プレーヤーがチェック (チェックマーク) をクリックしてスクリプトが終了した後、 変数`名前`{:class="block3variables"} の値はどうなりますか?
 
 --- choices ---
 
-- ( )  name
+- ( )  名前
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+いいえ、 `名前`{:class="block3variables"} は変数の名前です。
 
   --- /feedback ---
 
@@ -32,23 +32,23 @@ No, `name`{:class="block3variables"} is what the variable is called.
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+いいえ、 `???` は、 `...と聞いて待つ`{:class="block3sensing"} ブロックが実行される前の変数 `名前`{:class="block3variables"} の値です。
 
   --- /feedback ---
 
-- ( ) answer
+- ( ) 答え
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+いいえ、`答え`{:class="block3sensing"} は、`...と聞いて待つ`{:class="block3sensing"}の質問に対してプレーヤーが入力した答えを保存するためにScratchが使用する組み込み変数です。 --- /feedback ---
 
-- (x) Bobo
+- (x) ボボ
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+正解です。 `変数[名前v]を...にする`{:class="block3variables"} ブロックは、 変数`名前`{:class="block3variables"}の **値**にプレーヤーが入力したテキストである `答え`{:class="block3sensing"} の値にセットします。
 
-The value `Bobo` will also be shown on the Stage.
+`ボボ` という値は、ステージにも表示されます。
 
   --- /feedback ---
 

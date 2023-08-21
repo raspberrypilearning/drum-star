@@ -110,7 +110,7 @@ when flag clicked
 
 --- task ---
 
-Voeg een `wanneer ik signaal ontvang`{:class="block3events"} script toe dat je nieuwe drum knop zal laten zien als de volgende upgrade wanneer de speler de **Drum-snare** drum krijgt:
+Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
 
 ![](images/get-drum-3-icon.png)
 
@@ -136,7 +136,7 @@ hide
 change [beats v] by [-30] // change to 30
 broadcast [conga v] // change to your drum name
 else
-say [Not enough beats!] for [2] seconds 
+say (join ((30) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 

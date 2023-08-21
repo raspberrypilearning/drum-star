@@ -110,7 +110,7 @@ when flag clicked
 
 --- task ---
 
-`when I recieve`{:class="block3events"} स्क्रिप्ट जोड़ें ताकि आपना नया ड्रम बटन नये अपग्रेड की तरह दिखे जब खिलाड़ी को **Drum-snare** ड्रम मिले
+Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
 
 ![](images/get-drum-3-icon.png)
 
@@ -136,7 +136,7 @@ hide
 change [beats v] by [-30] // change to 30
 broadcast [conga v] // change to your drum name
 else
-say [Not enough beats!] for [2] seconds 
+say (join ((30) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 

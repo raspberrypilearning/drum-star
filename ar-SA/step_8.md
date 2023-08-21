@@ -61,7 +61,7 @@
 
 --- task ---
 
-قم بتغيير عدد `نبضات`{: class = "block3variables"} يجب أن تحصل على هذه الأسطوانة في حالة `اذا`{: class = "block3events"}. غيّر العدد السالب للـ `نبضات`{: class = "block3variables"} أنت `غير بمقدار`{: class = "block3variables"} عندما تحصل على هذه الأسطوانة. غيّر الرسالة التي تحصل على `بث`{: class = "block3events"} إلى اسم  **الأسطوانة الجديدة**.
+قم بتغيير عدد `نبضات`{: class = "block3variables"} يجب أن تحصل على هذه الأسطوانة في حالة `اذا`{: class = "block3events"}. غيّر العدد السالب للـ `نبضات`{: class = "block3variables"} أنت `غير بمقدار`{: class = "block3variables"} عندما تحصل على هذه الأسطوانة. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
@@ -83,7 +83,7 @@
 
 --- task ---
 
-أضف مقطعاً برجياً يبدأ بـ `عندما تتبدل الخلفية إلى`{: class = "block3events"} لكل **أسطوانة** مع `انتقل` الى مقطع برمجي{: class = "block3motion"} لجعلها تغير موقعها.
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 ستحتاج أيضًا إلى تحديد موقع البداية `عند النقر على المقطع لبرمجي العلم الاخضر`{: class = "block3events"}.
 

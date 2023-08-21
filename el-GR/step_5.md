@@ -110,7 +110,7 @@ when flag clicked
 
 --- task ---
 
-Πρόσθεσε ένα script `όταν λάβω`{:class="block3events"} που θα εμφανίζεται το νέο κουμπί του τυμπάνου σου ως επόμενη αναβάθμιση όταν ο παίκτης λάβει το τύμπανο **Drum-snare**:
+Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
 
 ![](images/get-drum-3-icon.png)
 
@@ -136,7 +136,7 @@ hide
 change [beats v] by [-30] // change to 30
 broadcast [conga v] // change to your drum name
 else
-say [Not enough beats!] for [2] seconds 
+say (join ((30) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 

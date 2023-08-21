@@ -121,7 +121,7 @@ show
 
 --- task ---
 
-Πρόσθεσε αυτόν τον κώδικα για να λάβεις την αναβάθμιση `εάν`{:class="block3control"} ο παίκτης έχει αρκετά χτυπήματα ή να `πει`{:class="block3looks"} `Δεν υπάρχουν αρκετά χτυπήματα!` εάν δεν μπορεί να γίνει η αναβάθμιση:
+Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they are not able to upgrade:
 
 ![](images/get-snare-icon.png)
 
@@ -131,17 +131,37 @@ if <(beats)>  [9]> then //if 10 or more beats
 hide
 change [beats v] by [-10] //take away the cost of upgrade
 else
-say [Not enough beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
 --- /task ---
 
-Ενημέρωσε τα άλλα αντικείμενα και τη Σκηνή ότι η αναβάθμιση σε τάμπουρο έχει αγοραστεί.
+Instead of only telling the player they need **more** beats, you can tell the player exactly **how many more** beats are needed to get the upgrade.
+
+A `join`{:class="block3operators"} block is used to concatenate, or 'link' two values together.
+
+![](images/get-snare-icon.png)
 
 --- task ---
 
-Πρόσθεσε ένα μπλοκ `μετάδωσε`{:class="block3events"} για να στείλεις ένα νέο μήνυμα `ταμπούρο`:
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they are not able to upgrade:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
 
 ![](images/get-snare-icon.png)
 
@@ -152,7 +172,7 @@ hide
 change [beats v] by [-10] // take away the cost of upgrade
 + broadcast [snare v] // your drum name
 else
-say [Not enough beats!] for [2] seconds 
+say (join ((10) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 
@@ -160,7 +180,7 @@ end
 
 --- task ---
 
-Κάνε κλικ στο αντικείμενο **Drum-snare**. Πρόσθεσε αυτό το script:
+Click on the **Drum-snare** sprite. Add this script:
 
 ![](images/snare-icon.png)
 
@@ -171,13 +191,13 @@ show
 
 --- /task ---
 
-Όταν αναβαθμίζεις τον εξοπλισμό σου, θα μπορείς να παίξεις σε μεγαλύτερους χώρους.
+When you upgrade your equipment, you will be able to play at bigger venues.
 
 --- task ---
 
-Πρόσθεσε κι άλλο υπόβαθρο. Επιλέξαμε τον **Μαυροπίνακα (Chalkoard)** για να παίξουμε τη δεύτερη συναυλία μας στο σχολείο.
+Add another backdrop. We chose **Chalkboard** to play our second gig at school.
 
-Πρόσθεσε κώδικα στο υπόβαθρο για να `αλλάξεις υπόβαθρο`{:class="block3looks"} όταν λάβεις το μήνυμα αναβάθμισης:
+Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
 
 ![](images/stage-icon.png)
 
@@ -186,15 +206,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Συμβουλή:** Επίλεξε έναν χώρο που απέχει ένα μικρό βήμα από την κρεβατοκάμαρα. Θέλεις να αποθηκεύσεις μεγαλύτερους χώρους για αργότερα.
+**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
 
 --- /task ---
 
 --- task ---
 
-**Δοκιμή:** Τρέξε το έργο σου. Δοκίμασε να αγοράσεις την αναβάθμιση του αντικειμένου ταμπούρου πριν να έχεις αρκετά χτυπήματα.
+**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
 
-Όταν αγοράζεις τον έλεγχο αναβάθμισης: εμφανίζεται το ταμπούρο, το κουμπί εξαφανίζεται, ο χώρος διεξαγωγής αλλάζει και τα `χτυπήματα`{:class="block3variables"} μειώνονται κατά `10`.
+When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
 
 --- /task ---
 

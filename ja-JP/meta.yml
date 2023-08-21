@@ -1,30 +1,32 @@
 ---
-title: Drum star
+title: ドラムスター
 hero_image: images/banner.png
-description: Make a clicker game where you earn beats to play new drums and bigger venues
+description: ビートを稼いで、大きな会場で新しいドラムを演奏するクリッカーゲームを作りましょう。
+meta_title: 子供と十代の若者向けのScratch コーディング プロジェクト |ドラムスター
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game where you earn beats to play new drums at bigger venues.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: You will make
+    title: はじめに
   - 
-    title: Set the Stage
+    title: ステージを作る
   - 
-    title: Starter drum
+    title: スタータードラム
     completion:
       - engaged
   - 
-    title: First upgrade
+    title: アップグレード第一弾
   - 
-    title: Second upgrade
+    title: アップグレード第二弾
   - 
-    title: Play and customise
+    title: プレイとカスタマイズ
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: ふりかえり
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: プロジェクトをアップグレードする
   - 
-    title: What next?
+    title: 次は何をしますか？

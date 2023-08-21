@@ -61,7 +61,7 @@ Verander het `uiterlijk`{:class="block3looks"} inclusief de kosten voor de nieuw
 
 --- task ---
 
-Verander het aantal `slagen`{:class="block3variabelen"} dat je moet hebben om deze drum te krijgen in de `als`{:class="block3events"} conditie. Verander het negatieve aantal `slagen`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum krijgt. Wijzig het bericht dat het`zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
+Verander het aantal `slagen`{:class="block3variabelen"} dat je moet hebben om deze drum te krijgen in de `als`{:class="block3events"} conditie. Verander het negatieve aantal `slagen`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum krijgt. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
@@ -83,7 +83,7 @@ Het kan zijn dat je vindt dat je drums in een nieuwe positie moeten staan op een
 
 --- task ---
 
-Voeg een script toe dat begint met `wanneer de achtergrond verandert in`{:class="block3events"} aan elke **drum** sprite met een `ga naar`{:class="block3motion"} blok om de positie te veranderen.
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 Je moet ook de beginpositie instellen `wanneer op de vlag wordt geklikt`{:class="block3events"}.
 

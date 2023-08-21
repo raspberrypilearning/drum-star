@@ -121,7 +121,7 @@ Nous utilisons <span style="color: #0faeb0">**si ... sinon**</span> tout le temp
 
 --- task ---
 
-Ajoute ce code pour obtenir l'amélioration `si`{:class="block3control"} le joueur a assez de battements, ou `dire`{:class="block3looks"} `Pas assez de battements !` s'ils ne peuvent pas faire une amélioration :
+Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they are not able to upgrade:
 
 ![](images/get-snare-icon.png)
 
@@ -131,17 +131,37 @@ if <(beats)>  [9]> then //if 10 or more beats
 hide
 change [beats v] by [-10] //take away the cost of upgrade
 else
-say [Not enough beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
 --- /task ---
 
-Fais savoir aux autres sprites et à la scène que l'amélioration de la caisse claire a été achetée.
+Instead of only telling the player they need **more** beats, you can tell the player exactly **how many more** beats are needed to get the upgrade.
+
+A `join`{:class="block3operators"} block is used to concatenate, or 'link' two values together.
+
+![](images/get-snare-icon.png)
 
 --- task ---
 
-Ajoute un bloc `envoyer à tous`{:class="block3events"} pour envoyer un nouveau message `caisse claire` :
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they are not able to upgrade:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
 
 ![](images/get-snare-icon.png)
 
@@ -152,7 +172,7 @@ hide
 change [beats v] by [-10] // take away the cost of upgrade
 + broadcast [snare v] // your drum name
 else
-say [Not enough beats!] for [2] seconds 
+say (join ((10) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 
@@ -160,7 +180,7 @@ end
 
 --- task ---
 
-Clique sur le sprite **caisse claire**. Ajoute ce script :
+Click on the **Drum-snare** sprite. Add this script:
 
 ![](images/snare-icon.png)
 
@@ -171,13 +191,13 @@ show
 
 --- /task ---
 
-Lorsque tu améliores ton équipement, tu pourras jouer dans de plus grandes salles.
+When you upgrade your equipment, you will be able to play at bigger venues.
 
 --- task ---
 
-Ajoute un autre arrière-plan. Nous avons choisi **Chalkboard** pour jouer notre deuxième concert à l'école.
+Add another backdrop. We chose **Chalkboard** to play our second gig at school.
 
-Ajoute du code à la scène pour `basculer sur l'arrière-plan`{:class="block3looks"} lorsque le message d'amélioration est reçu :
+Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
 
 ![](images/stage-icon.png)
 
@@ -186,15 +206,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Astuce :** Choisis une salle qui est un peu plus élevé que la chambre. Tu veux garder les grands événements pour plus tard.
+**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
 
 --- /task ---
 
 --- task ---
 
-**Test :** Exécute ton projet. Essaie d'acheter l'amélioration de la caisse claire avant d'avoir suffisamment de battements.
+**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
 
-Lorsque tu achètes l'amélioration : la caisse claire apparaît, le bouton disparaît, la salle change et les `battements`{:class="block3variables"} diminuent de `10`.
+When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
 
 --- /task ---
 

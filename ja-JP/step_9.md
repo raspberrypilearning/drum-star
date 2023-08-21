@@ -1,11 +1,11 @@
-## What next?
+## 次は何をしますか？
 
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Next customer please!](https://projects.raspberrypi.org/en/projects/next-customer-please) project, where you will make a shop where customers can buy items and check out.
+[もっとScratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)のパスをたどっている場合は、[次のお客様どうぞ！](https://projects.raspberrypi.org/en/projects/next-customer-please)のプロジェクトに進み、お客様が買い物をするお店を作ることができます。
 
 --- print-only ---
 
-![Next customer please](images/next-customer-please.png)
+![次のお客様どうぞ](images/next-customer-please.png)
 
 --- /print-only ---
 
@@ -17,4 +17,4 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
+Scratchのさまざまな機能を触ってみたい場合は[こちらのプロジェクト](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}を試してみてください。

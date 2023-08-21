@@ -121,7 +121,7 @@ show
 
 --- task ---
 
-`if`{:class="block3control"} ప్లేయర్‌కు తగినంత బీట్‌లు ఉంటే, అప్‌గ్రేడ్ చేయడానికి ఈ కోడ్‌ను జోడించండి లేదా వారు అప్‌గ్రేడ్ చేయలేకపోతే `Not enough beats!` అని `say`{:class="block3looks"} తో చెప్పండి:
+Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they are not able to upgrade:
 
 ![](images/get-snare-icon.png)
 
@@ -131,17 +131,37 @@ if <(beats)>  [9]> then //if 10 or more beats
 hide
 change [beats v] by [-10] //take away the cost of upgrade
 else
-say [Not enough beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
 --- /task ---
 
-Snare అప్‌గ్రేడ్ కొనుగోలు చేయబడిందని ఇతర sprite లు మరియు Stage కి తెలియజేయండి.
+Instead of only telling the player they need **more** beats, you can tell the player exactly **how many more** beats are needed to get the upgrade.
+
+A `join`{:class="block3operators"} block is used to concatenate, or 'link' two values together.
+
+![](images/get-snare-icon.png)
 
 --- task ---
 
-`snare` సందేశాన్ని `broadcast`{:class="block3events"} చేయడానికి బ్లాక్‌ను జోడించండి:
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they are not able to upgrade:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
 
 ![](images/get-snare-icon.png)
 
@@ -152,7 +172,7 @@ hide
 change [beats v] by [-10] // take away the cost of upgrade
 + broadcast [snare v] // your drum name
 else
-say [Not enough beats!] for [2] seconds 
+say (join ((10) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 
@@ -160,7 +180,7 @@ end
 
 --- task ---
 
-**Drum-snare** sprite పై క్లిక్ చేయండి. ఈ స్క్రిప్ట్‌ని జోడించండి:
+Click on the **Drum-snare** sprite. Add this script:
 
 ![](images/snare-icon.png)
 
@@ -171,13 +191,13 @@ show
 
 --- /task ---
 
-మీరు మీ పరికరాలను అప్‌గ్రేడ్ చేసినప్పుడు, మీరు పెద్ద వేదికలలో ప్లే చేయగలరు.
+When you upgrade your equipment, you will be able to play at bigger venues.
 
 --- task ---
 
-మరొక బ్యాక్‌డ్రాప్‌ను జోడించండి. మనము పాఠశాలలో మన రెండవ ప్రదర్శనను ప్లే చేయడానికి **Chalkboard** ను ఎన్నుకొందాము.
+Add another backdrop. We chose **Chalkboard** to play our second gig at school.
 
-అప్‌గ్రేడ్ సందేశాన్ని స్వీకరించినప్పుడు `switch backdrop`{:class="block3looks"} మార్చడానికి Stage కి కోడ్‌ని జోడించండి:
+Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
 
 ![](images/stage-icon.png)
 
@@ -186,15 +206,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**చిట్కా:** బెడ్ రూమ్ నుండి ఒక చిన్న మెట్టు పైకి ఉండే వేదికను ఎంచుకోండి. మీరు ముందు కాలం కోసం పెద్ద వేదికలను సేవ్ చేయాలనుకుంటున్నారు.
+**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
 
 --- /task ---
 
 --- task ---
 
-**పరీక్ష:** మీ ప్రాజెక్ట్‌ను అమలు చేయండి. మీరు తగినంత బీట్‌లను కలిగి ఉండటానికి ముందు స్నేర్ అప్‌గ్రేడ్‌ను ప్రయత్నించండి మరియు కొనుగోలు చేయండి.
+**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
 
-మీరు అప్‌గ్రేడ్ చెక్‌ను కొనుగోలు చేసినప్పుడు: snare కనిపిస్తుంది, బటన్ అదృశ్యమవుతుంది, వేదిక మారుతుంది మరియు `beats`{:class="block3variables"} `10` వరకు తగ్గుతాయి.
+When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
 
 --- /task ---
 

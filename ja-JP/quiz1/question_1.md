@@ -1,54 +1,54 @@
-## Quick quiz
+## ふりかえり
 
-Answer the three questions. There are hints to guide you to the correct answer.
+3つの質問に答えてください。 あなたを正解に導くヒントがあります。
 
-When you have answered each question, click on **Check my answer**.
+各質問に回答したら、**答えを確認する**をクリックしてください。
 
-Have fun!
+お楽しみください！
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+凡例：質問1/3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+プロジェクトでは、変数を作成して使用しました。 次のうち、変数に格納できる値はどれですか?
 
-`6` , `Tom` , `151` , `Aadya`
+`6` , `トム` , `151` , `アディア`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- ( ) 数字 `6` と `151`のみ
 
  --- feedback ---
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
+ 変数`ビート数`{:class="block3variables"} を使用して数値を格納しました。 しかし、変数を他の目的にも使用しました。
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) テキスト (単語) のみ `トム` と `アディア`
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ 変数 `名前`{:class="block3variables"} に `...と聞いて待つ`{:class="block3sensing"} の質問に対する`答え`{:class="block3sensing"} のテキスト(文字)を保存しました。 しかし、 `変数`{:class="block3variables"} を他の目的にも使用しました。
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- (x) 数字またはテキスト (単語)
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
+ 正解です。 `ビート数`{:class="block3variables"} `変数`{:class="block3variables"} に数値を格納し、 `名前`{:class="block3variables"} `変数`{:class="block3variables"}にテキスト (単語) を格納しました。
 
- A variable can store a number or text (words).
+ 変数には、数値またはテキスト (単語) を格納できます。
 
  --- /feedback ---
 
-- ( ) None of them
+- ( ) この中には正解はない
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+いいえ。 使用した `ビート数`{:class="block3variables"} と `名前`{:class="block3variables"} 変数を思い出しましょう。
 
  --- /feedback ---
 

@@ -1,142 +1,142 @@
-## Upgrade your project
+## プロジェクトをアップグレードする
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Upgrade your project with more drums and more backdrops as you play more amazing venues. 
+より素晴らしい会場で演奏するにつれて、より多くのドラムとより多くの背景を使用してプロジェクトをアップグレードします。 
 </div>
 <div>
 ![](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-There are lots more drum costumes to choose from to add more upgrades to your project.
+プロジェクトにさらにアップグレードを追加するために使えるドラムコスチュームは他にもたくさんあります。
 
-To add another drum to upgrade to, look back at the earlier steps of the project.
+アップグレードする別のドラムを追加するには、プロジェクトの前のステップを振り返ってください。
 
-For the **drum**, you will need to:
+**ドラム**については、次のことが必要です：
 
 --- task ---
 
-Duplicate the previous **drum** sprite and add two costumes.
+前の **ドラム** スプライトを複製し、コスチュームを 2 つ追加します。
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script.
+`このスプライトが押されたとき`{:class="block3events"} のスクリプトで使われてる `コスチューム`{:class="block3looks"} や `音`{:class="block3sound"} を変えます。
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script.
+`このスプライトが押されたとき`{:class="block3events"}のスクリプトのかせぐ`ビート数`{:class="block3variables"} の数を変えます。
 
 --- /task ---
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**.
+ドラム を`表示`{:class="block3looks"} させる`メッセージ`{:class="block3events"} を、**新しいドラム**のメッセージに変更します。
 
 --- /task ---
 
-For the **button**, you will need to:
+**ボタン**については、次のことが必要です：
 
 --- task ---
 
-Duplicate the previous **Get** sprite.
-
---- /task ---
-
---- task ---
-
-Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**.
+前の**ゲット** スプライトを複製します。
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} including the cost of the new drum.
+ボタンを表示させる `メッセージ`{:class="block3events"}を 、 **前のドラム**が`送る`{:class="block3events"} `メッセージ`{:class="block3events"} に変更します。
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to get this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you get this drum. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
-
---- /task ---
-
-For the **venue**, you will need to:
-
---- task ---
-
-Add a new backdrop.
+新しいドラムのコストを含む、 `コスチューム`{:class="block3looks"} を変更します。
 
 --- /task ---
 
 --- task ---
 
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is receieved.
+`if`{:class="block3events"} 条件に入っているドラムをゲットするのに必要な `ビート数`{:class="block3variables"} を変更します。 ドラムをゲットした時に 減らす `ビート数`{:class="block3variables"} をいくつ`ずつ変える`{:class="block3variables"}かを変えます。 Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
-You might find that your drums need to be in a new position on a different backdrop.
+**会場**については、次のことが必要です：
 
 --- task ---
 
-Add script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
-
-You will also need to set their starting position `when flag clicked`{:class="block3events"}.
-
---- /task ---
-
---- task ---
-
-**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their upgrade order and then the buttons in order.
+背景を追加します.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
+このドラムの `メッセージ`{:class="block3events"} が受信されたときに、新しい背景に `背景を変える`{:class="block3looks"} スクリプトをステージに追加します。
+
+--- /task ---
+
+ドラムを別の背景上の新しい位置に配置する必要があるかもしれません。
+
+--- task ---
+
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
+
+`フラグが押されたとき`{:class="block3events"} のスタート位置もセットする必要があります。
+
+--- /task ---
+
+--- task ---
+
+**整理:** 時間がある場合は、スプライトリストのスプライトがわかりやすい順序になっていることを確認しましょう。まず、ドラムのアップグレード順、次にボタンの順に並べます。
+
+--- /task ---
+
+--- task ---
+
+**デバッグ:** まず、ドラムとボタンがいつ表示されるべきか、そして `ビート数`{:class="block3variables"} 変数がどのように変化するべきかをよく理解していることを確認してください。 プロジェクトが何をすべきかが明確であれば、プロジェクトのデバッグがはるかに簡単になります。
 
 --- collapse ---
 ---
-title: My drum doesn't show/hide correctly
+title: ドラムが正しく表示/非表示になりません
 ---
 
-Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}. And it should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
+それが最初のドラムでない限り、ドラムには`緑の旗がクリックされた時`{:class="block3events"} 、`非表示`{:class="block3l時ooks"} になるスクリプトがあるはずです。 そして、`このドラム``..を受け取ったとき`{:class="block3events"}、`表示する`{:class="block3looks"} のスクリプトがあるはずです。
 
-Check that the **Get** button for this drum `broadcasts`{:class="block3events"} the same message.
+このドラムの **ゲット** ボタンが 、同じメッセージを`送る`{:class="block3events"} ことを確認します。
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Get button doesn't show/hide correctly
+title: ゲットボタンが正しく表示/非表示になりません
 ---
 
-Unless the button is for the very first drum, then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. And it should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**. The **Get** button should `show`{:class="block3looks"} to let the player know about the next upgrade they are working towards.
+ボタンが最初のドラム用でない限り、 `緑の旗が押された時`{:class="block3events"}に `非表示`{:class="block3looks"} する必要があります。 そして **前のドラム**のメッセージを`受け取った時`{:class="block3events"}、 `表示`{:class="block3looks"} する必要があります。 **ゲット** ボタンを `表示`{:class="block3looks"} して、プレイヤーに次のアップグレードについて知らせます。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I can buy a drum when I don't have enough beats
+title: ビートが足りないのにドラムが買える
 ---
 
-Check that you have changed the number of `beats`{:class="block3variables"} needed `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+そのドラムの**ゲット**ボタンのスクリプトを見て、 `このスプライトが押された時`{:class="block3events"} に必要としている`ビート数`{:class="block3variables"} を変えたかチェックしてみましょう。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The number of beats doesn't change correctly when I get a new drum
+title: 新しいドラムを入手してもビート数が正しく変わらない
 ---
 
-Check that you have `changed beats by`{:class="block3variables"} a negative number `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+そのドラムの**ゲット**ボタンのスクリプトを見て、`このスプライトが押され時`、`ずつ変える`{:class="block3variables"} のへらす数をいくつにしたかチェックしてみましょう。
 
-Make sure this matches the number on the drum button costume.
+これがドラムボタンコスチュームの数値と一致していることを確認してください.
 
 --- /collapse ---
 
@@ -144,13 +144,13 @@ Make sure this matches the number on the drum button costume.
 
 --- collapse ---
 ---
-title: Completed project
+title: 完成したプロジェクト
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
+[完成したプロジェクトはこちら](https://scratch.mit.edu/projects/522323676/){:target="_blank"}で確認できます。
 
 --- /collapse ---
 
-**Tip:** If you get really muddled then it's fine to delete the new drum and its button, and start again. Sometimes it is hard to spot a bug.
+**ヒント:** 本当に混乱した場合は、新しいドラムとそのボタンを削除して、最初からやり直しても問題ありません。 バグを見つけるのが難しい場合があります。
 
 --- save ---

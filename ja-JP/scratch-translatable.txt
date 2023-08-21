@@ -1,13 +1,13 @@
-name
+名前
 
-What's your rock star name?
+あなたのロックスター名は？
 
-beats
+ビート数
 
-Not enough beats!
+ビート数がたりないよ！
 
-snare
+スネア
 
-conga
+コンガ
 
-What's your name?
+あなたのお名前は？

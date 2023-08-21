@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+凡例：質問3/3
 ---
 
-You used this script to control what happens when the player clicks on the button to upgrade their drum:
+このスクリプトを使用して、プレーヤーがボタンをクリックしてドラムをアップグレードしたときの動作を制御しました。
 
 ```blocks3
 when this sprite clicked
@@ -18,39 +18,39 @@ say [Not enough beats!] for [2] seconds
 end
 ```
 
-If the value of the `beats`{:class="block3variables"} variable is `29`, what will happen when the player clicks on the button?
+変数 `ビート数`{:class="block3variables"}の値が `29`の場合、プレイヤーがボタンをクリックするとどうなるでしょうか？
 
 --- choices ---
 
-- ( ) The sprite will `hide`{:class="block3looks"}
+- ( ) スプライトが `非表示`{:class="block3looks"}になる。
 
   --- feedback ---
 
-  Not quite, there is a `hide`{:class="block3looks"} block in the script, but it will not run with `29` `beats`{:class="block3variables"}. Take a look at the script again.
+  いいえ。 このスクリプトの中に`非表示`{:class="block3looks"}のブロックはありますが、 `29`の `ビート数`{:class="block3variables"}では実行されません。 もう一度スクリプトを見てみましょう。
 
   --- /feedback ---
 
-- (x) The button sprite will `say`{:class="block3looks"} `Not enough beats!`
+- (x) ボタンのスプライトが、 `ビート数がたりないよ！` `という`{:class="block3looks"}。
 
   --- feedback ---
 
-Yes, the condition checks if `beats`{:class="block3variables"} is greater than `29`, but `beats`{:class="block3variables"} is equal to `29` so the player does not have enough.
+正解です。 `ビート数`{:class="block3variables"} が `29`より大きいかチェックしますが、`ビート数`{:class="block3variables"}が `29`では十分ではありません。
 
   --- /feedback ---
 
-- ( ) 30 will be taken away from the value of the `beats`{:class="block3variables"} variable
+- ( ) 変数 `ビート数`{:class="block3variables"} の値が30少なくなります。
 
   --- feedback ---
 
-  No, the value of the `beats`{:class="block3variables"} variable will stay the same. `beats`{:class="block3variables"} is `29` which means `beats`{:class="block3variables"} `> 29` is false, so the blocks in the first part of the `if`{:class="block3control"} block will not run.
+  いいえ、変数`ビート数`{:class="block3variables"}は、同じ値のままです。 `ビート数`{:class="block3variables"} が `29` ということは、 `ビート数`{:class="block3variables"}が `> 29` であることが偽（ぎ）なので、 `if`{:class="block3control"} ブロックの最初のぶぶんは実行されません。
 
   --- /feedback ---
 
-- ( ) Nothing
+- ( ) 何も起こらない。
 
   --- feedback ---
 
-  No, the script will always do something. Take a closer look to see which part of the script will run when you have `29` `beats`{:class="block3variables"}.
+  いいえ、スクリプトは常に何かを行います。 `ビート数`{:class="block3variables"}が`29` の時に、なにが実行されるのかをよく見ましょう。
 
   --- /feedback ---
 

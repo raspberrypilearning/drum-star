@@ -61,7 +61,7 @@
 
 --- task ---
 
-`if`{:class="block3events"} 条件に入っているドラムをゲットするのに必要な `ビート数`{:class="block3variables"} を変更します。 ドラムをゲットした時に 減らす `ビート数`{:class="block3variables"} をいくつ`ずつ変える`{:class="block3variables"}かを変えます。 Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
+`if`{:class="block3events"} 条件に入っているドラムをゲットするのに必要な `ビート数`{:class="block3variables"} を変更します。 ドラムをゲットした時に 減らす `ビート数`{:class="block3variables"} をいくつ`ずつ変える`{:class="block3variables"}かを変えます。 Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. 他のスプライトが **新しいドラム**の名前に`送る`{:class="block3events"}メッセージを変えます。
 
 --- /task ---
 
@@ -83,7 +83,7 @@
 
 --- task ---
 
-Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
+それぞれの**ドラム**スプライトに`背景が..になったとき`{:class="block3events"} から始まるスクリプトを追加して、場所を変更するために `...へいく` {:class="block3motion"} ブロックを追加します。
 
 `フラグが押されたとき`{:class="block3events"} のスタート位置もセットする必要があります。
 

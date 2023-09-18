@@ -110,7 +110,7 @@ when flag clicked
 
 --- task ---
 
-Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
+プレーヤーが **Drum -snare** ドラムをゲットしたときに次のアップグレードとして新しいドラム ボタンが表示されるように 、`メッセージを受け取ったとき`{:class="block3events"} のスクリプトを追加します。
 
 ![](images/get-drum-3-icon.png)
 

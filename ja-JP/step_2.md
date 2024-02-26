@@ -68,7 +68,7 @@ switch backdrop to (Bedroom 3 v) //あなたの選んだ背景の名前
 
 プロジェクトのスタート時には、あなたのロックスターにはまだ名前がついてません。
 
-ブロックを追加して `名前を...にする`に{:class="block3variables"} `???`を入力します。
+ブロックを追加して `名前を...にする`{:class="block3variables"}に `???`を入力します。
 
 ![](images/stage-icon.png)
 

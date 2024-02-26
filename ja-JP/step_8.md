@@ -61,7 +61,7 @@
 
 --- task ---
 
-`if`{:class="block3events"} 条件に入っているドラムをゲットするのに必要な `ビート数`{:class="block3variables"} を変更します。 ドラムをゲットした時に 減らす `ビート数`{:class="block3variables"} をいくつ`ずつ変える`{:class="block3variables"}かを変えます。 Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. 他のスプライトが **新しいドラム**の名前に`送る`{:class="block3events"}メッセージを変えます。
+`if`{:class="block3events"} 条件に入っているドラムをゲットするのに必要な `ビート数`{:class="block3variables"} を変更します。 ドラムをゲットした時に 減らす `ビート数`{:class="block3variables"} をいくつ`ずつ変える`{:class="block3variables"}かを変えます。 減算する必要がある`ビート数`{:class="block3variables"} の数値を `何々と何々`{:class="block3operators"} ブロック内から減算する。 他のスプライトが **新しいドラム**の名前に`送る`{:class="block3events"}メッセージを変えます。
 
 --- /task ---
 

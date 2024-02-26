@@ -1,0 +1,31 @@
+---
+title: ドラムスター
+hero_image: images/banner.png
+description: ビートを稼いで、大きな会場で新しいドラムを演奏するクリッカーゲームを作りましょう。
+meta_title: 子供と十代の若者向けのScratch コーディング プロジェクト |ドラムスター
+meta_description: Raspberry Pi Foundation の子供と青少年向けのコーディング プロジェクトで Scratch を学びましょう。より大きな会場で新しいドラムを演奏するためのビートを獲得するスクラッチ ゲームを作成します。
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-04-28"
+steps:
+  - title: はじめに
+  - title: ステージを作る
+  - title: スタータードラム
+    completion:
+      - engaged
+  - title: アップグレード第一弾
+  - title: アップグレード第二弾
+  - title: プレイとカスタマイズ
+    completion:
+      - internal
+  - title: ふりかえり
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: プロジェクトをアップグレードする
+  - title: 次は何をしますか？

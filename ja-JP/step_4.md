@@ -121,7 +121,7 @@ show
 
 --- task ---
 
-Add this code to get the upgrade `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they are not able to upgrade:
+</code>もし`{:class="block3control"} プレーヤーに十分なビートがある場合、アップグレード を取得するには、このコードを追加します。  アップグレードできない場合は<code>もっとビートが必要です!` `と言ってください`{:class="block3looks"}:
 
 ![](images/get-snare-icon.png)
 
@@ -137,15 +137,15 @@ end
 
 --- /task ---
 
-Instead of only telling the player they need **more** beats, you can tell the player exactly **how many more** beats are needed to get the upgrade.
+ビートが**もっと**必要であることをプレイヤーに伝えるだけでなく、 **あと何回** ビートが必要かをプレイヤーに正確に伝えることでアップグレードを取得できます。
 
-A `join`{:class="block3operators"} block is used to concatenate, or 'link' two values together.
+`何々と何々`{:class="block3operators"} ブロックは、2 つの値を連結、または「リンク」するために使用されます。
 
 ![](images/get-snare-icon.png)
 
 --- task ---
 
-Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they are not able to upgrade:
+このコードを追加して、必要なビート数とアップグレードできない場合にプレーヤーにさらにビートが必要であることを伝えるために使用したテキストを`加える`{:class="block3operators"}。
 
 ```blocks3
 when this sprite clicked
@@ -161,7 +161,7 @@ end
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+`メッセージ`{:class="block3events"} ブロックを追加して、新しい `スネア` メッセージを送ります。
 
 ![](images/get-snare-icon.png)
 
@@ -180,7 +180,7 @@ end
 
 --- task ---
 
-Click on the **Drum-snare** sprite. Add this script:
+**Drum-snare** のスプライトをクリックします。 このスクリプトを追加します。
 
 ![](images/snare-icon.png)
 
@@ -191,13 +191,13 @@ show
 
 --- /task ---
 
-When you upgrade your equipment, you will be able to play at bigger venues.
+機材（きざい）をアップグレードするとともに、より大きな会場でプレイができるようにします。
 
 --- task ---
 
-Add another backdrop. We chose **Chalkboard** to play our second gig at school.
+背景を追加します。 学校で 2 回目の演奏会を行うために、 **Chalkboard** を選びました。
 
-Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+アップグレードメッセージを受け取った時に、 `背景を..にする`{:class="block3looks"}コードをステージに追加します。
 
 ![](images/stage-icon.png)
 
@@ -206,15 +206,15 @@ when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Tip:** Choose a venue that's a small step up from the bedroom. You want to save bigger venues for later.
+**ヒント:** ベッドルームから少しだけステップアップした会場を選びましょう。 より大きな会場は後で使うために取っておきましょう。
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project. Try and buy the snare upgrade before you have enough beats.
+**テスト：**プロジェクトを実行します。 十分なビートが得られる前に、スネアのアップグレードを購入してみましょう。
 
-When you buy the upgrade check: the snare appears, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
+アップグレード を購入したときに、スネアが表示され、ボタンが消え、会場が変わり、 `ビート数`{:class="block3variables"} が `10`減ることを確認します。
 
 --- /task ---
 

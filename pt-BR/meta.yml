@@ -1,32 +1,32 @@
 ---
-title: Drum star
+title: Estrela do tambor
 hero_image: images/banner.png
-description: Make a clicker game where you earn beats to play new drums and bigger venues
-meta_title: Scratch coding projects for kids and teens | Drum star
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game where you earn beats to play new drums at bigger venues.
+description: Neste projeto, você fará um jogo clicker onde ganhará batidas para tocar bateria nova em locais maiores
+meta_title: Projetos de codificação Scratch para crianças e adolescentes | Estrela do tambor
+meta_description: Aprenda Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Faça um jogo Scratch onde você ganha batidas para tocar novas baterias em locais maiores.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: You will make
+    title: Você fará
   - 
-    title: Set the Stage
+    title: Prepare o cenário
   - 
-    title: Starter drum
+    title: Tambor inicial
     completion:
       - engaged
   - 
-    title: First upgrade
+    title: Primeira atualização
   - 
-    title: Second upgrade
+    title: Segunda atualização
   - 
-    title: Play and customise
+    title: Jogue e personalize
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Perguntas rápidas
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Melhore o seu projeto
   - 
-    title: What next?
+    title: E agora?

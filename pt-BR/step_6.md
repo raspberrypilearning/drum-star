@@ -1,8 +1,8 @@
-## Play and customise
+## Jogue e personalize
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's time to make your game work just the way that you want it to.
+É hora de fazer seu jogo funcionar do jeito que você deseja.
 </div>
 <div>
 ![](images/play-customise.png){:width="300px"}
@@ -11,23 +11,23 @@ It's time to make your game work just the way that you want it to.
 
 --- task ---
 
-Play your game and earn beats.
+Jogue seu jogo e ganhe batidas.
 
-Watch the `beats`{:class="block3variables"} variable change and make sure you understand how beats increase when you click the drums and decrease when you get a new drum.
+Observe a mudança da variável `batidas`{:class="block3variables"} e certifique-se de entender como as batidas aumentam quando você clica na bateria e diminuem quando você obtém uma nova bateria.
 
-Are you happy with how many beats you earn for each drum? You can change this if you like.
+Você está satisfeito com quantas batidas ganha por cada bateria? Você pode mudar isso se quiser.
 
-Are you happy with how many beats it costs to get a new drum?
+Você está satisfeito com quantas batidas custa para conseguir um novo tambor?
 
-**Tip:** Test your project regularly so you can find and fix any bugs.
+**Dica:** Teste seu projeto regularmente para encontrar e corrigir quaisquer bugs.
 
 --- /task ---
 
 --- task ---
 
-If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back and set your rock star name.
+Se você separou o bloco `ask`{:class="block3sensing"} no Palco, coloque-o de volta e defina o nome da sua estrela do rock.
 
-Notice that the name displayed on the Stage changes.
+Observe que o nome exibido no Palco muda.
 
 --- /task ---
 

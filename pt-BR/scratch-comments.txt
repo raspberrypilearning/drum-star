@@ -1,57 +1,57 @@
-your backdrop name
+o nome do seu cenário
 
-your variable
+sua variável
 
-your question
+sua pergunta
 
-hit costume
+próxima fantasia
 
-drum sound
+som de bateria
 
-not hit costume
+sua fantasia de sucesso
 
-2 beats per click
+2 batidas por clique
 
-if 10 or more beats
+se 10 ou mais batidas
 
-take away the cost upgrade
+tire o custo da atualização
 
-your drum name
+seu nome de bateria
 
-5 beats per click
+5 batidas por clique
 
-your hit costume
+sua fantasia de sucesso
 
-your drum sound
+seu som de bateria
 
-your not hit costume
+sua fantasia de sucesso
 
-appear when previous drum is bought
+aparece quando o tambor anterior é comprado
 
-show button for next available drum
+botão mostrar para a próxima bateria disponível
 
-change to 29
+mudar para 29
 
-change to 30
+mudar para 30
 
-change to your drum name
+mude para o nome da sua bateria
 
-player has upgraded to this drum
+o jogador atualizou para este tambor
 
-this drum earns 2 beats
+esse tambor ganha 2 batidas
 
-this drum earns 5 beats
+esse tambor ganha 5 batidas
 
-first upgrade visible from the start
+primeira atualização visível desde o início
 
-need at least 10 beats
+preciso de pelo menos 10 batidas
 
-cost of the snare drum
+custo da caixa
 
-not available at the start
+não disponível no início
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+Mostra quando a bateria anterior (caixa) foi comprada e esta é a atualização que o jogador está buscando.
 
-need at least 30 beats
+preciso de pelo menos 30 batidas
 
-cost of the drum
+custo da caixa

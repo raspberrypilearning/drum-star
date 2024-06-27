@@ -1,23 +1,23 @@
-## You will make
+## O que você vai fazer
 
-Make a clicker game where you earn beats to play new drums at bigger venues.
+Faça um jogo clicker onde você ganha batidas para tocar novas baterias em locais maiores.
 
-You will:
-+ Use `variables`{:class="block3variables"} to store and change numbers and text (words)
-+ `ask`{:class="block3sensing"} a question and use the `answer`{:class="block3sensing"} to customise the game
-+ Use `if...else`{:class="block3control"} blocks to make decisions
+Você deve:
++ Use `variáveis`{:class="block3variables"} para armazenar e alterar números e texto (palavras)
++ `faça`{:class="block3sensing"} uma pergunta e use a `resposta`{:class="block3sensing"} para personalizar o jogo
++ Use `if...else`{:class="block3control"} para tomar decisões
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">**clicker games**</span> where you have to click to make progress and buy upgrades that help you go faster. Have you ever played a clicker game? There are also <span style="color: #0faeb0">**idle games**</span> that keep going even when you're not playing them. These games are fun as long as you don't spend too much time playing them!</p>
+Existem muitos <span style="color: #0faeb0">**jogos clicker**</span> onde você precisa clicar para progredir e comprar atualizações que o ajudam a ir mais rápido. Você já jogou um jogo clicker? Existem também <span style="color: #0faeb0">**jogos inativos**</span> que continuam mesmo quando você não está jogando. Esses jogos são divertidos, desde que você não gaste muito tempo jogando!</p>
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### Jogar ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the drum and watch the number of `beats`{:class="block3variables"} go up. Get a new drum when you have enough beats. 
+Clique no tambor e observe o número de `batidas`{:class="block3variables"} aumentar. Compre um novo tambor quando tiver batidas suficientes. 
 
-How many `beats`{:class="block3variables"} do you earn when clicking the new drum?
+Quantas `beats`{:class="block3variables"} você ganha ao clicar na nova bateria?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Projeto concluído](images/showcase_static.png)
 
 --- /print-only ---

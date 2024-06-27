@@ -1,54 +1,54 @@
-## Quick quiz
+## Teste rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Responda às três perguntas. Existem dicas para guiá-lo para a resposta correta.
 
-When you have answered each question, click on **Check my answer**.
+Após responder cada pergunta, clique em **Ver minha resposta**.
 
-Have fun!
+Divirta-se!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legenda: Pergunta 1 de 3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+No seu projeto, você criou e usou variáveis. Qual desses valores pode ser armazenado em uma variável?
 
 `6` , `Tom` , `151` , `Aadya`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- ( ) Somente os números `6` e `151`
 
  --- feedback ---
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
+ Você usou a variável `beats`{:class="block3variables"} para armazenar um número. Mas você também usou uma variável para outra coisa.
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) Somente os números `6` e `151`
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ Você usou a variável `name`{:class="block3variables"} para armazenar texto (palavras), para a `resposta`{:class="block3sensing"} para a `pergunta`{:class="block3sensing"} pergunta. Mas você também usou uma variável ``{:class="block3variables"} para outra coisa.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- (x) Qualquer um dos números ou texto (palavras)
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
+ Sim, você armazenou um número nas `batidas`{:class="block3variables"} `variável`{:class="block3variables"} e armazenou texto (palavras) no `nome`{:class="block3variables"} `variável`{:class="block3variables"}.
 
- A variable can store a number or text (words).
+ Uma variável pode armazenar um número ou texto (palavras).
 
  --- /feedback ---
 
-- ( ) None of them
+- ( ) Nenhum deles
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+Não. Pense nas variáveis `beats`{:class="block3variables"} e `name`{:class="block3variables"} que você usou.
 
  --- /feedback ---
 

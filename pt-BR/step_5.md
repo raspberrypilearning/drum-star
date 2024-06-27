@@ -1,41 +1,41 @@
-## Second upgrade
+## Segunda atualização
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your drum skills are improving. Time for a second upgrade! In this step, you will choose which drum to add.
+Suas habilidades na bateria estão melhorando. É hora de uma segunda atualização! Nesta etapa você escolherá qual tambor adicionar.
 </div>
 <div>
-![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
+! [O cenário Holofote com um inseto.] (images/second-upgrade.png) {:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Drum-snare** sprite:
+Duplique a atriz **Fada**:
 
 ![](images/duplicate-snare-drum.png)
 
 --- /task ---
 
-The **Drum Costumes** sprite has lots of drum costumes for you to choose from.
+O sprite **Drum Costumes** tem muitas fantasias de bateria para você escolher.
 
 --- task ---
 
-Click on the **Drum Costumes** sprite and select the **Costumes** tab.
+Clique no ator **Varinha** e depois na aba **Sons**.
 
-**Choose:** a drum for the next upgrade. We chose **Conga**.
+**Escolha:** um tambor para a próxima atualização. Escolhemos o **Batter**.
 
-Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
+Arraste as fantasias 'hit' e 'not hit' da bateria escolhida para o seu novo sprite **Drum-snare2**:
 
-![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
+![Imagem animada mostrando como arrastar fantasias de um sprite para outro.](images/drag-costumes.gif)
 
-![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
+![O editor de pintura do novo sprite com duas fantasias adicionais na lista de fantasias.](images/drum-3-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Name your drum to match the costumes you chose.
+Dê um nome ao seu tambor de acordo com as fantasias que você escolheu.
 
 ![](images/drum-3-named.png)
 
@@ -43,9 +43,9 @@ Name your drum to match the costumes you chose.
 
 --- task ---
 
-Click on the **Code** tab. Change the code to use the correct costumes and choose a sound for your new drum.
+Clique na guia **Código'**. Altere o código para usar as fantasias corretas e escolha um som para sua nova bateria.
 
-Change the number of beats you earn by clicking the new drum to `5`:
+Altere o número de batidas que você ganha clicando no novo tambor para `5`:
 
 ![](images/drum-3-icon.png)
 
@@ -61,38 +61,38 @@ when this sprite clicked
 
 --- task ---
 
-Drag your new drum into position on the Stage:
+Arraste sua nova bateria para a posição no Palco:
 
-![New drum to the right of the other drums.](images/drum-3-positioned.png)
+![Novo tambor à direita dos outros tambores.](images/drum-3-positioned.png)
 
 --- /task ---
 
-Next, you need a button so that players can upgrade to this new drum.
+Em seguida, você precisa de um botão para que os jogadores possam atualizar para esta nova bateria.
 
 --- task ---
 
-Duplicate the **Get snare** sprite.
+Duplique a atriz **Fada**.
 
-Position it in the bottom-right corner of the Stage. Change its name to `Get` and then the name of your new drum:
+Posicione-o no canto inferior direito do Palco. Mude seu nome para `Get` e depois o nome da sua nova bateria:
 
-![The Sprite list with duplicated 'Get snare' sprite. The sprite name changed to match the new drum and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+![A lista de Sprites com sprites 'Get snare' duplicados. O nome do sprite foi alterado para corresponder à nova bateria e posicionado no canto inferior direito do palco.](images/get-drum-3.png)
 
 --- /task ---
 
 --- task ---
 
-Delete the **snare drum** from the button costume. Copy and paste the 'not hit' costume for your new drum to the button costume.
+Exclua a caixa **** da fantasia do botão. Copie e cole a fantasia 'not hit' da sua nova bateria na fantasia do botão.
 
-Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
+Clique na ferramenta **Text** e altere o número para `30` para mostrar o custo do novo tambor.
 
-Your button should look like this:
+Seu código deve ficar assim:
 
-![The paint editor showing the new button costume with chosen drum image and text updated to 30.](images/get-drum-copy.png)
+![O editor de pintura mostrando o novo traje do botão com a imagem e o texto do tambor escolhido foi atualizado para 30.](images/get-drum-copy.png)
 
 --- /task ---
 
 
-This button should `hide`{:class="block3looks"} at the start, then `show`{:class="block3looks"} when the player upgrades to the snare drum, so they know which drum they are working towards.
+Este botão deve `ocultar`{:class="block3looks"} no início, depois `mostrar`{:class="block3looks"} quando o jogador atualizar para a caixa, para que ele saiba em qual bateria está trabalhando.
 
 --- task ---
 
@@ -104,13 +104,13 @@ when flag clicked
 + hide
 ```
 
-**Tip:** To delete a block, drag it to the Blocks menu, or right-click and choose **Delete Block**. On a computer, you can also click on a block and then tap <kbd>Delete</kbd> to remove a block.
+**Dica:** Para excluir um bloco, arraste-o para o menu Blocos ou clique com o botão direito e escolha **Excluir Bloco**. Em um computador, você também pode clicar em um bloco e tocar em <kbd>Excluir</kbd> para remover um bloco.
 
 --- /task ---
 
 --- task ---
 
-Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
+Adicione um `quando eu receber`script {:class="block3events"} que seu novo botão de bateria mostrará como a próxima atualização quando o jogador obtiver o **Drum-snare** drum:
 
 ![](images/get-drum-3-icon.png)
 
@@ -123,9 +123,9 @@ show // show button for next available drum
 
 --- task ---
 
-Change the number of beats needed to buy this drum, and the number of beats that are removed, when the player gets this drum.
+Altere o número de batidas necessárias para comprar este tambor, e o número de batidas que são removidas, quando o jogador recebe este tambor.
 
-Also change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Create a new message with the name of your new drum:
+Mude a mensagem que recebe `broadcast`{:class="block3events"} para o nome dos novos tambores. Crie uma nova mensagem com o nome da sua nova bateria:
 
 ![](images/get-drum-3-icon.png)
 
@@ -144,7 +144,7 @@ end
 
 --- task ---
 
-Change the `when I receive snare`{:class="block3events"} script to `broadcast`{:class="block3events"} the name of your new drum. The drum will `show`{:class="block3looks"} when the player upgrades to the new drum:
+Mude o `quando eu receber o script snare`{:class="block3events"} para `broadcast`{:class="block3events"} o nome da sua nova bateria. A bateria irá `mostrar`{:class="block3looks"} quando o jogador atualizar para a nova bateria:
 
 ![](images/drum-3-icon.png)
 
@@ -157,9 +157,9 @@ show
 
 --- task ---
 
-Add the **Party** backdrop.
+Adicione o ator **Giga**.
 
-Add a script to the Stage to switch the backdrop when the player upgrades to the new drum:
+Adicione um script ao Palco para mudar o cenário quando o jogador atualizar para a nova bateria:
 
 ![](images/stage-icon.png)
 
@@ -172,9 +172,9 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test:** Click the green flag to start the game and test that you can earn enough beats to get your new drum.
+**Teste:** Clique na bandeira verde para iniciar o jogo e testar se você consegue ganhar batidas suficientes para conseguir sua nova bateria.
 
-What happens if you click the button before you have earned enough beats?
+O que acontece se você clicar no botão antes de ganhar batidas suficientes?
 
 --- /task ---
 

@@ -92,7 +92,7 @@ A variável `beats`{:class="block3variables"} precisa começar em `0` beats quan
 
 Clique no painel Palco e, em seguida, na guia **Código** para adicionar o código ao **Palco**.
 
-Adicione um bloco a `e defina o nome para`{:class="block3variables"} `???`:
+Adicione um bloco a `e defina o batidas para`{:class="block3variables"} `0`:
 
 ![](images/stage-icon.png)
 

@@ -151,6 +151,6 @@ Você pode ver o [projeto concluído aqui](https://scratch.mit.edu/projects/5223
 
 --- /collapse ---
 
-**Dica:** Se você ficar realmente confuso, não há problema em excluir o novo tambor e seu botão e começar de novo. Sometimes it is hard to spot a bug.
+**Dica:** Se você ficar realmente confuso, não há problema em excluir o novo tambor e seu botão e começar de novo. Às vezes é difícil detectar um bug.
 
 --- save ---

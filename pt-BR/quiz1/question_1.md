@@ -22,7 +22,7 @@ No seu projeto, você criou e usou variáveis. Qual desses valores pode ser arma
 
  --- feedback ---
 
- Você usou a variável `beats`{:class="block3variables"} para armazenar um número. Mas você também usou uma variável para outra coisa.
+ Você usou a variável `batidas`{:class="block3variables"} para armazenar um número. Mas você também usou uma variável para outra coisa.
 
  --- /feedback ---
 
@@ -48,7 +48,7 @@ No seu projeto, você criou e usou variáveis. Qual desses valores pode ser arma
 
  --- feedback ---
 
-Não. Pense nas variáveis `beats`{:class="block3variables"} e `name`{:class="block3variables"} que você usou.
+Não. Pense nas variáveis `batidas`{:class="block3variables"} e `name`{:class="block3variables"} que você usou.
 
  --- /feedback ---
 

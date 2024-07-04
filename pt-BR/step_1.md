@@ -17,7 +17,7 @@ Existem muitos <span style="color: #0faeb0">**jogos clicker**</span> onde você 
 <div style="flex-basis: 175px; flex-grow: 1">  
 Clique no tambor e observe o número de `batidas`{:class="block3variables"} aumentar. Compre um novo tambor quando tiver batidas suficientes. 
 
-Quantas `beats`{:class="block3variables"} você ganha ao clicar na nova bateria?
+Quantas `batidas`{:class="block3variables"} você ganha ao clicar na nova bateria?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>

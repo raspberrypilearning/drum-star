@@ -61,7 +61,7 @@ Troque a fantasia `por`{:class="block3looks"} incluindo o custo do novo tambor.
 
 --- task ---
 
-Altere o número de `batidas`{:class="block3variables"} obtidas no script `quando este sprite clicou em`{:class="block3events"}. Mude o número negativo de `batidas`{:class="block3variables"} você `muda em`{:class="block3variables"} quando obtiver esta bateria. Altere o número de `batidas`{:class="block3variables"} obtidas no script `quando este sprite clicou em`{:class="block3events"}. Mude a mensagem que recebe `broadcast`{:class="block3events"} para o nome dos **novos tambores**.
+Altere o número de `batidas`{:class="block3variables"} que você deve ter para colocar esta bateria na condição `se`{:class="block3events"}. Mude o número negativo de `batidas`{:class="block3variables"} você `muda em`{:class="block3variables"} quando obtiver esta bateria. Altere o número de `batidas`{:class="block3variables"} obtidas no script `quando este sprite clicou em`{:class="block3events"}. Mude a mensagem que recebe `broadcast`{:class="block3events"} para o nome dos **novos tambores**.
 
 --- /task ---
 

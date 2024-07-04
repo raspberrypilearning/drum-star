@@ -18,7 +18,7 @@ say [Not enough beats!] for [2] seconds
 end
 ```
 
-Se o valor da variável `beats`{:class="block3variables"} for `29`, o que acontecerá quando o jogador clicar no botão?
+Se o valor da variável `batidas`{:class="block3variables"} for `29`, o que acontecerá quando o jogador clicar no botão?
 
 --- choices ---
 
@@ -26,7 +26,7 @@ Se o valor da variável `beats`{:class="block3variables"} for `29`, o que aconte
 
   --- feedback ---
 
-  Não exatamente, há um bloco `hide`{:class="block3looks"} no script, mas ele não será executado com `29` `beats`{:class="block3variables"}. Dê uma olhada no roteiro novamente.
+  Não exatamente, há um bloco `hide`{:class="block3looks"} no script, mas ele não será executado com `29` `batidas`{:class="block3variables"}. Dê uma olhada no roteiro novamente.
 
   --- /feedback ---
 
@@ -38,11 +38,11 @@ Sim, a condição verifica se `batidas`{:class="block3variables"} é maior que `
 
   --- /feedback ---
 
-- ( ) 30 será subtraído do valor da variável `beats`{:class="block3variables"}
+- ( ) 30 será subtraído do valor da variável `batidas`{:class="block3variables"}
 
   --- feedback ---
 
-  Você usou a variável `beats`{:class="block3variables"} para armazenar um número. `batidas`{:class="block3variables"} é `29` o que significa `batidas`{:class="block3variables"} `> 29` é falso, então os blocos na primeira parte de `if`{:class O bloco ="block3control"} não será executado.
+  Você usou a variável `batidas`{:class="block3variables"} para armazenar um número. `batidas`{:class="block3variables"} é `29` o que significa `batidas`{:class="block3variables"} `> 29` é falso, então os blocos na primeira parte de `if`{:class O bloco ="block3control"} não será executado.
 
   --- /feedback ---
 
@@ -50,7 +50,7 @@ Sim, a condição verifica se `batidas`{:class="block3variables"} é maior que `
 
   --- feedback ---
 
-  Não, o script sempre fará alguma coisa. Dê uma olhada mais de perto para ver qual parte do script será executada quando você tiver `29` `beats`{:class="block3variables"}.
+  Não, o script sempre fará alguma coisa. Dê uma olhada mais de perto para ver qual parte do script será executada quando você tiver `29` `batidas`{:class="block3variables"}.
 
   --- /feedback ---
 

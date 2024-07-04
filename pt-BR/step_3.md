@@ -58,7 +58,7 @@ O sprite **Drum-cymbal** ganhará uma batida cada vez que você clicar nele.
 
 --- task ---
 
-Crie uma nova `variável`{:class="block3variables"} chamada 'atraso:
+Crie uma `variável`{:class="block3variables"} chamada `batidas`:
 
 ![](images/beats-variable.png)
 
@@ -66,7 +66,7 @@ Crie uma nova `variável`{:class="block3variables"} chamada 'atraso:
 
 --- task ---
 
-Adicione um bloco a `, altere as batidas em 1`{:class="block3variables"} quando o sprite **Drum-cymbal** for clicado:
+Adicione um bloco a `altere as batidas em 1`{:class="block3variables"} quando o sprite **Drum-cymbal** for clicado:
 
 ![](images/cymbal-icon.png)
 
@@ -86,13 +86,13 @@ switch costume to [drum-cymbal-a v]
 
 --- /task ---
 
-A variável `beats`{:class="block3variables"} precisa começar em `0` beats quando você inicia um novo jogo.
+A variável `batidas`{:class="block3variables"} precisa começar em `0` batidas quando você inicia um novo jogo.
 
 --- task ---
 
 Clique no painel Palco e, em seguida, na guia **Código** para adicionar o código ao **Palco**.
 
-Adicione um bloco a `e defina o batidas para`{:class="block3variables"} `0`:
+Adicione um bloco a `e defina as batidas para`{:class="block3variables"} `0`:
 
 ![](images/stage-icon.png)
 
@@ -106,7 +106,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Teste:** Clique na bandeira verde e certifique-se de que sua variável `beats`{:class="block3variables"} comece em `0`.
+**Teste:** Clique na bandeira verde e certifique-se de que sua variável `batidas`{:class="block3variables"} comece em `0`.
 
 --- /task ---
 

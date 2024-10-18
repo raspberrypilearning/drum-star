@@ -13,13 +13,7 @@ In this step, you will set the stage for your first gig and choose a rock star n
 
 Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
 
-[[[working-offline]]]
-
 --- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Musicians called <span style="color: #0faeb0">**DIY artists**</span> start recording music from their bedrooms. They produce their own songs by themselves then release them online for everyone to hear. 
-</p>
 
 The game starts in a bedroom like a DIY artist. 
 
@@ -27,15 +21,15 @@ The game starts in a bedroom like a DIY artist.
 
 Click **Choose a Backdrop** and search for `bedroom`. 
 
-**Choose:** Select a bedroom and add it to your project. We chose `Bedroom 3`.
+Select a bedroom and add it to your project. We chose `Bedroom 3`.
 
 ![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
 
 --- /task ---
 
---- task ---
+In Scratch, you can add code to the Stage.
 
-In Scratch, you can add code to the Stage. 
+--- task ---
 
 Click on your bedroom backdrop from the Stage pane and add this code:
 
@@ -86,8 +80,6 @@ You can `ask`{:class="block3sensing"} a question in Scratch, then use a `variabl
 
 Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -101,8 +93,6 @@ set [name v] to [???] //your variable
 
 Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -112,8 +102,6 @@ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
-
-Change the way your `variable`{:class="block3variables"} looks on the Stage.
 
 --- task ---
 
@@ -125,7 +113,7 @@ Right-click on the `variable`{:class="block3variables"} on the Stage and choose 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it in top-right of the Stage: 
+Drag your `variable`{:class="block3variables"} to position it top-right of the Stage: 
 
 ![](images/repositioned-variable.png)
 
@@ -137,11 +125,11 @@ Drag your `variable`{:class="block3variables"} to position it in top-right of th
 
 --- /task ---
 
+You don't want to type an answer every time you test your project.
+
 --- task ---
 
-Now that you have tested that the `variable`{:class="block3variables"} changes to the `answer`{:class="block3sensing"}, you can drag the last 2 blocks of code away from the rest of the script. This means you don't have to type an `answer`{:class="block3sensing"} every time you test your project:
-
-![](images/stage-icon.png)
+Drag the last two blocks of code away from the rest of the script. 
 
 ```blocks3
 when flag clicked

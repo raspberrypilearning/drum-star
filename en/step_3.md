@@ -11,7 +11,7 @@ You will add a **cymbal** sprite that you can click to earn beats and play a sou
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to your project.
+Click **Choose a Sprite** and search `cymbal`. 
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`. Add the **Drum-cymbal** sprite to
 
 --- task ---
 
-Position your cymbal on the Stage:
+Add the **Drum-cymbal** sprite and Position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -50,7 +50,9 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test:** Test your cymbal by clicking on it. Make sure you hear a sound and see the costume change.
+**Test:** Test your cymbal by clicking on it. 
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -68,8 +70,6 @@ Create a `variable`{:class="block3variables"} called `beats`:
 
 Add a block to `change beats by 1`{:class="block3variables"} when the **Drum-cymbal** sprite is clicked:
 
-![](images/cymbal-icon.png)
-
 ```blocks3
 when this sprite clicked
 +change [beats v] by [1]
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it and watch the `beats`{:class="block3variables"} increase.
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ The `beats`{:class="block3variables"} variable needs to start at `0` beats when 
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab to add code to the Stage.
+Click on the Stage pane and then the **Code** tab.
 
 Add a block to `set beats to`{:class="block3variables"} `0`:
 

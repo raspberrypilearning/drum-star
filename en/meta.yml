@@ -18,7 +18,7 @@ steps:
       - engaged
   - title: Next drum
   - title: More drums!
-  - title: Play and customise
+  - title: Play
     completion:
       - internal
   - title: Quick quiz

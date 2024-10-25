@@ -1,4 +1,4 @@
-## What will you make?
+## What you will make
 
 Make a clicker game where you earn beats to play new drums at bigger venues.
 

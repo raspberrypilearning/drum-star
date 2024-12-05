@@ -3,7 +3,6 @@
 Make a clicker game where you earn beats to play new drums at bigger venues.
 
 --- no-print ---
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -16,7 +15,6 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
 </div>
 </div>
 
---- /task ---
 --- /no-print ---
 
 --- print-only ---

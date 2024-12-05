@@ -9,17 +9,16 @@ Upgrade your project with more drums and more backdrops as you play more amazing
 </div>
 </div>
 
-There are lots more drum costumes you can add to your project.
+### Add more drums
 
 To add another drum to unlock, look back at the earlier steps of the project.
 
 Here are some reminders if you need them.
 
-
 --- collapse ---
 
 ---
-title: For the **drum**
+title: For the drum
 ---
 
 --- task ---
@@ -51,7 +50,7 @@ Change the `message`{:class="block3events"} that makes the drum `show`{:class="b
 --- collapse ---
 
 ---
-title: For the 'Get' **button**
+title: For the 'Get' button
 ---
 
 --- task ---
@@ -84,7 +83,7 @@ Change the message that is `broadcast`{:class="block3events"} to the name of the
 --- collapse ---
 
 ---
-title: For the **venue**
+title: For the venue
 ---
 
 --- task ---
@@ -111,6 +110,8 @@ You will also need to set their starting position `when flag clicked`{:class="bl
 
 --- /collapse ---
 
+### Improve feedback to the player
+
 Tell the player exactly **how many more** beats are needed to unlock the next drum.
 
 --- task ---
@@ -131,6 +132,8 @@ end
 
 --- /task ---
 
+### Tidy your code
+
 --- task ---
 
 **Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
@@ -138,6 +141,8 @@ end
 --- /task ---
 
 --- task ---
+
+### Stuck?
 
 **Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
 

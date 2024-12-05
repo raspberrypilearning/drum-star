@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`.
 
 --- task ---
 
-Add the **Drum-cymbal** sprite and Position it on the Stage:
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -60,7 +60,7 @@ The **Drum-cymbal** sprite will earn you one beat each time you click it.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} called `beats`:
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 

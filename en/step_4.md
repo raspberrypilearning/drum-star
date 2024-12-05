@@ -55,7 +55,7 @@ The next drum is not available when you start the project. It has to be earned w
 
 --- task ---
 
-Add a script to hide the **Drum-snare** sprite at the start of the project:
+Add a script to the **Drum-snare** sprite to hide it at the start of the project:
 
 ```blocks3
 when flag clicked
@@ -76,7 +76,14 @@ Add a button to show which drum is the next and how many beats it will cost.
 
 --- task ---
 
-Change the visibility to **Show** and change its name to `Get snare`. 
+Change the visibility to **Show**.
+![](images/show.png)
+
+--- /task ---
+
+--- task ---
+
+Change its name to `Get snare`. 
 
 --- /task ---
 
@@ -139,24 +146,6 @@ end
 
 --- /task ---
 
-You can tell the player exactly **how many more** beats are needed to unlock the next drum.
-
---- task ---
-
-Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
-
-```blocks3
-when this sprite clicked
-if <(beats)>  [9]> then //if 10 or more beats
-hide
-change [beats v] by [-10] //take away the cost of upgrade
-else
-+ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
-end
-```
-
---- /task ---
-
 --- task ---
 
 Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
@@ -168,7 +157,7 @@ hide
 change [beats v] by [-10] // take away the cost of upgrade
 + broadcast [snare v] // your drum name
 else
-say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+say [More beats needed!] for [2] seconds
 end
 ```
 

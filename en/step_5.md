@@ -88,13 +88,13 @@ Change its name (for example `Get conga`):
 
 --- task ---
 
-Delete the **snare drum** from the button costume. 
+Delete the **snare drum** from the new 'Get' button costume. 
 
 --- /task ---
 
 --- task ---
 
-Copy the 'not hit' costume for your new drum and paste it to the button costume. 
+Copy the 'not hit' costume for your new drum and paste it to the new 'Get' button costume. 
 
 --- /task ---
 
@@ -106,7 +106,7 @@ Click on the **Text** tool and change the number to `30` to show the cost of the
 
 --- /task ---
 
-This button should `hide`{:class="block3looks"} at the start.
+Your new 'Get' button should `hide`{:class="block3looks"} at the start.
 
 --- task ---
 
@@ -121,44 +121,30 @@ when flag clicked
 
 --- task ---
 
-Add a `when I receive`{:class="block3events"} script that your new drum button will `show`{:class="block3looks"} when the player unlocks the snare drum.
+Add a `when I receive`{:class="block3events"} script that your new 'Get' button will `show`{:class="block3looks"} when the player unlocks the snare drum.
 
 ```blocks3
 when I receive [snare v] // appear when previous drum is unlocked
-show // show button for next available drum
+show // show button to get the new drum
 ```
 
 --- /task ---
 
 --- task ---
 
-Change the number of beats needed to unlock this drum, and the number of beats that are removed when the player unlocks this drum. 
+Change: 
+- The number of beats needed to unlock this drum
+- The number of beats that are removed when the player unlocks this drum. 
+- The message that is `broadcast`{:class="block3events"} when the player gets the new drum. 
 
 ```blocks3
 when this sprite clicked
 if <(beats)>  [29]> then // change to 29
 hide
 change [beats v] by [-30] // change to -30
-broadcast [conga v]
-else
-say (join ((30) - (beats)) [beats needed!]) for [2] seconds // change to 30
-end
-```
-
---- /task ---
-
---- task ---
-
-Change the message that is `broadcast`{:class="block3events"} when the player gets the new drum. Create a new message with the name of your new drum:
-
-```blocks3
-when this sprite clicked
-if <(beats)>  [29]> then
-hide
-change [beats v] by [-30]
 broadcast [conga v] // change to your drum name
 else
-say (join ((30) - (beats)) [beats needed!]) for [2] seconds
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -166,7 +152,7 @@ end
 
 --- task ---
 
-Change the `when I receive snare`{:class="block3events"} script to `broadcast`{:class="block3events"} the name of your new drum. The drum will `show`{:class="block3looks"} when the player unlocks the new drum:
+Click your new drum sprite and change the `when I receive snare`{:class="block3events"} script to show it when your new drum is unlocked:
 
 ```blocks3
 when I receive [conga v] // change to your drum name

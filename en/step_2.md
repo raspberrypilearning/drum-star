@@ -15,7 +15,7 @@ Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/
 
 --- /task ---
 
-The game starts in a bedroom like a DIY artist. 
+The drummer starts in a bedroom like a beginner!
 
 --- task ---
 

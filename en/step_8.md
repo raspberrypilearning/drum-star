@@ -11,9 +11,16 @@ Upgrade your project with more drums and more backdrops as you play more amazing
 
 There are lots more drum costumes you can add to your project.
 
-To add another drum to unlock, look back at the earlier steps of the project. 
+To add another drum to unlock, look back at the earlier steps of the project.
 
-For the **drum**, you will need to:
+Here are some reminders if you need them.
+
+
+--- collapse ---
+
+---
+title: For the **drum**
+---
 
 --- task ---
 
@@ -39,7 +46,13 @@ Change the `message`{:class="block3events"} that makes the drum `show`{:class="b
 
 --- /task ---
 
-For the **button**, you will need to:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the 'Get' **button**
+---
 
 --- task ---
 
@@ -66,7 +79,13 @@ Change the message that is `broadcast`{:class="block3events"} to the name of the
 
 --- /task ---
 
-For the **venue**, you will need to:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the **venue**
+---
 
 --- task ---
 
@@ -87,6 +106,28 @@ You might find that your drums need to be in a new position on a different backd
 Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 You will also need to set their starting position `when flag clicked`{:class="block3events"}.
+
+--- /task ---
+
+--- /collapse ---
+
+Tell the player exactly **how many more** beats are needed to unlock the next drum.
+
+--- task ---
+
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+**Note**: Update the numbers to match those needed to unlock each drum.
 
 --- /task ---
 

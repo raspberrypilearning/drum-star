@@ -150,7 +150,7 @@ when this sprite clicked
 if <(beats)>  [9]> then // als 10 of meer beats
 hide
 change [beats v] by [-10] // neem de kostenupgrade weg
-+ broadcast [snare v] // je drumnaam
++ broadcast (snare v) // je drumnaam
 else
 say [Niet genoeg beats!] for [2] seconds 
 end

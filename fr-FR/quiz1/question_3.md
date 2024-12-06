@@ -12,7 +12,7 @@ when this sprite clicked
 if <(battements)>  [29]> then 
 hide
 change [battements v] by [-30] 
-broadcast [conga v] 
+broadcast (conga v) 
 else
 say [Pas assez de battements !] for [2] seconds 
 end

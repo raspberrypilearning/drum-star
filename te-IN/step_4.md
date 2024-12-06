@@ -150,7 +150,7 @@ when this sprite clicked
 if <(beats)>  [9]> then // 10 లేదా అంతకంటే ఎక్కువ బీట్స్ ఉంటే
 hide
 change [beats v] by [-10] // కాస్ట్ అప్‌గ్రేడ్‌ను తీసివేయండి
-+ broadcast [snare v] // మీ డ్రమ్ పేరు
++ broadcast (snare v) // మీ డ్రమ్ పేరు
 else
 say [Not enough beats!] for [2] seconds 
 end

@@ -150,7 +150,7 @@ when this sprite clicked
 if <(curiadau)>  [9]> then // os oes 10 curiad neu fwy
 hide
 change [curiadau v] by [-10] // dileu'r uwchraddio costau
-+ broadcast [drwm gwifrau v] // enw dy ddrwm
++ broadcast (drwm gwifrau v) // enw dy ddrwm
 else
 say [Dim digon o curiadau!] for [2] seconds 
 end

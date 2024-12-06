@@ -134,7 +134,7 @@ when this sprite clicked
 if <(battements)>  [29]> then // changer à 29
 hide
 change [battements v] by [-30] // changer à 30
-broadcast [conga v] // changer le nom de ton tambour
+broadcast (conga v) // changer le nom de ton tambour
 else
 say [Pas assez de battements !] for [2] seconds 
 end

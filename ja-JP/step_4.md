@@ -170,7 +170,7 @@ when this sprite clicked
 if <(ビート数)>  [9]> then //10ビート以上の場合
 hide
 change [ビート数 v] by [-10] //アップグレードにかかるコスト分へらす
-+ broadcast [スネア v] //あなたの選んだドラムの名前
++ broadcast (スネア v) //あなたの選んだドラムの名前
 else
 say (join ((10) - (ビート数)) [ビート数がたりないよ！]) for [2] seconds
 end

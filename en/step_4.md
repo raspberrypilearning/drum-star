@@ -155,7 +155,7 @@ when this sprite clicked
 if <(beats)>  [9]> then // if 10 or more beats
 hide
 change [beats v] by [-10] // take away the cost of upgrade
-+ broadcast [snare v] // your drum name
++ broadcast (snare v) // your drum name
 else
 say [More beats needed!] for [2] seconds
 end

@@ -134,7 +134,7 @@ when this sprite clicked
 if <(ritmos)>  [29]> then // cambiar a 29
 hide
 change [ritmos v] by [-30] // cambiar a 30
-broadcast [conga v] // cambiar a tu nombre de tambor
+broadcast (conga v) // cambiar a tu nombre de tambor
 else
 say [¡No hay suficientes ritmos!] for [2] seconds 
 end

@@ -12,7 +12,7 @@ when this sprite clicked
 if <(χτυπήματα)>  [29]> then 
 hide
 change [χτυπήματα v] by [-30] 
-broadcast [conga v] 
+broadcast (conga v) 
 else
 say [Όχι αρκετά χτύπήματα!] for [2] seconds 
 end

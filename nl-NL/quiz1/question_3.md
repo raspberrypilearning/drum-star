@@ -12,7 +12,7 @@ when this sprite clicked
 if <(beats)>  [29]> then 
 hide
 change [beats v] by [-30] 
-broadcast [conga v] 
+broadcast (conga v) 
 else
 say [Niet genoeg beats!] for [2] seconds 
 end

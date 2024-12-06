@@ -12,7 +12,7 @@ when this sprite clicked
 if <(ritmos)>  [29]> then 
 hide
 change [ritmos v] by [-30] 
-broadcast [conga v] 
+broadcast (conga v) 
 else
 say [¡No hay suficientes ritmos!] for [2] seconds 
 end

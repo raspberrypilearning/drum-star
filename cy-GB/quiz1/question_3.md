@@ -12,7 +12,7 @@ when this sprite clicked
 if <(curiadau)>  [29]> then 
 hide
 change [curiadau v] by [-30] 
-broadcast [conga v] 
+broadcast (conga v) 
 else
 say [Dim digon o curiadau!] for [2] seconds 
 end

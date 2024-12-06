@@ -151,7 +151,7 @@ when this sprite clicked
 if <(دقة)>  [9]> then // إذا كان 10 دقات أو أكثر
 hide
 change [دقة v] by [-10] // تكلفة التطوير
-+ broadcast [snare v] // اسم الطبلة الخاصة بك
++ broadcast (snare v) // اسم الطبلة الخاصة بك
 else
 say [عدد غير كافي من الدقات] for [2] seconds 
 end

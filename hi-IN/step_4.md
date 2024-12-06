@@ -150,7 +150,7 @@ when this sprite clicked
 if <(beats)>  [9]> then // अगर बीट्स 10 या अधिक हैं
 hide
 change [beats v] by [-10] // लागत में हुए अपग्रेड को वापिस ले लो
-+ broadcast [snare v] // आपका ड्रम नाम
++ broadcast (snare v) // आपका ड्रम नाम
 else
 say [Not enough beats!] for [2] seconds 
 end

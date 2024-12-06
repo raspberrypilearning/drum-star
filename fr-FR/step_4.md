@@ -150,7 +150,7 @@ when this sprite clicked
 if <(battements)>  [9]> then // si 10 battements ou plus
 hide
 change [battements v] by [-10] // enlever le coût de l'amélioration
-+ broadcast [caisse clair v] // ton nom de tambour
++ broadcast (caisse clair v) // ton nom de tambour
 else
 say [Pas assez de battements !] for [2] seconds 
 end

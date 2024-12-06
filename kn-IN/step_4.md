@@ -150,7 +150,7 @@ when this sprite clicked
 if <(beats)>  [9]> then // 10 ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚು ಹೊಡೆತಗಳಿದ್ದರೆ
 hide
 change [beats v] by [-10] // ಅಪ್‌ಗ್ರೇಡ್‌ ಬೆಲೆಯನ್ನು ತೆಗೆದುಹಾಕಿ
-+ broadcast [snare v] // ನಿಮ್ಮ ಡ್ರಮ್‌ ಹೆಸರು
++ broadcast (snare v) // ನಿಮ್ಮ ಡ್ರಮ್‌ ಹೆಸರು
 else
 say [Not enough beats!] for [2] seconds 
 end

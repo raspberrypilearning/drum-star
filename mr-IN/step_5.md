@@ -134,7 +134,7 @@ when this sprite clicked
 if <(beats)>  [29]> then // 29 ला बदला
 hide
 change [beats v] by [-30] // 30 ला बदला
-broadcast [conga v] // तुमच्या ड्रमचे नाव बदला
+broadcast (conga v) // तुमच्या ड्रमचे नाव बदला
 else
 say [Not enough beats!] for [2] seconds 
 end

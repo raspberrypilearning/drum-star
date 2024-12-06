@@ -134,7 +134,7 @@ when this sprite clicked
 if <(دقة)>  [29]> then // غيّر الى 29
 hide
 change [دقة v] by [-30] // غيّر الى 30
-broadcast [conga v] // تغيير اسم الطبل الخاص بك
+broadcast (conga v) // تغيير اسم الطبل الخاص بك
 else
 say [عدد غير كافي من الدقات] for [2] seconds 
 end

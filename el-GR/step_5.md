@@ -134,7 +134,7 @@ when this sprite clicked
 if <(χτυπήματα)>  [29]> then // αλλαγή σε 29
 hide
 change [χτυπήματα v] by [-30] // αλλαγή σε 30
-broadcast [κόνγκα v] // άλλαξε το όνομα του τυμπάνου σου
+broadcast (κόνγκα v) // άλλαξε το όνομα του τυμπάνου σου
 else
 say [Όχι αρκετά χτύπήματα!] for [2] seconds 
 end

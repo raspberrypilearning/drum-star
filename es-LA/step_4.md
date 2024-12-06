@@ -150,7 +150,7 @@ when this sprite clicked
 if <(ritmos)>  [9]> then // si 10 o más ritmos
 hide
 change [ritmos v] by [-10] // eliminar el costo de la actualización
-+ broadcast [redoblante v] // tu nombre de tambor
++ broadcast (redoblante v) // tu nombre de tambor
 else
 say [¡No hay suficientes ritmos!] for [2] seconds 
 end

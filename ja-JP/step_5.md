@@ -134,7 +134,7 @@ when this sprite clicked
 if <(ビート数)>  [29]> then //29にかえる
 hide
 change [ビート数 v] by [-30] //30にかえる
-broadcast [conga v] //あなたの選んだドラム名に変更
+broadcast (conga v) //あなたの選んだドラム名に変更
 else
 say (join ((30) - (ビート数)) [ビート数がたりないよ！]) for [2] seconds
 end

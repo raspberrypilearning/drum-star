@@ -134,7 +134,7 @@ when this sprite clicked
 if <(beats)>  [29]> then // verander naar 29
 hide
 change [beats v] by [-30] // verander naar 30
-broadcast [conga v] // verander in je drumnaam
+broadcast (conga v) // verander in je drumnaam
 else
 say [Niet genoeg beats!] for [2] seconds 
 end

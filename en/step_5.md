@@ -142,7 +142,7 @@ when this sprite clicked
 if <(beats)>  [29]> then // change to 29
 hide
 change [beats v] by [-30] // change to -30
-broadcast [conga v] // change to your drum name
+broadcast (conga v) // change to your drum name
 else
 say [More beats needed!] for [2] seconds 
 end

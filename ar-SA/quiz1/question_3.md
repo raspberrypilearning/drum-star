@@ -12,7 +12,7 @@ when this sprite clicked
 if <(دقة)>  [29]> then 
 hide
 change [دقة v] by [-30] 
-broadcast [conga v] 
+broadcast (conga v) 
 else
 say [عدد غير كافي من الدقات] for [2] seconds 
 end

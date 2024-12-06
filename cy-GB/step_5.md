@@ -134,7 +134,7 @@ when this sprite clicked
 if <(curiadau)>  [29]> then // newid i 29
 hide
 change [curiadau v] by [-30] // newid i 30
-broadcast [conga v] // newid enw dy ddrwm
+broadcast (conga v) // newid enw dy ddrwm
 else
 say [Dim digon o curiadau!] for [2] seconds 
 end

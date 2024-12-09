@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: Stel het speelveld in
   - 
@@ -18,11 +18,11 @@ steps:
     completion:
       - engaged
   - 
-    title: Eerste upgrade
+    title: Next drum
   - 
-    title: Tweede upgrade
+    title: More drums!
   - 
-    title: Speel en pas aan
+    title: Play
     completion:
       - internal
   - 
@@ -35,6 +35,7 @@ steps:
     completion:
       - external
   - 
-    title: Verbeter je project
+    title: Challenge
+    challenge: true
   - 
     title: Wat kun je verder nog doen?

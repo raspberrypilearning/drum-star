@@ -11,7 +11,7 @@
 
 --- task ---
 
-Κάνε κλικ στο **Επιλέξτε ένα Αντικείμενο** και αναζητήσε το `cymbal`. Πρόσθεσε το αντικείμενο **Drum-cymbal** στο έργο σου.
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@
 
 --- task ---
 
-Τοποθέτησε το κύμβαλο σου στη σκηνή:
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -50,7 +50,9 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Δοκιμή:** Δοκίμασε το κύμβαλό σου κάνοντας κλικ σε αυτό. Βεβαιώσου ότι ακούς έναν ήχο και κοίτα την ενδυμασία να αλλάζει.
+**Δοκιμή:** Δοκίμασε το κύμβαλό σου κάνοντας κλικ σε αυτό.
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-Δημιούργησε μια `μεταβλητή`{:class="block3variables"} που ονομάζεται `χτυπήματα`:
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -67,8 +69,6 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 --- task ---
 
 Πρόσθεσε ένα μπλοκ για να `αλλάξεις τα χτυπήματα κατά 1`{:class="block3variables"} όταν κάνεις κλικ στο αντικείμενο **Drum-cymbal**:
-
-![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Δοκιμή:** Δοκίμασε το **Drum-cymbal** κάνοντας κλικ πάνω του και κοίτα τα `χτυπήματα`{:class="block3variables"} να αυξάνονται.
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-Κάνε κλικ στο παράθυρο Σκηνή και στη συνέχεια στην καρτέλα **Κώδικας** για να προσθέσεις κώδικα στη Σκηνή.
+Click on the Stage pane and then the **Code** tab.
 
 Πρόσθεσε ένα μπλοκ για να `ορίσεις χτυπήματα σε`{:class="block3variables"} `0`:
 

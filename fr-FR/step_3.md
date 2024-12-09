@@ -11,7 +11,7 @@ Tu ajouteras un sprite **cymbale** sur lequel tu pourras cliquer pour gagner des
 
 --- task ---
 
-Clique sur **Choisir un Sprite** et recherche `cymbal`. Ajoute le sprite **Drum-cymbal** à ton projet.
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Clique sur **Choisir un Sprite** et recherche `cymbal`. Ajoute le sprite **Drum-
 
 --- task ---
 
-Positionne ta cymbale sur la scène :
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -50,7 +50,9 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test :** Teste ta cymbale en cliquant dessus. Assure-toi d'entendre un son et de voir le changement de costume.
+**Test :** Teste ta cymbale en cliquant dessus.
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ Le sprite **cymbale** te rapportera un battement à chaque fois que tu cliqueras
 
 --- task ---
 
-Crée une `variable`{:class="block3variables"} appelée `battements` :
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -67,8 +69,6 @@ Crée une `variable`{:class="block3variables"} appelée `battements` :
 --- task ---
 
 Ajoute un bloc à `ajouter 1 à battements`{:class="block3variables"} lorsque le sprite **cymbale** est cliqué :
-
-![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test :** Teste la **cymbale** en cliquant dessus et regarde les `battements`{:class="block3variables"} augmenter.
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ La variable `battements`{:class="block3variables"} doit commencer à `0` batteme
 
 --- task ---
 
-Clique sur le volet Scène, puis sur l'onglet **Code** pour ajouter du code à la scène.
+Click on the Stage pane and then the **Code** tab.
 
 Ajoute un bloc à `mettre battements à`{:class="block3variables"} `0` :
 

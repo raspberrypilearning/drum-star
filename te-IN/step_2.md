@@ -13,29 +13,23 @@
 
 [డ్రమ్ స్టార్ స్టార్టర్ ప్రాజెక్ట్](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}ని తెరవండి. Scratch మరొక బ్రౌజర్ ట్యాబ్‌లో తెరవబడుతుంది.
 
-[[[working-offline]]]
-
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**DIY artists**</span> అని పిలవబడే సంగీత విద్వాంసులు వారి బెడ్‌రూమ్‌ల నుండి సంగీతాన్ని రికార్డ్ చేయడం ప్రారంభిస్తారు. వారు వారి స్వంత పాటలను తయారు చేస్తారు, ఆపై ప్రతి ఒక్కరూ వినడానికి వాటిని ఆన్‌లైన్‌లో విడుదల చేస్తారు. 
-</p>
-
-గేమ్ DIY కళాకారుడి వంటి బెడ్‌రూమ్‌లో ప్రారంభమవుతుంది.
+The drummer starts in a bedroom like a beginner!
 
 --- task ---
 
 **Choose a Backdrop**ని క్లిక్ చేసి, `bedroom` (బెడ్ రూమ్) కోసం శోధించండి.
 
-**ఎంచుకోండి:** బెడ్‌రూమ్‌ని ఎంచుకుని, దానిని మీ ప్రాజెక్ట్‌కి జోడించండి. మనము `Bedroom 3` ని ఎంచుకున్నాము.
+Select a bedroom and add it to your project. మనము `Bedroom 3` ని ఎంచుకున్నాము.
 
 !['Bedroom 3' బ్యాక్‌డ్రాప్‌ను చూపుతున్న stage.](images/bedroom3.png)
 
 --- /task ---
 
---- task ---
-
 Scratchలో, మీరు Stage కి కోడ్‌ని జోడించవచ్చు.
+
+--- task ---
 
 Stage పేన్ నుండి మీ బెడ్‌రూమ్ బ్యాక్‌డ్రాప్‌పై క్లిక్ చేసి, ఈ కోడ్‌ని జోడించండి:
 
@@ -86,8 +80,6 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 `Sensing`{:class="block3sensing"} బ్లాక్‌ల మెనుపై క్లిక్ చేసి, మీ `ask`{:class="block3sensing"} బ్లాక్‌ని జోడించండి:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -101,8 +93,6 @@ set [name v] to [???] //your variable
 
 `name`{:class="block3variables"} `variable`{:class="block3variables"} ని `answer`{:class="block3sensing"}:కి సెట్ చేయండి
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -112,8 +102,6 @@ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
-
-`Variable`{:class="block3variables"} Stage పై కనిపించే విధానాన్ని మార్చండి.
 
 --- task ---
 
@@ -125,7 +113,7 @@ ask [What's your rock star name?] and wait //your question
 
 --- task ---
 
-మీ `variable`{:class="block3variables"}ని Stage యొక్క కుడి ఎగువ భాగంలో ఉంచడానికి డ్రాగ్ చేయండి:
+Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
 
 ![](images/repositioned-variable.png)
 
@@ -137,11 +125,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
+You don't want to type an answer every time you test your project.
+
 --- task ---
 
-ఇప్పుడు మీరు `variable`{:class="block3variables"} `answer`{:class="block3sensing"}కి మారుతుందని పరీక్షించారు, కాబట్టి మీరు చివరి 2 బ్లాక్‌ల కోడ్‌ని మిగిలిన స్క్రిప్ట్ నుండి దూరంగా డ్రాగ్ చేయవచ్చు. దీని అర్థం మీరు మీ ప్రాజెక్ట్ ని పరీక్షించిన ప్రతిసారి `answer`{:class="block3sensing"} టైప్ చేయనవసరం లేదు:
-
-![](images/stage-icon.png)
+Drag the last two blocks of code away from the rest of the script.
 
 ```blocks3
 when flag clicked

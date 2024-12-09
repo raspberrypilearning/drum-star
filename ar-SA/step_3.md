@@ -11,7 +11,7 @@
 
 --- task ---
 
-انقر فوق **اختر كائن** وابحث في `cymbal`. أضف كائن**Drum-cymbal** إلى مشروعك.
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@
 
 --- task ---
 
-ضع cymbal على المنصة:
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -50,7 +50,9 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**اختبار:** اختبر cymbal الخاص بك بالضغط عليه. تأكد من سماع صوت ورؤية تغيير المظهر.
+**اختبار:** اختبر cymbal الخاص بك بالضغط عليه.
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-قم بإنشاء ` متغير `{: class = "block3variables"} يسمى `نبضة`:
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -67,8 +69,6 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 --- task ---
 
 أضف مقطع برمجي إلى `إغير النبضة بمقدار ١`{: class = "block3variables"} عند النقر على كائن **Drum-cymbal** sprite:
-
-![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**اختبار:** اختبر كائن**Drum-cymbal** بالنقر عليه ومشاهدة الــ`دقات`{: class = "block3variables"} تزداد.
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-انقر فوق جزء المنصة ثم علامة التبويب **المقاطع البرمجية** لإضافة مقطع برمجي إلى المنصة.
+Click on the Stage pane and then the **Code** tab.
 
 أضف مقطع برمجي إلى `اجعل نبضة مساوياً` الى{: class = "block3variables"} `0`:
 

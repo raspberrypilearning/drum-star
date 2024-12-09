@@ -13,29 +13,23 @@ Yn y cam yma, byddi di'n gosod y llwyfan ar gyfer dy gig cyntaf ac yn dewis enw 
 
 Agora'r [prosiect Seren ddrymiau](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
-[[[working-offline]]]
-
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Mae cerddorion sy'n cael eu galw'n <span style="color: #0faeb0">**artistiaid DIY**</span> yn dechrau recordio cerddoriaeth o'u hystafelloedd gwely. Maen nhw'n cynhyrchu eu caneuon eu hunain ar eu pennau eu hunain ac yna'n eu rhyddhau ar-lein i bawb eu clywed. 
-</p>
-
-Mae'r gêm yn dechrau mewn ystafell wely fel artist DIY.
+The drummer starts in a bedroom like a beginner!
 
 --- task ---
 
 Clicia **Dewiswch Gefnlen** a chwilio am `bedroom`.
 
-**Dewis:** Dewisa ystafell wely a'i hychwanegu at dy brosiect. Fe ddewison ni `Bedroom 3`.
+Select a bedroom and add it to your project. Fe ddewison ni `Bedroom 3`.
 
 ![Y llwyfan yn dangos y gefnlen 'Bedroom 3'.](images/bedroom3.png)
 
 --- /task ---
 
---- task ---
-
 Yn Scratch, galli di ychwanegu cod at y Llwyfan.
+
+--- task ---
 
 Clicia ar dy gefnlen ystafell wely o gwarel y Llwyfan ac ychwanegu'r cod yma:
 
@@ -86,8 +80,6 @@ Galli di `ofyn`{:class="block3sensing"} cwestiwn yn Scratch, ac wedyn defnyddio 
 
 Clicia ar y ddewislen flociau `Synhwyro`{:class="block3sensing"} ac ychwanegu bloc `gofyn`{:class="block3sensing"} at dy god:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -101,8 +93,6 @@ set [name v] to [???] //your variable
 
 Gosoda'r `newidyn`{:class="block3variables"} `enw`{:class="block3variables"} i'r `ateb`{:class="block3sensing"}:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -112,8 +102,6 @@ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
-
-Newidia'r ffordd mae dy `newidyn`{:class="block3variables"} yn edrych ar y Llwyfan.
 
 --- task ---
 
@@ -125,7 +113,7 @@ De-glicia ar y `newidyn`{:class="block3variables"} ar y Llwyfan a dewis **sgrîn
 
 --- task ---
 
-Llusga dy `newidyn`{:class="block3variables"} er mwyn ei leoli ar ochr dde uchaf y Llwyfan:
+Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
 
 ![](images/repositioned-variable.png)
 
@@ -137,11 +125,11 @@ Llusga dy `newidyn`{:class="block3variables"} er mwyn ei leoli ar ochr dde uchaf
 
 --- /task ---
 
+You don't want to type an answer every time you test your project.
+
 --- task ---
 
-Nawr dy fod ti wedi profi i wneud yn siŵr bod y `newidyn`{:class="block3variables"} yn newid i'r `ateb`{:class="block3sensing"}, galli di lusgo'r 2 floc o god i ffwrdd o weddill y sgript. Mae hyn yn golygu nad oes rhaid i ti deipio `ateb`{:class="block3sensing"} bob tro rwyt ti'n profi dy brosiect:
-
-![](images/stage-icon.png)
+Drag the last two blocks of code away from the rest of the script.
 
 ```blocks3
 when flag clicked

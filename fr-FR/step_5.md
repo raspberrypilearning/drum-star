@@ -1,8 +1,8 @@
-## Deuxième amélioration
+## More drums!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Tes compétences de batteur s'améliorent. Il est temps pour une deuxième amélioration ! Dans cette étape, tu choisiras le tambour à ajouter.
+Dans cette étape, tu choisiras le tambour à ajouter.
 </div>
 <div>
 ![La scène montrant l'arrière-plan fête avec 3 tambours.](images/second-upgrade.png){:width="300px"}
@@ -17,13 +17,16 @@ Duplique le sprite **caisse claire** :
 
 --- /task ---
 
-Le sprite **Tambour** propose de nombreux costumes de tambour.
-
 --- task ---
 
 Clique sur le sprite **Tambour** et sélectionne l'onglet **Costumes**.
 
-**Choisir :** un tambour pour la prochaine amélioration. Nous avons choisi **Conga**.
+**Choose:** which drum to unlock next. Nous avons choisi **Conga**.
+
+
+--- /task ---
+
+--- task ---
 
 Fais glisser les costumes "frappé" et "non frappé" du tambour de ton choix vers ton nouveau sprite **Caisse-claire2** :
 
@@ -35,7 +38,7 @@ Fais glisser les costumes "frappé" et "non frappé" du tambour de ton choix ver
 
 --- task ---
 
-Nomme ton tambour en fonction des costumes que tu as choisis.
+Name the new drum to match the costumes you chose.
 
 ![](images/drum-3-named.png)
 
@@ -67,32 +70,43 @@ Fais glisser ton nouveau tambour en position sur la scène :
 
 --- /task ---
 
-Ensuite, tu as besoin d'un bouton pour que les joueurs puissent passer à ce nouveau tambour.
+Add a button so that players can unlock the new drum.
 
 --- task ---
 
-Duplique le sprite **avoir caisse claire**.
-
-Positionne-le dans le coin inférieur droit de la scène. Change son nom en `Avoir` puis le nom de ton nouveau tambour :
-
-![La liste Sprite avec le sprite "avoir caisse claire" dupliqué. Le nom du sprite a été modifié pour correspondre au nouveau tambour et positionné en bas à droite de la scène.](images/get-drum-3.png)
+Duplicate the **Get snare** sprite and position it in the bottom-right corner of the Stage.
 
 --- /task ---
 
 --- task ---
 
-Supprime la **caisse claire** du costume de bouton. Copie et colle le costume "non frappé" de ton nouveau tambour sur le costume du bouton.
+Change its name (for example `Get conga`):
+
+![The Sprite list with duplicated 'Get snare' sprite. The sprite name has been changed to match the new drum type and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+
+--- /task ---
+
+--- task ---
+
+Delete the **snare drum** from the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
+
+Copy the 'not hit' costume for your new drum and paste it to the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
 
 Clique sur l'outil **Texte** et change le nombre en `30` pour afficher le coût du nouveau tambour.
-
-Ton bouton devrait ressembler à ceci :
 
 ![L'éditeur de peinture montrant le nouveau costume de bouton avec l'image de tambour choisie et le texte mis à jour à 30.](images/get-drum-copy.png)
 
 --- /task ---
 
-
-Ce bouton sera `caché`{:class="block3looks"} au début, puis `affiché`{:class="block3looks"} lorsque le joueur passe à la caisse claire, afin qu'il sache vers quel tambour il travaille.
+Your new 'Get' button should `hide`{:class="block3looks"} at the start.
 
 --- task ---
 
@@ -100,43 +114,37 @@ Ce bouton sera `caché`{:class="block3looks"} au début, puis `affiché`{:class=
 
 ```blocks3
 when flag clicked
-- show
 + hide
 ```
 
-**Astuce :** Pour supprimer un bloc, fais-le glisser vers le menu Blocs ou clique avec le bouton droit et choisis **Supprimer le bloc**. Sur un ordinateur, tu peux également cliquer sur un bloc, puis appuyer sur <kbd>Supprimer</kbd> pour supprimer un bloc.
-
 --- /task ---
 
 --- task ---
 
-Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
-
-![](images/get-drum-3-icon.png)
+Add a `when I receive`{:class="block3events"} script that your new 'Get' button will `show`{:class="block3looks"} when the player unlocks the snare drum.
 
 ```blocks3
-when I receive [snare v] // appear when previous drum is bought
-show // show button for next available drum
+when I receive [snare v] // appear when previous drum is unlocked
+show // show button to get the new drum
 ```
 
 --- /task ---
 
 --- task ---
 
-Modifie le nombre de battements nécessaires pour acheter ce tambour et le nombre de battements qui sont supprimés lorsque le joueur obtient ce tambour.
-
-Modifie également le message qui est `envoyé à tous`{:class="block3events"} lorsque le joueur reçoit le nouveau tambour. Crée un nouveau message avec le nom de ton nouveau tambour :
-
-![](images/get-drum-3-icon.png)
+Change:
+- The number of beats needed to unlock this drum
+- The number of beats that are removed when the player unlocks this drum.
+- The message that is `broadcast`{:class="block3events"} when the player gets the new drum.
 
 ```blocks3
 when this sprite clicked
 if <(beats)>  [29]> then // change to 29
 hide
-change [beats v] by [-30] // change to 30
-broadcast [conga v] // change to your drum name
+change [beats v] by [-30] // change to -30
+broadcast (conga v) // change to your drum name
 else
-say (join ((30) - (beats)) [beats needed!]) for [2] seconds
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -144,9 +152,7 @@ end
 
 --- task ---
 
-Change le script `quand je reçois caisse claire`{:class="block3events"} en `envoyant à tous`{:class="block3events"} le nom de ton nouveau tambour. Le tambour `montrera`{:class="block3looks"} lorsque le joueur passera au nouveau tambour :
-
-![](images/drum-3-icon.png)
+Click your new drum sprite and change the `when I receive snare`{:class="block3events"} script to show it when your new drum is unlocked:
 
 ```blocks3
 when I receive [conga v] // change to your drum name
@@ -158,6 +164,10 @@ show
 --- task ---
 
 Ajoute l'arrière-plan **Fête**.
+
+--- /task ---
+
+--- task ---
 
 Ajoute un script à la scène pour changer l'arrière-plan lorsque le joueur passe au nouveau tambour :
 
@@ -172,9 +182,11 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test :** Clique sur le drapeau vert pour démarrer le jeu et teste que tu peux gagner suffisamment de battements pour obtenir ton nouveau tambour.
+**Test:** Click the green flag to start the game.
 
-Que se passe-t-il si tu cliques sur le bouton avant d'avoir gagné suffisamment de battements ?
+You should get unlock your new drum if you earn enough beats.
+
+What happens if you click the button before you have earned enough beats?
 
 --- /task ---
 

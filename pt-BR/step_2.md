@@ -13,29 +13,23 @@ Nesta etapa, você preparará o cenário para seu primeiro show e escolherá o n
 
 Abra o [projeto inicial Conversa espacial](https://scratch.mit.edu/projects/535783147/editor){:target="_ blank"}. O Scratch será aberto em outra aba do navegador.
 
-[[[working-offline]]]
-
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Músicos chamados <span style="color: #0faeb0">**artistas DIY**</span> começam a gravar músicas em seus quartos. Eles produzem suas próprias músicas sozinhos e depois as lançam online para que todos possam ouvir. 
-</p>
-
-O jogo começa em um quarto como um artista DIY.
+The drummer starts in a bedroom like a beginner!
 
 --- task ---
 
 Clique em **Escolha um Sprite** e pesquise `cymbal`.
 
-**Escolha:** Adicione a varinha de sua preferência ao seu projeto. Escolhemos `Quarto 3`.
+Select a bedroom and add it to your project. Escolhemos `Quarto 3`.
 
 ![O Palco mostrando o cenário jurassic.](images/bedroom3.png)
 
 --- /task ---
 
---- task ---
-
 No Scratch, você pode adicionar código ao Stage.
+
+--- task ---
 
 Clique no cenário do seu quarto no painel Palco e adicione este código:
 
@@ -86,8 +80,6 @@ Você pode `fazer`{:class="block3sensing"} uma pergunta no Scratch e depois usar
 
 Clique no menu de blocos `Sensing`{:class="block3sensing"} e adicione um bloco `ask`{:class="block3sensing"} ao seu código:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -101,8 +93,6 @@ set [name v] to [???] //your variable
 
 Você pode `fazer`{:class="block3sensing"} uma pergunta no Scratch e depois usar uma `variável`{:class="block3variables"} para armazenar a `resposta`{:class="block3sensing"}.
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -112,8 +102,6 @@ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
-
-Clique com o botão direito na sua `variável`{:class="block3variables"} no Palco.
 
 --- task ---
 
@@ -125,7 +113,7 @@ Clique com o botão direito novamente na `variável`{:class="block3variables"} e
 
 --- task ---
 
-Arraste sua variável ``{:class="block3variables"} para posicioná-la no canto superior direito do Palco:
+Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
 
 ![](images/repositioned-variable.png)
 
@@ -137,11 +125,11 @@ Arraste sua variável ``{:class="block3variables"} para posicioná-la no canto s
 
 --- /task ---
 
+You don't want to type an answer every time you test your project.
+
 --- task ---
 
-Agora que você testou que a variável ``{:class="block3variables"} muda para a resposta ``{:class="block3sensing"}, você pode arrastar os 2 últimos blocos de código para longe do restante do script. Isso significa que você não precisa digitar `resposta`{:class="block3sensing"} toda vez que testar seu projeto:
-
-![](images/stage-icon.png)
+Drag the last two blocks of code away from the rest of the script.
 
 ```blocks3
 when flag clicked

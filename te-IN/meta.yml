@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: Stage ను సెట్ చేయండి
   - 
@@ -18,11 +18,11 @@ steps:
     completion:
       - engaged
   - 
-    title: మొదటి అప్‌గ్రేడ్
+    title: Next drum
   - 
-    title: రెండవ అప్‌గ్రేడ్
+    title: More drums!
   - 
-    title: ప్లే చేయండి మరియు కస్టమైజ్ చేయండి
+    title: Play
     completion:
       - internal
   - 
@@ -35,6 +35,7 @@ steps:
     completion:
       - external
   - 
-    title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
+    title: Challenge
+    challenge: true
   - 
     title: తర్వాత ఏంటి?

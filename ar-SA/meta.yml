@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: سوف تصنع
+    title: What you will make
   - 
     title: جهز المسرح
   - 
@@ -18,11 +18,11 @@ steps:
     completion:
       - مرتبط
   - 
-    title: التطوير الأول للمشروع
+    title: Next drum
   - 
-    title: التطوير الثاني للمشروع
+    title: More drums!
   - 
-    title: مرحلة العب وخصص
+    title: Play
     completion:
       - داخلي
   - 
@@ -35,6 +35,7 @@ steps:
     completion:
       - خارجي
   - 
-    title: قم بترقية مشروعك
+    title: Challenge
+    challenge: true
   - 
     title: ما التالي؟

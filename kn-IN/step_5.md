@@ -1,8 +1,8 @@
-## ಎರಡನೆಯ ಅಪ್‌ಗ್ರೇಡ್
+## More drums!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-ನಿಮ್ಮ ಡ್ರಮ್ ಕೌಶಲ್ಯಗಳು ಸುಧಾರಿಸುತ್ತಿವೆ. ಎರಡನೆಯ ಅಪ್‌ಗ್ರೇಡ್‌ ಸಮಯ! ಈ ಹಂತದಲ್ಲಿ, ನೀವು ಯಾವ ಡ್ರಮ್‌ ಸೇರಿಸಬೇಕೆಂದು ಆಯ್ಕೆ ಮಾಡುತ್ತೀರಿ.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು ಯಾವ ಡ್ರಮ್‌ ಸೇರಿಸಬೇಕೆಂದು ಆಯ್ಕೆ ಮಾಡುತ್ತೀರಿ.
 </div>
 <div>
 ![3 ಡ್ರಮ್‌ಗಳಿರುವ ಪಾರ್ಟಿ ಹಿನ್ನೆಲೆ ತೋರಿಸುತ್ತಿರುವ Stage.](images/second-upgrade.png){:width="300px"}
@@ -17,13 +17,16 @@
 
 --- /task ---
 
-ನಿಮಗೆ ಅವುಗಳಿಂದ ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಲು **Drum Costumes** ಸ್ಪ್ರೈಟ್‌ ಬಹಳಷ್ಟು ಡ್ರಮ್‌ ಉಡುಪುಗಳನ್ನು ಹೊಂದಿದೆ.
-
 --- task ---
 
 **Drum Costumes** ಸ್ಪ್ರೈಟ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು **Costumes** ಟ್ಯಾಬ್‌ ಆಯ್ಕೆ ಮಾಡಿ.
 
-**ಆಯ್ಕೆಮಾಡಿಕೊಳ್ಳಿ:** ಮುಂದಿನ ಅಪ್‌ಗ್ರೇಡ್‌ಗೆ ಡ್ರಮ್‌. ನಾವು **Conga** ಆಯ್ದುಕೊಂಡಿದ್ದೇವೆ.
+**Choose:** which drum to unlock next. ನಾವು **Conga** ಆಯ್ದುಕೊಂಡಿದ್ದೇವೆ.
+
+
+--- /task ---
+
+--- task ---
 
 ನಿಮ್ಮ ಆಯ್ಕೆಯ ಡ್ರಮ್‌ನ 'hit' ಮತ್ತು 'not hit'ಉಡುಪುಗಳನ್ನು ನಿಮ್ಮ ಹೊಸ **Drum-snare2** ಸ್ಪ್ರೈಟ್‌ಗೆ ಎಳೆಯಿರಿ:
 
@@ -35,7 +38,7 @@
 
 --- task ---
 
-ನಿಮ್ಮ ಡ್ರಮ್‌ನ್ನು ನೀವು ಆಯ್ಕೆ ಮಾಡಿರುವ ಉಡುಪುಗಳಿಗೆ ಹೊಂದುವಂತೆ ಹೆಸರಿಸಿ.
+Name the new drum to match the costumes you chose.
 
 ![](images/drum-3-named.png)
 
@@ -67,32 +70,43 @@ when this sprite clicked
 
 --- /task ---
 
-ನಂತರ, ಆಟಗಾರರು ಈ ಹೊಸ ಡ್ರಮ್‌ಗೆ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿಕೊಳ್ಳಲು ನಿಮಗೆ ಒಂದು ಬಟನ್‌ ಬೇಕು.
+Add a button so that players can unlock the new drum.
 
 --- task ---
 
-**Get snare** ಸ್ಪ್ರೈಟ್‌ನ್ನು ನಕಲು ಮಾಡಿ.
-
-ಅದನ್ನು Stage ನ ಕೆಳ ಬಲ ಮೂಲೆಯಲ್ಲಿ ಇಡಿ. ಅದರ ಹೆಸರನ್ನು `Get` ಗೆ ಬದಲಾಯಿಸಿ ಮತ್ತು ನಂತರ ನಿಮ್ಮ ಹೊಸ ಡ್ರಮ್‌ನ ಹೆಸರು:
-
-![ನಕಲು ಮಾಡಿರುವ 'Get snare' ಸ್ಪ್ರೈಟ್‌ನೊಂದಿಗೆ Sprite ಲಿಸ್ಟ್. ಹೊಸ ಡ್ರಮ್‌ಗೆ ಹೊಂದಿಸಲು ಸ್ಪ್ರೈಟ್ ಹೆಸರನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ ಮತ್ತು Stage ಕೆಳ ಬಲಭಾಗದಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ.](images/get-drum-3.png)
+Duplicate the **Get snare** sprite and position it in the bottom-right corner of the Stage.
 
 --- /task ---
 
 --- task ---
 
-**snare drum** ನ್ನು ಬಟನ್‌ ಉಡುಪಿನಿಂದ ಅಳಿಸಿ. ನಿಮ್ಮ ಹೊಸ ಡ್ರೆಮ್‌ಗೆ ''not hit' ಉಡುಪನ್ನು button ಉಡುಪಿಗೆ ನಕಲು ಮಾಡಿ ಅಂಟಿಸಿ.
+Change its name (for example `Get conga`):
+
+![The Sprite list with duplicated 'Get snare' sprite. The sprite name has been changed to match the new drum type and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+
+--- /task ---
+
+--- task ---
+
+Delete the **snare drum** from the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
+
+Copy the 'not hit' costume for your new drum and paste it to the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
 
 **Text** ಟೂಲ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ಹೊಸ ಡ್ರಮ್‌ನ ಬೆಲೆಯನ್ನು ತೋರಿಸಲು ಸಂಖ್ಯೆಯನ್ನು`30` ಕ್ಕೆ ಬದಲಾಯಿಸಿ.
-
-ನಿಮ್ಮ ಬಟನ್‌ ಈ ರೀತಿ ಕಾಣಬೇಕು:
 
 ![ಆಯ್ಕೆ ಮಾಡಿದ ಡ್ರಮ್‌ ಚಿತ್ರ ಮತ್ತು ಪಠ್ಯವನ್ನು 30ಕ್ಕೆ ನವೀಕರಿಸುವುದರೊಂದಿಗೆ ಹೊಸ ಬಟನ್‌ ಉಡುಪು ತೋರಿಸುವ ಪೇಂಟ್‌ ಎಡಿಟರ್.](images/get-drum-copy.png)
 
 --- /task ---
 
-
-ಈ ಬಟನ್‌ ಪ್ರಾರಂಭದಲ್ಲಿ `hide`{:class="block3looks"} ಅಗಬೇಕು, ನಂತರ ಆಟಗಾರ ಸ್ನೇರ್‌ ಡ್ರಮ್‌ಗೆ ಅಪ್‌ಗ್ರೇಡ್‌ ಆದಾಗ `show`{:class="block3looks"}ಆಗಬೇಕು, ಅದರಿಂದ ಅವರಿಗೆ ಅವರು ಯಾವ ಡ್ರಮ್‌ನೆಡೆಗೆ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದಾರೆ ಎಂದು ತಿಳಿಯುತ್ತದೆ.
+Your new 'Get' button should `hide`{:class="block3looks"} at the start.
 
 --- task ---
 
@@ -100,43 +114,37 @@ when this sprite clicked
 
 ```blocks3
 when flag clicked
-- show
 + hide
 ```
 
-**ಸಲಹೆ:** ಬ್ಲಾಕ್‌ನ್ನು ಅಳಿಸಲು, ಅದನ್ನು Blocks ಮೆನುಗೆ ಎಳೆಯಿರಿ, ಅಥವಾ ರೈಟ್‌-ಕ್ಲಿಕ್‌ ಮಾಡಿ **Delete Block** ಆಯ್ದುಕೊಳ್ಳಿ. ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ, ನೀವು ಬ್ಲಾಕ್‌ ಮೇಲೆ ಸಹ ಕ್ಲಿಕ್‌ ಮಾಡಬಹುದು ಮತ್ತು ನಂತರ ಬ್ಲಾಕ್‌ ತೆಗೆದುಹಾಕಲು <kbd>Delete</kbd> ಟ್ಯಾಪ್‌ ಮಾಡಬಹುದು.
-
 --- /task ---
 
 --- task ---
 
-Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
-
-![](images/get-drum-3-icon.png)
+Add a `when I receive`{:class="block3events"} script that your new 'Get' button will `show`{:class="block3looks"} when the player unlocks the snare drum.
 
 ```blocks3
-when I receive [snare v] // appear when previous drum is bought
-show // show button for next available drum
+when I receive [snare v] // appear when previous drum is unlocked
+show // show button to get the new drum
 ```
 
 --- /task ---
 
 --- task ---
 
-ಈ ಡ್ರಮ್‌ನ್ನು ಖರೀದಿಸಲು ಬೇಕಾದ ಹೊಡೆತಗಳ ಸಂಖ್ಯೆಯನ್ನು ಮತ್ತು ಆಟಗಾರ ಈ ಡ್ರಮ್‌ ಪಡೆದಾಗ, ತೆಗದುಹಾಕಲಾಗುವ ಹೊಡೆತಗಳ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ.
-
-ಆಟಗಾರ ಹೊಸ ಡ್ರಮ್‌ ಪಡೆದಾಗ, `broadcast`{:class="block3events"} ಆಗುವ ಸಂದೇಶವನ್ನೂ ಸಹ ಬದಲಾಯಿಸಿ. ನಿಮ್ಮ ಹೊಸ ಡ್ರಮ್‌ನ ಹೆಸರಿನಿಂದ ಹೊಸ ಸಂದೇಶವನ್ನು ರಚಿಸಿ:
-
-![](images/get-drum-3-icon.png)
+Change:
+- The number of beats needed to unlock this drum
+- The number of beats that are removed when the player unlocks this drum.
+- The message that is `broadcast`{:class="block3events"} when the player gets the new drum.
 
 ```blocks3
 when this sprite clicked
 if <(beats)>  [29]> then // change to 29
 hide
-change [beats v] by [-30] // change to 30
-broadcast [conga v] // change to your drum name
+change [beats v] by [-30] // change to -30
+broadcast (conga v) // change to your drum name
 else
-say (join ((30) - (beats)) [beats needed!]) for [2] seconds
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -144,9 +152,7 @@ end
 
 --- task ---
 
-`when I receive snare`{:class="block3events"} ಬರಹವನ್ನು `broadcast`{:class="block3events"} ಗೆ ನಿಮ್ಮ ಹೊಸ ಡ್ರಮ್‌ನ ಹೆಸರಿಗೆ ಬದಲಾಯಿಸಿ. ಆಟಗಾರ ಹೊಸ ಡ್ರಮ್‌ಗೆ ಅಪ್‌ಗ್ರೇಡ್‌ ಆದಾಗ, ಡ್ರಮ್ `show`{:class="block3looks"} ತೋರಿಸುತ್ತದೆ:
-
-![](images/drum-3-icon.png)
+Click your new drum sprite and change the `when I receive snare`{:class="block3events"} script to show it when your new drum is unlocked:
 
 ```blocks3
 when I receive [conga v] // change to your drum name
@@ -158,6 +164,10 @@ show
 --- task ---
 
 **Party** ಹಿನ್ನೆಲೆಯನ್ನು ಸೇರಿಸಿ.
+
+--- /task ---
+
+--- task ---
 
 ಆಟಗಾರ ಹೊಸ ಡ್ರಮ್‌ಗೆ ಅಪ್‌ಗ್ರೇಡ್‌ ಆದಾಗ ಹಿನ್ನೆಲೆ ಬದಲಾಯಿಸಲು Stage ಗೆ ಬರಹ ಸೇರಿಸಿ:
 
@@ -172,9 +182,11 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**ಪರೀಕ್ಷೆ:** ಆಟವನ್ನು ಪ್ರಾರಂಭಿಸಲು ಹಸರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನೀವು ನಿಮ್ಮ ಹೊಸ ಡ್ರಮ್‌ ಪಡೆಯಲು ಸಾಕಷ್ಟು ಹೊಡೆತ ಗಳಿಸುವುದನ್ನು ಪರೀಕ್ಷಿಸಿ.
+**Test:** Click the green flag to start the game.
 
-ನೀವು ಸಾಕಷ್ಟು ಹೊಡೆತಗಳನ್ನು ಗಳಿಸುವ ಮೊದಲೇ ಬಟನ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿದರೆ ಏನಾಗುತ್ತದೆ?
+You should get unlock your new drum if you earn enough beats.
+
+What happens if you click the button before you have earned enough beats?
 
 --- /task ---
 

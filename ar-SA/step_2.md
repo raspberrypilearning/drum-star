@@ -14,29 +14,23 @@ gig هيرالأداء الموسيقي للفرقة
 
 أفتح [مشروع البدء لنجم الطبل](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
-[[[working-offline]]]
-
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-دعا الموسيقيون <span style="color: #0faeb0">** فنانيين محليين **</span> إلى بدء تسجيل الموسيقى من غرف نومهم. ينتجون الأغاني الخاصة بهم بأنفسهم ثم يطلقونها على الإنترنت ليسمعها الجميع. 
-</p>
-
-تبدأ اللعبة في غرفة نوم مثل الفنان المحلي.
+The drummer starts in a bedroom like a beginner!
 
 --- task ---
 
 انقر فوق **اختر خلفية** وابحث عن ` bedroom `.
 
-**اختر:** حدد غرفة نوم وأضفها إلى مشروعك. اخترنا `غرفة نوم 3`.
+Select a bedroom and add it to your project. اخترنا `غرفة نوم 3`.
 
 ![المسرح يظهر خلفية "غرفة النوم 3".](images/bedroom3.png)
 
 --- /task ---
 
---- task ---
-
 في Scratch ، يمكنك إضافة رمز إلى للخلفية لتكون متميزة عن غيرها.
+
+--- task ---
 
 انقر فوق خلفية غرفة نومك من جزء المرحلة وأضف هذا الرمز:
 
@@ -87,8 +81,6 @@ switch backdrop to (Bedroom 3 v) //your backdrop name
 
 انقر على المقاطع البرمجية `الاستشعارات`{: class = "block3sensing"} وأضف المقطع البرمجي `اسال وانتظر`{: class = "block3sensing"} إلى المقطع البرمجي الخاص بك:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -102,8 +94,6 @@ set [name v] to [???] //your variable
 
 عيّن `متغير`{: class = "block3variables"} `الاسم`{: class = "block3variables"} على`إجابة`{: class = "block3sensing"}:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -113,8 +103,6 @@ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
-
-غيّر طريقة ظهور `المتغير`{: class = "block3variables"} على المنصة.
 
 --- task ---
 
@@ -126,7 +114,7 @@ ask [What's your rock star name?] and wait //your question
 
 --- task ---
 
-اسحب ` المتغير `الخاص بك{: class = "block3variables"} لوضعه في أعلى يمين المنصة:
+Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
 
 ![](images/repositioned-variable.png)
 
@@ -138,11 +126,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
+You don't want to type an answer every time you test your project.
+
 --- task ---
 
-الآن بعد أن اختبرت أن ` المتغير`{: class = "block3variables"} يتغير حسب `إجابة`{: class = "block3sensing"} ، يمكنك سحب آخر مقطعين من التعليمات البرمجية بعيدًا عن بقية المقطع البرمجي الرئيسي. هذا يعني أنه ليس عليك كتابة `إجابة`{: class = "block3sensing"} في كل مرة تختبر فيها مشروعك:
-
-![](images/stage-icon.png)
+Drag the last two blocks of code away from the rest of the script.
 
 ```blocks3
 when flag clicked

@@ -1,4 +1,4 @@
-## Mejora tu proyecto
+## Challenge
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -9,11 +9,17 @@ Mejora tu proyecto con más tambores y más fondos mientras tocas en lugares má
 </div>
 </div>
 
-Hay muchos más estilos de tambores por elegir para agregar más actualizaciones a tu proyecto.
+### Add more drums
 
-Para agregar otra mejora de tambor, revisa los pasos anteriores del proyecto.
+To add another drum to unlock, look back at the earlier steps of the project.
 
-Para el **tambor**, deberás:
+Here are some reminders if you need them.
+
+--- collapse ---
+
+---
+title: For the drum
+---
 
 --- task ---
 
@@ -39,7 +45,13 @@ Cambia el `mensaje`{:class="block3events"} que hace que el tambor se `muestre`{:
 
 --- /task ---
 
-Para el **botón**, deberás:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the 'Get' button
+---
 
 --- task ---
 
@@ -61,11 +73,17 @@ Cambiar el `disfraz`{:class="block3looks"} incluyendo el precio del nuevo tambor
 
 --- task ---
 
-Cambia el número de `ritmos`{:class="block3variables"} que debes poseer para conseguir este tambor en la condición `si`{:class="block3events"}. Cambia el número negativo de `ritmos`{:class="block3variables"} al `cambiar por`{:class="block3variables"} cuando consigas este tambor. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
+Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that is `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
-Para el **lugar**, deberás:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the venue
+---
 
 --- task ---
 
@@ -75,7 +93,7 @@ Agrega un nuevo fondo.
 
 --- task ---
 
-Agrega un script al Escenario para `cambiar fondo a`:class="block3looks"} el nuevo fondo cuando se reciba el `mensaje`{:class="block3events"} para este tambor.
+Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is received.
 
 --- /task ---
 
@@ -89,13 +107,41 @@ También deberás fijar tu posición inicial en `al hacer clic en la bandera`{:c
 
 --- /task ---
 
+--- /collapse ---
+
+### Improve feedback to the player
+
+Tell the player exactly **how many more** beats are needed to unlock the next drum.
+
 --- task ---
 
-**Ordernar:** Si tienes tiempo, es una buena idea asegurarte de que los objetos en la lista sigan un orden sensato, comenzando por los tambores con su orden de actualización y siguiendo con los botones en orden.
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+**Note**: Update the numbers to match those needed to unlock each drum.
+
+--- /task ---
+
+### Tidy your code
+
+--- task ---
+
+**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
 
 --- /task ---
 
 --- task ---
+
+### Stuck?
 
 **Debug:** Primero, asegúrate de comprender realmente cuándo deberían los tambores y los botones aparecer y cómo debe cambiar la variable `ritmos`{:class="block3variables"}. Es mucho más fácil depurar un proyecto si tienes claro lo que se supone que debes hacer.
 
@@ -104,10 +150,11 @@ También deberás fijar tu posición inicial en `al hacer clic en la bandera`{:c
 title: Mi tambor no aparece/no se oculta correctamente
 ---
 
-A menos que sea el primer tambor, debería tener un script `cuando se hace clic en la bandera`{:class="block3events"} para poderse `ocultar`{:class="block3looks"}. Y debería tener una secuencia de comandos `al recibir`{:class="block3events"} `este tambor` para `mostrar`{:class="block3looks"}.
+A menos que sea el primer tambor, debería tener un script `cuando se hace clic en la bandera`{:class="block3events"} para poderse `ocultar`{:class="block3looks"}.
+
+It should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
 
 Comprueba que el botón **Conseguir** para este tambor `envía`{:class="block3events"} el mismo mensaje.
-
 
 --- /collapse ---
 
@@ -116,13 +163,17 @@ Comprueba que el botón **Conseguir** para este tambor `envía`{:class="block3ev
 title: Mi botón Conseguir no aparece/no se oculta correctamente
 ---
 
-A menos que el botón sea para el primer tambor, se debería `ocultar`{:class="block3looks"} `cuando se hace clic en la bandera`{:class="block3events"}. Y debería `aparecer`{:class="block3looks"} el mensaje `cuando recibo`{:class="block3events"} para el **tambor anterior**. El botón **Conseguir** debería `aparecer`{:class="block3looks"} para informar acerca de la próxima actualización que se viene.
+A menos que el botón sea para el primer tambor, se debería `ocultar`{:class="block3looks"} `cuando se hace clic en la bandera`{:class="block3events"}.
+
+It should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**.
+
+The **Get** button should `show`{:class="block3looks"} to let the player know about the next drum they can unlock.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-título: Puedo comprar un tambor cuando no tengo suficientes ritmos
+title: I can unlock a drum when I don't have enough beats
 ---
 
 Comprueba que hayas cambiado el número de `ritmos`{:class="block3variables"} necesarios `al hacer clic en este objeto`{:class="block3events"} en el del botón **Conseguir** para el tambor.
@@ -131,7 +182,7 @@ Comprueba que hayas cambiado el número de `ritmos`{:class="block3variables"} ne
 
 --- collapse ---
 ---
-title: El número de ritmos no cambia correctamente cuando consigo un tambor nuevo
+title: The number of beats doesn't change correctly when I unlock a new drum
 ---
 
 Comprueba que hayas`cambiado ritmos en`{:class="block3variables"} un número negativo `al hacer clic en este objeto`{:class="block3events"} en el script del botón **Conseguir** para el tambor.
@@ -141,15 +192,6 @@ Asegúrate de que coincida con el número del disfraz del botón.
 --- /collapse ---
 
 --- /task ---
-
---- collapse ---
----
-title: Proyecto terminado
----
-
-Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
-
---- /collapse ---
 
 **Consejo:** Si te confundes, no hay problema si eliminas el nuevo tambor y su botón y comienzas de nuevo. A veces es difícil detectar un error.
 

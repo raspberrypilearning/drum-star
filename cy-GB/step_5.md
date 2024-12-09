@@ -1,8 +1,8 @@
-## Ail uwchraddiad
+## More drums!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Mae dy sgiliau drymio yn gwella. Mae'n amser uwchraddio eto! Yn y cam yma, byddi di'n yn dewis pa ddrwm i'w ychwanegu.
+Yn y cam yma, byddi di'n yn dewis pa ddrwm i'w ychwanegu.
 </div>
 <div>
 ![Y Llwyfan yn dangos golygfa o barti gyda thri drwm.](images/second-upgrade.png){:width="300px"}
@@ -17,13 +17,16 @@ Dyblyga'r corlun **Drum-snare**:
 
 --- /task ---
 
-Mae gan y corlun **Drum Costumes** lawer o wisgoedd drymiau i ti ddewis ohonyn nhw.
-
 --- task ---
 
 Clicia'r corlun **Drum Costumes** ac wedyn mynd i'r tab **Gwisgoedd**.
 
-**Dewisa:** ddrwm ar gyfer yr uwchraddiad nesaf. Fe ddewison ni **Conga**.
+**Choose:** which drum to unlock next. Fe ddewison ni **Conga**.
+
+
+--- /task ---
+
+--- task ---
 
 Llusga'r gwisgoedd 'hit' a 'not hit' o'r drwm y gwnes di ei ddewis i dy gorlun **Drum-snare2** newydd:
 
@@ -35,7 +38,7 @@ Llusga'r gwisgoedd 'hit' a 'not hit' o'r drwm y gwnes di ei ddewis i dy gorlun *
 
 --- task ---
 
-Enwa dy ddrwm i gyd-fynd â'r gwisgoedd y gwnes di eu dewis.
+Name the new drum to match the costumes you chose.
 
 ![](images/drum-3-named.png)
 
@@ -67,32 +70,43 @@ Llusga dy ddrwm newydd i'w le ar y Llwyfan:
 
 --- /task ---
 
-Nesaf, mae angen botwm fel y gall chwaraewyr uwchraddio i'r drwm newydd yma.
+Add a button so that players can unlock the new drum.
 
 --- task ---
 
-Dyblyga'r corlun **Get snare**.
-
-Gosoda'r corlun yng nghornel dde isaf y Llwyfan. Newidia ei enw i `Get` ac wedyn i enw dy ddrwm newydd:
-
-![Y rhestr Sprite gyda chorlun 'Get snare' wedi'i ddyblygu. Enw'r corlun wedi'i newid i gyd-fynd â'r drwm newydd a'i osod ar waelod ochr dde'r Llwyfan.](images/get-drum-3.png)
+Duplicate the **Get snare** sprite and position it in the bottom-right corner of the Stage.
 
 --- /task ---
 
 --- task ---
 
-Dilea'r **drwm gwifrau** o wisg y botwm. Copïa a gludo'r wisg 'not hit' ar gyfer dy ddrwm newydd i wisg y botwm.
+Change its name (for example `Get conga`):
+
+![The Sprite list with duplicated 'Get snare' sprite. The sprite name has been changed to match the new drum type and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+
+--- /task ---
+
+--- task ---
+
+Delete the **snare drum** from the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
+
+Copy the 'not hit' costume for your new drum and paste it to the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
 
 Clicia'r offeryn **Text** a newid y rhif i `30` i ddangos cost y drwm newydd.
-
-Dylai dy fotwm edrych fel hyn:
 
 ![Y golygydd paent yn dangos gwisg newydd y botwm gyda delwedd y drwm a ddewiswyd a'r testun wedi'i ddiweddaru i 30.](images/get-drum-copy.png)
 
 --- /task ---
 
-
-Dylai'r botwm yma `guddio`{:class="block3looks"} ac wedyn `dangos`{:class="block3looks"} pan fydd y chwaraewr yn uwchraddio i'r drwm gwifrau, fel ei fod yn gwybod pa ddrwm mae'n gweithio tuag ato.
+Your new 'Get' button should `hide`{:class="block3looks"} at the start.
 
 --- task ---
 
@@ -100,43 +114,37 @@ Dylai'r botwm yma `guddio`{:class="block3looks"} ac wedyn `dangos`{:class="block
 
 ```blocks3
 when flag clicked
-- show
 + hide
 ```
 
-**Awgrym:** I ddileu bloc, rhaid ei lusgo i'r ddewislen Blociau, neu dde-glicio a dewis **Dileu'r Bloc**. Ar gyfrifiadur, galli di hefyd glicio ar floc ac yna taro <kbd>Dileu</kbd> i gael gwared ar floc.
-
 --- /task ---
 
 --- task ---
 
-Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
-
-![](images/get-drum-3-icon.png)
+Add a `when I receive`{:class="block3events"} script that your new 'Get' button will `show`{:class="block3looks"} when the player unlocks the snare drum.
 
 ```blocks3
-when I receive [snare v] // appear when previous drum is bought
-show // show button for next available drum
+when I receive [snare v] // appear when previous drum is unlocked
+show // show button to get the new drum
 ```
 
 --- /task ---
 
 --- task ---
 
-Newidia nifer y curiadau sydd eu hangen i brynu'r drwm yma, a nifer y curiadau sy'n cael eu tynnu pan fydd y chwaraewr yn cael y drwm yma.
-
-Newidia hefyd y neges sy'n cael ei `darlledu`{:class="block3events"} pan fydd y chwaraewr yn cael y drwm newydd. Crea neges newydd gydag enw dy ddrwm newydd:
-
-![](images/get-drum-3-icon.png)
+Change:
+- The number of beats needed to unlock this drum
+- The number of beats that are removed when the player unlocks this drum.
+- The message that is `broadcast`{:class="block3events"} when the player gets the new drum.
 
 ```blocks3
 when this sprite clicked
 if <(beats)>  [29]> then // change to 29
 hide
-change [beats v] by [-30] // change to 30
-broadcast [conga v] // change to your drum name
+change [beats v] by [-30] // change to -30
+broadcast (conga v) // change to your drum name
 else
-say (join ((30) - (beats)) [beats needed!]) for [2] seconds
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -144,9 +152,7 @@ end
 
 --- task ---
 
-Newidia'r sgript `pan rwy'n derbyn snare`{:class="block3events"} i `ddarlledu`{:class="block3events"} enw dy ddrwm newydd. Bydd y drwm yn `dangos`{:class="block3looks"} pan fydd y chwaraewr yn uwchraddio i'r drwm newydd:
-
-![](images/drum-3-icon.png)
+Click your new drum sprite and change the `when I receive snare`{:class="block3events"} script to show it when your new drum is unlocked:
 
 ```blocks3
 when I receive [conga v] // change to your drum name
@@ -158,6 +164,10 @@ show
 --- task ---
 
 Ychwanega'r gefnlen **Party**.
+
+--- /task ---
+
+--- task ---
 
 Ychwanega sgript i'r Llwyfan i newid y gefnlen pan fydd y chwaraewr yn uwchraddio i'r drwm newydd:
 
@@ -172,9 +182,11 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Prawf:** Clicia'r faner werdd i gychwyn y gêm a phrofi dy fod yn gallu ennill digon o guriadau i gael dy ddrwm newydd.
+**Test:** Click the green flag to start the game.
 
-Beth sy'n digwydd os wyt ti'n clicio'r botwm cyn ennill digon o guriadau?
+You should get unlock your new drum if you earn enough beats.
+
+What happens if you click the button before you have earned enough beats?
 
 --- /task ---
 

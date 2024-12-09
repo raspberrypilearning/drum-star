@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: Set the Stage
   - 
@@ -18,11 +18,11 @@ steps:
     completion:
       - engaged
   - 
-    title: First upgrade
+    title: Next drum
   - 
-    title: Second upgrade
+    title: More drums!
   - 
-    title: Play and customise
+    title: Play
     completion:
       - internal
   - 
@@ -35,6 +35,7 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Challenge
+    challenge: true
   - 
     title: What next?

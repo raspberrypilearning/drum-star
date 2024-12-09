@@ -1,13 +1,4 @@
-## Primeira atualização
-
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Você adicionará sua primeira atualização. O botão **Obter caixa** será exibido no início, para que o músico saiba em qual bateria está trabalhando.
-</div>
-<div>
-![](images/first-upgrade.png){:width="300px"}
-</div>
-</div>
+## Next drum
 
 --- task ---
 
@@ -21,21 +12,16 @@ Adicione o esprite **Drum-snare** ao seu projeto e posicione-o no Palco:
 
 Arraste o `quando este sprite clicou em`script {:class="block3events"} do sprite **Drum-cymbal** para o sprite **Drum-snare**.
 
-[[[scratch3-copy-code]]]
-
 --- /task ---
 
 --- task ---
 
-Mude os figurinos e o som da bateria.
-
-Altere o número de batidas obtidas para `2`:
+Change the costume and the drum sound for the **Drum-snare** sprite.
 
 ![](images/snare-icon.png)
 
 ```blocks3
 when this sprite clicked
-+change [beats v] by [2] //2 beats per click
 +switch costume to [drum-snare-b v] //hit costume
 +play drum [(1) Snare Drum v] for [0.25] beats //drum sound
 +switch costume to [drum-snare-a v] //not hit costume
@@ -45,17 +31,31 @@ when this sprite clicked
 
 --- task ---
 
-**Teste:** 🔄 Execute seu projeto. Certifique-se de ganhar 2 batidas ao clicar na caixa.
+Change the number of beats earned to `2`:
+
+```blocks3
+when this sprite clicked
++change [beats v] by [2] //2 beats per click
+switch costume to [drum-snare-b v] //hit costume
+play drum [(1) Snare Drum v] for [0.25] beats //drum sound
+switch costume to [drum-snare-a v] //not hit costume
+```
 
 --- /task ---
 
-As atualizações não estão disponíveis quando você inicia o projeto. Eles têm que ser conquistados com batidas.
+--- task ---
+
+**Teste:** 🔄 Execute seu projeto.
+
+You should you earn 2 beats when you click on the snare drum.
+
+--- /task ---
+
+The next drum is not available when you start the project. It has to be earned with beats.
 
 --- task ---
 
-Adicione um script para ocultar esse sprite **drum** no início do projeto:
-
-![](images/snare-icon.png)
+Add a script to the **Drum-snare** sprite to hide it at the start of the project:
 
 ```blocks3
 when flag clicked
@@ -64,7 +64,7 @@ hide
 
 --- /task ---
 
-Um botão mostrará qual bateria é a próxima opção de atualização e quantas batidas ela custará.
+Add a button to show which drum is the next and how many beats it will cost.
 
 --- task ---
 
@@ -72,7 +72,23 @@ Um botão mostrará qual bateria é a próxima opção de atualização e quanta
 
 ![](images/duplicate-get.png)
 
-Mude a visibilidade para **Show** e mude seu nome para `Get snare`. Posicione-o no canto inferior direito do Palco:
+--- /task ---
+
+--- task ---
+
+Change the visibility to **Show**. ![](images/show.png)
+
+--- /task ---
+
+--- task ---
+
+Change its name to `Get snare`.
+
+--- /task ---
+
+--- task ---
+
+Posicione-o no canto inferior direito do Palco:
 
 ![](images/get-snare.png)
 
@@ -80,9 +96,11 @@ Mude a visibilidade para **Show** e mude seu nome para `Get snare`. Posicione-o 
 
 --- task ---
 
-Clique no ator **Varinha** e depois na aba **Sons**. Use a ferramenta **Selecionar** (Seta) para destacar a parte do traje que você quer alterar a cor. Clique no **Jogar** para ouvir o som **pop**:
+Clique no ator **Varinha** e depois na aba **Sons**.
 
 ![](images/snare-icon.png)
+
+Use the **Select** (arrow) tool to highlight the 'not hit' costume of your drum. Clique no **Jogar** para ouvir o som **pop**:
 
 ![](images/copy-costume.png)
 
@@ -91,8 +109,6 @@ Clique no ator **Varinha** e depois na aba **Sons**. Use a ferramenta **Selecion
 --- task ---
 
 Clique no seu **Get snare** e **Paste** the snare costume. Pode ser necessário redimensioná-lo e posicioná-lo para caber no seu botão:
-
-![](images/get-snare-icon.png)
 
 ![](images/paste-costume.png)
 
@@ -111,19 +127,11 @@ show
 
 --- /task ---
 
-O upgrade só pode ser adquirido se o usuário tiver `10` ou mais batidas. Em [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly){:target="_blank"}, você aprendeu como tomar decisões com blocos `if`{:class="block3control"}.
-
-Um bloco `if ... else`{:class="block3control"} é usado para tomar uma decisão e fará coisas diferentes se uma condição for `true` ou `false`.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Usamos <span style="color: #0faeb0">**condições**</span> o tempo todo para tomar decisões. Ao acordar, você verifica `if`{:class="block3control"} é de manhã. Você se levanta ou `else`{:class="block3control"} você volta a dormir. Você consegue pensar em alguma decisão `if ... else`{:class="block3control"} que você toma? 
-</p>
+The next drum can only be unlocked if the user has `10` or more beats.
 
 --- task ---
 
-Adicione este código para obter a atualização `se`{:class="block3control"} o jogador tiver batidas suficientes, ou `digamos`{:class="block3looks"} `São necessárias mais batidas!` se eles não conseguirem atualizar:
-
-![](images/get-snare-icon.png)
+Add this code to unlock the next drum `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they do not have enough:
 
 ```blocks3
 when this sprite clicked
@@ -137,42 +145,18 @@ end
 
 --- /task ---
 
-Em vez de apenas dizer ao jogador que ele precisa de mais **** batidas, você pode dizer ao jogador exatamente **quantas mais** batidas são necessárias para obter a atualização.
-
-Um bloco `join`{:class="block3operators"} é usado para concatenar ou 'vincular' dois valores.
-
-![](images/get-snare-icon.png)
-
---- task ---
-
-Adicione este código a `join`{:class="block3operators"} o número de batidas necessárias com o texto que você usou para dizer ao jogador que ele precisa de mais batidas se não conseguir atualizar:
-
-```blocks3
-when this sprite clicked
-if <(beats)>  [9]> then //if 10 or more beats
-hide
-change [beats v] by [-10] //take away the cost of upgrade
-else
-+ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
-end
-```
-
---- /task ---
-
 --- task ---
 
 Adicione um bloco `broadcast`{:class="block3events"} para enviar uma nova mensagem `snare`:
-
-![](images/get-snare-icon.png)
 
 ```blocks3
 when this sprite clicked
 if <(beats)>  [9]> then // if 10 or more beats
 hide
 change [beats v] by [-10] // take away the cost of upgrade
-+ broadcast [snare v] // your drum name
++ broadcast (snare v) // your drum name
 else
-say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+say [More beats needed!] for [2] seconds
 end
 ```
 
@@ -180,9 +164,11 @@ end
 
 --- task ---
 
-Duplique a atriz **Fada**. Adicione este script:
+Duplique a atriz **Fada**.
 
 ![](images/snare-icon.png)
+
+Adicione este script:
 
 ```blocks3
 when I receive [snare v]
@@ -191,30 +177,44 @@ show
 
 --- /task ---
 
-Ao atualizar seu equipamento, você poderá tocar em locais maiores.
+--- task ---
+
+**Teste:** Execute seu código.
+
+You should not be able to unlock the next drum before you have enough beats.
+
+--- /task ---
+
+When you unlock new drums, you can play at bigger venues!
 
 --- task ---
 
 Adicionar um plano de fundo Escolhemos **Chalkboard** para fazer nosso segundo show na escola.
 
-Adicione o código ao Stage to `switch background`{:class="block3looks"} quando a mensagem de atualização for recebida:
+**Tip:** Choose a venue that's a small step up from a bedroom. You want to save bigger venues for later!
+
+--- /task ---
+
+--- task ---
+
+Click on the Stage.
 
 ![](images/stage-icon.png)
+
+Adicione o código ao Stage to `switch background`{:class="block3looks"} quando a mensagem de atualização for recebida:
 
 ```blocks3
 when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Dica:** Escolha um local que fique um pouco acima do quarto. Você deseja guardar locais maiores para mais tarde.
-
 --- /task ---
 
 --- task ---
 
-**Teste:** Execute seu código. Experimente comprar a atualização da caixa antes de ter batidas suficientes.
+**Test:** Run your project.
 
-Ao comprar o cheque de atualização: a caixa aparece, o botão desaparece, o local muda e o `beat`{:class="block3variables"} diminui em `10`.
+When you unlock the next drum: the snare should appear, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
 
 --- /task ---
 

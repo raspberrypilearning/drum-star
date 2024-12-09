@@ -1,4 +1,4 @@
-## Jouer et personnaliser
+## Play
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,23 +11,11 @@ Il est temps de faire fonctionner ton jeu comme tu le souhaites.
 
 --- task ---
 
-Joue à ton jeu et gagne des battements.
+If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back.
 
-Observe le changement de la variable `battements`{:class="block3variables"} et assure-toi de bien comprendre comment les battements augmentent lorsque tu cliques sur le tambour et diminuent lorsque tu obtiens un nouveau tambour.
+**Test:** Click the green flag and set your rock star name!
 
-Es-tu satisfait du nombre de battements que tu gagne pour chaque tambour ? Tu peux changer cela si tu le souhaites.
-
-Es-tu satisfait du nombre de battements que coûte un nouveau tambour ?
-
-**Astuce :** Teste ton projet régulièrement afin de pouvoir trouver et corriger les bogues.
-
---- /task ---
-
---- task ---
-
-Si tu as séparé le bloc `demander`{:class="block3sensing"} sur la scène, remets-le en place et définis ton nom de rockstar.
-
-Note que le nom affiché sur la scène change.
+You should see the name displayed on the Stage changes.
 
 --- /task ---
 

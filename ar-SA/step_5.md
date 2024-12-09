@@ -1,8 +1,8 @@
-## التطوير الثاني للمشروع
+## More drums!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-مهاراتك في استخدام الطبل في تحسن. حان الوقت للترقية الثانية! في هذه الخطوة ، ستختار الأسطوانة المراد إضافتها.
+في هذه الخطوة ، ستختار الأسطوانة المراد إضافتها.
 </div>
 <div>
 ! [يظهر المسرح خلفية الحفلة بثلاثة أسطوانات موسيقية.] (images / second-Upgrade.png) {: width = "300px"}
@@ -17,13 +17,16 @@
 
 --- /task ---
 
-يوجد الكثير من**أزياء الطبل** لتختار من منها.
-
 --- task ---
 
 انقر فوق مظهر **ازياء او مظاهر الطبل** ثم حدد علامة التبويب **مظاهر**.
 
-**اختر:** أسطوانة للترقية التالية. اخترنا **Conga**.
+**Choose:** which drum to unlock next. اخترنا **Conga**.
+
+
+--- /task ---
+
+--- task ---
 
 اسحب مظهر "hit" و "not hit" على الطبل الذي اخترته إلى **Drum-snare2** كائن الجديدة:
 
@@ -35,7 +38,7 @@
 
 --- task ---
 
-قم بتسمية الطبل الخاص بك بما يتناسب مع الأزياء التي اخترتها.
+Name the new drum to match the costumes you chose.
 
 ![](images/drum-3-named.png)
 
@@ -67,32 +70,43 @@ when this sprite clicked
 
 --- /task ---
 
-بعد ذلك ، ستحتاج إلى كائن زر حتى يتمكن اللاعبون من الترقية إلى هذه الأسطوانة الجديدة.
+Add a button so that players can unlock the new drum.
 
 --- task ---
 
-ضاعف كائن**Get snare**.
-
-ضعه في الركن الأيمن السفلي من المنصة. غيّر اسمه إلى `Get` ثم اسم طبلك الجديد:
-
-![قائمة الكائنات التي تحتوي على كائن "Get snare" مكرر. تم تغيير اسم الكائن ليتناسب مع الأسطوانة الجديدة وتم وضعه في أسفل يمين المنصة.](images/get-drum-3.png)
+Duplicate the **Get snare** sprite and position it in the bottom-right corner of the Stage.
 
 --- /task ---
 
 --- task ---
 
-احذف أسطوانة **snare drum** من مظهر الزر. انسخ والصق زي "not hit" لطبلتك الجديدة على مظهر الزر.
+Change its name (for example `Get conga`):
+
+![The Sprite list with duplicated 'Get snare' sprite. The sprite name has been changed to match the new drum type and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+
+--- /task ---
+
+--- task ---
+
+Delete the **snare drum** from the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
+
+Copy the 'not hit' costume for your new drum and paste it to the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
 
 انقر فوق أداة الــ**نص** وقم بتغيير الرقم إلى `30` لإظهار تكلفة الأسطوانة الجديدة.
-
-يجب أن يبدو الزر الخاص بك كما يلي:
 
 ![يعرض محرر الطلاء مظهر الزر الجديد مع صورة أسطوانة مختارة ونص محدث إلى 30.](images/get-drum-copy.png)
 
 --- /task ---
 
-
-هذا الزر  يجب ان` يخفى{`class = "block3looks"} في البداية ، ثم ` يظهر`{: class = "block3looks"} عندما يقوم اللاعب بترقية المشروع إلى snare drum ، حتى يعرف الطبلة التي يعمل عليها.
+Your new 'Get' button should `hide`{:class="block3looks"} at the start.
 
 --- task ---
 
@@ -100,43 +114,37 @@ when this sprite clicked
 
 ```blocks3
 when flag clicked
-- show
 + hide
 ```
 
-**نصيحة:** لحذف Blocks ، اسحبها إلى قائمة Blocks ، أو انقر بزر الماوس الأيمن واختر **حذف اللبنة**. على جهاز الكمبيوتر ، يمكنك أيضًا النقر فوق اللبنة ثم النقر فوق <kbd>حذف</kbd> لإزالة اللبنة.
-
 --- /task ---
 
 --- task ---
 
-Add a `when I receive`{:class="block3events"} script that your new drum button will show as the next upgrade when the player gets the **Drum-snare** drum:
-
-![](images/get-drum-3-icon.png)
+Add a `when I receive`{:class="block3events"} script that your new 'Get' button will `show`{:class="block3looks"} when the player unlocks the snare drum.
 
 ```blocks3
-when I receive [snare v] // appear when previous drum is bought
-show // show button for next available drum
+when I receive [snare v] // appear when previous drum is unlocked
+show // show button to get the new drum
 ```
 
 --- /task ---
 
 --- task ---
 
-قم بتغيير عدد beats اللازمة لشراء هذا الطبل ، وعدد beats التي يتم إزالتها ، عندما يحصل اللاعب على هذه الطبلة.
-
-قم أيضًا بتغيير الرسالة التي هي `بث`{: class = "block3events"} عندما يحصل اللاعب على الطبلة الجديدة. أنشئ رسالة جديدة باسم طبلك الجديد:
-
-![](images/get-drum-3-icon.png)
+Change:
+- The number of beats needed to unlock this drum
+- The number of beats that are removed when the player unlocks this drum.
+- The message that is `broadcast`{:class="block3events"} when the player gets the new drum.
 
 ```blocks3
 when this sprite clicked
 if <(beats)>  [29]> then // change to 29
 hide
-change [beats v] by [-30] // change to 30
-broadcast [conga v] // change to your drum name
+change [beats v] by [-30] // change to -30
+broadcast (conga v) // change to your drum name
 else
-say (join ((30) - (beats)) [beats needed!]) for [2] seconds
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -144,9 +152,7 @@ end
 
 --- task ---
 
-غيّر الرقم `عندما أتلقى snare `{: class = "block3events"} مقطعاً برمجياً إلى `بث`{: class = "block3events"} اسم أسطوانتك الجديدة. الأسطوانة سوف تظهر `اظهر`{: class = "block3looks"} عندما يقوم اللاعب بالترقية إلى الأسطوانة الجديدة:
-
-![](images/drum-3-icon.png)
+Click your new drum sprite and change the `when I receive snare`{:class="block3events"} script to show it when your new drum is unlocked:
 
 ```blocks3
 when I receive [conga v] // change to your drum name
@@ -158,6 +164,10 @@ show
 --- task ---
 
 أضف خلفية **Party**.
+
+--- /task ---
+
+--- task ---
 
 أضف نصًا إلى المنصة لتبديل الخلفية عندما يقوم اللاعب بالترقية إلى الأسطوانة الجديدة:
 
@@ -172,9 +182,11 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**اختبار:** انقر فوق العلم الأخضر لبدء اللعبة واختبر أنه يمكنك كسب beats كافية للحصول على الطبلة الجديدة.
+**Test:** Click the green flag to start the game.
 
-ماذا يحدث إذا نقرت على الزر قبل أن تكسب beats كافية؟
+You should get unlock your new drum if you earn enough beats.
+
+What happens if you click the button before you have earned enough beats?
 
 --- /task ---
 

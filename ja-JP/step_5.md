@@ -1,8 +1,8 @@
-## アップグレード第二弾
+## More drums!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-あなたのドラムスキルは向上しています。 アップグレード第二弾の時がきまして！ このステップでは、追加するドラムを選びます。
+このステップでは、追加するドラムを選びます。
 </div>
 <div>
 ![3 つのドラムがあるパーティーの背景を示すステージ](images/second-upgrade.png){:width="300px"}
@@ -17,13 +17,16 @@
 
 --- /task ---
 
-** Drum Costumes** スプライトには、選択できるドラムコスチュームがたくさんあります。
-
 --- task ---
 
 **Drum Costumes** スプライトをクリックし、 **コスチューム** タブを選びます。
 
-**選択:** 次のアップグレード用のドラム。 この例では、**Conga**を選びました。
+**Choose:** which drum to unlock next. この例では、**Conga**を選びました。
+
+
+--- /task ---
+
+--- task ---
 
 選んだドラムの「たたいている」コスチュームと「たたいていない」コスチュームを新しい **Drum-snare2** スプライトにドラッグします。
 
@@ -35,7 +38,7 @@
 
 --- task ---
 
-選んだコスチュームに合わせてドラムに名前をつけます。
+Name the new drum to match the costumes you chose.
 
 ![](images/drum-3-named.png)
 
@@ -67,32 +70,43 @@ when this sprite clicked
 
 --- /task ---
 
-次に、プレーヤーがこの新しいドラムにアップグレードできるようにするためのボタンが必要です。
+Add a button so that players can unlock the new drum.
 
 --- task ---
 
-**スネアをゲット/0> スプライトを複製します。</p>
-
-ステージの右下におきます。 その名前を `ゲット` それに新しいドラムの名前に変更します。
-
-![スプライトのリストと'スネアをゲット’スプライトの複製 スプライト名が新しいドラムに合わせて変更され、ステージの右下に配置されました。](images/get-drum-3.png)
+Duplicate the **Get snare** sprite and position it in the bottom-right corner of the Stage.
 
 --- /task ---
 
 --- task ---
 
-ボタンコスチュームから **snare drum** を消します。 新しいドラムの「たたいていない」コスチュームをコピーして、ボタンコスチュームに貼り付けます。
+Change its name (for example `Get conga`):
+
+![The Sprite list with duplicated 'Get snare' sprite. The sprite name has been changed to match the new drum type and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+
+--- /task ---
+
+--- task ---
+
+Delete the **snare drum** from the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
+
+Copy the 'not hit' costume for your new drum and paste it to the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
 
 **Text** ツールをクリックし、数値を `30` に変更して、新しいドラムのコストを表示します。
-
-ボタンはこんな感じになります：
 
 ![選んだドラムの画像とテキストが 30 に更新された新しいボタンコスチュームが表示されているペイント エディター。](images/get-drum-copy.png)
 
 --- /task ---
 
-
-このボタンは、スタート時に `非表示`{:class="block3looks"} にし、プレーヤーがスネア ドラムにアップグレードしたときに `表示`{:class="block3looks"} するようにします。
+Your new 'Get' button should `hide`{:class="block3looks"} at the start.
 
 --- task ---
 
@@ -100,43 +114,37 @@ when this sprite clicked
 
 ```blocks3
 when flag clicked
-- show
 + hide
 ```
 
-**ヒント:** ブロックを削除するには、ブロックをブロックメニューにドラッグするか、右クリックして **ブロックの削除**を選びます。 パソコンの場合、ブロックをクリックしてから <kbd>削除</kbd> をタップしてブロックを削除することもできます。
-
 --- /task ---
 
 --- task ---
 
-プレーヤーが **Drum -snare** ドラムをゲットしたときに次のアップグレードとして新しいドラム ボタンが表示されるように 、`メッセージを受け取ったとき`{:class="block3events"} のスクリプトを追加します。
-
-![](images/get-drum-3-icon.png)
+Add a `when I receive`{:class="block3events"} script that your new 'Get' button will `show`{:class="block3looks"} when the player unlocks the snare drum.
 
 ```blocks3
-when I receive [snare v] // appear when previous drum is bought
-show // show button for next available drum
+when I receive [snare v] // appear when previous drum is unlocked
+show // show button to get the new drum
 ```
 
 --- /task ---
 
 --- task ---
 
-このドラムをゲットするのに必要なビート数と、プレーヤーがこのドラムを手に入れたときに減らすビート数を変えます。
-
-プレーヤーが新しいドラムをゲットしたときに `送る`{:class="block3events"} メッセージも変えます。 新しいドラムの名前を使って新しいメッセージを作成します。
-
-![](images/get-drum-3-icon.png)
+Change:
+- The number of beats needed to unlock this drum
+- The number of beats that are removed when the player unlocks this drum.
+- The message that is `broadcast`{:class="block3events"} when the player gets the new drum.
 
 ```blocks3
 when this sprite clicked
 if <(beats)>  [29]> then // change to 29
 hide
-change [beats v] by [-30] // change to 30
-broadcast [conga v] // change to your drum name
+change [beats v] by [-30] // change to -30
+broadcast (conga v) // change to your drum name
 else
-say (join ((30) - (beats)) [beats needed!]) for [2] seconds
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -144,9 +152,7 @@ end
 
 --- task ---
 
-新しいドラムの名前の `メッセージを送る`{:class="block3events"}ように`スネアを受け取ったとき`{:class="block3events"} のスクリプトを変えていきます。 プレーヤーが新しいドラムにアップグレードすると、そのドラムが `表示`{:class="block3looks"} されます。
-
-![](images/drum-3-icon.png)
+Click your new drum sprite and change the `when I receive snare`{:class="block3events"} script to show it when your new drum is unlocked:
 
 ```blocks3
 when I receive [conga v] // change to your drum name
@@ -158,6 +164,10 @@ show
 --- task ---
 
 **Party** の背景を追加します。
+
+--- /task ---
+
+--- task ---
 
 プレーヤーが新しいドラムにアップグレードしたときに背景を切り替えるスクリプトをステージに追加します。
 
@@ -172,9 +182,11 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**テスト:** 緑の旗をクリックしてゲームをスタートし、新しいドラムを手に入れるのに十分なビートを獲得できるかテストします。
+**Test:** Click the green flag to start the game.
 
-十分なビートをゲットする前にボタンをクリックするとどうなりますか?
+You should get unlock your new drum if you earn enough beats.
+
+What happens if you click the button before you have earned enough beats?
 
 --- /task ---
 

@@ -11,7 +11,7 @@ Je voegt een **cymbal** sprite toe waarop je kunt klikken om beats te verdienen 
 
 --- task ---
 
-Klik op **Kies een Sprite** en zoek `cymbal`. Voeg de sprite **Drum-cymbal** toe aan je project.
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Klik op **Kies een Sprite** en zoek `cymbal`. Voeg de sprite **Drum-cymbal** toe
 
 --- task ---
 
-Plaats je cymbaal op het speelveld:
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -50,7 +50,9 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test:** Test je bekkens door erop te klikken. Zorg ervoor dat je een geluid hoort en het uiterlijk ziet veranderen.
+**Test:** Test je bekkens door erop te klikken.
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ Iedere keer dat je klikt op de **drum-cymbal** sprite verdien je één slag.
 
 --- task ---
 
-Maak een `variabele`{:class="block3variables"} met de naam `slagen`:
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -67,8 +69,6 @@ Maak een `variabele`{:class="block3variables"} met de naam `slagen`:
 --- task ---
 
 Voeg een blok toe aan `verander slagen met 1`{:class="block3variables"} wanneer op de **Drum-cymbal** sprite wordt geklikt:
-
-![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test de **Drum-cymbal** door erop te klikken en de `slagen`{:class="block3variables"} te zien toenemen.
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ De `slagen`{:class="block3variables"} variabele moet beginnen bij `0` slagen wan
 
 --- task ---
 
-Klik op het venster Speelveld en vervolgens op het tabblad **Code** om code toe te voegen aan het speelveld.
+Click on the Stage pane and then the **Code** tab.
 
 Voeg een blok toe aan `zet slagen op`{:class="block3variables"} `0`:
 

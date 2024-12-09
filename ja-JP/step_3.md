@@ -11,7 +11,7 @@
 
 --- task ---
 
-**スプライトを選ぶ** をクリックし、 `cymbal`を検索（けんさく）します。 プロジェクトに **Drum-cymbal** のスプライトを追加します。
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@
 
 --- task ---
 
-シンバルをステージ上におきます。
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -50,7 +50,9 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**テスト:** シンバルをクリックしてテストしましょう。 音を聞き、コスチュームが変わることを確認します。
+**テスト:** シンバルをクリックしてテストしましょう。
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-`ビート数`という名前の `変数`{:class="block3variables"} を作ります。
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -67,8 +69,6 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 --- task ---
 
 **Drum-cymbal**スプライトをクリックしたときにビート数を`1ずつ変える`{:class="block3variables"} ブロックを追加します：
-
-![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**テスト:** **Drum-cymbal** をクリックして、 `ビート数`{:class="block3variables"} の数がふえていくことを確認します。
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-ステージ ペインをクリックし、**コード** タブでステージにコードを追加します。
+Click on the Stage pane and then the **Code** tab.
 
 ブロックを追加して `ビート数` {:class="block3variables"} を`0`にします:
 

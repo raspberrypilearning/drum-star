@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: ವೇದಿಕೆ ಸಿದ್ಧಪಡಿಸಿ
   - 
@@ -18,11 +18,11 @@ steps:
     completion:
       - engaged
   - 
-    title: ಮೊದಲನೆಯ ಅಪ್‌ಗ್ರೇಡ್
+    title: Next drum
   - 
-    title: ಎರಡನೆಯ ಅಪ್‌ಗ್ರೇಡ್
+    title: More drums!
   - 
-    title: ನುಡಿಸಿ ಮತ್ತು ಬೇಕಾದಂತೆ ಮಾರ್ಪಾಡು ಮಾಡಿ
+    title: Play
     completion:
       - internal
   - 
@@ -35,6 +35,7 @@ steps:
     completion:
       - external
   - 
-    title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
+    title: Challenge
+    challenge: true
   - 
     title: ಮುಂದೆ ಏನು?

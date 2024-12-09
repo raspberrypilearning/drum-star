@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: मंच तैयार करें
   - 
@@ -18,11 +18,11 @@ steps:
     completion:
       - engaged
   - 
-    title: पहला अपग्रेड
+    title: Next drum
   - 
-    title: दूसरा अपग्रेड
+    title: More drums!
   - 
-    title: खेलें और अपनी रुचि के अनुसार बनाएँ
+    title: Play
     completion:
       - internal
   - 
@@ -35,6 +35,7 @@ steps:
     completion:
       - external
   - 
-    title: प्रोजेक्ट को अपग्रेड करें
+    title: Challenge
+    challenge: true
   - 
     title: आगे क्या?

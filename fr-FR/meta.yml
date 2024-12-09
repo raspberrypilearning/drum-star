@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: Ce que tu vas faire
+    title: What you will make
   - 
     title: Mise en place de la scène
   - 
@@ -18,11 +18,11 @@ steps:
     completion:
       - engaged
   - 
-    title: Première amélioration
+    title: Next drum
   - 
-    title: Deuxième amélioration
+    title: More drums!
   - 
-    title: Jouer et personnaliser
+    title: Play
     completion:
       - internal
   - 
@@ -35,6 +35,7 @@ steps:
     completion:
       - external
   - 
-    title: Améliorer ton projet
+    title: Challenge
+    challenge: true
   - 
     title: Et ensuite ?

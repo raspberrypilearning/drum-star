@@ -1,4 +1,4 @@
-## Juega y personaliza
+## Play
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,23 +11,11 @@ Es hora de hacer que tu juego funcione como tú quieres.
 
 --- task ---
 
-Juega tu juego y gana ritmos.
+If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back.
 
-Mira cómo cambia la variable `ritmos`{:class="block3variables"} y asegúrate de comprender cómo aumentan los ritmos cuando haces clic en los tambores y cómo disminuyen cuando obtienes uno nuevo.
+**Test:** Click the green flag and set your rock star name!
 
-¿Estás feliz con la cantidad de ritmos que ganas por cada tambor? Puedes cambiar esto si quieres.
-
-¿Estás feliz con la cantidad de ritmos que te costó conseguir tu nuevo tambor?
-
-**Consejo:** Prueba tu proyecto con frecuencia para que puedas encontrar y corregir cualquier error.
-
---- /task ---
-
---- task ---
-
-Si separaste el bloque para `preguntar`{:class="block3sensing"} en el escenario, vuelve a colocarlo y configura tu nombre de estrella de rock.
-
-Observa cómo cambia el nombre que se muestra en el Escenario.
+You should see the name displayed on the Stage changes.
 
 --- /task ---
 

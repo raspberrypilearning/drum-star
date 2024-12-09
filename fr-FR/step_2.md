@@ -13,29 +13,23 @@ Dans cette étape, tu prépareras la scène pour ton premier concert et choisira
 
 Ouvre le [projet de démarrage Star du tambour](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
-[[[working-offline]]]
-
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Des musiciens appelés <span style="color: #0faeb0">**artistes bricoleurs**</span> commencent à enregistrer de la musique depuis leur chambre. Ils produisent eux-mêmes leurs propres chansons puis les publient en ligne pour que tout le monde puisse les entendre. 
-</p>
-
-Le jeu commence dans une chambre comme un artiste bricoleur.
+The drummer starts in a bedroom like a beginner!
 
 --- task ---
 
 Clique sur **Choisir un arrière-plan** et recherche `bedroom`.
 
-**Choisir :** Sélectionne une chambre et ajoute-la à ton projet. Nous avons choisi `Bedroom 3`.
+Select a bedroom and add it to your project. Nous avons choisi `Bedroom 3`.
 
 ![La scène montrant l'arrière-plan "Bedroom 3".](images/bedroom3.png)
 
 --- /task ---
 
---- task ---
-
 Dans Scratch, tu peux ajouter du code à la scène.
+
+--- task ---
 
 Clique sur l'arrière-plan de ta chambre dans le volet Scène et ajoute ce code :
 
@@ -86,8 +80,6 @@ Tu peux `demander`{:class="block3sensing"} une question dans Scratch, puis utili
 
 Clique sur le menu des blocs `Capteurs`{:class="block3sensing"} et ajoute un bloc `demander`{:class="block3sensing"} à ton code :
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -101,8 +93,6 @@ set [name v] to [???] //your variable
 
 Définis la `variable`{:class="block3variables"} `nom`{:class="block3variables"} avec la `réponse`{:class="block3sensing"} :
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -112,8 +102,6 @@ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
-
-Modifie l'apparence de ta `variable`{:class="block3variables"} sur la scène.
 
 --- task ---
 
@@ -125,7 +113,7 @@ Fais un clic droit sur la `variable`{:class="block3variables"} sur la scène et 
 
 --- task ---
 
-Fais glisser ta `variable`{:class="block3variables"} pour la positionner en haut à droite de la scène :
+Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
 
 ![](images/repositioned-variable.png)
 
@@ -137,11 +125,11 @@ Fais glisser ta `variable`{:class="block3variables"} pour la positionner en haut
 
 --- /task ---
 
+You don't want to type an answer every time you test your project.
+
 --- task ---
 
-Maintenant que tu as testé que la `variable`{:class="block3variables"} devient la `réponse`{:class="block3sensing"}, tu peux faire glisser les 2 derniers blocs de code loin du reste du script. Cela signifie que tu n'as pas besoin de saisir une `réponse`{:class="block3sensing"} à chaque fois que tu testes ton projet :
-
-![](images/stage-icon.png)
+Drag the last two blocks of code away from the rest of the script.
 
 ```blocks3
 when flag clicked

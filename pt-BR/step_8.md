@@ -1,4 +1,4 @@
-## Melhore o seu projeto
+## Challenge
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -9,11 +9,17 @@ Atualize seu projeto com mais bateria e mais cenários enquanto toca em locais m
 </div>
 </div>
 
-Há muito mais fantasias de bateria para você escolher e adicionar mais atualizações ao seu projeto.
+### Add more drums
 
-Para adicionar outro tambor para atualizar, reveja as etapas anteriores do projeto.
+To add another drum to unlock, look back at the earlier steps of the project.
 
-Para o **tambor**, você precisará:
+Here are some reminders if you need them.
+
+--- collapse ---
+
+---
+title: For the drum
+---
 
 --- task ---
 
@@ -39,7 +45,13 @@ Mude a mensagem ``{:class="block3events"} que faz o tambor `mostrar`{:class="blo
 
 --- /task ---
 
-Para o **tambor**, você precisará:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the 'Get' button
+---
 
 --- task ---
 
@@ -61,11 +73,17 @@ Troque a fantasia `por`{:class="block3looks"} incluindo o custo do novo tambor.
 
 --- task ---
 
-Altere o número de `batidas`{:class="block3variables"} que você deve ter para colocar esta bateria na condição `se`{:class="block3events"}. Mude o número negativo de `batidas`{:class="block3variables"} você `muda em`{:class="block3variables"} quando obtiver esta bateria. Altere o número de `batidas`{:class="block3variables"} obtidas no script `quando este sprite clicou em`{:class="block3events"}. Mude a mensagem que recebe `broadcast`{:class="block3events"} para o nome dos **novos tambores**.
+Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. Altere o número de `batidas`{:class="block3variables"} obtidas no script `quando este sprite clicou em`{:class="block3events"}. Change the message that is `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
-Para o **tambor**, você precisará:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the venue
+---
 
 --- task ---
 
@@ -75,7 +93,7 @@ Adicionar um plano de fundo.
 
 --- task ---
 
-Adicione um script ao Palco para `mudar o cenário para`{:class="block3looks"} o novo cenário quando a mensagem ``{:class="block3events"} para esta bateria for recebida.
+Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is received.
 
 --- /task ---
 
@@ -89,13 +107,41 @@ O ônibus precisa estar na sua posição inicial `quando bandeira verde for clic
 
 --- /task ---
 
+--- /collapse ---
+
+### Improve feedback to the player
+
+Tell the player exactly **how many more** beats are needed to unlock the next drum.
+
 --- task ---
 
-**Arrumado:** Se você tiver tempo, então é uma boa ideia certificar-se de que os sprites na lista de sprites estejam em uma ordem sensata, começando com a bateria em sua ordem de atualização e depois os botões em ordem.
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+**Note**: Update the numbers to match those needed to unlock each drum.
+
+--- /task ---
+
+### Tidy your code
+
+--- task ---
+
+**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
 
 --- /task ---
 
 --- task ---
+
+### Stuck?
 
 **Debug:** Primeiro certifique-se de realmente entender quando a bateria e os botões devem aparecer e como a variável `beats`{:class="block3variables"} deve mudar. É muito mais fácil depurar um projeto se você tiver certeza do que ele deve fazer.
 
@@ -104,10 +150,11 @@ O ônibus precisa estar na sua posição inicial `quando bandeira verde for clic
 Título: Minha bateria não aparece/oculta corretamente
 ---
 
-A menos que seja o primeiro tambor, seu tambor deve ter um script `quando flag clicado`{:class="block3events"} para `ocultar`{:class="block3looks"}. E deve ter `quando eu receber`{:class="block3events"} `este script de bateria` para `mostrar`{:class="block3looks"}.
+A menos que seja o primeiro tambor, seu tambor deve ter um script `quando flag clicado`{:class="block3events"} para `ocultar`{:class="block3looks"}.
+
+It should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
 
 Verifique se o botão **Get** para este tambor `transmite`{:class="block3events"} a mesma mensagem.
-
 
 --- /collapse ---
 
@@ -116,13 +163,17 @@ Verifique se o botão **Get** para este tambor `transmite`{:class="block3events"
 Título: Minha bateria não aparece/oculta corretamente
 ---
 
-A menos que o botão seja para o primeiro tambor, ele deve `ocultar`{:class="block3looks"} `quando o sinalizador for clicado`{:class="block3events"}. E deveria `mostrar`{:class="block3looks"} `quando eu receber`{:class="block3events"} a mensagem da **bateria anterior**. O botão **Get** deve ``{:class="block3looks"} para informar ao jogador sobre a próxima atualização que ele está trabalhando.
+A menos que o botão seja para o primeiro tambor, ele deve `ocultar`{:class="block3looks"} `quando o sinalizador for clicado`{:class="block3events"}.
+
+It should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**.
+
+The **Get** button should `show`{:class="block3looks"} to let the player know about the next drum they can unlock.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-título: Posso comprar uma bateria quando não tenho batidas suficientes
+title: I can unlock a drum when I don't have enough beats
 ---
 
 Verifique se você alterou o número de `batidas`{:class="block3variables"} necessárias `quando este sprite clicou em`{:class="block3events"} no script para o botão **Get** da bateria.
@@ -131,7 +182,7 @@ Verifique se você alterou o número de `batidas`{:class="block3variables"} nece
 
 --- collapse ---
 ---
-título: O número de batidas não muda corretamente quando recebo uma nova bateria
+title: The number of beats doesn't change correctly when I unlock a new drum
 ---
 
 Verifique se você alterou o número de `batidas`{:class="block3variables"} necessárias `quando este sprite clicou em`{:class="block3events"} no script para o botão **Get** da bateria.
@@ -141,15 +192,6 @@ Certifique-se de que corresponda ao número na fantasia do botão da bateria.
 --- /collapse ---
 
 --- /task ---
-
---- collapse ---
----
-title: Projeto concluído
----
-
-Você pode ver o [projeto concluído aqui](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
-
---- /collapse ---
 
 **Dica:** Se você ficar realmente confuso, não há problema em excluir o novo tambor e seu botão e começar de novo. Às vezes é difícil detectar um bug.
 

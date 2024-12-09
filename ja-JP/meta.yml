@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: はじめに
+    title: What you will make
   - 
     title: ステージを作る
   - 
@@ -18,11 +18,11 @@ steps:
     completion:
       - engaged
   - 
-    title: アップグレード第一弾
+    title: Next drum
   - 
-    title: アップグレード第二弾
+    title: More drums!
   - 
-    title: プレイとカスタマイズ
+    title: Play
     completion:
       - internal
   - 
@@ -35,6 +35,7 @@ steps:
     completion:
       - external
   - 
-    title: プロジェクトをアップグレードする
+    title: Challenge
+    challenge: true
   - 
     title: 次は何をしますか？

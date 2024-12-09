@@ -1,4 +1,4 @@
-## قم بترقية مشروعك
+## Challenge
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -9,11 +9,17 @@
 </div>
 </div>
 
-هناك الكثير من أزياء الطبل للاختيار من بينها لإضافة المزيد من الترقيات إلى مشروعك.
+### Add more drums
 
-لإضافة طبل آخر للترقية إليه، راجع الخطوات السابقة للمشروع.
+To add another drum to unlock, look back at the earlier steps of the project.
 
-بالنسبة **طبل**، ستحتاج إلى:
+Here are some reminders if you need them.
+
+--- collapse ---
+
+---
+title: For the drum
+---
 
 --- task ---
 
@@ -39,7 +45,13 @@
 
 --- /task ---
 
-بالنسبة ** للزر **، ستحتاج إلى:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the 'Get' button
+---
 
 --- task ---
 
@@ -61,11 +73,17 @@
 
 --- task ---
 
-قم بتغيير عدد `نبضات`{: class = "block3variables"} يجب أن تحصل على هذه الأسطوانة في حالة `اذا`{: class = "block3events"}. غيّر العدد السالب للـ `نبضات`{: class = "block3variables"} أنت `غير بمقدار`{: class = "block3variables"} عندما تحصل على هذه الأسطوانة. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that gets `broadcast`{:class="block3events"} to the name of the **new drum**.
+Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that is `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
-بالنسبة ** للمكان **، سوف تحتاج إلى:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the venue
+---
 
 --- task ---
 
@@ -75,7 +93,7 @@
 
 --- task ---
 
-أضف مقطعاً برمجياً إلى المرحلة `قم بتبديل الخلفية إلى`{: class = "block3looks"} خلفية جديدة عندما يتم استلام ` الرسالة `{: class = "block3events"} لهذا الأسطوانة.
+Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is received.
 
 --- /task ---
 
@@ -89,13 +107,41 @@ Add a script starting with `when backdrop changes to`{:class="block3events"} to 
 
 --- /task ---
 
+--- /collapse ---
+
+### Improve feedback to the player
+
+Tell the player exactly **how many more** beats are needed to unlock the next drum.
+
 --- task ---
 
-**مرتب:** إذا كان لديك وقت ، فمن المستحسن التأكد من أن الكائنات الموجودة في قائمة الكائنات في ترتيب معقول ، بدءًا من الأسطوانات psf ترتيب ترقيتها ثم الأزرار بالترتيب.
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+**Note**: Update the numbers to match those needed to unlock each drum.
+
+--- /task ---
+
+### Tidy your code
+
+--- task ---
+
+**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
 
 --- /task ---
 
 --- task ---
+
+### Stuck?
 
 **تصحيح:** تأكد أولاً من أنك تفهم حقًا متى يجب أن تظهر الطبول والأزرار وكيف يجب ان متغيير`النبضات` يتغيير{:class="block3variables"} . من الأسهل بكثير تصحيح أخطاء مشروع إذا كنت واضحة .
 
@@ -104,10 +150,11 @@ Add a script starting with `when backdrop changes to`{:class="block3events"} to 
 العنوان: طبلي لا يظهر / يختفي بشكل صحيح
 ---
 
-ما لم تكن الأسطوانة الأولى ، يجب أن تحتوي الأسطوانة على `عند النقر فوق العلم`{: class = "block3events"} مقطع برمجي ` للإخفاء `{: class = "block3looks"}. ويجب أن يحتوي المقطع البرمجي`عندما أتلقى`{: class = "block3events"} `للطبل على` مقطع برمجي `اظهر`{: class = "block3looks"}.
+ما لم تكن الأسطوانة الأولى ، يجب أن تحتوي الأسطوانة على `عند النقر فوق العلم`{: class = "block3events"} مقطع برمجي ` للإخفاء `{: class = "block3looks"}.
+
+It should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
 
 تأكد من أن زر **Get** لهذا الطبل `يبث`{: class = "block3events"} نفس الرسالة.
-
 
 --- /collapse ---
 
@@ -116,13 +163,17 @@ Add a script starting with `when backdrop changes to`{:class="block3events"} to 
 العنوان: الزر Get الخاص بي لا يظهر / يختفي بشكل صحيح
 ---
 
-ما لم يكن الزر للطبل</code>يختفي`: class = "block3looks"} <code>عند النقر فوق العلم`{: class = "block3events"}. ويجب أن ` يُظهر `{: class = "block3looks"} `عندما أتلقى`{: class = "block3events"} رسالة للطبل **السابق**. يجب أن زر **Get** ` يظهر `{: class = "block3looks"} لإعلام اللاعب بالترقية التالية التي يعملون عليها.
+ما لم يكن الزر للطبل</code>يختفي`: class = "block3looks"} <code>عند النقر فوق العلم`{: class = "block3events"}.
+
+It should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**.
+
+The **Get** button should `show`{:class="block3looks"} to let the player know about the next drum they can unlock.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-العنوان: يمكنني شراء طبلة عندما لا يكون لدي دقات كافية
+title: I can unlock a drum when I don't have enough beats
 ---
 
 تأكد من أنك قمت بتغيير عدد `نبضات`{: class = "block3variables"} تحتاجها `عند نقر هذا الكائن `{: class = "block3events"} في المقطع البرمجي لزر **Get** للأسطوانة.
@@ -131,7 +182,7 @@ Add a script starting with `when backdrop changes to`{:class="block3events"} to 
 
 --- collapse ---
 ---
-العنوان: لا يتغير عدد النبضات بشكل صحيح عندما أحصل على طبلة جديدة
+title: The number of beats doesn't change correctly when I unlock a new drum
 ---
 
 تأكد من ` تغيير نبضة بمفدار` برقم سالب `عندما نقر هذا الكائن`: class = "block3events"} في المقطع البرمجي لزر **Get** للطبل.
@@ -141,15 +192,6 @@ Add a script starting with `when backdrop changes to`{:class="block3events"} to 
 --- /collapse ---
 
 --- /task ---
-
---- collapse ---
----
-العنوان: مشروع مكتمل
----
-
-يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/522323676/){:target="_blank"}.
-
---- /collapse ---
 
 **نصيحة:** إذا كنت غير متاكد ، فلا بأس من حذف الأسطوانة الجديدة وزرها ، والبدء من جديد. في بعض الأحيان يكون من الصعب اكتشاف الخلل.
 

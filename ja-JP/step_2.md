@@ -13,29 +13,23 @@
 
 [ドラムスタースタータープロジェクト](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}を開きます。 Scratchはブラウザの別のタブで開きます。
 
-[[[working-offline]]]
-
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**DIY アーティスト**</span> と呼ばれるミュージシャンは、ベッドルームでレコーディングをはじめます。 彼らは自分たちの曲を自分たちで制作し、オンラインで公開してみんなに聴いてもらいます。 
-</p>
-
-このゲームはDIYアーティストのようにベッドルームからスタートします。
+The drummer starts in a bedroom like a beginner!
 
 --- task ---
 
 **背景を選ぶ** をクリックし、 `Bedroom`を検索（けんさく）しよう。
 
-**選択：** すきなベッドルームをえらんでプロジェクトに追加します。 この例では`Bedroom 3`を選択しました。
+Select a bedroom and add it to your project. この例では`Bedroom 3`を選択しました。
 
 ![Bedroom 3の背景を使ったステージ。](images/bedroom3.png)
 
 --- /task ---
 
---- task ---
-
 Scratch では、ステージにコードを追加することができます。
+
+--- task ---
 
 ステージペインからベッドルームの背景（はいけい）をクリックして、次のコードを追加しよう。
 
@@ -86,8 +80,6 @@ Scratch で `質問`{:class="block3sensing"} をして、 `変数`{:class="block
 
 `調べる`{:class="block3sensing"} ブロック メニューをクリックして、コードに `...と聞いて待つ`{:class="block3sensing"} ブロックを追加します。
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -101,8 +93,6 @@ set [name v] to [???] //your variable
 
 `名前`{:class="block3sensing"} という `変数`{:class="block3variables"} に`答え`{:class="block3sensing"} をセットします。
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) //your backdrop name
@@ -112,8 +102,6 @@ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
-
-ステージ上の `変数`{:class="block3variables"} の見た目を変更します。
 
 --- task ---
 
@@ -125,7 +113,7 @@ ask [What's your rock star name?] and wait //your question
 
 --- task ---
 
-`変数`{:class="block3variables"} をドラッグして、ステージの右上におきます:
+Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
 
 ![](images/repositioned-variable.png)
 
@@ -137,11 +125,11 @@ ask [What's your rock star name?] and wait //your question
 
 --- /task ---
 
+You don't want to type an answer every time you test your project.
+
 --- task ---
 
-`変数`{:class="block3variables"} が `答え`{:class="block3sensing"} に変更されることをテストしたので、コードの最後の 2 ブロックをスクリプトの残りの部分からドラッグして外しておくことができます。 こうすることによって、プロジェクトをテストするたびに `答え`{:class="block3sensing"} を入力しなくてもよくなります。
-
-![](images/stage-icon.png)
+Drag the last two blocks of code away from the rest of the script.
 
 ```blocks3
 when flag clicked

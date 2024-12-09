@@ -11,7 +11,7 @@ Você adicionará um sprite de **prato** no qual poderá clicar para ganhar bati
 
 --- task ---
 
-Clique em **Escolha um Sprite** e pesquise `cymbal`. Adicione o ator**Frog 2** ao seu projeto.
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Clique em **Escolha um Sprite** e pesquise `cymbal`. Adicione o ator**Frog 2** a
 
 --- task ---
 
-Posicione seu prato no palco:
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -50,7 +50,9 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Teste:** Teste seu prato clicando nele. Certifique-se de ouvir um som e ver a mudança de roupa.
+**Teste:** Teste seu prato clicando nele.
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ O sprite **Drum-cymbal** ganhará uma batida cada vez que você clicar nele.
 
 --- task ---
 
-Crie uma `variável`{:class="block3variables"} chamada `batidas`:
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -67,8 +69,6 @@ Crie uma `variável`{:class="block3variables"} chamada `batidas`:
 --- task ---
 
 Adicione um bloco a `altere as batidas em 1`{:class="block3variables"} quando o sprite **Drum-cymbal** for clicado:
-
-![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Teste:** Teste o **Drum-cymbal** clicando nele e observe as `batidas`{:class="block3variables"} aumentarem.
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ A variável `batidas`{:class="block3variables"} precisa começar em `0` batidas 
 
 --- task ---
 
-Clique no painel Palco e, em seguida, na guia **Código** para adicionar o código ao **Palco**.
+Click on the Stage pane and then the **Code** tab.
 
 Adicione um bloco a `e defina as batidas para`{:class="block3variables"} `0`:
 

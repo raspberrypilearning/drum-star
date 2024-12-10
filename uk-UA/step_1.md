@@ -1,14 +1,14 @@
-## What you will make
+## Що ти зробиш
 
-Make a clicker game where you earn beats to play new drums at bigger venues.
+Створи гру-клікер, де ти робиш більше ударів, щоб грати на нових барабанах і на більших майданчиках.
 
 --- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click the drum and watch the number of `beats`{:class="block3variables"} go up. Get a new drum when you have enough beats. 
+Натисни на барабан і дивись, як збільшується кількість `ударів`{:class="block3variables"}. Отримай новий барабан, коли ти назбираєш достатньо ударів. 
 
-How many `beats`{:class="block3variables"} do you earn when clicking the new drum?
+Скільки `ударів`{:class="block3variables"} ти заробляєте, клацаючи по новому барабану?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
@@ -19,6 +19,6 @@ How many `beats`{:class="block3variables"} do you earn when clicking the new dru
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Завершений проєкт](images/showcase_static.png)
 
 --- /print-only ---

@@ -1,13 +1,13 @@
-name
+ім’я
 
-What's your rock star name?
+Як звуть твою рок-зірку?
 
-beats
+удари
 
-Not enough beats!
+Недостатньо ударів!
 
-snare
+малий барабан
 
-conga
+конга
 
-What's your name?
+Як тебе звати?

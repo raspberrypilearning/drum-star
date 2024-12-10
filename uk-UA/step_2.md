@@ -1,8 +1,8 @@
-## Set the stage
+## Налаштуй сцену
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the stage for your first gig and choose a rock star name.
+На цьому кроці ти підготуєш основу для свого першого виступу та вибереш собі рок-зіркове імʼя.
 </div>
 <div>
 ![](images/set-the-stage.png){:width="300px"}
@@ -11,101 +11,101 @@ In this step, you will set the stage for your first gig and choose a rock star n
 
 --- task ---
 
-Open the [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch will open in another browser tab.
+Відкрий проєкт [Барабана зірка —початковий проєкт](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Скретч відкриється у новій вкладці браузера.
 
 --- /task ---
 
-The drummer starts in a bedroom like a beginner!
+Рок-зірка починає грати вдома, як новачок!
 
 --- task ---
 
-Click **Choose a Backdrop** and search for `bedroom`.
+Натисни **Виберіть тло** і пошукай за ключовим словом `bedroom` (спальня).
 
-Select a bedroom and add it to your project. We chose `Bedroom 3`.
+Вибери спальню та додай її до свого проєкту. Ми обрали `Bedroom 3`.
 
-![The stage showing the 'Bedroom 3' backdrop.](images/bedroom3.png)
+![Сцена з тлом «Bedroom 3».](images/bedroom3.png)
 
 --- /task ---
 
-In Scratch, you can add code to the Stage.
+У Скретчі ти можеш додати код до сцени.
 
 --- task ---
 
-Click on your bedroom backdrop from the Stage pane and add this code:
+Натисни на тло своєї спальні на панелі сцени та додай цей код:
 
-![The backdrop thumbnail in the stage pane.](images/bedroom-icon.png)
+![Мініатюра тла на панелі сцени.](images/bedroom-icon.png)
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //your backdrop name
+switch backdrop to (Bedroom 3 v) // назва твого тла
 ```
 
 --- /task ---
 
-Every musician needs to choose a rock star name.
+Кожен музикант повинен вибрати собі рок-зіркове ім'я.
 
-A **variable** is a way of storing numbers and/or text. Your rockstar name will be stored in a `variable`{:class="block3variables"} so it can be used at any time.
+**Змінна** — це спосіб зберігання чисел або тексту. Твоє рок-зіркове ім'я буде зберігатися в `змінній`{:class="block3variables"}, тому його можна буде використовувати будь-коли.
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} blocks menu, click the **Make a Variable** button.
+У меню блоків `Змінні`{:class="block3variables"} натисни кнопку **Створити змінну**.
 
-Call your new variable `name`:
+Назви нову змінну `ім’я`:
 
-![The New Variable pop up window with text input 'name'.](images/new-variable.png)
+![Спливне вікно «Нова змінна» з текстом «ім’я».](images/new-variable.png)
 
-**Notice:** The new `name` variable appears on the Stage and can now be used in the `Variable`{:class="block3variables"} blocks.
+**Примітка:** нова змінна `ім’я` з’явилася на сцені, і тепер її можна використовувати в блоках `змінних`{:class="block3variables"}.
 
 --- /task ---
 
 --- task ---
 
-At the start of the project, your rockstar name is unknown.
+На початку проєкту твоє рок-зіркове ім'я невідоме.
 
-Add a block to `set name to`{:class="block3variables"} `???`:
+Додай блок `надати «ім'я» значення`{:class="block3variables"} `???`:
 
 ![](images/stage-icon.png)
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //your backdrop name
-+ set [name v] to [???] //your variable
+switch backdrop to (Bedroom 3 v) // назва твого тла
++ set [імʼя v] to [???] // твоя змінна
 ```
 
 --- /task ---
 
-You can `ask`{:class="block3sensing"} a question in Scratch, then use a `variable`{:class="block3variables"} to store the `answer`{:class="block3sensing"}.
+Ти можеш `запитати`{:class="block3sensing"} щось у Скретчі, а потім використати `змінну`{:class="block3variables"} для зберігання `відповіді`{:class="block3sensing"}.
 
 --- task ---
 
-Click on the `Sensing`{:class="block3sensing"} blocks menu and add an `ask`{:class="block3sensing"} block to your code:
+Натисни меню блоків `Датчики`{:class="block3sensing"} і додай до свого коду блок `запитати`{:class="block3sensing"}:
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //your backdrop name
-set [name v] to [???] //your variable
-+ ask [What's your rock star name?] and wait //your question
+switch backdrop to (Bedroom 3 v) // назва твого тла
+set [імʼя v] to [???] // твоя змінна
++ ask [Яке твоє рок-зіркове імʼя?] and wait // твоє питання
 ```
 
 --- /task ---
 
 --- task ---
 
-Set the `name`{:class="block3variables"} `variable`{:class="block3variables"} to the `answer`{:class="block3sensing"}:
+Надай `змінній`{:class="block3variables"} `ім'я`{:class="block3variables"} значення `відповідь`{:class="block3sensing"}:
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //your backdrop name
-set [name v] to [???] //your variable
-ask [What's your rock star name?] and wait //your question
-+ set [name v] to (answer)
+switch backdrop to (Bedroom 3 v) // назва твого тла
+set [імʼя v] to [???] // твоя змінна
+ask [Яке твоє рок-зіркове імʼя?] and wait // твоє питання
++ set [імʼя v] to (answer)
 ```
 
 --- /task ---
 
 --- task ---
 
-Right-click on the `variable`{:class="block3variables"} on the Stage and choose **large readout**:
+Клацни правою кнопкою миші по `змінній`{:class="block3variables"}, яка знаходиться на Сцені, та вибери **тільки дані**:
 
 ![](images/large-readout.png)
 
@@ -113,7 +113,7 @@ Right-click on the `variable`{:class="block3variables"} on the Stage and choose 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
+Перетягни `змінну`{:class="block3variables"} у верхній правий кут сцени:
 
 ![](images/repositioned-variable.png)
 
@@ -121,25 +121,25 @@ Drag your `variable`{:class="block3variables"} to position it top-right of the S
 
 --- task ---
 
-**Test:** Run your project to make sure the `variable`{:class="block3variables"} starts as `???` then updates to your `answer`{:class="block3sensing"}.
+**Протестуй:** запусти свій проєкт і перевір, чи `змінна`{:class="block3variables"} спочатку має значення `???`, а потім приймає значення твоєї `відповіді`{:class="block3sensing"}.
 
 --- /task ---
 
-You don't want to type an answer every time you test your project.
+Тобі необовʼязково вводити відповідь щоразу, як ти тестуєш свій проєкт.
 
 --- task ---
 
-Drag the last two blocks of code away from the rest of the script.
+Перетягни два останні блоки коду в бік від решти скрипту.
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //your backdrop name
-set [name v] to [???] //your variable
+switch backdrop to (Bedroom 3 v) // назва твого тла
+set [імʼя v] to [???] // твоя змінна
 ```
 
 ```blocks3
-ask [What's your rock star name?] and wait //your question
-set [name v] to (answer)
+ask [Яке твоє рок-зіркове імʼя?] and wait // твоє питання
+set [імʼя v] to (answer)
 ```
 
 --- /task ---

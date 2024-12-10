@@ -1,57 +1,57 @@
-your backdrop name
+назва твого фону
 
-your variable
+твоя змінна
 
-your question
+твоє запитання
 
-hit costume
+образ під час удару
 
-drum sound
+звук барабана
 
-not hit costume
+образ без удару
 
-2 beats per click
+2 удари за клік
 
-if 10 or more beats
+якщо 10 чи більше ударів
 
-take away the cost upgrade
+відніми вартість оновлення
 
-your drum name
+назва твого барабану
 
-5 beats per click
+5 ударів за клік
 
-your hit costume
+твій образ під час удару
 
-your drum sound
+звук твого барабана
 
-your not hit costume
+твій образ без удару
 
-appear when previous drum is bought
+з’являється, коли ти купуєш попередній барабан
 
-show button for next available drum
+показати кнопку наступного доступного барабана
 
-change to 29
+змінити на 29
 
-change to 30
+змінити на 30
 
-change to your drum name
+зміни на назву свого барабана
 
-player has upgraded to this drum
+гравець перейшов на цей барабан
 
-this drum earns 2 beats
+цей барабан заробляє 2 удари
 
-this drum earns 5 beats
+цей барабан заробляє 5 ударів
 
-first upgrade visible from the start
+перше оновлення видно з самого початку
 
-need at least 10 beats
+потрібно щонайменше 10 ударів
 
-cost of the snare drum
+вартість малого барабана
 
-not available at the start
+недоступний на початку
 
-Show when the previous drum (snare) has been bought and this is the upgrade the player is working towards.
+Показати, коли був куплений попередній барабан (малий барабан), і це оновлення, над яким працює гравець.
 
-need at least 30 beats
+потрібно щонайменше 30 ударів
 
-cost of the drum
+вартість барабана

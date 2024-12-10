@@ -1,11 +1,11 @@
-## What next?
+## Що далі?
 
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Next customer please!](https://projects.raspberrypi.org/en/projects/next-customer-please) project, where you will make a shop where customers can buy items and check out.
+Якщо ти йдеш напрямом [Більше Скретчу](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), можеш переходити до наступного проєкту — [«Наступний покупець!»](https://projects.raspberrypi.org/en/projects/next-customer-please). У ньому ти створиш магазин, де покупці можуть купувати товари.
 
 --- print-only ---
 
-![Next customer please](images/next-customer-please.png)
+![Наступний покупець](images/next-customer-please.png)
 
 --- /print-only ---
 
@@ -17,4 +17,4 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
+Якщо тобі подобається досліджувати Скретч, спробуй [ці проєкти](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201)"}.

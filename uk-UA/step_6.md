@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's time to make your game work just the way that you want it to.
+Настав час випробувати свою гру.
 </div>
 <div>
 ![](images/play-customise.png){:width="300px"}
@@ -11,11 +11,11 @@ It's time to make your game work just the way that you want it to.
 
 --- task ---
 
-If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back.
+Якщо ти раніше відокремив/-ла блок `запитати`{:class="block3sensing"} на сцені, перетягни його на місце.
 
-**Test:** Click the green flag and set your rock star name!
+**Протестуй:** натисни на зелений прапорець та вкажи своє рок-зіркове імʼя!
 
-You should see the name displayed on the Stage changes.
+Імʼя на Сцені має змінитися.
 
 --- /task ---
 

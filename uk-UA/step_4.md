@@ -10,42 +10,42 @@
 
 --- task ---
 
-Drag the `when this sprite clicked`{:class="block3events"} script from the **Drum-cymbal** sprite to the **Drum-snare** sprite.
+Перетягни скрипт `коли спрайт натиснуто`{:class="block3events"} зі спрайта **Drum-cymbal** до спрайта **Drum-snare**.
 
 --- /task ---
 
 --- task ---
 
-Change the costume and the drum sound for the **Drum-snare** sprite.
+Зміни образ і звук у спрайті **Drum-snare**.
 
 ![](images/snare-icon.png)
 
 ```blocks3
 when this sprite clicked
-+switch costume to [drum-snare-b v] //hit costume
-+play drum [(1) Snare Drum v] for [0.25] beats //drum sound
-+switch costume to [drum-snare-a v] //not hit costume
++switch costume to [drum-snare-b v] // образ під час удару
++play drum [(1) Snare Drum v] for [0.25] beats // звук барабана
++switch costume to [drum-snare-a v] // образ без удару
 ```
 
 --- /task ---
 
 --- task ---
 
-Change the number of beats earned to `2`:
+Зміни кількість зароблених ударів на `2`:
 
 ```blocks3
 when this sprite clicked
-+change [beats v] by [2] //2 beats per click
-switch costume to [drum-snare-b v] //hit costume
-play drum [(1) Snare Drum v] for [0.25] beats //drum sound
-switch costume to [drum-snare-a v] //not hit costume
++change [beats v] by [2] // 2 удари за клік
+switch costume to [drum-snare-b v] // образ під час удару
+play drum [(1) Snare Drum v] for [0.25] beats // звук барабана
+switch costume to [drum-snare-a v] // образ без удару
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test:** Try out your project.
+**Протестуй:** випробуй свій проєкт.
 
 Ти маєш заробляти 2 удари щоразу, як натискаєш на малий барабан.
 
@@ -55,7 +55,7 @@ switch costume to [drum-snare-a v] //not hit costume
 
 --- task ---
 
-Add a script to the **Drum-snare** sprite to hide it at the start of the project:
+Додай скрипт до спрайта **Drum-snare**, щоб приховати його на початку проєкту:
 
 ```blocks3
 when flag clicked
@@ -64,11 +64,11 @@ hide
 
 --- /task ---
 
-Add a button to show which drum is the next and how many beats it will cost.
+Додай кнопку, щоб показати, який барабан наступний і скільки ударів він буде коштувати.
 
 --- task ---
 
-**Duplicate** the **Get** sprite:
+**Продублюй** спрайт **Отримати**:
 
 ![](images/duplicate-get.png)
 
@@ -76,19 +76,19 @@ Add a button to show which drum is the next and how many beats it will cost.
 
 --- task ---
 
-Change the visibility to **Show**. ![](images/show.png)
+Зміни видимість на **Показати**. ![](images/show.png)
 
 --- /task ---
 
 --- task ---
 
-Change its name to `Get snare`.
+Зміни його назву на `Отримати малий барабан`.
 
 --- /task ---
 
 --- task ---
 
-Position it in the bottom-right corner of the Stage:
+Розташуй його в нижньому правому куті сцени:
 
 ![](images/get-snare.png)
 
@@ -96,11 +96,11 @@ Position it in the bottom-right corner of the Stage:
 
 --- task ---
 
-Click on the **Drum-snare** sprite and go to the **Costumes** tab.
+Натисни на спрайт **Drum-snare** і перейди на вкладку **Образи**.
 
 ![](images/snare-icon.png)
 
-Use the **Select** (arrow) tool to highlight the 'not hit' costume of your drum. Click on the **Group** icon then the **Copy** icon:
+Використовуй інструмент **Обрати** (Стрілочка), щоб вибрати частину образу «без удару». Натисни іконку **Групувати**, а потім іконку **Копія**:
 
 ![](images/copy-costume.png)
 
@@ -108,7 +108,7 @@ Use the **Select** (arrow) tool to highlight the 'not hit' costume of your drum.
 
 --- task ---
 
-Click on your **Get snare** sprite and **Paste** the snare costume. You might need to resize and position it to fit your button:
+Натисни спрайт **Отримати малий барабан** і **Встав** образ малого барабана. Можливо, тобі знадобиться змінити його розмір і розташувати так, щоб він вмістився на кнопці:
 
 ![](images/paste-costume.png)
 
@@ -116,7 +116,7 @@ Click on your **Get snare** sprite and **Paste** the snare costume. You might ne
 
 --- task ---
 
-Click on the **Code** tab and add a script to show the **Get snare** sprite at the start of the project:
+Натисни вкладку **Код** і додай скрипт, щоб спрайт **Отримати малий барабан** було видно на початку проєкту:
 
 ![](images/get-snare-icon.png)
 
@@ -127,19 +127,19 @@ show
 
 --- /task ---
 
-The next drum can only be unlocked if the user has `10` or more beats.
+Наступний барабан можна купити, лише якщо користувач має `10` або більше ударів.
 
 --- task ---
 
-Add this code to unlock the next drum `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they do not have enough:
+Додай цей код, щоб відкрити наступний барабан, `якщо`{:class="block3control"} у гравця достатньо ударів, або `скажи`{:class="block3looks "} `Потрібно більше ударів!`, якщо ударів недостатньо:
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [9]> then //if 10 or more beats
+if <(удари)>  [9]> then // якщо 10 й більше ударів
 hide
-change [beats v] by [-10] //take away the cost of upgrade
+change [удари v] by [-10] // відніми вартість оновлення
 else
-say [More beats needed!] for [2] seconds 
+say [Потрібно більше ударів!] for [2] seconds 
 end
 ```
 
@@ -147,16 +147,16 @@ end
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+Додай блок `оповістити`{:class="block3events"}, щоб надіслати нове повідомлення `малий барабан`:
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [9]> then // if 10 or more beats
+if <(удари)>  [9]> then // якщо 10 й більше ударів
 hide
-change [beats v] by [-10] // take away the cost of upgrade
-+ broadcast (snare v) // your drum name
+change [удари v] by [-10] // відніми вартість оновлення
++ broadcast (малий барабан v) // назва твого барабана
 else
-say [More beats needed!] for [2] seconds
+say [Потрібно більше ударів!] for [2] seconds
 end
 ```
 
@@ -164,14 +164,14 @@ end
 
 --- task ---
 
-Click on the **Drum-snare** sprite.
+Натисни на спрайт **Drum-snare**.
 
 ![](images/snare-icon.png)
 
-Add this script:
+Додай цей скрипт:
 
 ```blocks3
-when I receive [snare v]
+when I receive [малий барабан v]
 show
 ```
 
@@ -179,7 +179,7 @@ show
 
 --- task ---
 
-**Test:** Run your project.
+**Протестуй:** запусти свій проєкт.
 
 You should not be able to unlock the next drum before you have enough beats.
 
@@ -212,7 +212,7 @@ switch backdrop to [Chalkboard v]
 
 --- task ---
 
-**Test:** Run your project.
+**Протестуй:** запусти свій проєкт.
 
 When you unlock the next drum: the snare should appear, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
 

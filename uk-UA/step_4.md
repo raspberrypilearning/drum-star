@@ -2,7 +2,7 @@
 
 --- task ---
 
-Add the **Drum-snare** sprite to your project and position it on the Stage:
+Додай спрайт **Drum-snare** до свого проєкту та розмісти його на сцені:
 
 ![](images/snare-stage.png)
 
@@ -47,11 +47,11 @@ switch costume to [drum-snare-a v] //not hit costume
 
 **Test:** Try out your project.
 
-You should you earn 2 beats when you click on the snare drum.
+Ти маєш заробляти 2 удари щоразу, як натискаєш на малий барабан.
 
 --- /task ---
 
-The next drum is not available when you start the project. It has to be earned with beats.
+Наступний барабан не буде доступним на початку проєкту. Його треба заробити за допомогою ударів.
 
 --- task ---
 

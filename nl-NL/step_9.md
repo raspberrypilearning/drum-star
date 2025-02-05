@@ -1,4 +1,4 @@
-## Wat nu?
+## What can you do now?
 
 
 Als je het [Meer Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pad volgt, kun je naar het [Volgende klant alsjeblieft!](https://projects.raspberrypi.org/en/projects/next-customer-please) project gaan, waar je een winkel gaat maken waar klanten voorwerpen kunnen kopen en uitchecken.

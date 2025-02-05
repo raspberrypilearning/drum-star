@@ -1,4 +1,4 @@
-## 次は何をしますか？
+## What can you do now?
 
 
 [もっとScratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)のパスをたどっている場合は、[次のお客様どうぞ！](https://projects.raspberrypi.org/en/projects/next-customer-please)のプロジェクトに進み、お客様が買い物をするお店を作ることができます。

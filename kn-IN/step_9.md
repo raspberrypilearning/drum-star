@@ -1,4 +1,4 @@
-## ಮುಂದೆ ಏನು?
+## What can you do now?
 
 
 ನೀವು [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) ಮಾರ್ಗವನ್ನು ಅನುಸರಿಸುತ್ತಿದ್ದರೆ, ನೀವು [Next customer please!](https://projects.raspberrypi.org/en/projects/next-customer-please) ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಹೋಗಬಹುದು. ಅದರಲ್ಲಿ ನೀವು ಗ್ರಾಹಕರು ಸಾಮಗ್ರಿಗಳನ್ನು ಖರೀದಿಸಿ ಹೊರಬರುವ ಅಂಗಡಿಯನ್ನು ಮಾಡುತ್ತೀರಿ.

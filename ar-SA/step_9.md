@@ -1,4 +1,4 @@
-## ماذا بعد؟
+## What can you do now?
 
 
 إذا كنت تتبع مسار [مشريع اخرى من Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) ، فيمكنك الانتقال إلى مشروع [الزبون التالي من فضلك!](https://projects.raspberrypi.org/en/projects/next-customer-please) ، حيث ستنشئ متجرًا حيث يمكن للزبائن شراء العناصر او المواد الغذائية وتسجيل المغادرة.

@@ -1,54 +1,54 @@
-## Quick quiz
+## Швидкий тест
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Дай відповідь на три запитання. Підказки допоможуть знайти правильну відповідь.
 
-When you have answered each question, click on **Check my answer**.
+Відповівши на кожне питання, натисни на **Перевірити мою відповідь**.
 
-Have fun!
+Успіхів!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Питання 1 з 3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+У цьому проєкті ти створюєш та використовуєш змінні. Які з цих значень можна зберегти у змінній?
 
-`6` , `Tom` , `151` , `Aadya`
+`6`, `Сергій`, `151`, `Леся`
 
 --- choices ---
 
-- ( ) Only the numbers `6` and `151`
+- ( ) Тільки числа `6` і `151`
 
  --- feedback ---
 
- You used the `beats`{:class="block3variables"} variable to store a number. But you also used a variable for something else.
+ Ти використовував/-ла змінну `удари`{:class="block3variables"}, щоб зберігати числа. Але ти також використовував/-ла змінну для дечого іншого.
 
  --- /feedback ---
 
-- ( ) Only the text (words) `Tom` and `Aadya`
+- ( ) Лише текст (слова) `Сергій` та `Леся`
 
  --- feedback ---
 
- You used the `name`{:class="block3variables"} variable to store text (words), for the `answer`{:class="block3sensing"} to the `ask`{:class="block3sensing"} question. But you also used a `variable`{:class="block3variables"} for something else.
+ Ти використовував/-ла змінну `імʼя`{:class="block3variables"} для зберігання тексту (слів), коли працював/-ла з блоками `запитати`{:class="block3sensing"} і `відповідь`{:class="block3sensing"}. Але ти також використовував/-ла `змінну`{:class="block3variables"} для дечого іншого.
 
  --- /feedback ---
 
-- (x) Any of the numbers or text (words)
+- (x) Будь-які числа або текст (слова)
 
  --- feedback ---
 
- Yes, you stored a number in the `beats`{:class="block3variables"} `variable`{:class="block3variables"} and you stored text (words) in the `name`{:class="block3variables"} `variable`{:class="block3variables"}.
+ Так, ти зберігав/-ла число в `змінній`{:class="block3variables"} `удари`{:class="block3variables"} і текст (слова) у `змінній`{:class="block3variables"} `імʼя`{:class="block3variables"}.
 
- A variable can store a number or text (words).
+ Змінна може зберігати число або текст (слова).
 
  --- /feedback ---
 
-- ( ) None of them
+- () Жодне зі значень
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+Ні. Подумай про змінні `удари`{:class="block3variables"} й `імʼя`{:class="block3variables"}, які ти використовував/-ла.
 
  --- /feedback ---
 

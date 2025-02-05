@@ -181,30 +181,30 @@ show
 
 **Протестуй:** запусти свій проєкт.
 
-You should not be able to unlock the next drum before you have enough beats.
+Ти маєш отримати можливість розблокувати наступний барабан, лише якщо маєш достатньо ударів.
 
 --- /task ---
 
-When you unlock new drums, you can play at bigger venues!
+Коли ти розблокуєш нові барабани, ти зможеш грати на більших майданчиках!
 
 --- task ---
 
-Add another backdrop. We chose **Chalkboard** to play our second gig at school.
+Додай ще одне тло. Ми вибрали **Chalkboard** («класна дошка»), щоб зіграти наш другий концерт у школі.
 
-**Tip:** Choose a venue that's a small step up from a bedroom. You want to save bigger venues for later!
+**Порада:** вибери місце, яке трохи краще від спальні. Найкращі майданчики прибережи на потім!
 
 --- /task ---
 
 --- task ---
 
-Click on the Stage.
+Натисни на Сцену.
 
 ![](images/stage-icon.png)
 
-Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+Додай код до Сцени, щоб `змінити тло`{:class="block3looks"}, коли вона отримує повідомлення про оновлення:
 
 ```blocks3
-when I receive [snare v]
+when I receive [малий барабан v]
 switch backdrop to [Chalkboard v]
 ```
 
@@ -214,7 +214,7 @@ switch backdrop to [Chalkboard v]
 
 **Протестуй:** запусти свій проєкт.
 
-When you unlock the next drum: the snare should appear, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
+Коли ти отримуєш новий барабан: зʼявляється малий барабан, кнопка зникає, майданчик змінюється, а сума `ударів`{:class="block3variables"} зменшується на `10`.
 
 --- /task ---
 

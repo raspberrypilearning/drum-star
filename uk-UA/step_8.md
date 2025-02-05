@@ -1,47 +1,47 @@
-## Challenge
+## Додаткове завдання
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Upgrade your project with more drums and more backdrops as you play more amazing venues. 
+Удоскональ свій проєкт, додавши більше барабанів і майданчиків. 
 </div>
 <div>
 ![](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more drums
+### Додай інші барабани
 
-To add another drum to unlock, look back at the earlier steps of the project.
+Щоб додати ще один барабан, який можна розблокувати, візьми за зразок попередні кроки проєкту.
 
-Here are some reminders if you need them.
+Якщо тобі потрібне нагадування, як це робити, читай далі.
 
 --- collapse ---
 
 ---
-title: For the drum
+title: Для барабана
 ---
 
 --- task ---
 
-Duplicate the previous **drum** sprite and add two costumes.
+Здублюй попередній спрайт **барабана** і додай два образи.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} and `sound`{:class="block3sound"} used in the `when this sprite clicked`{:class="block3events"} script.
+Зміни `образ`{:class="block3looks"} і `звук`{:class="block3sound"}, які будуть використовуватись у скрипті `коли спрайт натиснуто`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} earned in the `when this sprite clicked`{:class="block3events"} script.
+Зміни кількість зароблених `ударів`{:class="block3variables"} у скрипті `коли спрайт натиснуто`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the drum `show`{:class="block3looks"} to a message for the **new drum**.
+Зміни `повідомлення`{:class="block3events"}, яке `показує`{:class="block3looks"} барабан, на повідомлення для **нового барабана**.
 
 --- /task ---
 
@@ -50,30 +50,30 @@ Change the `message`{:class="block3events"} that makes the drum `show`{:class="b
 --- collapse ---
 
 ---
-title: For the 'Get' button
+title: Для кнопки «Отримати»
 ---
 
 --- task ---
 
-Duplicate the previous **Get** sprite.
+Здублюй попередній спрайт **«Отримати»**.
 
 --- /task ---
 
 --- task ---
 
-Change the `message`{:class="block3events"} that makes the button appear to the `message`{:class="block3events"} `broadcast`{:class="block3events"} by the **previous drum**.
+Зміни `повідомлення`{:class="block3events"}, через яке з’являється кнопка, на `повідомлення`{:class="block3events"} **попереднього барабана**.
 
 --- /task ---
 
 --- task ---
 
-Change the `costume`{:class="block3looks"} including the cost of the new drum.
+Зміни `образ`{:class="block3looks"} і вартість нового барабана.
 
 --- /task ---
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that is `broadcast`{:class="block3events"} to the name of the **new drum**.
+Зміни кількість `ударів`{:class="block3variables"} для отримання цього барабана в умові `якщо`{:class="block3events"}. Зміни від’ємну кількість `ударів`{:class="block3variables"} в блоці `змінити на`{:class="block3variables"}. Зміни число, від якого потрібно відняти значення змінної `удари`{:class="block3variables"} у блоці `зʼєднати`{:class="block3operators"}. Зміни повідомлення в `оповіщенні`{:class="block3events"} на назву **нового барабана**.
 
 --- /task ---
 
@@ -82,117 +82,117 @@ Change the number of `beats`{:class="block3variables"} you must have to unlock t
 --- collapse ---
 
 ---
-title: For the venue
+title: Для майданчика
 ---
 
 --- task ---
 
-Add a new backdrop.
+Додай нове тло.
 
 --- /task ---
 
 --- task ---
 
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is received.
+Додай до Сцени скрипт `змінити тло на`{:class="block3looks"} нове тло, коли отримано `повідомлення`{:class="block3events "} для цього барабана.
 
 --- /task ---
 
-You might find that your drums need to be in a new position on a different backdrop.
+Може статися так, що на іншому тлі тобі потрібно буде по-новому розташувати свої барабани.
 
 --- task ---
 
-Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
+Додай до кожного спрайта **барабанів** скрипт, який починається з `коли тло змінюється на`{:class="block3events"}, а також блок `перейти до`{:class="block3motion"}, щоб вони змінили розташування.
 
-You will also need to set their starting position `when flag clicked`{:class="block3events"}.
+Тобі також потрібно буде встановити їх початкову позицію `коли зелений прапорець натиснуто`{:class="block3events"}.
 
 --- /task ---
 
 --- /collapse ---
 
-### Improve feedback to the player
+### Покращ зворотний зв'язок із гравцем
 
-Tell the player exactly **how many more** beats are needed to unlock the next drum.
+Повідом гравцю, **скільки** точно ударів йому потрібно, щоб розблокувати наступний барабан.
 
 --- task ---
 
-Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
+Додай цей код, щоб `зʼєднати`{:class="block3operators"} необхідну кількості ударів із текстом, за допомогою якого ти повідомляєш гравцеві, що йому потрібно більше ударів, якщо він ще не здобув достатньо для наступного барабана:
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [9]> then //if 10 or more beats
+if <(удари)>  [9]> then // якщо 10 чи більше ударів
 hide
-change [beats v] by [-10] //take away the cost of upgrade
+change [удари v] by [-10] // відняти вартість нового барабана
 else
-+ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
++ say (join ((10) - (удари)) [ударів потрібно!]) for [2] seconds
 end
 ```
 
-**Note**: Update the numbers to match those needed to unlock each drum.
+**Примітка**: зміни числа на ті, що потрібні для розблокування кожного барабана.
 
 --- /task ---
 
-### Tidy your code
+### Упорядкуй свій код
 
 --- task ---
 
-**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
+**Наведи лад:** якщо у тебе є час, переконайся, що спрайти в списку спрайтів розташовані у зрозумілому порядку: спочатку барабани у порядку розблокування, а потім кнопки по черзі.
 
 --- /task ---
 
 --- task ---
 
-### Stuck?
+### Щось не виходить?
 
-**Debug:** First make sure you really understand when the drums and buttons should show and how the `beats`{:class="block3variables"} variable should change. It's much easier to debug a project if you are clear on what it is supposed to do.
+**Налагодження:** спочатку переконайся, що ти чітко розумієш, коли мають показуватися барабани та кнопки та як має змінюватися змінна `удари`{:class="block3variables"}. Набагато легше налагодити проєкт, якщо ти чітко розумієш, що він має робити.
 
 --- collapse ---
 ---
-title: My drum doesn't show/hide correctly
+title: Мій барабан неправильно показується чи ховається
 ---
 
-Unless it is the first drum, your drum should have a `when flag clicked`{:class="block3events"} script to `hide`{:class="block3looks"}.
+Якщо це не перший барабан, то він має мати скрипт `коли зелений прапорець натиснуто`{:class="block3events"}, щоб `ховатися`{:class= "block3looks"}.
 
-It should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
+Він повинен мати скрипт `коли я отримую`{:class="block3events"} `цей барабан`, щоб `показатися`{:class="block3looks"}.
 
-Check that the **Get** button for this drum `broadcasts`{:class="block3events"} the same message.
+Переконайся, що кнопка **Отримати** для цього барабана `оповіщує`{:class="block3events"} за допомогою того ж самого повідомлення.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Get button doesn't show/hide correctly
+title: Моя кнопка «Отримати» неправильно показується чи ховається
 ---
 
-Unless the button is for the very first drum, then it should `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+Усі кнопки (крім кнопки для першого барабана) повинні `ховатися`{:class="block3looks"}, `коли зелений прапорець натиснуто`{:class=" block3events"}.
 
-It should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**.
+Вона має `показуватися`{:class="block3looks"}, `коли я отримую`{:class="block3events"} повідомлення для **попереднього барабана**.
 
-The **Get** button should `show`{:class="block3looks"} to let the player know about the next drum they can unlock.
+Кнопка **«Отримати»** має `показуватися`{:class="block3looks"}, щоб гравець знав, який барабан він може розблокувати наступним.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I can unlock a drum when I don't have enough beats
+title: Я можу розблокувати барабан, навіть коли мені не вистачає ударів
 ---
 
-Check that you have changed the number of `beats`{:class="block3variables"} needed `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Переконайся, що ти змінив/-ла кількість `ударів`{:class="block3variables"}, необхідних, `коли цей спрайт натиснуто`{:class="block3events"}, у скрипті для кнопки **«Отримати»** цього барабана.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The number of beats doesn't change correctly when I unlock a new drum
+title: Коли я розблоковую новий барабан, кількість ударів не змінюється належним чином
 ---
 
-Check that you have `changed beats by`{:class="block3variables"} a negative number `when this sprite clicked`{:class="block3events"} in the script for the **Get** button for the drum.
+Переконайся, що ти `змінив/-ла удари на`{:class="block3variables"} від’ємне число, `коли цей спрайт натиснуто`{:class="block3events"}, у скрипті для кнопки **«Отримати»** цього барабана.
 
-Make sure this matches the number on the drum button costume.
+Переконайся, що це число збігається з числом на образі кнопки барабана.
 
 --- /collapse ---
 
 --- /task ---
 
-**Tip:** If you get really muddled then it's fine to delete the new drum and its button, and start again. Sometimes it is hard to spot a bug.
+**Порада:** якщо ти не можеш розібратися, можна видалити новий барабан з кнопкою і почати знову. Іноді помітити помилку буває важко.
 
 --- save ---

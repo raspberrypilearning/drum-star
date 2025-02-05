@@ -1,4 +1,4 @@
-## Що далі?
+## What can you do now?
 
 
 Якщо ти йдеш напрямом [Більше Скретчу](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), можеш переходити до наступного проєкту — [«Наступний покупець!»](https://projects.raspberrypi.org/en/projects/next-customer-please). У ньому ти створиш магазин, де покупці можуть купувати товари.

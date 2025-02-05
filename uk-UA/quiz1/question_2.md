@@ -2,53 +2,53 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Питання 2 з 3
 ---
 
-A project has this script to `ask`{:class="block3sensing"} the user for their name:
+У проєкті є цей скрипт, який `запитує`{:class="block3sensing"} користувача, як його звуть:
 
 ```blocks3
 when flag clicked
-set [name v] to [???] 
-ask [What's your name?] and wait 
-set [name v] to (answer)
+set [імʼя v] to [???] 
+ask [Як тебе звуть?] and wait 
+set [імʼя v] to (answer)
 ```
 
 ![](images/q1-chatbot.png)
 
-What will be the value of the `name`{:class="block3variables"} variable after the player clicks on the tick (checkmark) and the script finishes?
+Яким буде значення змінної `ім'я`{:class="block3variables"} після того, як гравець натисне галочку і скрипт завершиться?
 
 --- choices ---
 
-- ( )  name
+- () ім'я
 
   --- feedback ---
 
-No, `name`{:class="block3variables"} is what the variable is called.
+Ні, `ім’я`{:class="block3variables"} – це назва змінної.
 
   --- /feedback ---
 
-- ( ) ???
+- () ???
 
   --- feedback ---
 
-No, `???` is the value of the `name`{:class="block3variables"} variable before the `ask`{:class="block3sensing"} block runs.
+Ні, `???` — це значення змінної `ім'я`{:class="block3variables"} до того, як виконається блок `запитати`{:class="block3sensing"}.
 
   --- /feedback ---
 
-- ( ) answer
+- () відповідь
 
   --- feedback ---
 
-No, `answer`{:class="block3sensing"} is the built-in variable that Scratch uses to store the answer that a user types when you `ask`{:class="block3sensing"} a question. --- /feedback ---
+Ні, `відповідь`{:class="block3sensing"} – це вбудована змінна, яку Скретч використовує для зберігання відповіді, що її вводить користувач, коли його щось `запитують`{:class=" block3sensing"}. --- /feedback ---
 
-- (x) Bobo
+- (x) Бобо
 
   --- feedback ---
 
-Yes, the `set [name v] to`{:class="block3variables"} block set the **value** of the `name`{:class="block3variables"} variable to the value of `answer`{:class="block3sensing"} which is the text the user entered.
+Так, блок `надати [ім'я v] значення`{:class="block3variables"} надає змінній `ім'я`{:class=" block3variables"} **значення** змінної `відповідь`{:class="block3sensing"}, введене користувачем.
 
-The value `Bobo` will also be shown on the Stage.
+Значення `Бобо` також буде показано на сцені.
 
   --- /feedback ---
 

@@ -8,7 +8,7 @@
 <div style="flex-basis: 175px; flex-grow: 1">  
 Натисни на барабан і дивись, як збільшується кількість `ударів`{:class="block3variables"}. Отримай новий барабан, коли ти назбираєш достатньо ударів. 
 
-Скільки `ударів`{:class="block3variables"} ти заробляєте, клацаючи по новому барабану?
+Скільки `ударів`{:class="block3variables"} ти заробляєш, клацаючи по новому барабану?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>

@@ -184,7 +184,7 @@ switch backdrop to (Party v)
 
 **Test:** Click the green flag to start the game.
 
-You should get unlock your new drum if you earn enough beats.
+You should unlock your new drum if you earn enough beats.
 
 What happens if you click the button before you have earned enough beats?
 

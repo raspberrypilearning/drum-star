@@ -1,4 +1,4 @@
-## ¿Qué sigue?
+## What can you do now?
 
 
 Si está siguiendo la ruta [Más Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), puedes pasar al proyecto [¡Próximo cliente por favor!](https://projects.raspberrypi.org/en/projects/next-customer-please), donde crearás una tienda en donde los clientes pueden comprar artículos y pagar.

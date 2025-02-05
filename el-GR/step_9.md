@@ -1,4 +1,4 @@
-## Και τώρα;
+## What can you do now?
 
 
 Εάν ακολουθείς το μονοπάτι [Περισσότερη Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), μπορείς να προχωρήσεις στο έργο [Επόμενος πελάτης παρακαλώ!](https://projects.raspberrypi.org/en/projects/next-customer-please), όπου θα φτιάξεις ένα κατάστημα όπου οι πελάτες θα μπορούν να αγοράζουν αντικείμενα και να τα πληρώνουν.

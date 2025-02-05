@@ -1,4 +1,4 @@
-## Beth nesaf?
+## What can you do now?
 
 
 Os ydych yn dilyn llwybr [Mwy o Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), galli di symud ymlaen i'r prosiect [Cwsmer nesaf plîs!](https://projects.raspberrypi.org/en/projects/next-customer-please), lle byddi di'n creu siop lle gall cwsmeriaid brynu eitemau a thalu amdanyn nhw.

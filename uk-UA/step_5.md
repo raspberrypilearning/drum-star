@@ -1,17 +1,17 @@
-## More drums!
+## Більше барабанів!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will choose which drum to add.
+На цьому кроці ти вибереш, який барабан додати.
 </div>
 <div>
-![The Stage showing party backdrop with 3 drums.](images/second-upgrade.png){:width="300px"}
+![Сцена зі святковим тлом і трьома барабанами.](images/second-upgrade.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Drum-snare** sprite:
+Скопіюй спрайт **Drum-snare**:
 
 ![](images/duplicate-snare-drum.png)
 
@@ -19,26 +19,26 @@ Duplicate the **Drum-snare** sprite:
 
 --- task ---
 
-Click on the **Drum Costumes** sprite and select the **Costumes** tab.
+Натисни на спрайт **Образи барабанів** і вибери вкладку **Образи**.
 
-**Choose:** which drum to unlock next. We chose **Conga**.
+**Вибери**, який барабан гравець розблокує наступним. Ми вибрали **Конга**.
 
-
---- /task ---
-
---- task ---
-
-Drag the 'hit' and 'not hit' costumes of your chosen drum to your new **Drum-snare2** sprite:
-
-![Animated image showing how to drag costumes from one sprite to another.](images/drag-costumes.gif)
-
-![The paint editor of the new sprite with two additional costumes in the costumes list.](images/drum-3-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Name the new drum to match the costumes you chose.
+Перетягни образи «під час удару» і «без удару» вибраного барабана до нового спрайту **Drum-snare2**:
+
+![Анімоване зображення, на якому показано, як перетягувати образи з одного спрайта в інший.](images/drag-costumes.gif)
+
+![Редактор малювання нового спрайта із двома додатковими образами в списку образів.](images/drum-3-costumes.png)
+
+--- /task ---
+
+--- task ---
+
+Назви свій барабан відповідно до вибраних образів.
 
 ![](images/drum-3-named.png)
 
@@ -46,67 +46,67 @@ Name the new drum to match the costumes you chose.
 
 --- task ---
 
-Click on the **Code** tab. Change the code to use the correct costumes and choose a sound for your new drum.
+Натисни вкладку **Код**. Зміни образи в коді на нові та вибери звук для нового барабана.
 
-Change the number of beats you earn by clicking the new drum to `5`:
+Зміни кількість ударів, що заробляє новий барабан, на `5`:
 
 ![](images/drum-3-icon.png)
 
 ```blocks3
 when this sprite clicked
-+change [beats v] by [5] //5 beats per click
-+switch costume to [ v] //your hit costume
-+play drum [ v] for [0.25] beats //your drum sound
-+switch costume to [ v] //your not hit costume
++change [удари v] by [5] // 5 ударів за клік
++switch costume to [ v] // образ під час удару
++play drum [ v] for [0.25] beats // звук барабана
++switch costume to [ v] // образ без удару
 ```
 
 --- /task ---
 
 --- task ---
 
-Drag your new drum into position on the Stage:
+Перетягни новий барабан у потрібне положення на Сцені:
 
-![New drum to the right of the other drums.](images/drum-3-positioned.png)
-
---- /task ---
-
-Add a button so that players can unlock the new drum.
-
---- task ---
-
-Duplicate the **Get snare** sprite and position it in the bottom-right corner of the Stage.
+![Новий барабан праворуч від інших барабанів.](images/drum-3-positioned.png)
 
 --- /task ---
 
+Додай кнопку, щоб гравці могли розблокувати новий барабан.
+
 --- task ---
 
-Change its name (for example `Get conga`):
-
-![The Sprite list with duplicated 'Get snare' sprite. The sprite name has been changed to match the new drum type and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+Здублюй спрайт **Отримати малий барабан** і розмісти його в правому нижньому куті Сцени.
 
 --- /task ---
 
 --- task ---
 
-Delete the **snare drum** from the new 'Get' button costume.
+Зміни його назву (наприклад, `Отримати конґу`):
+
+![Список спрайтів із дубльованим спрайтом «Отримати малий барабан». Назва спрайту змінена відповідно до нового типу барабана та розташована в правому нижньому куті сцени.](images/get-drum-3.png)
 
 --- /task ---
 
 --- task ---
 
-Copy the 'not hit' costume for your new drum and paste it to the new 'Get' button costume.
+Видали **малий барабан** з нового образу кнопки «Отримати».
 
 --- /task ---
 
 --- task ---
 
-Click on the **Text** tool and change the number to `30` to show the cost of the new drum.
-
-![The paint editor showing the new button costume with chosen drum image and text updated to 30.](images/get-drum-copy.png)
+Скопіюй костюм «без удару» для нового барабана та встав його в новий образ кнопки «Отримати».
 
 --- /task ---
 
-Your new 'Get' button should `hide`{:class="block3looks"} at the start.
+--- task ---
+
+Натисни інструмент **Текст** і зміни число на `30`. Це вартість нового барабана.
+
+![Редактор малювання, у якому видно новий образ кнопки з вибраним зображенням барабана та новим текстом «30».](images/get-drum-copy.png)
+
+--- /task ---
+
+Твоя нова кнопка «Отримати» має `сховатися`{:class="block3looks"} на початку.
 
 --- task ---
 
@@ -121,30 +121,30 @@ when flag clicked
 
 --- task ---
 
-Add a `when I receive`{:class="block3events"} script that your new 'Get' button will `show`{:class="block3looks"} when the player unlocks the snare drum.
+Додай скрипт `коли я отримую`{:class="block3events"}, щоб твоя нова кнопка «Отримати» `показувалась`{:class="block3looks"}, коли гравець розблокує малий барабан.
 
 ```blocks3
-when I receive [snare v] // appear when previous drum is unlocked
-show // show button to get the new drum
+when I receive [малий барабан v] // зʼявляється, коли розблоковано попередній барабан
+show // показати кнопку для отримання нового барабана
 ```
 
 --- /task ---
 
 --- task ---
 
-Change:
-- The number of beats needed to unlock this drum
-- The number of beats that are removed when the player unlocks this drum.
-- The message that is `broadcast`{:class="block3events"} when the player gets the new drum.
+Зміни:
+- Кількість ударів, необхідних для розблокування цього барабана.
+- Кількість ударів, які віднімаються від загальної кількості, коли гравець розблоковує цей барабан.
+- Повідомлення в `оповіщенні`{:class="block3events"}, коли гравець отримує новий барабан.
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [29]> then // change to 29
+if <(удари)>  [29]> then // зміни на 29
 hide
-change [beats v] by [-30] // change to -30
-broadcast (conga v) // change to your drum name
+change [удари v] by [-30] // зміни на -30
+broadcast (конґа v) // зміни на назву свого барабана
 else
-say [More beats needed!] for [2] seconds 
+say [Потрібно більше ударів!] for [2] seconds 
 end
 ```
 
@@ -152,10 +152,10 @@ end
 
 --- task ---
 
-Click your new drum sprite and change the `when I receive snare`{:class="block3events"} script to show it when your new drum is unlocked:
+Клацни новий спрайт барабана та зміни скрипт `коли я отримую малий барабан`{:class="block3events"}, щоб він зʼявлявся, коли новий барабан розблоковано:
 
 ```blocks3
-when I receive [conga v] // change to your drum name
+when I receive [конґа v] // зміни на назву свого барабана
 show
 ```
 
@@ -163,18 +163,18 @@ show
 
 --- task ---
 
-Add the **Party** backdrop.
+Додай тло **«Вечірка»** (Party).
 
 --- /task ---
 
 --- task ---
 
-Add a script to the Stage to switch the backdrop when the player upgrades to the new drum:
+Додай до Сцени скрипт, який перемикатиме тло, коли гравець переходить на новий барабан:
 
 ![](images/stage-icon.png)
 
 ```blocks3
-when I receive [conga v] // change to your drum name
+when I receive [конґа v] // зміни на назву свого барабана
 switch backdrop to (Party v)
 ```
 
@@ -182,11 +182,11 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test:** Click the green flag to start the game.
+**Протестуй:** для початку гри натисни на зелений прапорець.
 
-You should get unlock your new drum if you earn enough beats.
+You should unlock your new drum if you earn enough beats.
 
-What happens if you click the button before you have earned enough beats?
+Що станеться, якщо ти натиснеш кнопку до того, як заробиш достатньо ударів?
 
 --- /task ---
 

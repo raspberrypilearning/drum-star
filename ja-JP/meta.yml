@@ -2,6 +2,7 @@
 title: ドラムスター
 hero_image: images/banner.png
 description: ビートを稼いで、大きな会場で新しいドラムを演奏するクリッカーゲームを作りましょう。
+pdf: resources/rpfi-drum-stars.pdf
 meta_title: 子供と十代の若者向けのScratch コーディング プロジェクト |ドラムスター
 meta_description: Raspberry Pi Foundation の子供と青少年向けのコーディング プロジェクトで Scratch を学びましょう。より大きな会場で新しいドラムを演奏するためのビートを獲得するスクラッチ ゲームを作成します。
 version: 4
@@ -37,5 +38,3 @@ steps:
   - 
     title: Challenge
     challenge: true
-  - 
-    title: What can you do now?

@@ -2,6 +2,7 @@
 title: Estrela do tambor
 hero_image: images/banner.png
 description: Neste projeto, você fará um jogo clicker onde ganhará batidas para tocar bateria nova em locais maiores
+pdf: resources/rpfi-drum-stars.pdf
 meta_title: Projetos de codificação Scratch para crianças e adolescentes | Estrela do tambor
 meta_description: Aprenda Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Faça um jogo Scratch onde você ganha batidas para tocar novas baterias em locais maiores.
 version: 4
@@ -37,5 +38,3 @@ steps:
   - 
     title: Challenge
     challenge: true
-  - 
-    title: What can you do now?

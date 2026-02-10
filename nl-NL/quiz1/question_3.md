@@ -14,11 +14,11 @@ hide
 change [beats v] by [-30] 
 broadcast (conga v) 
 else
-say [Niet genoeg beats!] for [2] seconds 
+say [Not enough beats!] for [2] seconds 
 end
 ```
 
-Wat gebeurt er als de waarde van de `beats`{:class="block3variables"} variabele `29` is?
+Wat gebeurt er als de waarde van de `slagen`{:class="block3variables"} variabele `29` is?
 
 --- choices ---
 

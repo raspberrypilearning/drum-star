@@ -1,16 +1,10 @@
-## Αναστοχασμός
+## Quick quiz
 
-Μπράβο, έφτιαξες ένα παιχνίδι με κλικ το οποίο θέλει να παίξει ο κόσμος!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Έχεις χρησιμοποιήσει τα μπλοκ `Συμβάντα`{:class="block3events"}, `Έλεγχος`{:class="block3control"}, `Αισθητήρες`{:class="block3sensing"}, `Τελεστές`{:class="block3operators"}, `Κίνηση`{:class="block3motion"}, `Όψεις`{:class="block3looks"} και `Ήχος`{:class="block3sound"}!
+When you have answered each question, click on **Check my answer**.
 
-Τώρα είναι ώρα να αναστοχαστείς. Τώρα ήρθε η ώρα να εξετάσεις τις νέες γνώσεις — ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
-
-Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
-
-Μετά από κάθε ερώτηση, πάτησε Υποβολή. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
-
-Καλή διασκέδαση!
+Have fun!
 
 --- question ---
 
@@ -18,7 +12,7 @@
 legend: Ερώτηση 1 από 3
 ---
 
-Στο έργο σου, δημιούργησες και χρησιμοποίησες μεταβλητές. Ποια από αυτές τις τιμές μπορεί να αποθηκευτεί σε μια μεταβλητή;
+In your project, you created and used variables. Which of these values can be stored in a variable?
 
 `6` , `Tom` , `151` , `Aadya`
 
@@ -45,7 +39,7 @@ legend: Ερώτηση 1 από 3
  --- feedback ---
 
  Ναι, αποθήκευσες έναν αριθμό στη `μεταβλητή`{:class="block3variables"}
-`χτυπήματα`{:class="block3variables"}  και αποθήκευσες κείμενο (λέξεις) στη `μεταβλητή`{:class="block3variables"} `όνομα`{:class="block3variables"}.
+`χτυπήματα`{:class="block3variables"}  και αποθήκευσες κείμενο (λέξεις) στη `μεταβλητή`{:class="block3variables"}  `όνομα`{:class="block3variables"}.
 
  Μια μεταβλητή μπορεί να αποθηκεύσει έναν αριθμό ή ένα κείμενο (λέξεις).
 
@@ -55,7 +49,7 @@ legend: Ερώτηση 1 από 3
 
  --- feedback ---
 
-Όχι. Σκέψου τις μεταβλητές `χτυπήματα`{:class="block3variables"} και `όνομα`{:class="block3variables"} που χρησιμοποίησες.
+No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
 
  --- /feedback ---
 

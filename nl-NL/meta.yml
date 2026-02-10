@@ -2,24 +2,39 @@
 title: Drum ster
 hero_image: images/banner.png
 description: Maak een clicker spel waar je beats verdient om nieuwe drums en grotere locaties te spelen
+pdf: resources/rpfi-drum-stars.pdf
+meta_title: Scratch coding projects for kids and teens | Drum star
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game where you earn beats to play new drums at bigger venues.
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-04-28'
+last_tested: "2021-04-28"
 steps:
-  - title: Inleiding
-  - title: Stel het speelveld in
-  - title: Starttrommel
-    completion: engaged
-  - title: Eerste upgrade
-  - title: Tweede upgrade
-  - title: Speel en pas aan
-    completion: internal
-  - title: Reflectie
-    completion: external
+  - 
+    title: What you will make
+  - 
+    title: Stel het speelveld in
+  - 
+    title: Starttrommel
+    completion:
+      - engaged
+  - 
+    title: Next drum
+  - 
+    title: More drums!
+  - 
+    title: Play
+    completion:
+      - internal
+  - 
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-  - title: Verbeter je project
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true

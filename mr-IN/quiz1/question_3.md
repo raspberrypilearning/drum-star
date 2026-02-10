@@ -38,7 +38,7 @@ end
 
   --- /feedback ---
 
-- ( ) `beats`{:class="block3variables"} व्हेरिएबलच्या व्हॅल्यूमधून 30 काढून घेतले जाईल
+- `beats`{:class="block3variables"} व्हेरिएबलच्या व्हॅल्यूमधून ( ) 30 काढून घेतले जाईल
 
   --- feedback ---
 

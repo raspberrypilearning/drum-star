@@ -38,7 +38,7 @@ end
 
   --- /feedback ---
 
-- ( ) `beats`{:class="block3variables"} वेरिएबल के मान से 30 हटा दिया जाएगा
+- `beats`{:class="block3variables"} वेरिएबल के मान से ( ) 30 हटा दिया जाएगा
 
   --- feedback ---
 

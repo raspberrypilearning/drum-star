@@ -9,9 +9,9 @@ legend: Ερώτηση 2 από 3
 
 ```blocks3
 when flag clicked
-set [όνομα v] to [???] 
-ask [Πώς σε λένε?] and wait 
-set [όνομα v] to (answer)
+set [name v] to [???] 
+ask [What's your name?] and wait 
+set [name v] to (answer)
 ```
 
 ![](images/q1-chatbot.png)
@@ -24,7 +24,7 @@ set [όνομα v] to (answer)
 
   --- feedback ---
 
-Όχι, `όνομα`{:class="block3variables"} ονομάζεται η μεταβλητή.
+Όχι, `name`{:class="block3variables"} ονομάζεται η μεταβλητή.
 
   --- /feedback ---
 
@@ -40,14 +40,13 @@ set [όνομα v] to (answer)
 
   --- feedback ---
 
-Όχι, `απάντηση`{:class="block3sensing"} είναι η ενσωματωμένη μεταβλητή που χρησιμοποιεί η Scratch για να αποθηκεύσει την απάντηση που πληκτρολογεί ένας χρήστης όταν `ρωτάς`{:class="block3sensing"} μια ερώτηση.
---- /feedback ---
+Όχι, `απάντηση`{:class="block3sensing"} είναι η ενσωματωμένη μεταβλητή που χρησιμοποιεί η Scratch για να αποθηκεύσει την απάντηση που πληκτρολογεί ένας χρήστης όταν `ρωτάς`{:class="block3sensing"} μια ερώτηση. --- /feedback ---
 
 - (x) Μπόμπο
 
   --- feedback ---
 
-Ναι, το μπλοκ`όρισε [όνομα v] σε`{:class="block3variables"} ορίζει την **τιμή** της μεταβλητής `όνομα`{:class="block3variables"} στην τιμή `απάντηση`{:class="block3sensing"} που είναι το κείμενο που εισήγαγε ο χρήστης.
+Ναι, το μπλοκ`όρισε [name v] σε`{:class="block3variables"} ορίζει την **τιμή** της μεταβλητής `όνομα`{:class="block3variables"} στην τιμή `απάντηση`{:class= "block3sensing"} που είναι το κείμενο που εισήγαγε ο χρήστης.
 
 Η τιμή `Μπόμπο` θα εμφανίζεται επίσης στη Σκηνή.
 

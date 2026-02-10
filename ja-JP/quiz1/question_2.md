@@ -9,9 +9,9 @@
 
 ```blocks3
 when flag clicked
-set [名前 v] to [???] 
-ask [あなたのお名前は？] and wait 
-set [名前 v] to (answer)
+set [name v] to [???] 
+ask [What's your name?] and wait 
+set [name v] to (answer)
 ```
 
 ![](images/q1-chatbot.png)
@@ -40,8 +40,7 @@ set [名前 v] to (answer)
 
   --- feedback ---
 
-いいえ、`答え`{:class="block3sensing"} は、`...と聞いて待つ`{:class="block3sensing"}の質問に対してプレーヤーが入力した答えを保存するためにScratchが使用する組み込み変数です。
---- /feedback ---
+いいえ、`答え`{:class="block3sensing"} は、`...と聞いて待つ`{:class="block3sensing"}の質問に対してプレーヤーが入力した答えを保存するためにScratchが使用する組み込み変数です。 --- /feedback ---
 
 - (x) ボボ
 

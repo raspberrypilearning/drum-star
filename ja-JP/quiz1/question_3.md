@@ -9,12 +9,12 @@
 
 ```blocks3
 when this sprite clicked
-if <(ビート数)>  [29]> then 
+if <(beats)>  [29]> then 
 hide
-change [ビート数 v] by [-30] 
-broadcast (コンガ v) 
+change [beats v] by [-30] 
+broadcast (conga v) 
 else
-say [ビート数がたりないよ！] for [2] seconds 
+say [Not enough beats!] for [2] seconds 
 end
 ```
 

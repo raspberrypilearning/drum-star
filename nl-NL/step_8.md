@@ -1,4 +1,4 @@
-## Verbeter je project
+## Challenge
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -9,11 +9,17 @@ Upgrade je project met meer drums en meer achtergronden terwijl je op meer verba
 </div>
 </div>
 
-Er zijn veel meer drum uiterlijken om uit te kiezen om meer upgrades aan je project toe te voegen.
+### Add more drums
 
-Als je nog een drum wilt toevoegen om naar te upgraden, kijk dan terug naar de eerdere stappen van het project.
+To add another drum to unlock, look back at the earlier steps of the project.
 
-Voor de **drum** moet je:
+Here are some reminders if you need them.
+
+--- collapse ---
+
+---
+title: For the drum
+---
 
 --- task ---
 
@@ -29,7 +35,7 @@ Wijzig het `uiterlijk`{:class="block3looks"} en `geluid`{:class="block3sound"} d
 
 --- task ---
 
-Wijzig het aantal `beats`{:class="block3variables"} dat wordt verdiend in het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script.
+Wijzig het aantal `slagen`{:class="block3variables"} dat wordt verdiend in het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script.
 
 --- /task ---
 
@@ -39,7 +45,13 @@ Verander het `bericht`{:class="block3events"} dat de drum laat `verschijnen`{:cl
 
 --- /task ---
 
-Voor de **knop** moet je:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the 'Get' button
+---
 
 --- task ---
 
@@ -61,11 +73,17 @@ Verander het `uiterlijk`{:class="block3looks"} inclusief de kosten voor de nieuw
 
 --- task ---
 
-Verander het aantal `beats`{:class="block3variables"} dat je moet hebben om deze drum te krijgen in de `als`{:class="block3events"} conditie. Verander het negatieve aantal `beats`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum krijgt. Wijzig het bericht dat het `zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
+Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that is `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
-Voor de **locatie** moet je:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the venue
+---
 
 --- task ---
 
@@ -75,7 +93,7 @@ Voeg een nieuwe achtergrond toe.
 
 --- task ---
 
-Voeg een script toe aan het speelveld om `achtergrond te veranderen in`{:class="block3looks"} de nieuwe achtergrond wanneer het `bericht`{:class="block3events"} voor deze drum wordt ontvangen.
+Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is received.
 
 --- /task ---
 
@@ -83,31 +101,60 @@ Het kan zijn dat je vindt dat je drums in een nieuwe positie moeten staan op een
 
 --- task ---
 
-Voeg een script toe dat begint met `wanneer de achtergrond verandert in`{:class="block3events"} aan elke **drum** sprite met een `ga naar`{:class="block3motion"} blok om de positie te veranderen.
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 Je moet ook de beginpositie instellen `wanneer op de vlag wordt geklikt`{:class="block3events"}.
 
 --- /task ---
 
+--- /collapse ---
+
+### Improve feedback to the player
+
+Tell the player exactly **how many more** beats are needed to unlock the next drum.
+
 --- task ---
 
-**Opruimen:** als je tijd hebt, dan is het een goed idee om ervoor te zorgen dat de sprites in de sprite-lijst in een logische volgorde staan, te beginnen met de drums in de volgorde waarmee ze upgraden en vervolgens de knoppen in de juiste volgorde.
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+**Note**: Update the numbers to match those needed to unlock each drum.
+
+--- /task ---
+
+### Tidy your code
+
+--- task ---
+
+**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** Zorg er eerst voor dat je echt begrijpt wanneer de drums en knoppen getoond moeten worden en hoe de `beats`{:class="block3variables"} variabele moet veranderen. Het is veel gemakkelijker om een project te debuggen als je weet wat het moet doen.
+### Stuck?
+
+**Debug:** Zorg er eerst voor dat je echt begrijpt wanneer de drums en knoppen getoond moeten worden en hoe de `slagen`{:class="block3variables"} variabele moet veranderen. Het is veel gemakkelijker om een project te debuggen als je weet wat het moet doen.
 
 --- collapse ---
 ---
 title: Mijn drum wordt niet correct weergegeven/verborgen
 ---
 
-Tenzij het de eerste drum is, zou je drum een `wanneer op de vlag wordt geklikt`{:class="block3events"} script moeten hebben om `te verbergen`{:class="block3looks"}. En het zou een `wanneer ik signaal`{:class="block3events"} `deze drum` ontvang script moeten hebben om `te tonen`{:class="block3looks"}.
+Tenzij het de eerste drum is, zou je drum een `wanneer op de vlag wordt geklikt`{:class="block3events"} script moeten hebben om `te verbergen`{:class="block3looks"}.
+
+It should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
 
 Controleer of de **Get** knop voor deze drum `hetzelfde bericht uitzendt`{:class="block3events"}.
-
 
 --- /collapse ---
 
@@ -116,22 +163,26 @@ Controleer of de **Get** knop voor deze drum `hetzelfde bericht uitzendt`{:class
 title: Mijn Get-knop wordt niet correct weergegeven/verborgen
 ---
 
-Tenzij de knop voor de allereerste drum is, moet deze `verbergen`{:class="block3looks"} `wanneer op de vlag wordt geklikt`{:class="block3events"}. En `verschijnen`{:class="block3looks"} `wanneer ik`{:class="block3events"} het bericht ontvang voor de **vorige drum**. De **Get** knop moet `verschijnen`{:class="block3looks"} om de speler laten weten naar welke volgende upgrade ze werken.
+Tenzij de knop voor de allereerste drum is, moet deze `verbergen`{:class="block3looks"} `wanneer op de vlag wordt geklikt`{:class="block3events"}.
+
+It should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**.
+
+The **Get** button should `show`{:class="block3looks"} to let the player know about the next drum they can unlock.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Ik kan een drum kopen als ik niet genoeg beats heb
+title: I can unlock a drum when I don't have enough beats
 ---
 
-Controleer of je het aantal `beats`{:class="block3variables"} hebt gewijzigd `wanneer deze sprite op`{:class="block3events"} klikt in het script voor de **Get** knop voor de trommel.
+Controleer of je het aantal `slagen`{:class="block3variables"} hebt gewijzigd `wanneer deze sprite op`{:class="block3events"} klikt in het script voor de **Get** knop voor de trommel.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Het aantal beats verandert niet correct als ik een nieuwe drum krijg
+title: The number of beats doesn't change correctly when I unlock a new drum
 ---
 
 Controleer of je `de beats hebt veranderd met`{:class="block3variables"} een negatief getal `wanneer op deze sprite wordt geklikt`{:class="block3events"} in het script van de **Get** knop voor de drum.
@@ -141,15 +192,6 @@ Zorg ervoor dat dit overeenkomt met het getal op het uiterlijk van de drum knop.
 --- /collapse ---
 
 --- /task ---
-
---- collapse ---
----
-title: Voltooid project
----
-
-Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/707231411/){:target="_blank"} bekijken.
-
---- /collapse ---
 
 **Tip:** als je echt in de war raakt, is het goed om de nieuwe drum en de bijbehorende knop te verwijderen en opnieuw te beginnen. Soms is het moeilijk om een bug te vinden.
 

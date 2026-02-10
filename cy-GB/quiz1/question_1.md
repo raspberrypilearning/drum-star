@@ -1,12 +1,12 @@
-## Cwis cyflym
+## Myfyrio
 
 Ateba'r tri chwestiwn. Mae awgrymiadau ar gael i dy arwain at yr ateb cywir.
 
-Pan fyddi di wedi ateb bob cwestiwn, clicia ar **Gwiriwch fy ateb**.
+Pan fyddi di wedi ateb bob cwestiwn, clicia ar **Gwirio fy ateb**.
 
 Mwynha!
 
---- question ---
+--- cwestiwn ---
 
 ---
 legend: Cwestiwn 1 o 3
@@ -16,7 +16,7 @@ Yn dy brosiect, fe wnes di greu a defnyddio newidynnau. Pa un o'r gwerthoedd hyn
 
 `6` , `Tom` , `151` , `Aadya`
 
---- choices ---
+--- dewisiadau ---
 
 - ( ) Dim ond y rhifau `6` ac `151`
 
@@ -52,6 +52,6 @@ Na. Meddylia am y newidynnau `curiadau`{:class="block3variables"} ac `enw`{:clas
 
  --- /feedback ---
 
---- /choices ---
+--- /dewisiadau ---
 
---- /question ---
+--- /cwestiwn ---

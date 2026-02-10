@@ -1,6 +1,7 @@
-## Wat kun je verder nog doen?
+## What can you do now?
 
-Als je het [Meer Scratch](https://projects.raspberrypi.org/nl-NL/raspberrypi/more-scratch) pad volgt, kun je naar het [Volgende klant alsjeblieft!](https://projects.raspberrypi.org/nl-NL/projects/next-customer-please) project gaan, waar je een winkel gaat maken waar klanten voorwerpen kunnen kopen en uitchecken.
+
+Als je het [Meer Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pad volgt, kun je naar het [Volgende klant alsjeblieft!](https://projects.raspberrypi.org/en/projects/next-customer-please) project gaan, waar je een winkel gaat maken waar klanten voorwerpen kunnen kopen en uitchecken.
 
 --- print-only ---
 
@@ -16,12 +17,4 @@ Als je het [Meer Scratch](https://projects.raspberrypi.org/nl-NL/raspberrypi/mor
 
 --- /no-print ---
 
-Als je meer plezier wilt hebben met het verkennen van Scratch, kun je een van de [deze projecten](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"} uitproberen.
-
-***
-Dit project werd vertaald door vrijwilligers:
-
-Iny van Beuningen
-Christel Haex
-
-Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
+Als je meer plezier wilt hebben met het verkennen van Scratch, kun je een van de [deze projecten](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"} uitproberen.

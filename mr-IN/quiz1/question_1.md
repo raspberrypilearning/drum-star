@@ -1,16 +1,10 @@
-## परावर्तन
+## Quick quiz
 
-छान, तुम्ही एक क्लिकर गेम बनवला आहे जो लोकांना खेळायचा आहे!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-तुम्ही `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, आणि `Looks`{:class="block3looks"} ब्लॉक्स वापरलेत!
+When you have answered each question, click on **Check my answer**.
 
-आता चिंतन करण्याची वेळ आली आहे. आता, चिंतन करण्याची वेळ आहे - चिंतन हा अभ्यासाचा महत्वाचा भाग आहे, कारण त्यामुळे तुमच्या मेंदूला नवीन माहिती मिळण्यास मदत होते.
-
-तुम्ही काय शिकलात याचे चिंतन करण्यासाठी खालील तीन प्रश्नांची उत्तरे द्या.
-
-प्रत्येक प्रश्नानंतर submit दाबा. तुम्हाला योग्य उत्तराचे मार्गदर्शन केले जाईल. तुम्हाला हवे तेवढ्या वेळा तुम्ही ही कृती करू शकता.
-
-मजा करा!
+Have fun!
 
 --- question ---
 
@@ -18,7 +12,7 @@
 legend: प्रश्न 3 पैकी 1
 ---
 
-तुमच्या प्रोजेक्टमध्ये तुम्ही व्हेरिएबल्स तयार केले आणि वापरले. यापैकी कोणती मूल्ये व्हेरिएबलमध्ये साठवली जाऊ शकतात?
+In your project, you created and used variables. Which of these values can be stored in a variable?
 
 `6` , `Tom` , `151` , `Aadya`
 
@@ -54,7 +48,7 @@ legend: प्रश्न 3 पैकी 1
 
  --- feedback ---
 
-नाही. तुम्ही वापरलेल्या `beats`{:class="block3variables"} आणि `name`{:class="block3variables"} व्हेरिएबल्सचा विचार करा.
+No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
 
  --- /feedback ---
 

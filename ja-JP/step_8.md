@@ -1,4 +1,4 @@
-## プロジェクトをアップグレードする
+## Challenge
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -9,11 +9,17 @@
 </div>
 </div>
 
-プロジェクトにさらにアップグレードを追加するために使えるドラムコスチュームは他にもたくさんあります。
+### Add more drums
 
-アップグレードする別のドラムを追加するには、プロジェクトの前のステップを振り返ってください。
+To add another drum to unlock, look back at the earlier steps of the project.
 
-**ドラム**については、次のことが必要です：
+Here are some reminders if you need them.
+
+--- collapse ---
+
+---
+title: For the drum
+---
 
 --- task ---
 
@@ -39,7 +45,13 @@
 
 --- /task ---
 
-**ボタン**については、次のことが必要です：
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the 'Get' button
+---
 
 --- task ---
 
@@ -61,11 +73,17 @@
 
 --- task ---
 
-`もし`{:class="block3events"} 条件に入っているドラムをゲットするのに必要な `ビート数`{:class="block3variables"} を変更します。 ドラムをゲットした時に 減らす `ビート数`{:class="block3variables"} をいくつ`ずつ変える`{:class="block3variables"}かを変えます。 減算する必要がある`ビート数`{:class="block3variables"} の数値を `何々と何々`{:class="block3operators"} ブロック内から減算する。 他のスプライトが **新しいドラム**の名前に`送る`{:class="block3events"}メッセージを変えます。
+Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. 減算する必要がある`ビート数`{:class="block3variables"} の数値を `何々と何々`{:class="block3operators"} ブロック内から減算する。 Change the message that is `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
-**会場**については、次のことが必要です：
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the venue
+---
 
 --- task ---
 
@@ -75,7 +93,7 @@
 
 --- task ---
 
-このドラムの `メッセージ`{:class="block3events"} が受信されたときに、新しい背景に `背景を変える`{:class="block3looks"} スクリプトをステージに追加します。
+Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is received.
 
 --- /task ---
 
@@ -83,19 +101,47 @@
 
 --- task ---
 
-それぞれの**ドラム**スプライトに`背景が..になったとき`{:class="block3events"} から始まるスクリプトを追加して、場所を変更するために `...へいく`{:class="block3motion"} ブロックを追加します。
+それぞれの**ドラム**スプライトに`背景が..になったとき`{:class="block3events"} から始まるスクリプトを追加して、場所を変更するために `...へいく` {:class="block3motion"} ブロックを追加します。
 
 `フラグが押されたとき`{:class="block3events"} のスタート位置もセットする必要があります。
 
 --- /task ---
 
+--- /collapse ---
+
+### Improve feedback to the player
+
+Tell the player exactly **how many more** beats are needed to unlock the next drum.
+
 --- task ---
 
-**整理:** 時間がある場合は、スプライトリストのスプライトがわかりやすい順序になっていることを確認しましょう。まず、ドラムのアップグレード順、次にボタンの順に並べます。
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+**Note**: Update the numbers to match those needed to unlock each drum.
+
+--- /task ---
+
+### Tidy your code
+
+--- task ---
+
+**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
 
 --- /task ---
 
 --- task ---
+
+### Stuck?
 
 **デバッグ:** まず、ドラムとボタンがいつ表示されるべきか、そして `ビート数`{:class="block3variables"} 変数がどのように変化するべきかをよく理解していることを確認してください。 プロジェクトが何をすべきかが明確であれば、プロジェクトのデバッグがはるかに簡単になります。
 
@@ -104,10 +150,11 @@
 title: ドラムが正しく表示/非表示になりません
 ---
 
-それが最初のドラムでない限り、ドラムには`緑の旗がクリックされた時`{:class="block3events"} 、`非表示`{:class="block3l時ooks"} になるスクリプトがあるはずです。 そして、`このドラム``..を受け取ったとき`{:class="block3events"}、`表示する`{:class="block3looks"} のスクリプトがあるはずです。
+それが最初のドラムでない限り、ドラムには`緑の旗がクリックされた時`{:class="block3events"} 、`非表示`{:class="block3l時ooks"} になるスクリプトがあるはずです。
+
+It should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
 
 このドラムの **ゲット** ボタンが 、同じメッセージを`送る`{:class="block3events"} ことを確認します。
-
 
 --- /collapse ---
 
@@ -116,13 +163,17 @@ title: ドラムが正しく表示/非表示になりません
 title: ゲットボタンが正しく表示/非表示になりません
 ---
 
-ボタンが最初のドラム用でない限り、 `緑の旗が押された時`{:class="block3events"}に `非表示`{:class="block3looks"} する必要があります。 そして **前のドラム**のメッセージを`受け取った時`{:class="block3events"}、 `表示`{:class="block3looks"} する必要があります。 **ゲット** ボタンを `表示`{:class="block3looks"} して、プレイヤーに次のアップグレードについて知らせます。
+ボタンが最初のドラム用でない限り、 `緑の旗が押された時`{:class="block3events"}に `非表示`{:class="block3looks"} する必要があります。
+
+It should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**.
+
+The **Get** button should `show`{:class="block3looks"} to let the player know about the next drum they can unlock.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: ビートが足りないのにドラムが買える
+title: I can unlock a drum when I don't have enough beats
 ---
 
 そのドラムの**ゲット**ボタンのスクリプトを見て、 `このスプライトが押された時`{:class="block3events"} に必要としている`ビート数`{:class="block3variables"} を変えたかチェックしてみましょう。
@@ -131,7 +182,7 @@ title: ビートが足りないのにドラムが買える
 
 --- collapse ---
 ---
-title: 新しいドラムを入手してもビート数が正しく変わらない
+title: The number of beats doesn't change correctly when I unlock a new drum
 ---
 
 そのドラムの**ゲット**ボタンのスクリプトを見て、`このスプライトが押され時`、`ずつ変える`{:class="block3variables"} のへらす数をいくつにしたかチェックしてみましょう。
@@ -141,15 +192,6 @@ title: 新しいドラムを入手してもビート数が正しく変わらな�
 --- /collapse ---
 
 --- /task ---
-
---- collapse ---
----
-title: 完成したプロジェクト
----
-
-[完成したプロジェクトはこちら](https://scratch.mit.edu/projects/972130278/){:target="_blank"}で確認できます。
-
---- /collapse ---
 
 **ヒント:** 本当に混乱した場合は、新しいドラムとそのボタンを削除して、最初からやり直しても問題ありません。 バグを見つけるのが難しい場合があります。
 

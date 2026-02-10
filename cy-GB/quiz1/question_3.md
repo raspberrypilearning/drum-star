@@ -9,12 +9,12 @@ Fe wnes di ddefnyddio'r sgript yma i reoli beth sy'n digwydd pan fydd y chwaraew
 
 ```blocks3
 when this sprite clicked
-if <(curiadau)>  [29]> then 
+if <(beats)>  [29]> then 
 hide
-change [curiadau v] by [-30] 
+change [beats v] by [-30] 
 broadcast (conga v) 
 else
-say [Dim digon o curiadau!] for [2] seconds 
+say [Not enough beats!] for [2] seconds 
 end
 ```
 
@@ -30,7 +30,7 @@ Os mai gwerth y newidyn `curiadau`{:class="block3variables"} yw `29`, beth fydd 
 
   --- /feedback ---
 
-- (x) Bydd botwm y corlun yn `dweud`{:class="block3looks"} `Dim digon o curiadau!`
+- (x) Bydd botwm y corlun yn `dweud`{:class="block3looks"} `Dim digon o guriadau!`
 
   --- feedback ---
 

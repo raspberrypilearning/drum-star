@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Vraag 3 van 3
+legend: Question 3 of 3
 ---
 
 Je hebt dit script gebruikt om te bepalen wat er gebeurt wanneer de speler op de knop klikt om de drum te upgraden:

@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-title: నా డ్రమ్ సరిగ్గా చూపడం/దాగడం లేదు
+title: My drum doesn't show/hide correctly
 ---
 
 అది మొదటి డ్రమ్ అయితే తప్ప, `when flag clicked` {:class = "block3events"} `hide`{: class = "block3looks"} చేయడానికి మీ డ్రమ్ ఒక స్క్రిప్ట్ ను కలిగి ఉండాలి.
@@ -160,7 +160,7 @@ It should have a `when I receive`{:class="block3events"} `this drum` script to `
 
 --- collapse ---
 ---
-title: నా డ్రమ్ సరిగ్గా చూపడం/దాగడం లేదు
+title: My Get button doesn't show/hide correctly
 ---
 
 బటన్ మొదటి డ్రమ్ కోసం తప్ప,`when flag clicked`{:class="block3events"} అది `hide`{:class="block3looks"} చేయాలి.

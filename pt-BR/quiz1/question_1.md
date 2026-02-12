@@ -9,7 +9,7 @@ Divirta-se!
 --- question ---
 
 ---
-legenda: Pergunta 1 de 3
+legend: Question 1 of 3
 ---
 
 No seu projeto, você criou e usou variáveis. Qual desses valores pode ser armazenado em uma variável?

@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-title: ドラムが正しく表示/非表示になりません
+title: My drum doesn't show/hide correctly
 ---
 
 それが最初のドラムでない限り、ドラムには`緑の旗がクリックされた時`{:class="block3events"} 、`非表示`{:class="block3l時ooks"} になるスクリプトがあるはずです。
@@ -160,7 +160,7 @@ It should have a `when I receive`{:class="block3events"} `this drum` script to `
 
 --- collapse ---
 ---
-title: ゲットボタンが正しく表示/非表示になりません
+title: My Get button doesn't show/hide correctly
 ---
 
 ボタンが最初のドラム用でない限り、 `緑の旗が押された時`{:class="block3events"}に `非表示`{:class="block3looks"} する必要があります。

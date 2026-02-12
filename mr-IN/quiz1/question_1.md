@@ -9,7 +9,7 @@ Have fun!
 --- question ---
 
 ---
-legend: प्रश्न 3 पैकी 1
+legend: Question 1 of 3
 ---
 
 In your project, you created and used variables. Which of these values can be stored in a variable?

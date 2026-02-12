@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-العنوان: طبلي لا يظهر / يختفي بشكل صحيح
+title: My drum doesn't show/hide correctly
 ---
 
 ما لم تكن الأسطوانة الأولى ، يجب أن تحتوي الأسطوانة على `عند النقر فوق العلم`{: class = "block3events"} مقطع برمجي ` للإخفاء `{: class = "block3looks"}.
@@ -160,7 +160,7 @@ It should have a `when I receive`{:class="block3events"} `this drum` script to `
 
 --- collapse ---
 ---
-العنوان: الزر Get الخاص بي لا يظهر / يختفي بشكل صحيح
+title: My Get button doesn't show/hide correctly
 ---
 
 ما لم يكن الزر للطبل</code>يختفي`: class = "block3looks"} <code>عند النقر فوق العلم`{: class = "block3events"}.

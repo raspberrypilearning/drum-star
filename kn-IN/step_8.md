@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-title: ನನ್ನ ಡ್ರಮ್‌ ಸರಿಯಾಗಿ ತೋರಿಸುವುದಿಲ್ಲ/ಮರೆಯಾಗುವುದಿಲ್ಲ
+title: My drum doesn't show/hide correctly
 ---
 
 ಅದು ಮೊದಲ ಡ್ರಮ್‌ ಆಗಿಲ್ಲದಿದ್ದರೆ, ನಿಮ್ಮ ಡ್ರಮ್‌ಗೆ `hide`{:class="block3looks"}ಕ್ಕೆ `when flag clicked`{:class="block3events"} ಬರಹ ಇರಲೇ ಬೇಕು.
@@ -160,7 +160,7 @@ It should have a `when I receive`{:class="block3events"} `this drum` script to `
 
 --- collapse ---
 ---
-title: ನನ್ನ Get ಬಟನ್‌ ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತಿಲ್ಲ/ಮರೆಯಾಗುತ್ತಿಲ್ಲ
+title: My Get button doesn't show/hide correctly
 ---
 
 ಬಟನ್‌ ಮೊಟ್ಟ ಮೊದಲನೆಯ ಡ್ರಮ್‌ಗೆ ಆಗಿಲ್ಲದಿದ್ದರೆ, ಅದು `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"} ಹೊಂದಿರಬೇಕು.

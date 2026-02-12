@@ -9,7 +9,7 @@ Amuse-toi bien !
 --- question ---
 
 ---
-legend: Question 1 sur 3
+legend: Question 1 of 3
 ---
 
 Dans ton projet, tu as créé et utilisé des variables. Laquelle de ces valeurs peut être stockée dans une variable ?

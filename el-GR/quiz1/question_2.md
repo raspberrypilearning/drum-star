@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Ερώτηση 2 από 3
+legend: Question 2 of 3
 ---
 
 Ένα έργο έχει αυτό το scriptγια να `ρωτήσει`{:class="block3sensing"} από τον χρήστη το όνομά του:

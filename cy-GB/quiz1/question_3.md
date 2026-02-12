@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Cwestiwn 3 o 3
+legend: Question 3 of 3
 ---
 
 Fe wnes di ddefnyddio'r sgript yma i reoli beth sy'n digwydd pan fydd y chwaraewr yn clicio ar y botwm i uwchraddio ei ddrwm:

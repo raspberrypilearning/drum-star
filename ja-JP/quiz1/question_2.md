@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-凡例：質問2/3
+legend: Question 2 of 3
 ---
 
 このプロジェクトには 、名前を質問するために、`..と聞いて待つ`{:class="block3sensing"} スクリプトがあります:

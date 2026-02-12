@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: 3లో 2వ ప్రశ్న
+legend: Question 2 of 3
 ---
 
 ఒక ప్రాజెక్ట్, యూజర్ యొక్క పేరు అడగడం `ask`{:class="block3sensing"} కోసం ఈ స్క్రిప్ట్‌ను కలిగి ఉంది:

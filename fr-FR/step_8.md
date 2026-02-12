@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-title: Mon tambour ne s'affiche/se cache pas correctement
+title: My drum doesn't show/hide correctly
 ---
 
 À moins qu'il ne s'agisse du premier tambour, ton tambour doit avoir un script `quand le drapeau est cliqué`{:class="block3events"} pour `cacher`{:class="block3looks"}.
@@ -160,7 +160,7 @@ Vérifie que le bouton **Avoir** de ce tambour `envoyer à tous`{:class="block3e
 
 --- collapse ---
 ---
-title: Mon bouton Avoir ne s'affiche/ne se cache pas correctement
+title: My Get button doesn't show/hide correctly
 ---
 
 À moins que le bouton ne soit destiné au tout premier tambour, il doit être `caché`{:class="block3looks"} `quand le drapeau est cliqué`{:class="block3events"}.

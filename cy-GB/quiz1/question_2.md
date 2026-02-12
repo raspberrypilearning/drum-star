@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Cwestiwn 2 o 3
+legend: Question 2 of 3
 ---
 
 Mae gan brosiect y sgript ganlynol i `ofyn`{:class="block3sensing"} y defnyddiwr am ei enw:

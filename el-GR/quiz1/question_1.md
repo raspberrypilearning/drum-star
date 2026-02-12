@@ -9,7 +9,7 @@ Have fun!
 --- question ---
 
 ---
-legend: Ερώτηση 1 από 3
+legend: Question 1 of 3
 ---
 
 In your project, you created and used variables. Which of these values can be stored in a variable?

@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-title: Το τύμπανο μου δεν εμφανίζεται/εξαφανίζεται σωστά
+title: My drum doesn't show/hide correctly
 ---
 
 Εκτός και αν είναι το πρώτο τύμπανο, το τύμπανο σου θα πρέπει να έχει ένα script `όταν γίνει κλικ στην πράσινη σημαία`{:class="block3events"} για να `εξαφανίζεται`{:class="block3looks"}.
@@ -160,7 +160,7 @@ It should have a `when I receive`{:class="block3events"} `this drum` script to `
 
 --- collapse ---
 ---
-title: Το κουμπί μου "Πάρε" δεν εμφανίζεται/κρύβεται σωστά
+title: My Get button doesn't show/hide correctly
 ---
 
 Εκτός αν το κουμπί είναι για το πρώτο τύμπανο, τότε θα πρέπει να `εξαφανίζεται`{:class="block3looks"} `όταν γίνει κλικ στημ πράσινη σημαία`{:class="block3events"}.

@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-Título: Minha bateria não aparece/oculta corretamente
+title: My drum doesn't show/hide correctly
 ---
 
 A menos que seja o primeiro tambor, seu tambor deve ter um script `quando flag clicado`{:class="block3events"} para `ocultar`{:class="block3looks"}.
@@ -160,7 +160,7 @@ Verifique se o botão **Get** para este tambor `transmite`{:class="block3events"
 
 --- collapse ---
 ---
-Título: Minha bateria não aparece/oculta corretamente
+title: My Get button doesn't show/hide correctly
 ---
 
 A menos que o botão seja para o primeiro tambor, ele deve `ocultar`{:class="block3looks"} `quando o sinalizador for clicado`{:class="block3events"}.

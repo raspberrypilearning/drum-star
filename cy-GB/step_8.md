@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-title: Dydy fy nrwm ddim yn ymddangos/cuddio yn gywir
+title: My drum doesn't show/hide correctly
 ---
 
 Oni bai mai hwn ydy'r drwm cyntaf, dylai dy ddrwm gael sgript `pan fydd y faner wedi'i chlicio`{:class="block3events"} i'w `guddio`{:class="block3looks"}.
@@ -160,7 +160,7 @@ Gwiria fod y botwm **Get** ar gyfer y drwm yma yn `darlledu`{:class="block3event
 
 --- collapse ---
 ---
-title: Dydy'r botwm Fy Get ddim yn ymddangos/cuddio yn gywir
+title: My Get button doesn't show/hide correctly
 ---
 
 Oni bai fod y botwm ar gyfer y drwm cyntaf un, dylai `guddio`{:class="block3looks"} `pan fydd y faner wedi'i chlicio`{:class="block3events"}.

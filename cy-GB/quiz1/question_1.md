@@ -9,7 +9,7 @@ Mwynha!
 --- cwestiwn ---
 
 ---
-legend: Cwestiwn 1 o 3
+legend: Question 1 of 3
 ---
 
 Yn dy brosiect, fe wnes di greu a defnyddio newidynnau. Pa un o'r gwerthoedd hyn y gellir ei storio mewn newidyn?

@@ -9,7 +9,7 @@ Have fun!
 --- question ---
 
 ---
-legend: Vraag 1 van 3
+legend: Question 1 of 3
 ---
 
 In your project, you created and used variables. Which of these values can be stored in a variable?

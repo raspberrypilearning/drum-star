@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Pergunta 2 de 3
+legend: Question 2 of 3
 ---
 
 Um projeto tem este script para `perguntar`{:class="block3sensing"} o nome do usuário:

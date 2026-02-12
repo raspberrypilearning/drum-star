@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Питання 2 з 3
+legend: Question 2 of 3
 ---
 
 У проєкті є цей скрипт, який `запитує`{:class="block3sensing"} користувача, як його звуть:

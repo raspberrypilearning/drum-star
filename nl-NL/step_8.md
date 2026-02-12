@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-title: Mijn drum wordt niet correct weergegeven/verborgen
+title: My drum doesn't show/hide correctly
 ---
 
 Tenzij het de eerste drum is, zou je drum een `wanneer op de vlag wordt geklikt`{:class="block3events"} script moeten hebben om `te verbergen`{:class="block3looks"}.
@@ -160,7 +160,7 @@ Controleer of de **Get** knop voor deze drum `hetzelfde bericht uitzendt`{:class
 
 --- collapse ---
 ---
-title: Mijn Get-knop wordt niet correct weergegeven/verborgen
+title: My Get button doesn't show/hide correctly
 ---
 
 Tenzij de knop voor de allereerste drum is, moet deze `verbergen`{:class="block3looks"} `wanneer op de vlag wordt geklikt`{:class="block3events"}.

@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-title: मेरा ड्रम ठीक से दिखाई नहीं देता /छुपाता नहीं है
+title: My drum doesn't show/hide correctly
 ---
 
 जब तक कि यह पहला ड्रम न हो, आपके ड्रम में `when flag clicked`{:class="block3events"} स्क्रिप्ट होना चाहिए ताकि `hide`{:class="block3looks"}।
@@ -160,7 +160,7 @@ It should have a `when I receive`{:class="block3events"} `this drum` script to `
 
 --- collapse ---
 ---
-title: मेरा Get बटन सही ढंग से दिखाई नहीं देता /छुपाता नहीं है
+title: My Get button doesn't show/hide correctly
 ---
 
 जब तक बटन पहले ड्रम के लिए न हो, तब इसे `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}।

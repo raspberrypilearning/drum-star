@@ -147,7 +147,7 @@ end
 
 --- collapse ---
 ---
-title: Mi tambor no aparece/no se oculta correctamente
+title: My drum doesn't show/hide correctly
 ---
 
 A menos que sea el primer tambor, debería tener un script `cuando se hace clic en la bandera`{:class="block3events"} para poderse `ocultar`{:class="block3looks"}.
@@ -160,7 +160,7 @@ Comprueba que el botón **Conseguir** para este tambor `envía`{:class="block3ev
 
 --- collapse ---
 ---
-title: Mi botón Conseguir no aparece/no se oculta correctamente
+title: My Get button doesn't show/hide correctly
 ---
 
 A menos que el botón sea para el primer tambor, se debería `ocultar`{:class="block3looks"} `cuando se hace clic en la bandera`{:class="block3events"}.

@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: प्रश्न 3 पैकी 2
+legend: Question 2 of 3
 ---
 
 यूजरला त्यांचे नाव `ask`{:class="block3sensing"} साठी प्रोजेक्टला ही स्क्रिप्ट आहे:

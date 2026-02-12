@@ -9,7 +9,7 @@ Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 --- question ---
 
 ---
-legend: Pregunta 1 de 3
+legend: Question 1 of 3
 ---
 
 En tu proyecto, creaste y usaste variables. ¿Cuál de estos valores se puede almacenar en una variable?

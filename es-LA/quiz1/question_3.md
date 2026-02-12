@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Pregunta 3 de 3
+legend: Question 3 of 3
 ---
 
 Usaste este script para controlar lo que sucede cuando se hace clic en el botón para actualizar el tambor:

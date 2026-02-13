@@ -1,11 +1,11 @@
-## What can you do now?
+## Que peux-tu faire maintenant ?
 
 
-Si tu suis le parcours [Plus de Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), tu peux passer au [Client suivant s'il vous plaît !](https://projects.raspberrypi.org/en/projects/next-customer-please), où tu créeras une boutique où les clients pourront acheter des articles et passer à la caisse.
+Si tu suis le parcours [Plus de Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), tu peux passer au projet [Client suivant, s'il vous plaît !](https://projects.raspberrypi.org/en/projects/next-customer-please), où tu créeras une boutique où les client·e·s pourront acheter des articles et passer à la caisse.
 
 --- print-only ---
 
-![Client suivant s'il vous plait](images/next-customer-please.png)
+![Client suivant, s'il vous plait](images/next-customer-please.png)
 
 --- /print-only ---
 

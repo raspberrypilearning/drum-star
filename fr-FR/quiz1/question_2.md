@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
 Un projet comporte ce script pour `demander`{:class="block3sensing"} à l'utilisateur son nom :

@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Question 3 sur 3
 ---
 
 Tu as utilisé ce script pour contrôler ce qui se passe lorsque le joueur clique sur le bouton pour améliorer son tambour :

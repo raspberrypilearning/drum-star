@@ -11,7 +11,7 @@ Tu ajouteras un sprite **cymbale** sur lequel tu pourras cliquer pour gagner des
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`.
+Clique sur **Choisir un Sprite** et recherche `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`.
 
 --- task ---
 
-Add the **Drum-cymbal** sprite and position it on the Stage:
+Ajoute le sprite **cymbale** et positionne-le sur la scène :
 
 ![](images/cymbal-stage.png)
 
@@ -50,9 +50,9 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 --- task ---
 
-**Test :** Teste ta cymbale en cliquant dessus.
+**Test :** teste ta cymbale en cliquant dessus.
 
-You should hear a sound and see the costume change.
+Tu devrais entendre un son et voir le costume changer.
 
 --- /task ---
 
@@ -60,7 +60,7 @@ Le sprite **cymbale** te rapportera un battement à chaque fois que tu cliqueras
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
+Crée une `variable`{:class="block3variables"} (pour tous les sprites) appelée `battements` :
 
 ![](images/beats-variable.png)
 
@@ -82,9 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it.
+**Test :** teste la **cymbale** en cliquant dessus.
 
-You should see the `beats`{:class="block3variables"} increase.
+Tu devrais voir les `battements`{:class="block3variables"} augmenter.
 
 --- /task ---
 
@@ -92,9 +92,9 @@ La variable `battements`{:class="block3variables"} doit commencer à `0` batteme
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab.
+Clique sur le volet Scène, puis sur l'onglet **Code**.
 
-Ajoute un bloc à `mettre battements à`{:class="block3variables"} `0` :
+Ajoute un bloc pour `mettre battements à`{:class="block3variables"} `0` :
 
 ![](images/stage-icon.png)
 
@@ -108,7 +108,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Test :** Clique sur le drapeau vert et assure-toi que ta variable `battements`{:class="block3variables"} commence à `0`.
+**Test :** clique sur le drapeau vert et assure-toi que ta variable `battements`{:class="block3variables"} commence à `0`.
 
 --- /task ---
 

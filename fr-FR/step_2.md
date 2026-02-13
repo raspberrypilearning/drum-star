@@ -11,17 +11,17 @@ Dans cette étape, tu prépareras la scène pour ton premier concert et choisira
 
 --- task ---
 
-Ouvre le [projet de démarrage Star du tambour](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
+Ouvre le [projet de démarrage Star de la batterie](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 --- /task ---
 
-The drummer starts in a bedroom like a beginner!
+Le batteur commence dans une chambre comme débutant !
 
 --- task ---
 
 Clique sur **Choisir un arrière-plan** et recherche `bedroom`.
 
-Select a bedroom and add it to your project. Nous avons choisi `Bedroom 3`.
+Sélectionne une chambre et ajoute-la à ton projet. Nous avons choisi `Bedroom 3`.
 
 ![La scène montrant l'arrière-plan "Bedroom 3".](images/bedroom3.png)
 
@@ -54,7 +54,7 @@ Appelle ta nouvelle variable `nom` :
 
 ![La fenêtre contextuelle Nouvelle variable avec la saisie de texte "nom".](images/new-variable.png)
 
-**Remarque :** La nouvelle variable `nom` apparaît sur la scène et peut désormais être utilisée dans les blocs `Variable`{:class="block3variables"}.
+**Remarque :** la nouvelle variable `nom` apparaît sur la scène et peut désormais être utilisée dans les blocs `Variable`{:class="block3variables"}.
 
 --- /task ---
 
@@ -113,7 +113,7 @@ Fais un clic droit sur la `variable`{:class="block3variables"} sur la scène et 
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
+Fais glisser ta `variable`{:class="block3variables"} pour la positionner en haut à droite de la scène :
 
 ![](images/repositioned-variable.png)
 
@@ -121,15 +121,15 @@ Drag your `variable`{:class="block3variables"} to position it top-right of the S
 
 --- task ---
 
-**Test :** Exécute ton projet pour t'assurer que la `variable`{:class="block3variables"} commence par `???` puis met à jour ta `réponse`{:class="block3sensing"}.
+**Test :** exécute ton projet pour t'assurer que la `variable`{:class="block3variables"} commence par `???` puis met à jour ta `réponse`{:class="block3sensing"}.
 
 --- /task ---
 
-You don't want to type an answer every time you test your project.
+Tu ne veux pas avoir à saisir une réponse à chaque fois que tu testes ton projet.
 
 --- task ---
 
-Drag the last two blocks of code away from the rest of the script.
+Fais glisser les deux derniers blocs de code hors du reste du script.
 
 ```blocks3
 when flag clicked

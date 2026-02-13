@@ -1,17 +1,17 @@
 ---
-title: Star du tambour
+title: Star de la batterie
 hero_image: images/banner.png
-description: Créer un jeu de clics où tu gagnes des battements pour jouer de nouveaux tambours et dans de plus grandes salles
+description: Crée un jeu de clics où tu gagnes des battements pour jouer de nouveaux tambours et dans de plus grandes salles
 pdf: resources/rpfi-drum-stars.pdf
-meta_title: Scratch coding projects for kids and teens | Drum star
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game where you earn beats to play new drums at bigger venues.
+meta_title: Projets de codage scratch pour enfants et adolescent·e·s | Star de la batterie
+meta_description: Apprends Scratch avec les projets de codage de la Raspberry Pi Foundation pour les enfants et les adolescent·e·s. Crée un jeu Scratch dans lequel tu gagnes des rythmes pour débloquer de nouveaux tambours et jouer dans des salles de concert plus grandes.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-04-28"
 steps:
   - 
-    title: What you will make
+    title: Ce que tu vas faire
   - 
     title: Mise en place de la scène
   - 
@@ -19,11 +19,11 @@ steps:
     completion:
       - engaged
   - 
-    title: Next drum
+    title: Tambour suivant
   - 
-    title: More drums!
+    title: Plus de tambours !
   - 
-    title: Play
+    title: Jouer
     completion:
       - internal
   - 
@@ -36,5 +36,5 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Défi
     challenge: true

@@ -2,16 +2,16 @@
 --- question ---
 
 ---
-legend: Vraag 2 van 3
+legend: Question 2 of 3
 ---
 
 Een project heeft dit script om de gebruiker `te vragen`{:class="block3sensing"} naar zijn naam:
 
 ```blocks3
 when flag clicked
-set [naam v] to [???] 
-ask [Hoe heet jij?] and wait 
-set [naam v] to (answer)
+set [name v] to [???] 
+ask [What's your name?] and wait 
+set [name v] to (answer)
 ```
 
 ![](images/q1-chatbot.png)
@@ -40,8 +40,7 @@ Nee, `???` is de waarde van de `naam`{:class="block3variables"} variabele voorda
 
   --- feedback ---
 
-Nee, `antwoord`{:class="block3sensing"} is de ingebouwde variabele die Scratch gebruikt om het antwoord op te slaan dat een gebruiker typt wanneer je een vraag `stelt`{:class="block3sensing"}.
---- /feedback ---
+Nee, `antwoord`{:class="block3sensing"} is de ingebouwde variabele die Scratch gebruikt om het antwoord op te slaan dat een gebruiker typt wanneer je een vraag `stelt`{:class="block3sensing"}. --- /feedback ---
 
 - (X) Bobo
 

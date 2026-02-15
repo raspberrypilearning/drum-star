@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Vraag 3 van 3
+legend: Question 3 of 3
 ---
 
 Je hebt dit script gebruikt om te bepalen wat er gebeurt wanneer de speler op de knop klikt om de drum te upgraden:
@@ -14,11 +14,11 @@ hide
 change [beats v] by [-30] 
 broadcast (conga v) 
 else
-say [Niet genoeg beats!] for [2] seconds 
+say [Not enough beats!] for [2] seconds 
 end
 ```
 
-Wat gebeurt er als de waarde van de `beats`{:class="block3variables"} variabele `29` is?
+Wat gebeurt er als de waarde van de `slagen`{:class="block3variables"} variabele `29` is?
 
 --- choices ---
 

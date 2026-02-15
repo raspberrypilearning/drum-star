@@ -1,4 +1,4 @@
-## खेलें और अपनी रुचि के अनुसार बनाएँ
+## Play
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,23 +11,11 @@
 
 --- task ---
 
-अपना खेल खेलें और बीट्स कमाएं।
+If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back.
 
-`beats`{:class="block3variables"} वेरिएबल को बदलते देखें और सुनिश्चित करें कि आप समझते हैं कि जब आप ड्रम पर क्लिक करते हैं तो बीट्स कैसे बढ़ जाती है और नया ड्रम मिलने पर घट जाती है।
+**Test:** Click the green flag and set your rock star name!
 
-क्या आपने हर ड्रम के लिए कितनी बीट्स कमाई इससे आप खुश हैं? आप चाहें तो इसे बदल सकते हैं।
-
-क्या आपने हर ड्रम के लिए कितनी बीट्स कमाई इससे आप खुश हैं?
-
-**सुझाव:** अपने प्रोजेक्ट का नियमित रूप से परीक्षण करें ताकि आप किसी भी बग को ढूंढ और ठीक कर सकें।
-
---- /task ---
-
---- task ---
-
-अगर आपने मंच पर `ask`{:class="block3sensing"} ब्लॉक को अलग किया है, तो उसे वापस रखें और अपने रॉक स्टार का नाम सेट करें।
-
-ध्यान दें कि Stage पर प्रदर्शित नाम बदल जाता है।
+You should see the name displayed on the Stage changes.
 
 --- /task ---
 

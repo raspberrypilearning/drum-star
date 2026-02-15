@@ -1,25 +1,40 @@
 ---
-title: Star du tambour
+title: Star de la batterie
 hero_image: images/banner.png
-description: Créer un jeu de clics où tu gagnes des battements pour jouer de nouveaux tambours et dans de plus grandes salles
+description: Crée un jeu de clics où tu gagnes des battements pour jouer de nouveaux tambours et dans de plus grandes salles
+pdf: resources/rpfi-drum-stars.pdf
+meta_title: Projets de codage scratch pour enfants et adolescent·e·s | Star de la batterie
+meta_description: Apprends Scratch avec les projets de codage de la Raspberry Pi Foundation pour les enfants et les adolescent·e·s. Crée un jeu Scratch dans lequel tu gagnes des rythmes pour débloquer de nouveaux tambours et jouer dans des salles de concert plus grandes.
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-04-28'
+last_tested: "2021-04-28"
 steps:
-  - title: Introduction
-  - title: Mise en place de la scène
-  - title: Tambour de départ
-    completion: engaged
-  - title: Première amélioration
-  - title: Deuxième amélioration
-  - title: Jouer et personnaliser
-    completion: internal
-  - title: Réflexion
-    completion: external
+  - 
+    title: Ce que tu vas faire
+  - 
+    title: Mise en place de la scène
+  - 
+    title: Tambour de départ
+    completion:
+      - engaged
+  - 
+    title: Tambour suivant
+  - 
+    title: Plus de tambours !
+  - 
+    title: Jouer
+    completion:
+      - internal
+  - 
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-  - title: Améliorer ton projet
+    completion:
+      - external
+  - 
+    title: Défi
+    challenge: true

@@ -1,0 +1,57 @@
+o nome do seu cenário
+
+sua variável
+
+sua pergunta
+
+próxima fantasia
+
+som de bateria
+
+sua fantasia de sucesso
+
+2 batidas por clique
+
+se 10 ou mais batidas
+
+tire o custo da atualização
+
+seu nome de bateria
+
+5 batidas por clique
+
+sua fantasia de sucesso
+
+seu som de bateria
+
+sua fantasia de sucesso
+
+aparece quando o tambor anterior é comprado
+
+botão mostrar para a próxima bateria disponível
+
+mudar para 29
+
+mudar para 30
+
+mude para o nome da sua bateria
+
+o jogador atualizou para este tambor
+
+esse tambor ganha 2 batidas
+
+esse tambor ganha 5 batidas
+
+primeira atualização visível desde o início
+
+preciso de pelo menos 10 batidas
+
+custo da caixa
+
+não disponível no início
+
+Mostra quando a bateria anterior (caixa) foi comprada e esta é a atualização que o jogador está buscando.
+
+preciso de pelo menos 30 batidas
+
+custo da caixa

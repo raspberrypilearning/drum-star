@@ -1,6 +1,6 @@
-## Test rápido
+## Examen rápido
 
-Contesta las tres preguntas. Hay sugerencias que te guían hacia la respuesta correcta.
+Contesta las tres preguntas. Hay pistas para guiarte hacia la respuesta correcta.
 
 Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
@@ -9,7 +9,7 @@ Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 --- question ---
 
 ---
-legend: Pregunta 1 de 3
+legend: Question 1 of 3
 ---
 
 En tu proyecto, creaste y usaste variables. ¿Cuál de estos valores se puede almacenar en una variable?
@@ -38,7 +38,7 @@ En tu proyecto, creaste y usaste variables. ¿Cuál de estos valores se puede al
 
  --- feedback ---
 
- Sí, almacenaste un número en la `variable`{:class="block3variables"} `ritmos`{:class="block3variables"} y almacenaste texto (palabras) en la `variable`{:class="block3variables"} `nombre`{:class="block3variables"}.
+ Sí, almacenaste un número en la `variable`{:class="block3variables"}`ritmos`{:class="block3variables"} y almacenaste texto (palabras) en la `variable`{:clase="block3variables"} `nombre`{:class="block3variables"}.
 
  Una variable puede almacenar un número o un texto (palabras).
 

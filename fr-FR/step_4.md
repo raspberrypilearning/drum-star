@@ -1,13 +1,4 @@
-## Première amélioration
-
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Tu vas ajouter ta première amélioration. Le bouton **Avoir caisse claire** s'affichera au début, afin que le joueur sache vers quel tambour il travaille.
-</div>
-<div>
-![](images/first-upgrade.png){:width="300px"}
-</div>
-</div>
+## Tambour suivant
 
 --- task ---
 
@@ -19,43 +10,52 @@ Ajoute le sprite **caisse claire** à ton projet et positionne-le sur la scène�
 
 --- task ---
 
-Fais glisser le `quand ce sprite est cliqué`{:class="block3events"} sur le script du sprite **cymbale** vers le sprite **caisse claire**.
-
-[[[scratch3-copy-code]]]
+Fais glisser le script `quand ce sprite est cliqué`{:class="block3events"} du sprite **cymbale** vers le sprite **caisse claire**.
 
 --- /task ---
 
 --- task ---
 
-Change les costumes et le son du tambour.
-
-Change le nombre de battements gagnés à `2` :
+Change le costume et le son de batterie pour le sprite **caisse claire**.
 
 ![](images/snare-icon.png)
 
 ```blocks3
 when this sprite clicked
-+change [battements v] by [2] //2 battements par clic
-+switch costume to [drum-snare-b v] //costume frappé
-+play drum [(1) Snare Drum v] for [0.25] beats //son de tambour
-+switch costume to [drum-snare-a v] //costume pas frappé
++switch costume to [drum-snare-b v] // costume frappé
++play drum [(1) Snare Drum v] for [0.25] beats // son de tambour
++switch costume to [drum-snare-a v] // costume pas frappé
 ```
 
 --- /task ---
 
 --- task ---
 
-**Test :** Essaie ton projet. Assure-toi de gagner 2 battements lorsque tu cliques sur la caisse claire.
+Change le nombre de battements gagnés à `2` :
+
+```blocks3
+when this sprite clicked
++change [battements v] by [2] // 2 battements par clic
+switch costume to [drum-snare-b v] // costume frappé
+play drum [(1) Snare Drum v] for [0.25] beats // son de tambour
+switch costume to [drum-snare-a v] // costume pas frappé
+```
 
 --- /task ---
 
-Les améliorations ne sont pas disponibles lorsque tu démarres le projet. Ils doivent être gagnés avec des battements.
+--- task ---
+
+**Test :** essaie ton projet.
+
+Assure-toi de gagner 2 battements lorsque tu cliques sur la caisse claire.
+
+--- /task ---
+
+Le tambour suivant n'est pas disponible quand tu démarres le projet. Il faut le gagner avec des battements.
 
 --- task ---
 
-Ajoute un script pour cacher ce sprite **tambour** au début du projet :
-
-![](images/snare-icon.png)
+Ajoute un script pour cacher ce sprite **caisse claire** au début du projet :
 
 ```blocks3
 when flag clicked
@@ -64,15 +64,31 @@ hide
 
 --- /task ---
 
-Un bouton indiquera quel tambour est la prochaine amélioration et combien de battements cela coûtera.
+Ajoute un bouton pour indiquer quel est le prochain tambour et combien de battements il coûtera.
 
 --- task ---
 
-**Dupliquer** le **Avoir** sprite :
+**Duplique** le sprite **Avoir** :
 
 ![](images/duplicate-get.png)
 
-Change Afficher en **montrer** et change son nom en `avoir caisse claire`. Positionne-le dans le coin inférieur droit de la scène :
+--- /task ---
+
+--- task ---
+
+Modifie la visibilité sur **Afficher**. ![](images/show.png)
+
+--- /task ---
+
+--- task ---
+
+Change son nom en `avoir caisse claire`.
+
+--- /task ---
+
+--- task ---
+
+Positionne-le dans le coin inférieur droit de la scène :
 
 ![](images/get-snare.png)
 
@@ -80,9 +96,11 @@ Change Afficher en **montrer** et change son nom en `avoir caisse claire`. Posit
 
 --- task ---
 
-Clique sur le sprite **caisse claire** et va dans l'onglet **Costumes**. Utilise l'outil **Sélectionner** (flèche) pour mettre en surbrillance le costume non frappé de ton tambour. Clique sur l'icône **Grouper** puis sur l'icône **Copier** :
+Clique sur le sprite **caisse claire** et va dans l'onglet **Costumes**.
 
 ![](images/snare-icon.png)
+
+Utilise l'outil **Sélectionner** (flèche) pour mettre en surbrillance le costume non frappé de ton tambour. Clique sur l'icône **Grouper** puis sur l'icône **Copier** :
 
 ![](images/copy-costume.png)
 
@@ -91,8 +109,6 @@ Clique sur le sprite **caisse claire** et va dans l'onglet **Costumes**. Utilise
 --- task ---
 
 Clique sur ton sprite **avoir caisse claire** et **colle** le costume de caisse claire. Tu devras peut-être le redimensionner et le positionner pour l'adapter à ton bouton :
-
-![](images/get-snare-icon.png)
 
 ![](images/paste-costume.png)
 
@@ -111,25 +127,17 @@ show
 
 --- /task ---
 
-L'amélioration ne peut être achetée que si l'utilisateur a `10` battements ou plus. Dans [Faire grandir une libellule](https://projects.raspberrypi.org/fr-FR/projects/grow-a-dragonfly){:target="_blank"}, tu as appris à prendre des décisions avec des blocs `si`{:class="block3control"}.
-
-Un bloc `si ... sinon`{:class="block3control"} est utilisé pour prendre une décision et fera des choses différentes si une condition est `vraie` ou `fausse`.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Nous utilisons <span style="color: #0faeb0">**si ... sinon**</span> tout le temps pour prendre des décisions. Lorsque tu te réveilles, tu vérifies "si"{:class="block3control"} c'est le matin. Tu te lèves, ou "sinon"{:class="block3control"} tu te rendors. Peux-tu penser à des décisions "si ... sinon"{:class="block3control"} que tu prends ? 
-</p>
+Le tambour suivant ne peut être débloqué que si l'utilisateur a `10` ou plus de battements.
 
 --- task ---
 
-Ajoute ce code pour obtenir l'amélioration `si`{:class="block3control"} le joueur a assez de battements, ou `dire`{:class="block3looks"} `Pas assez de battements !` s'ils ne peuvent pas faire une amélioration :
-
-![](images/get-snare-icon.png)
+Ajoute ce code pour débloquer le tambour suivant `si`{:class="block3control"} le joueur a suffisamment de battements, ou `dis`{:class="block3looks"} `Plus de battements nécessaires !` s'il n'y en a pas assez :
 
 ```blocks3
 when this sprite clicked
-if <(battements)>  [9]> then //si 10 battements ou plus
+if <(battements)>  [9]> then // si 10 battements ou plus
 hide
-change [battements v] by [-10] //enlever le coût de l'amélioration
+change [battements v] by [-10] // enlever le coût de l'amélioration
 else
 say [Pas assez de battements !] for [2] seconds 
 end
@@ -137,13 +145,9 @@ end
 
 --- /task ---
 
-Fais savoir aux autres sprites et à la scène que l'amélioration de la caisse claire a été achetée.
-
 --- task ---
 
 Ajoute un bloc `envoyer à tous`{:class="block3events"} pour envoyer un nouveau message `caisse claire` :
-
-![](images/get-snare-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -160,9 +164,11 @@ end
 
 --- task ---
 
-Clique sur le sprite **caisse claire**. Ajoute ce script :
+Clique sur le sprite **caisse claire**.
 
 ![](images/snare-icon.png)
+
+Ajoute ce script :
 
 ```blocks3
 when I receive [caisse clair v]
@@ -171,30 +177,44 @@ show
 
 --- /task ---
 
-Lorsque tu améliores ton équipement, tu pourras jouer dans de plus grandes salles.
+--- task ---
+
+**Test :** exécute ton projet.
+
+Tu ne devrais pas pouvoir débloquer le tambour suivant avant d'avoir accumulé suffisamment de battements.
+
+--- /task ---
+
+Lorsque tu débloques de nouveaux tambours, tu peux jouer dans des salles plus grandes !
 
 --- task ---
 
 Ajoute un autre arrière-plan. Nous avons choisi **Chalkboard** pour jouer notre deuxième concert à l'école.
 
-Ajoute du code à la scène pour `basculer sur l'arrière-plan`{:class="block3looks"} lorsque le message d'amélioration est reçu :
+**Astuce :** choisis une salle qui soit un peu mieux qu'une chambre. Tu veux garder les salles plus grandes pour plus tard !
+
+--- /task ---
+
+--- task ---
+
+Clique sur la scène.
 
 ![](images/stage-icon.png)
+
+Ajoute du code à la scène pour `basculer sur l'arrière-plan`{:class="block3looks"} lorsque le message d'amélioration est reçu :
 
 ```blocks3
 when I receive [caisse clair v]
 switch backdrop to [Chalkboard v]
 ```
 
-**Astuce :** Choisis une salle qui est un peu plus élevé que la chambre. Tu veux garder les grands événements pour plus tard.
-
 --- /task ---
 
 --- task ---
 
-**Test :** Exécute ton projet. Essaie d'acheter l'amélioration de la caisse claire avant d'avoir suffisamment de battements.
+**Test :** exécute ton projet.
 
-Lorsque tu achètes l'amélioration : la caisse claire apparaît, le bouton disparaît, la salle change et les `battements`{:class="block3variables"} diminuent de `10`.
+Lorsque tu déverrouilles le tambour suivant : la caisse claire devrait apparaître, le bouton disparaît, la salle change et les `battements`{:class="block3variables"} diminuent de `10`.
 
 --- /task ---
 

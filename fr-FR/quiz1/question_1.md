@@ -1,16 +1,10 @@
-## Réflexion
+## Questionnaire rapide
 
-Bravo, tu as créé un jeu de clics auquel les gens veulent jouer !
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-Tu as utilisé des blocs `Événements`{:class="block3events"}, `Contrôle`{:class="block3control"}, `Capteurs`{:class="block3sensing"}, `Opérateurs`{:class="block3operators"} , `Variables`{:class="block3variables"}, `Musique`{:class="block3extensions"} et `Apparences`{:class="block3looks"} !
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Il est maintenant temps de réfléchir. La réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
-
-Réponds aux trois questions ci-dessous pour réfléchir sur ce que tu as appris.
-
-Après chaque question, appuie sur Soumettre. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
-
-Amuse-toi bien  !
+Amuse-toi bien !
 
 --- question ---
 

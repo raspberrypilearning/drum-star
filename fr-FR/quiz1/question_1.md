@@ -48,7 +48,7 @@ Dans ton projet, tu as créé et utilisé des variables. Laquelle de ces valeurs
 
  --- feedback ---
 
-Non. Pense aux variables `battements` {:class="block3variables"} et `nom` {:class="block3variables"} que tu as utilisées.
+Non. Pense aux variables `battements`{:class="block3variables"} et `nom`{:class="block3variables"} que tu as utilisées.
 
  --- /feedback ---
 

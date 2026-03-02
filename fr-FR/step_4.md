@@ -10,7 +10,7 @@ Ajoute le sprite **caisse claire** à ton projet et positionne-le sur la scène�
 
 --- task ---
 
-Fais glisser le script `quand ce sprite est cliqué `{:class="block3events"} du sprite **cymbale** vers le sprite **caisse claire**.
+Fais glisser le script `quand ce sprite est cliqué`{:class="block3events"} du sprite **cymbale** vers le sprite **caisse claire**.
 
 --- /task ---
 

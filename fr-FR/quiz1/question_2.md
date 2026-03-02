@@ -40,13 +40,14 @@ Non, `???` est la valeur de la variable `nom`{:class="block3variables"} avant l'
 
   --- feedback ---
 
-Non, `réponse`{:class="block3sensing"} est la variable intégrée que Scratch utilise pour stocker la réponse qu'un utilisateur tape lorsque tu `demandes`{:class="block3sensing"} une question. --- /feedback ---
+Non, `réponse`{:class="block3sensing"} est la variable intégrée que Scratch utilise pour stocker la réponse qu'un utilisateur tape lorsque tu `demandes`{:class="block3sensing"} une question.
+--- /feedback ---
 
 - (x) Bobo
 
   --- feedback ---
 
-Oui, le bloc `mettre [nom v] à`{:class="block3variables"} définit la **valeur** de la variable `nom`{:class="block3variables"} sur la valeur de `demande`{:class= "block3sensing"} qui est le texte saisi par l'utilisateur.
+Oui, le bloc `mettre [nom v] à`{:class="block3variables"} définit la **valeur** de la variable `nom`{:class="block3variables"} sur la valeur de `demande`{:class="block3sensing"} qui est le texte saisi par l'utilisateur.
 
 La valeur `Bobo` sera également affichée sur la Scène.
 

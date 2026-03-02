@@ -54,10 +54,10 @@ Modifie le nombre de battements que tu gagnes en cliquant sur le nouveau tambour
 
 ```blocks3
 when this sprite clicked
-+change [beats v] by [5] //5 beats per click
-+switch costume to [ v] //your hit costume
-+play drum [ v] for [0.25] beats //your drum sound
-+switch costume to [ v] //your not hit costume
++change [battements v] by [5] // 5 battements par clic
++switch costume to [ v] // ton costume frappé
++play drum [ v] for [0.25] beats // ton son de tambour
++switch costume to [ v] // ton costume pas frappé
 ```
 
 --- /task ---
@@ -124,8 +124,8 @@ when flag clicked
 Ajoute un script `quand je reçois`{:class="block3events"} que ton nouveau bouton « avoir » `affichera`{:class="block3looks"} lorsque le joueur déverrouille la caisse claire.
 
 ```blocks3
-when I receive [snare v] // appear when previous drum is unlocked
-show // show button to get the new drum
+when I receive [caisse clair v] // apparaît lorsque le tambour précédent est acheté
+show // apparaît lorsque le tambour précédent est acheté
 ```
 
 --- /task ---
@@ -139,12 +139,12 @@ Modifie :
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [29]> then // change to 29
+if <(battements)>  [29]> then // changer à 29
 hide
-change [beats v] by [-30] // change to -30
-broadcast (conga v) // change to your drum name
+change [battements v] by [-30] // changer à -30
+broadcast (conga v) // changer le nom de ton tambour
 else
-say [More beats needed!] for [2] seconds 
+say [Pas assez de battements !] for [2] seconds 
 end
 ```
 
@@ -155,7 +155,7 @@ end
 Clique sur ton nouveau sprite de tambour et modifie le script `quand je reçois caisse claire`{:class="block3events"} pour qu'il s'affiche lorsque ton nouveau tambour est déverrouillé :
 
 ```blocks3
-when I receive [conga v] // change to your drum name
+when I receive [conga v] // changer le nom de ton tambour
 show
 ```
 
@@ -174,7 +174,7 @@ Ajoute un script à la scène pour changer l'arrière-plan lorsque le joueur pas
 ![](images/stage-icon.png)
 
 ```blocks3
-when I receive [conga v] // change to your drum name
+when I receive [conga v] // changer le nom de ton tambour
 switch backdrop to (Party v)
 ```
 

@@ -119,11 +119,11 @@ Ajoute ce code pour `regrouper`{:class="block3operators"} le nombre de battement
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [9]> then //if 10 or more beats
+if <(battements)>  [9]> then // si 10 battements ou plus
 hide
-change [beats v] by [-10] //take away the cost of upgrade
+change [battements v] by [-10] // enlever le coût de l'amélioration
 else
-+ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
++ say (join ((10) - (battements)) [battements nécessaires !]) for [2] seconds
 end
 ```
 

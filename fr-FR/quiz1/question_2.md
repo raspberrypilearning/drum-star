@@ -9,9 +9,9 @@ Un projet comporte ce script pour `demander`{:class="block3sensing"} à l'utilis
 
 ```blocks3
 when flag clicked
-set [name v] to [???] 
-ask [What's your name?] and wait 
-set [name v] to (answer)
+set [nom v] to [???] 
+ask [Quel est ton nom ?] and wait 
+set [nom v] to (answer)
 ```
 
 ![](images/q1-chatbot.png)

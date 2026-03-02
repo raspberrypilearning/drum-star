@@ -20,12 +20,11 @@ Si tu suis le parcours [Plus de Scratch](https://projects.raspberrypi.org/fr-FR/
 Si tu veux t'amuser davantage en explorant Scratch, tu peux essayer l'un des [projets suivants](https://projects.raspberrypi.org/fr-FR/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
 
 ***
+
 Ce projet a été traduit par des bénévoles:
 
-[name]
+Michel Arnols
 
-[name]
-
-[name]
+Jonathan Vannieuwkerke
 
 Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).

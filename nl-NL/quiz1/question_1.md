@@ -1,24 +1,18 @@
-## Reflectie
+## Quick quiz
 
-Goed gedaan, je hebt een clicker-spel gemaakt dat mensen willen spelen!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Je hebt `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Waarnemen`{:class="block3sensing"}, `Functies`{:class="block3operators"}, `Variabelen`{:class="block3motion"}, `Muziek`{:class="block3looks"} en `Uiterlijken`{:class="block3sound"} blokken gebruikt!
+When you have answered each question, click on **Check my answer**.
 
-Nu is het tijd om na te denken. Reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen te maken in je hersenen.
-
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
-
-Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
-
-Veel plezier!
+Have fun!
 
 --- question ---
 
 ---
-legend: Vraag 1 van 3
+legend: Question 1 of 3
 ---
 
-In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunnen worden opgeslagen in een variabele?
+In your project, you created and used variables. Which of these values can be stored in a variable?
 
 `6` , `Tom` , `151` , `Aadya`
 
@@ -28,7 +22,7 @@ In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunn
 
  --- feedback ---
 
- Je hebt de `beats`{:class="block3variables"} variabele gebruikt om een getal op te slaan. Maar je hebt ook een variabele voor iets anders gebruikt.
+ Je hebt de `slagen`{:class="block3variables"} variabele gebruikt om een getal op te slaan. Maar je hebt ook een variabele voor iets anders gebruikt.
 
  --- /feedback ---
 
@@ -44,7 +38,7 @@ In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunn
 
  --- feedback ---
 
- Ja, je hebt een getal opgeslagen in de `beats`{:class="block3variables"} `variabele`{:class="block3variables"} en je hebt tekst (woorden) opgeslagen in de `naam`{:class="block3variables"} `variabele`{:class="block3variables"}.
+ Ja, je hebt een getal opgeslagen in de `slagen`{:class="block3variables"} `variabele`{:class="block3variables"} en je hebt tekst (woorden) opgeslagen in de `naam`{:class="block3variables"} `variabele`{:class="block3variables"}.
 
  Een variabele kan een getal of tekst (woorden) opslaan.
 
@@ -54,7 +48,7 @@ In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunn
 
  --- feedback ---
 
-Nee. Denk aan de `beats`{:class="block3variables"} en `naam`{:class="block3variables"} variabelen die je hebt gebruikt.
+No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
 
  --- /feedback ---
 

@@ -1,4 +1,4 @@
-## More drums!
+## Nog meer drums!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -21,7 +21,7 @@ Dupliceer de **Drum-snare** sprite:
 
 Klik op de **Drum Uiterlijken** sprite en selecteer het tabblad **Uiterlijken**.
 
-**Choose:** which drum to unlock next. We kozen voor **Conga**.
+**Kies:** welke trommel je vervolgens wilt ontgrendelen. We kozen voor **Conga**.
 
 
 --- /task ---
@@ -38,7 +38,7 @@ Sleep de 'geraakt'- en 'niet geraakt'-uiterlijken van de door jou gekozen drum n
 
 --- task ---
 
-Name the new drum to match the costumes you chose.
+Geef je drum een naam die past bij het uiterlijk dat je hebt gekozen.
 
 ![](images/drum-3-named.png)
 
@@ -70,31 +70,31 @@ Sleep je nieuwe drum naar de juiste positie op het speelveld:
 
 --- /task ---
 
-Add a button so that players can unlock the new drum.
+Voeg een knop toe waarmee spelers de nieuwe drum kunnen ontgrendelen.
 
 --- task ---
 
-Duplicate the **Get snare** sprite and position it in the bottom-right corner of the Stage.
+Dupliceer de **Get snare** sprite en plaats deze in de rechteronderhoek van het speelveld.
 
 --- /task ---
 
 --- task ---
 
-Change its name (for example `Get conga`):
+Wijzig de naam (bijvoorbeeld `Krijg conga`):
 
-![The Sprite list with duplicated 'Get snare' sprite. The sprite name has been changed to match the new drum type and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
-
---- /task ---
-
---- task ---
-
-Delete the **snare drum** from the new 'Get' button costume.
+![De Sprite-lijst met gedupliceerde 'Krijg snare' sprite. De naam van de sprite is gewijzigd om overeen te komen met de nieuwe drum en wordt rechtsonder in het speelveld geplaatst.](images/get-drum-3.png)
 
 --- /task ---
 
 --- task ---
 
-Copy the 'not hit' costume for your new drum and paste it to the new 'Get' button costume.
+Verwijder de **snare drum** van het nieuwe 'Krijg'-knop uiterlijk.
+
+--- /task ---
+
+--- task ---
+
+Kopieer en plak het 'niet geraakt' uiterlijk van je nieuwe drum in het uiterlijk van je knop.
 
 --- /task ---
 
@@ -106,7 +106,7 @@ Klik op de **Tekst** tool en wijzig het getal in `30` om de kosten van de nieuwe
 
 --- /task ---
 
-Your new 'Get' button should `hide`{:class="block3looks"} at the start.
+Je nieuwe 'Krijg'-knop moet `verdwijnen`{:class="block3looks"} aan het begin.
 
 --- task ---
 
@@ -121,7 +121,7 @@ when flag clicked
 
 --- task ---
 
-Add a `when I receive`{:class="block3events"} script that your new 'Get' button will `show`{:class="block3looks"} when the player unlocks the snare drum.
+Voeg een `wanneer ik signaal ontvang`{:class="block3events"} script toe, zodat je nieuwe 'Krijg'-knop ``{:class="block3looks"} zal verschijnen wanneer de speler de snare drum ontgrendelt.
 
 ```blocks3
 when I receive [snare v] // appear when previous drum is unlocked
@@ -132,10 +132,10 @@ show // show button to get the new drum
 
 --- task ---
 
-Change:
-- The number of beats needed to unlock this drum
-- The number of beats that are removed when the player unlocks this drum.
-- The message that is `broadcast`{:class="block3events"} when the player gets the new drum.
+Wijzig:
+- Het aantal slagen dat nodig is om deze trommel te ontgrendelen
+- Het aantal slagen dat wordt verwijderd wanneer de speler deze drum ontgrendelt.
+- Het bericht dat `wordt uitgezonden`{:class="block3events"} wanneer de speler de nieuwe drum krijgt.
 
 ```blocks3
 when this sprite clicked
@@ -152,7 +152,7 @@ end
 
 --- task ---
 
-Click your new drum sprite and change the `when I receive snare`{:class="block3events"} script to show it when your new drum is unlocked:
+Klik op je nieuwe drum-sprite en verander het `wanneer ik snare ontvang`{:class="block3events"}-script zodat het wordt weergegeven wanneer je nieuwe drum is ontgrendeld:
 
 ```blocks3
 when I receive [conga v] // change to your drum name
@@ -182,11 +182,11 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**Test:** Click the green flag to start the game.
+**Test:** Klik op de groene vlag om het spel te starten.
 
-You should unlock your new drum if you earn enough beats.
+Je kunt je nieuwe trommel ontgrendelen als je genoeg slagen verdient.
 
-What happens if you click the button before you have earned enough beats?
+Wat gebeurt er als je op de knop klikt voordat je genoeg slagen hebt verdiend?
 
 --- /task ---
 

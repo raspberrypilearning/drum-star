@@ -1,4 +1,4 @@
-## What you will make
+## Wat je gaat maken
 
 Maak een clicker spel waar je beats verdient om nieuwe drums op grotere locaties te spelen.
 

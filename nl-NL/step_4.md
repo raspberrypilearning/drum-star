@@ -201,7 +201,7 @@ Klik op het speelveld.
 
 ![](images/stage-icon.png)
 
-Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+Voeg code toe aan het speelveld om `de achtergrond te veranderen`{:class="block3looks"} wanneer het upgradebericht wordt ontvangen:
 
 ```blocks3
 when I receive [snare v]
@@ -212,9 +212,9 @@ switch backdrop to [Chalkboard v]
 
 --- task ---
 
-**Test:** Run your project.
+**Test:** Voer je project uit.
 
-When you unlock the next drum: the snare should appear, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
+Wanneer je de volgende drum ontgrendelt: de snare verschijnt, de knop verdwijnt, de locatie verandert en de `slagen`{:class="block3variables"} gaan met `10`omlaag.
 
 --- /task ---
 

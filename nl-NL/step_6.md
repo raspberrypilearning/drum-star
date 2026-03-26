@@ -1,4 +1,4 @@
-## Play
+## Speel
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,11 +11,11 @@ Het is tijd om je spel precies zoals je wilt te laten werken.
 
 --- task ---
 
-If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back.
+Als je het `vraag`{:class="block3sensing"} blok op het speelveld hebt losgekoppeld, plaats het dan terug.
 
-**Test:** Click the green flag and set your rock star name!
+**Test:** Klik op de groene vlag en kies je rockster naam!
 
-You should see the name displayed on the Stage changes.
+Je zou moeten zien dat de naam die wordt weergegeven op het speelveld verandert.
 
 --- /task ---
 

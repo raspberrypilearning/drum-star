@@ -15,13 +15,13 @@ Open het [Drum star starter project](https://scratch.mit.edu/projects/535783147/
 
 --- /task ---
 
-The drummer starts in a bedroom like a beginner!
+De drummer begint in een slaapkamer, net als een beginner!
 
 --- task ---
 
 Klik op **Kies een achtergrond** en zoek naar `slaapkamer`.
 
-Select a bedroom and add it to your project. We kozen `Slaapkamer 3`.
+Selecteer een slaapkamer en voeg deze toe aan je project. We kozen `Slaapkamer 3`.
 
 ![Het podium met de achtergrond van 'Slaapkamer 3'.](images/bedroom3.png)
 
@@ -113,7 +113,7 @@ Klik met de rechtermuisknop op de `variabele`{:class="block3variables"} op het p
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
+Sleep je `variabele`{:class="block3variables"} om deze in de rechterbovenhoek van het speelveld te plaatsen:
 
 ![](images/repositioned-variable.png)
 
@@ -125,11 +125,11 @@ Drag your `variable`{:class="block3variables"} to position it top-right of the S
 
 --- /task ---
 
-You don't want to type an answer every time you test your project.
+Je wilt niet elke keer dat je je project test een antwoord hoeven in te typen.
 
 --- task ---
 
-Drag the last two blocks of code away from the rest of the script.
+Sleep de laatste twee codeblokken weg van de rest van het script.
 
 ```blocks3
 when flag clicked

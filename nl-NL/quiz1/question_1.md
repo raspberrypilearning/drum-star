@@ -1,24 +1,24 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn aanwijzingen die je naar het juiste antwoord leiden.
 
-When you have answered each question, click on **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-In your project, you created and used variables. Which of these values can be stored in a variable?
+In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunnen worden opgeslagen in een variabele?
 
 `6` , `Tom` , `151` , `Aadya`
 
 --- choices ---
 
-- ( ) alleen de cijfers `6` en `151`
+- ( ) alleen de getallen `6` en `151`
 
  --- feedback ---
 
@@ -48,7 +48,7 @@ In your project, you created and used variables. Which of these values can be st
 
  --- feedback ---
 
-No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
+Nee. Denk aan de `slagen`{:class="block3variables"} en `naam`{:class="block3variables"} variabelen die je hebt gebruikt.
 
  --- /feedback ---
 

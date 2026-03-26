@@ -1,4 +1,4 @@
-## Next drum
+## Volgende trommel
 
 --- task ---
 
@@ -16,7 +16,7 @@ Sleep het `wanneer deze sprite klikt`{:class="block3events"} script van de **Dru
 
 --- task ---
 
-Change the costume and the drum sound for the **Drum-snare** sprite.
+Verander het uiterlijk en het drumgeluid voor de **Drum-snare** sprite.
 
 ![](images/snare-icon.png)
 
@@ -31,7 +31,7 @@ when this sprite clicked
 
 --- task ---
 
-Change the number of beats earned to `2`:
+Wijzig het aantal slagen dat wordt verdiend in `2`:
 
 ```blocks3
 when this sprite clicked
@@ -47,15 +47,15 @@ switch costume to [drum-snare-a v] //not hit costume
 
 **Test:** Probeer je project uit.
 
-You should you earn 2 beats when you click on the snare drum.
+Zorg ervoor dat je 2 slagen verdient wanneer je op de snare drum klikt.
 
 --- /task ---
 
-The next drum is not available when you start the project. It has to be earned with beats.
+De volgende drum is niet beschikbaar wanneer je het project start. Ze moeten worden verdiend met slagen.
 
 --- task ---
 
-Add a script to the **Drum-snare** sprite to hide it at the start of the project:
+Voeg een script toe aan de **Drum-snare** sprite om deze aan het begin van het project te verbergen:
 
 ```blocks3
 when flag clicked
@@ -64,7 +64,7 @@ hide
 
 --- /task ---
 
-Add a button to show which drum is the next and how many beats it will cost.
+Voeg een knop toe om te laten zien welke drum de volgende is en hoeveel slagen die kost.
 
 --- task ---
 
@@ -76,13 +76,13 @@ Add a button to show which drum is the next and how many beats it will cost.
 
 --- task ---
 
-Change the visibility to **Show**. ![](images/show.png)
+Wijzig de zichtbaarheid naar **Toon**. ![](images/show.png)
 
 --- /task ---
 
 --- task ---
 
-Change its name to `Get snare`.
+Wijzig de naam naar `Krijg snare`.
 
 --- /task ---
 
@@ -100,7 +100,7 @@ Klik op de **Drum-snare** sprite en ga naar het tabblad **Uiterlijken**.
 
 ![](images/snare-icon.png)
 
-Use the **Select** (arrow) tool to highlight the 'not hit' costume of your drum. Klik op het pictogram **Groeperen** en vervolgens op het pictogram **Kopiëren**:
+Gebruik de **Selecteren** (pijl) tool om het 'niet geraakt' uiterlijk van je drum te markeren. Klik op het pictogram **Groeperen** en vervolgens op het pictogram **Kopiëren**:
 
 ![](images/copy-costume.png)
 
@@ -127,11 +127,11 @@ show
 
 --- /task ---
 
-The next drum can only be unlocked if the user has `10` or more beats.
+De volgende trommel kan alleen worden ontgrendeld als de gebruiker `10` of meer slagen heeft.
 
 --- task ---
 
-Add this code to unlock the next drum `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they do not have enough:
+Voeg deze code toe om de volgende drum te ontgrendelen `als`{:class="block3control"} de speler genoeg slagen heeft, of `zeg`{:class="block3looks"} `Meer slagen nodig!` als ze er niet genoeg hebben:
 
 ```blocks3
 when this sprite clicked
@@ -147,7 +147,7 @@ end
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+Voeg een `zend signaal`{:class="block3events"} blok toe om een nieuw `snare` bericht te verzenden:
 
 ```blocks3
 when this sprite clicked
@@ -164,11 +164,11 @@ end
 
 --- task ---
 
-Click on the **Drum-snare** sprite.
+Klik op de **Drum-snare** sprite.
 
 ![](images/snare-icon.png)
 
-Add this script:
+Voeg dit script toe:
 
 ```blocks3
 when I receive [snare v]
@@ -179,25 +179,25 @@ show
 
 --- task ---
 
-**Test:** Run your project.
+**Test:** Voer je project uit.
 
-You should not be able to unlock the next drum before you have enough beats.
-
---- /task ---
-
-When you unlock new drums, you can play at bigger venues!
-
---- task ---
-
-Add another backdrop. We chose **Chalkboard** to play our second gig at school.
-
-**Tip:** Choose a venue that's a small step up from a bedroom. You want to save bigger venues for later!
+Je zou de volgende drum niet moeten kunnen ontgrendelen voordat je genoeg slagen hebt.
 
 --- /task ---
 
+Als je nieuwe drums ontgrendelt, kun je in grotere zalen spelen!
+
 --- task ---
 
-Click on the Stage.
+Voeg nog een achtergrond toe. We kozen **Chalkboard** om ons tweede optreden op school te spelen.
+
+**Tip:** Kies een locatie die een kleine verbetering is ten opzichte van de slaapkamer. Je wilt grotere locaties bewaren voor later.
+
+--- /task ---
+
+--- task ---
+
+Klik op het speelveld.
 
 ![](images/stage-icon.png)
 

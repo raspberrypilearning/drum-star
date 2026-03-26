@@ -11,7 +11,7 @@ Je voegt een **cymbal** sprite toe waarop je kunt klikken om beats te verdienen 
 
 --- task ---
 
-Click **Choose a Sprite** and search `cymbal`.
+Klik op **Kies een Sprite** en zoek `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Click **Choose a Sprite** and search `cymbal`.
 
 --- task ---
 
-Add the **Drum-cymbal** sprite and position it on the Stage:
+Voeg de **Drum-cymbal** sprite toe en plaats deze op het speelveld:
 
 ![](images/cymbal-stage.png)
 
@@ -52,7 +52,7 @@ switch costume to [drum-cymbal-a v]  // not hit costume
 
 **Test:** Test je bekkens door erop te klikken.
 
-You should hear a sound and see the costume change.
+Je zou een geluid moeten horen en het uiterlijk moeten zien veranderen.
 
 --- /task ---
 
@@ -60,7 +60,7 @@ Iedere keer dat je klikt op de **drum-cymbal** sprite verdien je één slag.
 
 --- task ---
 
-Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
+Maak een `variabele`{:class="block3variables"} (voor alle sprites) genaamd `slagen`:
 
 ![](images/beats-variable.png)
 
@@ -82,9 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test the **Drum-cymbal** by clicking on it.
+**Test:** Test de **Drum-cymbal** door erop te klikken.
 
-You should see the `beats`{:class="block3variables"} increase.
+Je zou moeten zien dat de `slagen`{:class="block3variables"} toenemen.
 
 --- /task ---
 
@@ -92,7 +92,7 @@ De `slagen`{:class="block3variables"} variabele moet beginnen bij `0` slagen wan
 
 --- task ---
 
-Click on the Stage pane and then the **Code** tab.
+Klik op het venster Speelveld en vervolgens op het tabblad **Code**.
 
 Voeg een blok toe aan `zet slagen op`{:class="block3variables"} `0`:
 

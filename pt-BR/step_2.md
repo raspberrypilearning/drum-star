@@ -21,7 +21,7 @@ The drummer starts in a bedroom like a beginner!
 
 Clique em **Escolha um Sprite** e pesquise `cymbal`.
 
-Select a bedroom and add it to your project. Escolhemos `Quarto 3`.
+Adicione a varinha de sua preferência ao seu projeto. Escolhemos `Quarto 3`.
 
 ![O Palco mostrando o cenário jurassic.](images/bedroom3.png)
 
@@ -113,7 +113,7 @@ Clique com o botão direito novamente na `variável`{:class="block3variables"} e
 
 --- task ---
 
-Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
+Arraste sua `variável`{:class="block3variables"} para posicioná-la no canto superior direito do Palco:
 
 ![](images/repositioned-variable.png)
 

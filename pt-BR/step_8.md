@@ -1,4 +1,4 @@
-## Challenge
+## Desafio
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,7 +11,7 @@ Atualize seu projeto com mais bateria e mais cenários enquanto toca em locais m
 
 ### Add more drums
 
-To add another drum to unlock, look back at the earlier steps of the project.
+Para adicionar outro tambor para atualizar, reveja as etapas anteriores do projeto.
 
 Here are some reminders if you need them.
 
@@ -73,7 +73,7 @@ Troque a fantasia `por`{:class="block3looks"} incluindo o custo do novo tambor.
 
 --- task ---
 
-Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. Altere o número de `batidas`{:class="block3variables"} obtidas no script `quando este sprite clicou em`{:class="block3events"}. Change the message that is `broadcast`{:class="block3events"} to the name of the **new drum**.
+Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. Altere o número de `batidas`{:class="block3variables"} obtidas no script `quando este sprite clicou em`{:class="block3events"}. Mude a mensagem que recebe `broadcast`{:class="block3events"} para o nome dos **novos tambores**.
 
 --- /task ---
 
@@ -93,7 +93,7 @@ Adicionar um plano de fundo.
 
 --- task ---
 
-Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is received.
+Adicione um script ao Palco para `mudar o cenário para`{:class="block3looks"} o novo cenário quando a `mensagem`{:class="block3events"} para esta bateria for recebida.
 
 --- /task ---
 
@@ -135,7 +135,7 @@ end
 
 --- task ---
 
-**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
+**Arrumado:** Se você tiver tempo, então é uma boa ideia certificar-se de que os sprites na lista de sprites estejam em uma ordem sensata, começando com a bateria em sua ordem de atualização e depois os botões em ordem.
 
 --- /task ---
 
@@ -147,12 +147,12 @@ end
 
 --- collapse ---
 ---
-title: My drum doesn't show/hide correctly
+title: Minha bateria não aparece/oculta corretamente
 ---
 
 A menos que seja o primeiro tambor, seu tambor deve ter um script `quando flag clicado`{:class="block3events"} para `ocultar`{:class="block3looks"}.
 
-It should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
+Deve ter `quando eu receber`{:class="block3events"} `este script de bateria` para `mostrar`{:class="block3looks"}.
 
 Verifique se o botão **Get** para este tambor `transmite`{:class="block3events"} a mesma mensagem.
 
@@ -160,12 +160,12 @@ Verifique se o botão **Get** para este tambor `transmite`{:class="block3events"
 
 --- collapse ---
 ---
-title: My Get button doesn't show/hide correctly
+title: Minha bateria não aparece/oculta corretamente
 ---
 
 A menos que o botão seja para o primeiro tambor, ele deve `ocultar`{:class="block3looks"} `quando o sinalizador for clicado`{:class="block3events"}.
 
-It should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**.
+Deveria `mostrar`{:class="block3looks"} `quando eu receber`{:class="block3events"} a mensagem da **bateria anterior**.
 
 The **Get** button should `show`{:class="block3looks"} to let the player know about the next drum they can unlock.
 
@@ -173,7 +173,7 @@ The **Get** button should `show`{:class="block3looks"} to let the player know ab
 
 --- collapse ---
 ---
-title: I can unlock a drum when I don't have enough beats
+title: Posso atualizar uma bateria quando não tenho batidas suficientes
 ---
 
 Verifique se você alterou o número de `batidas`{:class="block3variables"} necessárias `quando este sprite clicou em`{:class="block3events"} no script para o botão **Get** da bateria.

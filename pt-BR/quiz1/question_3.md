@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Pergunta 3 de 3
 ---
 
 Você usou este script para controlar o que acontece quando o jogador clica no botão para atualizar sua bateria:

@@ -1,4 +1,4 @@
-## What you will make
+## O que você vai fazer
 
 Faça um jogo clicker onde você ganha batidas para tocar novas baterias em locais maiores.
 

@@ -48,7 +48,7 @@ Geef je drum een naam die past bij het uiterlijk dat je hebt gekozen.
 
 Klik op het **Code** tabblad. Wijzig de code om de juiste uiterlijken te gebruiken en kies een geluid voor je nieuwe drum.
 
-Wijzig het aantal slagen dat je verdient door op de nieuwe drum te klikken in `5`:
+Wijzig het aantal beats dat je verdient door op de nieuwe drum te klikken in `5`:
 
 ![](images/drum-3-icon.png)
 
@@ -133,8 +133,8 @@ show // show button to get the new drum
 --- task ---
 
 Wijzig:
-- Het aantal slagen dat nodig is om deze trommel te ontgrendelen
-- Het aantal slagen dat wordt verwijderd wanneer de speler deze drum ontgrendelt.
+- Het aantal beats dat nodig is om deze trommel te ontgrendelen
+- Het aantal beats dat wordt verwijderd wanneer de speler deze drum ontgrendelt.
 - Het bericht dat `wordt uitgezonden`{:class="block3events"} wanneer de speler de nieuwe drum krijgt.
 
 ```blocks3
@@ -184,9 +184,9 @@ switch backdrop to (Party v)
 
 **Test:** Klik op de groene vlag om het spel te starten.
 
-Je kunt je nieuwe trommel ontgrendelen als je genoeg slagen verdient.
+Je kunt je nieuwe trommel ontgrendelen als je genoeg beats verdient.
 
-Wat gebeurt er als je op de knop klikt voordat je genoeg slagen hebt verdiend?
+Wat gebeurt er als je op de knop klikt voordat je genoeg beats hebt verdiend?
 
 --- /task ---
 

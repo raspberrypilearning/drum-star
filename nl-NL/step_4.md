@@ -31,7 +31,7 @@ when this sprite clicked
 
 --- task ---
 
-Wijzig het aantal slagen dat wordt verdiend in `2`:
+Wijzig het aantal beats dat wordt verdiend in `2`:
 
 ```blocks3
 when this sprite clicked
@@ -47,7 +47,7 @@ switch costume to [drum-snare-a v] //not hit costume
 
 **Test:** Probeer je project uit.
 
-Zorg ervoor dat je 2 slagen verdient wanneer je op de snare drum klikt.
+Zorg ervoor dat je 2 beats verdient wanneer je op de snare drum klikt.
 
 --- /task ---
 
@@ -64,7 +64,7 @@ hide
 
 --- /task ---
 
-Voeg een knop toe om te laten zien welke drum de volgende is en hoeveel slagen die kost.
+Voeg een knop toe om te laten zien welke drum de volgende is en hoeveel beats die kost.
 
 --- task ---
 
@@ -127,7 +127,7 @@ show
 
 --- /task ---
 
-De volgende trommel kan alleen worden ontgrendeld als de gebruiker `10` of meer slagen heeft.
+De volgende trommel kan alleen worden ontgrendeld als de gebruiker `10` of meer beats heeft.
 
 --- task ---
 
@@ -181,7 +181,7 @@ show
 
 **Test:** Voer je project uit.
 
-Je zou de volgende drum niet moeten kunnen ontgrendelen voordat je genoeg slagen hebt.
+Je zou de volgende drum niet moeten kunnen ontgrendelen voordat je genoeg beats hebt.
 
 --- /task ---
 

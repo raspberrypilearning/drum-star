@@ -1,4 +1,4 @@
-## Wat kun je verder nog doen?
+## Wat kun je nu doen?
 
 Als je het [Meer Scratch](https://projects.raspberrypi.org/nl-NL/raspberrypi/more-scratch) pad volgt, kun je naar het [Volgende klant alsjeblieft!](https://projects.raspberrypi.org/nl-NL/projects/next-customer-please) project gaan, waar je een winkel gaat maken waar klanten voorwerpen kunnen kopen en uitchecken.
 
@@ -11,7 +11,7 @@ Als je het [Meer Scratch](https://projects.raspberrypi.org/nl-NL/raspberrypi/mor
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707255579/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
@@ -23,5 +23,6 @@ Dit project werd vertaald door vrijwilligers:
 
 Iny van Beuningen
 Christel Haex
+Robert-Jan Kempenaar
 
 Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

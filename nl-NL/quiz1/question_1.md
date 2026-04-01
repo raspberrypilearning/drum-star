@@ -1,14 +1,8 @@
-## Reflectie
+## Snelle quiz
 
-Goed gedaan, je hebt een clicker-spel gemaakt dat mensen willen spelen!
+Beantwoord de drie vragen. Er zijn aanwijzingen die je naar het juiste antwoord leiden.
 
-Je hebt `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Waarnemen`{:class="block3sensing"}, `Functies`{:class="block3operators"}, `Variabelen`{:class="block3motion"}, `Muziek`{:class="block3looks"} en `Uiterlijken`{:class="block3sound"} blokken gebruikt!
-
-Nu is het tijd om na te denken. Reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen te maken in je hersenen.
-
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
-
-Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
 Veel plezier!
 
@@ -24,7 +18,7 @@ In je project heb je variabelen gemaakt en gebruikt. Welke van deze waarden kunn
 
 --- choices ---
 
-- ( ) alleen de cijfers `6` en `151`
+- ( ) alleen de getallen `6` en `151`
 
  --- feedback ---
 

@@ -43,7 +43,7 @@ Nee, `???` is de waarde van de `naam`{:class="block3variables"} variabele voorda
 Nee, `antwoord`{:class="block3sensing"} is de ingebouwde variabele die Scratch gebruikt om het antwoord op te slaan dat een gebruiker typt wanneer je een vraag `stelt`{:class="block3sensing"}.
 --- /feedback ---
 
-- (X) Bobo
+- (x) Bobo
 
   --- feedback ---
 

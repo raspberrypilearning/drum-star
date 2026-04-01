@@ -35,7 +35,7 @@ Wijzig het `uiterlijk`{:class="block3looks"} en `geluid`{:class="block3sound"} d
 
 --- task ---
 
-Wijzig het aantal `slagen`{:class="block3variables"} dat wordt verdiend in het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script.
+Wijzig het aantal `beats`{:class="block3variables"} dat wordt verdiend in het `wanneer op deze sprite wordt geklikt`{:class="block3events"} script.
 
 --- /task ---
 
@@ -73,7 +73,7 @@ Verander het `uiterlijk`{:class="block3looks"} inclusief de kosten voor de nieuw
 
 --- task ---
 
-Wijzig het aantal `slagen`{:class="block3variables"} dat je nodig hebt om deze drum te ontgrendelen in de `als`{:class="block3events"} voorwaarde. Verander het negatieve aantal `slagen`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum ontgrendelt. Wijzig het getal waarvan `slagen`{:class="block3variables"} moet worden afgetrokken in het `voeg samen`{:class="block3operators"} blok. Wijzig het bericht dat het `zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
+Wijzig het aantal `slagen`{:class="block3variables"} dat je nodig hebt om deze drum te ontgrendelen in de `als`{:class="block3events"} voorwaarde. Verander het negatieve aantal `slagen`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum ontgrendelt. Wijzig het getal waarvan `beats`{:class="block3variables"} moet worden afgetrokken in het `voeg samen`{:class="block3operators"} blok. Wijzig het bericht dat het `zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
 
 --- /task ---
 
@@ -111,11 +111,11 @@ Je moet ook de beginpositie instellen `wanneer op de vlag wordt geklikt`{:class=
 
 ### Verbeter de feedback aan de speler
 
-Vertel de speler precies **hoeveel** slagen er nog nodig zijn om de volgende drum te ontgrendelen.
+Vertel de speler precies **hoeveel** beats er nog nodig zijn om de volgende drum te ontgrendelen.
 
 --- task ---
 
-Voeg deze code toe aan het `voeg samen`{:class="block3operators"} blok van het aantal benodigde slagen en de tekst die je hebt gebruikt om de speler te laten weten dat ze meer slagen nodig hebben (als ze er niet genoeg hebben) om de volgende drum te ontgrendelen:
+Voeg deze code toe aan het `voeg samen`{:class="block3operators"} blok van het aantal benodigde beats en de tekst die je hebt gebruikt om de speler te laten weten dat ze meer beats nodig hebben (als ze er niet genoeg hebben) om de volgende drum te ontgrendelen:
 
 ```blocks3
 when this sprite clicked
@@ -143,7 +143,7 @@ end
 
 ### Zit je vast?
 
-**Debug:** Zorg er eerst voor dat je echt begrijpt wanneer de drums en knoppen getoond moeten worden en hoe de `slagen`{:class="block3variables"} variabele moet veranderen. Het is veel gemakkelijker om een project te debuggen als je weet wat het moet doen.
+**Debug:** Zorg er eerst voor dat je echt begrijpt wanneer de drums en knoppen getoond moeten worden en hoe de `beats`{:class="block3variables"} variabele moet veranderen. Het is veel gemakkelijker om een project te debuggen als je weet wat het moet doen.
 
 --- collapse ---
 ---
@@ -173,16 +173,16 @@ De **Krijg** knop zou moeten worden `verschijnen`{:class="block3looks"} om de sp
 
 --- collapse ---
 ---
-title: Ik kan een trommel ontgrendelen terwijl ik niet genoeg slagen heb
+title: Ik kan een trommel ontgrendelen terwijl ik niet genoeg beats heb
 ---
 
-Controleer of je het aantal `slagen`{:class="block3variables"} hebt gewijzigd `wanneer deze sprite op`{:class="block3events"} klikt in het script voor de **Get** knop voor de trommel.
+Controleer of je het aantal `beats`{:class="block3variables"} hebt gewijzigd `wanneer deze sprite op`{:class="block3events"} klikt in het script voor de **Get** knop voor de trommel.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Het aantal slagen verandert niet correct wanneer ik een nieuwe trommel ontgrendel
+title: Het aantal beats verandert niet correct wanneer ik een nieuwe trommel ontgrendel
 ---
 
 Controleer of je `de beats hebt veranderd met`{:class="block3variables"} een negatief getal `wanneer op deze sprite wordt geklikt`{:class="block3events"} in het script van de **Get** knop voor de drum.

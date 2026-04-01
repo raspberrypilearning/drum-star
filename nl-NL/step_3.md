@@ -11,7 +11,7 @@ Je voegt een **cymbal** sprite toe waarop je kunt klikken om beats te verdienen 
 
 --- task ---
 
-Klik op **Kies een Sprite** en zoek `cymbal`. Voeg de sprite **Drum-cymbal** toe aan je project.
+Klik op **Kies een Sprite** en zoek `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Klik op **Kies een Sprite** en zoek `cymbal`. Voeg de sprite **Drum-cymbal** toe
 
 --- task ---
 
-Plaats je cymbaal op het speelveld:
+Voeg de **Drum-cymbal** sprite toe en plaats deze op het speelveld:
 
 ![](images/cymbal-stage.png)
 
@@ -50,7 +50,9 @@ switch costume to [drum-cymbal-a v]  // niet geraakt uiterlijk
 
 --- task ---
 
-**Test:** Test je bekkens door erop te klikken. Zorg ervoor dat je een geluid hoort en het uiterlijk ziet veranderen.
+**Test:** Test je bekkens door erop te klikken.
+
+Je zou een geluid moeten horen en het uiterlijk moeten zien veranderen.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ Iedere keer dat je klikt op de **drum-cymbal** sprite verdien je één slag.
 
 --- task ---
 
-Maak een `variabele`{:class="block3variables"} met de naam `beats`:
+Maak een `variabele`{:class="block3variables"} (voor alle sprites) genaamd `beats`:
 
 ![](images/beats-variable.png)
 
@@ -67,8 +69,6 @@ Maak een `variabele`{:class="block3variables"} met de naam `beats`:
 --- task ---
 
 Voeg een blok toe aan `verander beats met 1`{:class="block3variables"} wanneer op de **Drum-cymbal** sprite wordt geklikt:
-
-![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Test:** Test de **Drum-cymbal** door erop te klikken en de `beats`{:class="block3variables"} te zien toenemen.
+**Test:** Test de **Drum-cymbal** door erop te klikken.
+
+Je zou moeten zien dat de `beats`{:class="block3variables"} toenemen.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ De `beats`{:class="block3variables"} variabele moet beginnen bij `0` slagen wann
 
 --- task ---
 
-Klik op het venster Speelveld en vervolgens op het tabblad **Code** om code toe te voegen aan het speelveld.
+Klik op het venster Speelveld en vervolgens op het tabblad **Code**.
 
 Voeg een blok toe aan `zet beats op`{:class="block3variables"} `0`:
 

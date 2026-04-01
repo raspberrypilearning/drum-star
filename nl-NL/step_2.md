@@ -11,17 +11,11 @@ In deze stap zet je het podium voor je eerste optreden en kies je een naam voor 
 
 --- task ---
 
-Open het [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
-
-[[[working-offline]]]
+Open het [Drum ster starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Muzikanten genaamd <span style="color: #0faeb0">**doe-het-zelf-artiesten**</span> beginnen muziek op te nemen vanuit hun slaapkamers. Ze produceren zelf hun eigen nummers en geven ze vervolgens online vrij zodat iedereen ze kan horen. 
-</p>
-
-Het spel begint in een slaapkamer als een doe-het-zelf-artiest.
+De drummer begint in een slaapkamer, net als een beginner!
 
 --- task ---
 
@@ -33,9 +27,9 @@ Klik op **Kies een achtergrond** en zoek naar `bedroom`.
 
 --- /task ---
 
---- task ---
-
 In Scratch kun je code toevoegen aan het speelveld.
+
+--- task ---
 
 Klik op de achtergrond van je slaapkamer in het deelvenster Speelveld en voeg deze code toe:
 
@@ -43,7 +37,7 @@ Klik op de achtergrond van je slaapkamer in het deelvenster Speelveld en voeg de
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //de naam van je achtergrond
+switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
 ```
 
 --- /task ---
@@ -74,8 +68,8 @@ Voeg een blok toe aan `Stel naam in op`{:class="block3variables"} `???`:
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //de naam van je achtergrond
-+ set [naam v] to [???] //jouw variabele
+switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
++ set [naam v] to [???] // jouw variabele
 ```
 
 --- /task ---
@@ -86,13 +80,11 @@ Je kunt `een vraag stellen`{:class="block3sensing"} in Scratch en vervolgens een
 
 Klik op het blokken menu `Waarnemen`{:class="block3sensing"} en voeg een `Vraag`{:class="block3sensing"} blok toe aan je code:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //de naam van je achtergrond
-set [naam v] to [???] //jouw variabele
-+ ask [Wat is de naam van je rockstar?] and wait //je vraag
+switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
+set [naam v] to [???] // jouw variabele
++ ask [Wat is de naam van je rockstar?] and wait // je vraag
 ```
 
 --- /task ---
@@ -101,19 +93,15 @@ set [naam v] to [???] //jouw variabele
 
 Stel de `naam`{:class="block3variables"} `variabele`{:class="block3variables"} in op het `antwoord`{:class="block3sensing"}:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //de naam van je achtergrond
-set [naam v] to [???] //jouw variabele
-ask [Wat is de naam van je rockstar?] and wait //je vraag
+switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
+set [naam v] to [???] // jouw variabele
+ask [Wat is de naam van je rockstar?] and wait // je vraag
 + set [naam v] to (answer)
 ```
 
 --- /task ---
-
-Verander de manier hoe je `variabele`{:class="block3variables"} op het podium eruit ziet.
 
 --- task ---
 
@@ -137,20 +125,20 @@ Sleep je `variabele`{:class="block3variables"} om deze in de rechterbovenhoek va
 
 --- /task ---
 
+Je wilt niet elke keer dat je je project test een antwoord hoeven in te typen.
+
 --- task ---
 
-Nu je hebt getest dat de `variabele`{:class="block3variables"} verandert in het `antwoord`{:class="block3sensing"}, kun je de laatste 2 blokken code wegslepen van de rest van het script. Dit betekent dat je geen `antwoord`{:class="block3sensing"} hoeft in te voeren telkens wanneer je je project test:
-
-![](images/stage-icon.png)
+Sleep de laatste twee codeblokken weg van de rest van het script.
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //de naam van je achtergrond
-set [naam v] to [???] //jouw variabele
+switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
+set [naam v] to [???] // jouw variabele
 ```
 
 ```blocks3
-ask [Wat is de naam van je rockstar?] and wait //je vraag
+ask [Wat is de naam van je rockstar?] and wait // je vraag
 set [naam v] to (answer)
 ```
 

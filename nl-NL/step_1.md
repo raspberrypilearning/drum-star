@@ -6,7 +6,7 @@ Maak een clicker spel waar je beats verdient om nieuwe drums op grotere locaties
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Klik op de trommel en kijk hoe het aantal 'slagen'{:class="block3variables"} omhoog gaat. Pak een nieuwe trommel als je genoeg beats hebt. 
+Klik op de trommel en kijk hoe het aantal 'beats'{:class="block3variables"} omhoog gaat. Pak een nieuwe trommel als je genoeg beats hebt. 
 
 Hoeveel 'beats'{:class="block3variables"} verdien je als je op de nieuwe drum klikt?
 </div>

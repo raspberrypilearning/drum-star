@@ -68,7 +68,7 @@ Maak een `variabele`{:class="block3variables"} (voor alle sprites) genaamd `slag
 
 --- task ---
 
-Voeg een blok toe aan `verander slagen met 1`{:class="block3variables"} wanneer op de **Drum-cymbal** sprite wordt geklikt:
+Voeg een blok toe aan `verander beats met 1`{:class="block3variables"} wanneer op de **Drum-cymbal** sprite wordt geklikt:
 
 ```blocks3
 when this sprite clicked
@@ -84,17 +84,17 @@ switch costume to [drum-cymbal-a v]
 
 **Test:** Test de **Drum-cymbal** door erop te klikken.
 
-Je zou moeten zien dat de `slagen`{:class="block3variables"} toenemen.
+Je zou moeten zien dat de `beats`{:class="block3variables"} toenemen.
 
 --- /task ---
 
-De `slagen`{:class="block3variables"} variabele moet beginnen bij `0` slagen wanneer je een nieuw spel start.
+De `beats`{:class="block3variables"} variabele moet beginnen bij `0` beats wanneer je een nieuw spel start.
 
 --- task ---
 
 Klik op het venster Speelveld en vervolgens op het tabblad **Code**.
 
-Voeg een blok toe aan `zet slagen op`{:class="block3variables"} `0`:
+Voeg een blok toe aan `zet beats op`{:class="block3variables"} `0`:
 
 ![](images/stage-icon.png)
 
@@ -108,7 +108,7 @@ set [name v] to [???]
 
 --- task ---
 
-**Test:** Klik op de groene vlag en zorg ervoor dat je `slagen`{:class="block3variables"} variabele begint op `0`.
+**Test:** Klik op de groene vlag en zorg ervoor dat je `beats`{:class="block3variables"} variabele begint op `0`.
 
 --- /task ---
 

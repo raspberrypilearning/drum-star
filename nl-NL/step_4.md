@@ -22,23 +22,23 @@ Verander het uiterlijk en het drumgeluid voor de **Drum-snare** sprite.
 
 ```blocks3
 when this sprite clicked
-+switch costume to [drum-snare-b v] // raak uiterlijk
-+play drum [(1) Snare Drum v] for [0.25] beats // drumgeluid
-+switch costume to [drum-snare-a v] // niet geraakt uiterlij
++switch costume to [drum-snare-b v] //hit costume
++play drum [(1) Snare Drum v] for [0.25] beats //drum sound
++switch costume to [drum-snare-a v] //not hit costume
 ```
 
 --- /task ---
 
 --- task ---
 
-Wijzig het aantal slagen dat wordt verdiend in `2`:
+Wijzig het aantal beats dat wordt verdiend in `2`:
 
 ```blocks3
 when this sprite clicked
-+change [beats v] by [2] //2 beats per klik
-switch costume to [drum-snare-b v] // raak uiterlijk
-play drum [(1) Snare Drum v] for [0.25] beats // drumgeluid
-switch costume to [drum-snare-a v] // niet geraakt uiterlijk
++change [beats v] by [2] //2 beats per click
+switch costume to [drum-snare-b v] //hit costume
+play drum [(1) Snare Drum v] for [0.25] beats //drum sound
+switch costume to [drum-snare-a v] //not hit costume
 ```
 
 --- /task ---
@@ -47,11 +47,11 @@ switch costume to [drum-snare-a v] // niet geraakt uiterlijk
 
 **Test:** Probeer je project uit.
 
-Zorg ervoor dat je 2 slagen verdient wanneer je op de snare drum klikt.
+Zorg ervoor dat je 2 beats verdient wanneer je op de snare drum klikt.
 
 --- /task ---
 
-De volgende drum is niet beschikbaar wanneer je het project start. Ze moeten worden verdiend met beats.
+De volgende drum is niet beschikbaar wanneer je het project start. Ze moeten worden verdiend met slagen.
 
 --- task ---
 
@@ -64,7 +64,7 @@ hide
 
 --- /task ---
 
-Voeg een knop toe om te laten zien welke drum de volgende is en hoeveel slagen die kost.
+Voeg een knop toe om te laten zien welke drum de volgende is en hoeveel beats die kost.
 
 --- task ---
 
@@ -76,8 +76,7 @@ Voeg een knop toe om te laten zien welke drum de volgende is en hoeveel slagen d
 
 --- task ---
 
-Wijzig de zichtbaarheid naar **Toon**.
-![](images/show.png)
+Wijzig de zichtbaarheid naar **Toon**. ![](images/show.png)
 
 --- /task ---
 
@@ -128,7 +127,7 @@ show
 
 --- /task ---
 
-De volgende trommel kan alleen worden ontgrendeld als de gebruiker `10` of meer slagen heeft.
+De volgende trommel kan alleen worden ontgrendeld als de gebruiker `10` of meer beats heeft.
 
 --- task ---
 
@@ -136,11 +135,11 @@ Voeg deze code toe om de volgende drum te ontgrendelen `als`{:class="block3contr
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [9]> then // als 10 of meer beats
+if <(beats)>  [9]> then //if 10 or more beats
 hide
-change [beats v] by [-10] // neem de kostenupgrade weg
+change [beats v] by [-10] //take away the cost of upgrade
 else
-say [Niet genoeg beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -152,12 +151,12 @@ Voeg een `zend signaal`{:class="block3events"} blok toe om een nieuw `snare` ber
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [9]> then // als 10 of meer beats
+if <(beats)>  [9]> then // if 10 or more beats
 hide
-change [beats v] by [-10] // neem de kostenupgrade weg
-+ broadcast (snare v) // je drumnaam
+change [beats v] by [-10] // take away the cost of upgrade
++ broadcast (snare v) // your drum name
 else
-say [Niet genoeg beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds
 end
 ```
 
@@ -215,7 +214,7 @@ switch backdrop to [Chalkboard v]
 
 **Test:** Voer je project uit.
 
-Wanneer je de volgende drum ontgrendelt: de snare verschijnt, de knop verdwijnt, de locatie verandert en de `beats`{:class="block3variables"} gaan met `10` omlaag.
+Wanneer je de volgende drum ontgrendelt: de snare verschijnt, de knop verdwijnt, de locatie verandert en de `slagen`{:class="block3variables"} gaan met `10`omlaag.
 
 --- /task ---
 

@@ -1,0 +1,13 @@
+nome
+
+Qual é o seu nome de estrela do rock?
+
+batimento
+
+Não há batidas suficientes!
+
+laço
+
+Conga
+
+Qual é o seu nome?

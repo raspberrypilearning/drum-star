@@ -41,9 +41,9 @@ Voeg een script toe om het cymbal een `ander uiterlijk`{:class="block3looks"} te
 
 ```blocks3
 when this sprite clicked
-switch costume to [drum-cymbal-b v] // raak uiterlijk
-play drum [(5) Open High-Hat v] for [0.25] beats // drumgeluid
-switch costume to [drum-cymbal-a v]  // niet geraakt uiterlijk
+switch costume to [drum-cymbal-b v] // hit costume
+play drum [(5) Open High-Hat v] for [0.25] beats // drum sound
+switch costume to [drum-cymbal-a v]  // not hit costume
 ```
 
 --- /task ---
@@ -60,7 +60,7 @@ Iedere keer dat je klikt op de **drum-cymbal** sprite verdien je één slag.
 
 --- task ---
 
-Maak een `variabele`{:class="block3variables"} (voor alle sprites) genaamd `beats`:
+Maak een `variabele`{:class="block3variables"} (voor alle sprites) genaamd `slagen`:
 
 ![](images/beats-variable.png)
 
@@ -88,7 +88,7 @@ Je zou moeten zien dat de `beats`{:class="block3variables"} toenemen.
 
 --- /task ---
 
-De `beats`{:class="block3variables"} variabele moet beginnen bij `0` slagen wanneer je een nieuw spel start.
+De `beats`{:class="block3variables"} variabele moet beginnen bij `0` beats wanneer je een nieuw spel start.
 
 --- task ---
 
@@ -101,7 +101,7 @@ Voeg een blok toe aan `zet beats op`{:class="block3variables"} `0`:
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) 
-set [naam v] to [???] 
+set [name v] to [???] 
 + set [beats v] to [0]
 ```
 --- /task ---

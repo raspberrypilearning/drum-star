@@ -1,7 +1,7 @@
-## ماذا بعد؟
+## What can you do now?
 
 
-إذا كنت تتبع مسار [مشريع اخرى من Scratch](https://projects.raspberrypi.org/ar-SA/raspberrypi/more-scratch) ، فيمكنك الانتقال إلى مشروع [الزبون التالي من فضلك!](https://projects.raspberrypi.org/ar-SA/projects/next-customer-please) ، حيث ستنشئ متجرًا حيث يمكن للزبائن شراء العناصر او المواد الغذائية وتسجيل المغادرة.
+إذا كنت تتبع مسار [مشريع اخرى من Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) ، فيمكنك الانتقال إلى مشروع [الزبون التالي من فضلك!](https://projects.raspberrypi.org/en/projects/next-customer-please) ، حيث ستنشئ متجرًا حيث يمكن للزبائن شراء العناصر او المواد الغذائية وتسجيل المغادرة.
 
 --- print-only ---
 
@@ -17,12 +17,4 @@
 
 --- /no-print ---
 
-إذا كنت ترغب في الحصول على مزيد من المتعة في استكشاف Scratch ، فيمكنك تجربة أي من [هذه المشاريع](https://projects.raspberrypi.org/ar-SA/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
-
-***
-تمت ترجمة هذا المشروع بواسطة متطوعين:
-
-علي عادل علي
-علا محمد جزماتي
-
-بفضل المتطوعين ، يمكننا إعطاء الناس في جميع أنحاء العالم فرصة للتعلم بلغتهم الخاصة. يمكنك مساعدتنا في الوصول إلى المزيد من الأشخاص من خلال التطوع للترجمة - مزيد من المعلومات على [rpf.io/translate](https://rpf.io/translate).
+إذا كنت ترغب في الحصول على مزيد من المتعة في استكشاف Scratch ، فيمكنك تجربة أي من [هذه المشاريع](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){: target = "_ blank"}.

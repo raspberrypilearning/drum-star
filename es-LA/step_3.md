@@ -11,7 +11,7 @@ Agregarás una imagen de un **platillo** en el que puedes hacer clics para ganar
 
 --- task ---
 
-Haz clic en **Elegir un objeto** y busca `cymbal`. Agrega la imagen del **Drum-cymbal** a tu proyecto y cambia el nombre a "platillo".
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Haz clic en **Elegir un objeto** y busca `cymbal`. Agrega la imagen del **Drum-c
 
 --- task ---
 
-Coloca tu platillo en el Escenario:
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -35,22 +35,24 @@ Agrega la **Extensión musical**:
 
 --- task ---
 
-Agrega una secuencia de comandos para hacer `cambiar disfraz a`{:class="block3looks"} y `reproducir un sonido de bateria`{:class="block3extensions"} al platillo:
+Agrega una secuencia de comandos para hacer `cambiar disfraz a`{:class="block3looks"} y `reproducir un sonido de tambor`{:class="block3extensions"} al platillo:
 
 ![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
-switch costume to [drum-cymbal-b v] // estilo tocado
-play drum [(5) Open High-Hat v] for [0.25] beats // sonido de tambor
-switch costume to [drum-cymbal-a v]  // estilo sin tocar
+switch costume to [drum-cymbal-b v] // hit costume
+play drum [(5) Open High-Hat v] for [0.25] beats // drum sound
+switch costume to [drum-cymbal-a v]  // not hit costume
 ```
 
 --- /task ---
 
 --- task ---
 
-**Prueba:** Prueba tu platillo haciendo clic en él. Asegúrate de escuchar un sonido y que cambie el disfraz.
+**Prueba:** Prueba tu platillo haciendo clic en él.
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ La imágen del **Platillo** te otorgará un ritmo cada vez que hagas clic en él
 
 --- task ---
 
-Crea una `variable`{:class="block3variables"} llamada `ritmos`:
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -68,11 +70,9 @@ Crea una `variable`{:class="block3variables"} llamada `ritmos`:
 
 Agrega un bloque para `cambiar ritmos en 1`{:class="block3variables"} cuando hagas clic en la imagen del **Platillo**:
 
-![](images/cymbal-icon.png)
-
 ```blocks3
 when this sprite clicked
-+change [ritmos v] by [1]
++change [beats v] by [1]
 switch costume to [drum-cymbal-b v]
 play drum [(5) Open High-Hat v] for [0.25] beats 
 switch costume to [drum-cymbal-a v]
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Prueba:** Haz clic en el **Platillo** para probar y observa cómo aumentan los `ritmos`{:class="block3variables"}.
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ La variable `ritmos`{:class="block3variables"} debe comenzar en `0`cuando comien
 
 --- task ---
 
-Haz clic en el panel Escenario y luego en la pestaña **Código** para añadirle el código al escenario.
+Click on the Stage pane and then the **Code** tab.
 
 Agrega un bloque `fijar ritmos a`{:class="block3variables"} `0`:
 
@@ -99,8 +101,8 @@ Agrega un bloque `fijar ritmos a`{:class="block3variables"} `0`:
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) 
-set [nombre v] to [???] 
-+ set [ritmos v] to [0]
+set [name v] to [???] 
++ set [beats v] to [0]
 ```
 --- /task ---
 

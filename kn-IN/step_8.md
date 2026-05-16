@@ -1,4 +1,4 @@
-## ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
+## Challenge
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -9,23 +9,29 @@
 </div>
 </div>
 
-ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಇನ್ನಷ್ಟು ಅಪ್‌ಗ್ರೇಡ್‌ಗಳನ್ನು ಸೇರಿಸಲು ಬಹಳಷ್ಟು ಡ್ರಮ್‌ ಉಡುಪುಗಳ ಆಯ್ಕೆ ಇದೆ.
+### Add more drums
 
-ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಲು ಇನ್ನೊಂದು ಡ್ರಮ್‌ ಸೇರಿಸಲು, ಪ್ರಾಜೆಕ್ಟ್‌ನ ಹಿಂದಿನ ಹಂತಗಳನ್ನು ನೋಡಿ.
+To add another drum to unlock, look back at the earlier steps of the project.
 
-**drum** ಗೆ, ನೀವು ಇವುಗಳನ್ನು ಮಾಡಬೇಕು:
+Here are some reminders if you need them.
+
+--- collapse ---
+
+---
+title: For the drum
+---
 
 --- task ---
 
 ಹಿಂದಿನ **drum** ಸ್ಪ್ರೈಟ್‌ ನಕಲು ಮಾಡಿ ಮತ್ತು ಎರಡು ಉಡುಪುಗಳನ್ನು ಸೇರಿಸಿ.
 
---- /task ---
+--- /ಕಾರ್ಯ ---
 
---- task ---
+--- ಕಾರ್ಯ ---
 
 `when this sprite clicked`{:class="block3events"} ಬರಹದಲ್ಲಿ ಉಪಯೋಗಿಸಿದ `costume`{:class="block3looks"} ಮತ್ತು `sound`{:class="block3sound"} ನ್ನು ಬದಲಾಯಿಸಿ.
 
---- /task ---
+--- /ಕಾರ್ಯ ---
 
 --- task ---
 
@@ -39,7 +45,13 @@
 
 --- /task ---
 
-**button** ಗೆ, ನೀವು:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the 'Get' button
+---
 
 --- task ---
 
@@ -61,11 +73,17 @@
 
 --- task ---
 
-`if`{:class="block3events"} ಷರತ್ತಿನಲ್ಲಿ ಈ ಡ್ರಮ್‌ ಪಡೆಯಲು ನೀವು ಹೊಂದಿರಲೇ ಬೇಕಾದ `beats`{:class="block3variables"} ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ. ನೀವು ಈ ಡ್ರಮ್‌ ಪಡೆದಾಗ, ನೀವು `change by`{:class="block3variables"} ನ್ನು `beats`{:class="block3variables"}ನ ಋಣಾತ್ಮಕ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ. `broadcast`{:class="block3events"} ಆಗುವ ಸಂದೇಶವನ್ನು **new drum**ನ ಹೆಸರಿಗೆ ಬದಲಾಯಿಸಿ.
+Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that is `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
-**ವೇದಿಕೆ** ಗೆ, ನೀವು ಮಾಡಬೇಕಾಗಿರುವುದು:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the venue
+---
 
 --- task ---
 
@@ -75,7 +93,7 @@
 
 --- task ---
 
-ಈ ಡ್ರಮ್‌ಗೆ `message`{:class="block3events"} ಸ್ವೀಕರಿಸಿದಾಗ ಹೊಸ ಹಿನ್ನೆಲೆಗೆ `switch backdrop to`{:class="block3looks"} ಮಾಡಲು Stage ಗೆ ಬರಹ ಸೇರಿಸಿ.
+Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is received.
 
 --- /task ---
 
@@ -83,46 +101,79 @@
 
 --- task ---
 
-ಅವುಗಳು ಸ್ಥಾನವನ್ನು ಬದಲಾಯಿಸಲು ಪ್ರತಿಯೊಂದು **drum** ಸ್ಪ್ರೈಟ್‌ಗೆ `go to`{:class="block3motion"} ಬ್ಲಾಕ್‌ನೊಂದಿಗೆ `when backdrop changes to`{:class="block3events"}ನಿಂದ ಪ್ರಾರಂಭವಾಗುವ ಬರಹವನ್ನು ಸೇರಿಸಿ.
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 ನೀವು ಅವುಗಳ ಪ್ರಾರಂಭಿಕ ಸ್ಥಾನವನ್ನೂ ಸಹ ಹೊಂದಿಸಬೇಕು `when flag clicked`{:class="block3events"}.
 
 --- /task ---
 
+--- /collapse ---
+
+### Improve feedback to the player
+
+Tell the player exactly **how many more** beats are needed to unlock the next drum.
+
 --- task ---
 
-**ಅಚ್ಚುಕಟ್ಟು:** ನಿಮಗೆ ಸಮಯವಿದ್ದರೆ, ಸ್ಪ್ರೈಟ್‌ ಲಿಸ್ಟ್‌ನಲ್ಲಿರುವ ಸ್ಪ್ರೈಟ್‌ಗಳು ಅರ್ಥಪೂರ್ಣ ಕ್ರಮದಲ್ಲಿ ಇರುವಂತೆ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು ಉತ್ತಮ ಅಲೋಚನೆ, ಡ್ರಮ್‌ಗಳು ಅವುಗಳ ಅಪ್‌ಗ್ರೇಡ್‌ ಕ್ರಮದಲ್ಲಿರುವುದರಿಂದ ಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ನಂತರ ಬಟನ್‌ಗಳನ್ನು ಕ್ರಮದಲ್ಲಿ ಇರಿಸುವುದು.
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+**Note**: Update the numbers to match those needed to unlock each drum.
+
+--- /task ---
+
+### Tidy your code
+
+--- task ---
+
+**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
 
 --- /task ---
 
 --- task ---
 
+### Stuck?
+
 **ಡಿಬಗ್:** ಮೊದಲಿಗೆ ಡ್ರಮ್‌ಗಳು ಮತ್ತು ಬಟನ್‌ಗಳು ಯಾವಾಗ ತೋರಿಸಬೇಕು ಮತ್ತು ಹೇಗೆ `beats`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ ಬದಲಾಗಬೇಕು ಎಂಬುವುದು ನಿಮಗೆ ನಿಜವಾಗಿ ಅರ್ಥವಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಪ್ರಾಜೆಕ್ಟ್‌ ಏನು ಮಾಡಬೇಕು ಎನ್ನುವುದು ನಿಮಗೆ ಸ್ಷಷ್ಟವಾಗಿ ತಿಳಿದಿದ್ದರೆ ಅದನ್ನು ಡಿಬಗ್‌ ಮಾಡುವುದು ತುಂಬಾ ಸುಲಭ.
 
 --- collapse ---
 ---
-title: ನನ್ನ ಡ್ರಮ್‌ ಸರಿಯಾಗಿ ತೋರಿಸುವುದಿಲ್ಲ/ಮರೆಯಾಗುವುದಿಲ್ಲ
+title: My drum doesn't show/hide correctly
 ---
 
-ಅದು ಮೊದಲ ಡ್ರಮ್‌ ಆಗಿಲ್ಲದಿದ್ದರೆ, ನಿಮ್ಮ ಡ್ರಮ್‌ಗೆ `hide`{:class="block3looks"}ಕ್ಕೆ `when flag clicked`{:class="block3events"} ಬರಹ ಇರಲೇ ಬೇಕು. ಮತ್ತು ಅದು `show`{:class="block3looks"}ಗೆ `when I receive`{:class="block3events"} `this drum` ಬರಹ ಹೊಂದಿರಬೇಕು.
+ಅದು ಮೊದಲ ಡ್ರಮ್‌ ಆಗಿಲ್ಲದಿದ್ದರೆ, ನಿಮ್ಮ ಡ್ರಮ್‌ಗೆ `hide`{:class="block3looks"}ಕ್ಕೆ `when flag clicked`{:class="block3events"} ಬರಹ ಇರಲೇ ಬೇಕು.
+
+It should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
 
 ಈ ಡ್ರಮ್‌ಗೆ **Get** ಬಟನ್‌ ಅದೇ ಸಂದೇಶವನ್ನು `broadcasts`{:class="block3events"} ಮಾಡುತ್ತದೆ ಎಂದು ಪರಿಶೀಲಿಸಿ.
 
+--- /collapse ---
+
+--- collapse ---
+---
+title: My Get button doesn't show/hide correctly
+---
+
+ಬಟನ್‌ ಮೊಟ್ಟ ಮೊದಲನೆಯ ಡ್ರಮ್‌ಗೆ ಆಗಿಲ್ಲದಿದ್ದರೆ, ಅದು `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"} ಹೊಂದಿರಬೇಕು.
+
+It should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**.
+
+The **Get** button should `show`{:class="block3looks"} to let the player know about the next drum they can unlock.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: ನನ್ನ Get ಬಟನ್‌ ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತಿಲ್ಲ/ಮರೆಯಾಗುತ್ತಿಲ್ಲ
----
-
-ಬಟನ್‌ ಮೊಟ್ಟ ಮೊದಲನೆಯ ಡ್ರಮ್‌ಗೆ ಆಗಿಲ್ಲದಿದ್ದರೆ, ಅದು `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"} ಹೊಂದಿರಬೇಕು. ಮತ್ತು ಅದು **previous drum** ಗೆ ಸಂದೇಶ `show`{:class="block3looks"} `when I receieve`{:class="block3events"} ಹೊಂದಿರಬೇಕು. ಆಟಗಾರರಿಗೆ ಅವರು ಮುಂದಿನ ಯಾವ ಅಪ್‌ಗ್ರೇಡ್‌ ಕಡೆಗೆ ಕೆಲಸಮಾಡುತ್ತಿದ್ದಾರೆ ಎಂದು ತಿಳಿಸಲು **Get** ಬಟನ್‌ `show`{:class="block3looks"} ಹೊಂದಿರಬೇಕು.
-
---- /collapse ---
-
---- collapse ---
----
-title: ನನ್ನ ಬಳಿ ಸಾಕಷ್ಟು ಹೊಡೆತಗಳು ಇಲ್ಲದಿದ್ದಾಗ ನಾನು ಡ್ರಮ್ ಖರೀದಿಸಬಹುದು
+title: I can unlock a drum when I don't have enough beats
 ---
 
 ಡ್ರಮ್‌ಗೆ **Get** ಬಟನ್‌ ಬರಹದಲ್ಲಿ `when this sprite clicked`{:class="block3events"} ಅವಶ್ಯವಿರುವ `beats`{:class="block3variables"}ಸಂಖ್ಯೆಯನ್ನು ನೀವು ಬದಲಾಯಿಸಿರುವುದನ್ನು ಪರಿಶೀಲಿಸಿ.
@@ -131,7 +182,7 @@ title: ನನ್ನ ಬಳಿ ಸಾಕಷ್ಟು ಹೊಡೆತಗಳು ಇ
 
 --- collapse ---
 ---
-title: ನಾನು ಹೊಸ ಡ್ರಮ್‌ ಪಡೆದಾಗ ಹೊಡೆತಗಳ ಸಂಖ್ಯೆ ಸರಿಯಾಗಿ ಬದಲಾಗುವುದಿಲ್ಲ
+title: The number of beats doesn't change correctly when I unlock a new drum
 ---
 
 ಡ್ರಮ್‌ಗೆ **Get** ಬಟನ್‌ಗೆ `when this sprite clicked`{:class="block3events"}ಬರಹದಲ್ಲಿ ನೀವು`changed beats by`{:class="block3variables"}ನ್ನು ಋಣಾತ್ಮಕ ಸಂಖ್ಯೆಗೆ ಬದಲಾಯಿಸಿದ್ದನ್ನು ಪರಿಶೀಲಿಸಿ.
@@ -141,15 +192,6 @@ title: ನಾನು ಹೊಸ ಡ್ರಮ್‌ ಪಡೆದಾಗ ಹೊಡೆ
 --- /collapse ---
 
 --- /task ---
-
---- collapse ---
----
-title: ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್
----
-
-ನೀವು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್ ನೋಡಬಹುದು](https://scratch.mit.edu/projects/660063023/){:target="_blank"}.
-
---- /collapse ---
 
 **ಸಲಹೆ:** ನೀವು ನಿಜವಾಗಿಯೂ ಗೊಂದಲಕ್ಕೊಳಗಾಗಿದ್ದರೆ, ಹೊಸ ಡ್ರಮ್‌ ಮತ್ತು ಅದರ ಬಟನ್‌ ಅಳಿಸಿ ಮತ್ತೆ ಪ್ರಾರಂಭಿಸುವುದು ಉತ್ತಮ. ಕೆಲವೊಮ್ಮೆ ಬಗ್‌ನ್ನು ಪತ್ತೆ ಮಾಡುವುದು ಕಷ್ಟ.
 

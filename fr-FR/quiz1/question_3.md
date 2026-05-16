@@ -9,12 +9,12 @@ Tu as utilisé ce script pour contrôler ce qui se passe lorsque le joueur cliqu
 
 ```blocks3
 when this sprite clicked
-if <(battements)>  [29]> then 
+if <(beats)>  [29]> then 
 hide
-change [battements v] by [-30] 
+change [beats v] by [-30] 
 broadcast (conga v) 
 else
-say [Pas assez de battements !] for [2] seconds 
+say [Not enough beats!] for [2] seconds 
 end
 ```
 

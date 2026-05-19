@@ -1,24 +1,18 @@
-## విశ్లేషణ
+## Quick quiz
 
-బాగా చేసారు, మీరు అందరు ఆడాలనుకునే క్లిక్కర్ గేమ్‌ని చేసారు!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-మీరు `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, మరియు `Looks`{:class="block3looks"} బ్లాకులను ఉపయోగించారు!
+When you have answered each question, click on **Check my answer**.
 
-ఇప్పుడు విశ్లేషించుకొనే సమయం వచ్చింది. విశ్లేషించడం అనేది నేర్చుకోవడంలో ముఖ్యమైన భాగం, ఎందుకంటే ఇది మీ మెదడులో కొత్త కనెక్షన్‌లను ఏర్పరచడంలో సహాయపడుతుంది.
-
-మీరు నేర్చుకున్న వాటిని పరిశీలించడానికి దిగువ మూడు ప్రశ్నలకు సమాధానం ఇవ్వండి.
-
-ప్రతి ప్రశ్న తర్వాత, సబ్మిట్ నొక్కండి. మీరు సరైన సమాధానం వైపు మార్గనిర్దేశం చేయబడతారు. మీరు ఈ చర్యను మీకు కావలసినన్ని సార్లు చేయవచ్చు.
-
-ఆస్వాదించండి!
+Have fun!
 
 --- question ---
 
 ---
-legend: 3లో 1వ ప్రశ్న
+legend: Question 1 of 3
 ---
 
-మీ ప్రాజెక్ట్‌లో, మీరు వేరియబుల్‌లను సృష్టించారు మరియు ఉపయోగించారు. వేరియబుల్‌లో ఈ విలువలలో ఏది నిల్వ చేయబడుతుంది?
+In your project, you created and used variables. Which of these values can be stored in a variable?
 
 `6` , `Tom` , `151` , `Aadya`
 
@@ -54,7 +48,7 @@ legend: 3లో 1వ ప్రశ్న
 
  --- feedback ---
 
-లేదు. మీరు ఉపయోగించిన `beats`{:class="block3variables"} మరియు `name`{:class="block3variables"} వేరియబుల్స్ గురించి ఆలోచించండి.
+No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
 
  --- /feedback ---
 

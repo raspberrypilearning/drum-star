@@ -1,8 +1,8 @@
-## दुसरे अपग्रेड
+## More drums!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-तुमचे ड्रम कौशल्य सुधारत आहे. दुसऱ्या अपग्रेडसाठी वेळ! या टप्प्यात, तुम्ही कोणता ड्रम जोडायचा ते निवडाल.
+या टप्प्यात, तुम्ही कोणता ड्रम जोडायचा ते निवडाल.
 </div>
 <div>
 ![3 ड्रम असण्यासह पार्टी बॅकड्रॉप दाखवणारा Stage.](images/second-upgrade.png){:width="300px"}
@@ -17,13 +17,16 @@
 
 --- /task ---
 
-**Drum Costumes** स्प्राईटला तुम्ही त्यातुन निवडू शकाल असे भरपूर ड्रम कॉश्चुम आहेत.
-
 --- task ---
 
 **Drum Costumes** स्प्राईटवर क्लिक करा आणि **Costumes** टॅब निवडा.
 
-**निवडा:** पुढील अपग्रेडसाठी ड्रम. आम्ही **Conga** निवडले.
+**Choose:** which drum to unlock next. आम्ही **Conga** निवडले.
+
+
+--- /task ---
+
+--- task ---
 
 तुमच्या निवडलेल्या ड्रमच्या 'hit' आणि 'not hit' कॉश्चुमला तुमच्या नवीन **Drum-snare2** स्प्राईटला ड्रॅग करा:
 
@@ -35,7 +38,7 @@
 
 --- task ---
 
-तुम्ही निवडलेले कॉश्चुम जुळवण्यासाठी तुमच्या ड्रमला नाव द्या.
+Name the new drum to match the costumes you chose.
 
 ![](images/drum-3-named.png)
 
@@ -51,10 +54,10 @@
 
 ```blocks3
 when this sprite clicked
-+change [beats v] by [5] //प्रती क्लिक 5 बीट्स
-+switch costume to [ v] //तुमचा हिट कॉश्चुम
-+play drum [ v] for [0.25] beats //तुमच्या ड्रमचा साऊंड
-+switch costume to [ v] //तुमचा नॉट हिट कॉश्चुम
++change [beats v] by [5] //5 beats per click
++switch costume to [ v] //your hit costume
++play drum [ v] for [0.25] beats //your drum sound
++switch costume to [ v] //your not hit costume
 ```
 
 --- /task ---
@@ -67,32 +70,43 @@ when this sprite clicked
 
 --- /task ---
 
-पुढे, तुम्हाला बटनची आवश्यकता आहे जेणेकरून प्लेयर्स या नवीन ड्रमला अपग्रेड करू शकतात.
+Add a button so that players can unlock the new drum.
 
 --- task ---
 
-**Get snare** स्प्राईटला डुप्लीकेट करा.
-
-त्याला Stage च्या खालच्या उजव्या कोपऱ्यात पोजिशन करा. त्याचे नाव `Get` ला बदला आणि त्यानंतर तुमच्या नवीन ड्रमला नाव द्या:
-
-![डुप्लीकेट 'Get snare' स्प्राईटसह Sprite लीस्ट. नवीन ड्रम जुळवण्यासाठी स्प्राईट नाव बदललेआणि Stage च्या उजवीकडे खाली पोजिशन केले.](images/get-drum-3.png)
+Duplicate the **Get snare** sprite and position it in the bottom-right corner of the Stage.
 
 --- /task ---
 
 --- task ---
 
-बटन कॉश्चुम मधून **snare drum** डिलीट करा. तुमच्या नवीन ड्रम ते बटन कॉश्चुमसाठी 'not hit' कॉश्चुम कॉपी आणि पेस्ट करा.
+Change its name (for example `Get conga`):
+
+![The Sprite list with duplicated 'Get snare' sprite. The sprite name has been changed to match the new drum type and positioned in the bottom-right of the Stage.](images/get-drum-3.png)
+
+--- /task ---
+
+--- task ---
+
+Delete the **snare drum** from the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
+
+Copy the 'not hit' costume for your new drum and paste it to the new 'Get' button costume.
+
+--- /task ---
+
+--- task ---
 
 **Text** टूलवर क्लिक करा आणि नवीन ड्रमची किंमत दाखवण्यासाठी संख्या `30` ने बदला.
-
-तुमचे बटन याप्रमाणे दिसायला हवे:
 
 ![निवडलेल्या ड्रम इमेजसह नवीन बटन कॉश्चुम दाखवणारा पेंट एडिटर आणि टेक्स्ट 30 ला अपडेट केला आहे.](images/get-drum-copy.png)
 
 --- /task ---
 
-
-हे बटन सुरूवातीला `hide`{:class="block3looks"} करायला हवे, त्यानंतर प्लेयर snare ड्रम केव्हा अपड्रेट करतो ते `show`{:class="block3looks"} हवे, त्यामुळे त्यांना कोणत्या ड्रमवर ते कार्य करत आहे हे त्यांना समजेल.
+Your new 'Get' button should `hide`{:class="block3looks"} at the start.
 
 --- task ---
 
@@ -100,43 +114,37 @@ when this sprite clicked
 
 ```blocks3
 when flag clicked
-- show
 + hide
 ```
 
-**टीप:** ब्लॉक डिलीट करण्यासाठी, तो Blocks menu मध्ये ड्रॅग करा, राईट क्लिक करून **Delete Block** निवडा. कंप्युटरवर, तुम्ही ब्लॉकवर सुद्धा क्लिक करू शकता आणि त्यानंतर ब्लॉक काढण्यासाठी <kbd>Delete</kbd> वर टॅप करू शकता.
-
 --- /task ---
 
 --- task ---
 
-`when I recieve`{:class="block3events"} स्क्रिप्ट जोडा जी तुमचे नवीन ड्रम बटन पुढील अपग्रेडप्रमाणे दाखवेल जेव्हा प्लेयरला **Drum-snare** ड्रम मिळेल:
-
-![](images/get-drum-3-icon.png)
+Add a `when I receive`{:class="block3events"} script that your new 'Get' button will `show`{:class="block3looks"} when the player unlocks the snare drum.
 
 ```blocks3
-when I receive [snare v] // आधीचा ड्रम खरेदी केल्यावर दिसतो
-show // पुढील उपलब्ध ड्रमसाठी बटन दाखवा
+when I receive [snare v] // appear when previous drum is unlocked
+show // show button to get the new drum
 ```
 
 --- /task ---
 
 --- task ---
 
-प्लेयरला हा ड्रम मिळाल्यावर हा ड्रम खरेदी करण्यास आवश्यक असलेल्या बीट्सची आणि काढलेल्या बीट्सची संख्या बदला.
-
-प्लेयरला नवीन ड्रम मिळाल्यावर `broadcast`{:class="block3events"} हा मेसेज सुद्धा बदला. तुमच्या नवीन ड्रमच्या नावासह नवीन मेसेज तयार करा:
-
-![](images/get-drum-3-icon.png)
+Change:
+- The number of beats needed to unlock this drum
+- The number of beats that are removed when the player unlocks this drum.
+- The message that is `broadcast`{:class="block3events"} when the player gets the new drum.
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [29]> then // 29 ला बदला
+if <(beats)>  [29]> then // change to 29
 hide
-change [beats v] by [-30] // 30 ला बदला
-broadcast (conga v) // तुमच्या ड्रमचे नाव बदला
+change [beats v] by [-30] // change to -30
+broadcast (conga v) // change to your drum name
 else
-say [Not enough beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -144,12 +152,10 @@ end
 
 --- task ---
 
-तुमच्या नवीन ड्रमचे नाव `when I receive snare`{:class="block3events"} स्क्रिप्ट ते `broadcast`{:class="block3events"} बदला. प्लेयर नवीन ड्रम अपग्रेड करतो तेव्हा ड्रम `show`{:class="block3looks"} करेल:
-
-![](images/drum-3-icon.png)
+Click your new drum sprite and change the `when I receive snare`{:class="block3events"} script to show it when your new drum is unlocked:
 
 ```blocks3
-when I receive [conga v] // तुमच्या ड्रमचे नाव बदला
+when I receive [conga v] // change to your drum name
 show
 ```
 
@@ -159,12 +165,16 @@ show
 
 **Party** बॅकड्रॉप जोडा.
 
+--- /task ---
+
+--- task ---
+
 प्लेयर नवीन ड्रमला अपग्रेड करतांना बॅकड्रॉप बदलण्यासाठी Stage ला स्क्रिप्ट जोडा:
 
 ![](images/stage-icon.png)
 
 ```blocks3
-when I receive [conga v] // तुमच्या ड्रमचे नाव बदला
+when I receive [conga v] // change to your drum name
 switch backdrop to (Party v)
 ```
 
@@ -172,9 +182,11 @@ switch backdrop to (Party v)
 
 --- task ---
 
-**चाचणी:** गेम चालू करण्यासाठी हिरव्या झेंड्यावर क्लिक करा आणि तुमचा नवीन ड्रम मिळवण्यासाठी तुम्ही पुरेसे बीट्स मिळवलेत का ते तपासा.
+**Test:** Click the green flag to start the game.
 
-तुम्ही पुरेसे बीट्स मिळवण्याआधी तुम्ही बटनवर क्लिक केल्यास काय घडते?
+You should unlock your new drum if you earn enough beats.
+
+What happens if you click the button before you have earned enough beats?
 
 --- /task ---
 

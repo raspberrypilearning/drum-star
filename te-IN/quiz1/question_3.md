@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: 3లో 3వ ప్రశ్న
+legend: Question 3 of 3
 ---
 
 ప్లేయర్ వారి డ్రమ్‌ని అప్‌గ్రేడ్ చేయడానికి బటన్‌పై క్లిక్ చేసినప్పుడు ఏమి జరుగుతుందో నియంత్రించడానికి మీరు ఈ స్క్రిప్ట్‌ని ఉపయోగించారు:
@@ -22,7 +22,7 @@ end
 
 --- choices ---
 
-- ( ) sprite `hide`{:class="block3looks"} అవుతుంది
+- ( ) sprite `hide` {:class="block3looks"} అవుతుంది
 
   --- feedback ---
 
@@ -42,7 +42,7 @@ end
 
   --- feedback ---
 
-  లేదు, `beats`{:class="block3variables"} వేరియబుల్ విలువ అలాగే ఉంటుంది. `beats`{:class="block3variables"} విలువ `29` అంటే `beats`{:class="block3variables"} `> 29` తప్పు, కాబట్టి `if`{:class ="block3control"} బ్లాక్ అమలు చేయబడదు.
+  లేదు, `beats`{:class="block3variables"} వేరియబుల్ విలువ అలాగే ఉంటుంది. `beats`{:class="block3variables"} విలువ `29` అంటే `beats`{:class="block3variables"} `> 29` తప్పు, కాబట్టి ` if `{:class ="block3control"} బ్లాక్ అమలు చేయబడదు.
 
   --- /feedback ---
 

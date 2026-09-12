@@ -41,9 +41,9 @@ Ajoute un script pour que la cymbale `bascule sur le costume`{:class="block3look
 
 ```blocks3
 when this sprite clicked
-switch costume to [drum-cymbal-b v] // costume frappé
-play drum [(5) Open High-Hat v] for [0.25] beats // son de tambour
-switch costume to [drum-cymbal-a v] // costume pas frappé
+switch costume to [drum-cymbal-b v] // hit costume
+play drum [(5) Open High-Hat v] for [0.25] beats // drum sound
+switch costume to [drum-cymbal-a v]  // not hit costume
 ```
 
 --- /task ---
@@ -72,7 +72,7 @@ Ajoute un bloc à `ajouter 1 à battements`{:class="block3variables"} lorsque le
 
 ```blocks3
 when this sprite clicked
-+change [battements v] by [1]
++change [beats v] by [1]
 switch costume to [drum-cymbal-b v]
 play drum [(5) Open High-Hat v] for [0.25] beats 
 switch costume to [drum-cymbal-a v]
@@ -101,8 +101,8 @@ Ajoute un bloc pour `mettre battements à`{:class="block3variables"} `0` :
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) 
-set [nom v] to [???] 
-+ set [battements v] to [0]
+set [name v] to [???] 
++ set [beats v] to [0]
 ```
 --- /task ---
 

@@ -9,7 +9,7 @@
 --- question ---
 
 ---
-legend: السؤال 1 من 3
+legend: Question 1 of 3
 ---
 
 في مشروعك، قمت بإنشاء واستخدام المتغيرات. أي من هذه القيم يمكن تخزينها في متغير؟
@@ -18,27 +18,27 @@ legend: السؤال 1 من 3
 
 --- choices ---
 
-- ( ) فقط الأرقام `6` و`151`
+- () فقط الأرقام `6` و</code>151`</p>
 
---- feedback ---
+<p spaces-before="1">--- feedback ---</p>
 
-لقد استخدمت المتغير `دقة `{:class="block3variables"} لتخزين رقم. لكنك استخدمت أيضًا متغيرًا لشيء آخر.
-
- --- /feedback ---
-
-- ( ) فقط النص (الكلمات) `Tom` و `Aadya`
-
- --- feedback ---
-
- لقد استخدمت متغير `اسم`{:class="block3variables"} لتخزين النص (الكلمات) ، `للإجابة`{:class="block3sensing"} للسؤال `اسال`{:class="block3sensing"}. لكنك استخدمت أيضًا `متغير`{:class="block3variables"} لشيء آخر.
+<p spaces-before="1">لقد استخدمت المتغير <code> دقة`{: class = "block3variables"} لتخزين رقم. لكنك استخدمت أيضًا متغيرًا لشيء آخر.
 
  --- /feedback ---
 
-- (x) أي من الأرقام أو النص (الكلمات)
+- () فقط النص (الكلمات) ` Tom ` و ` Aadya `
 
  --- feedback ---
 
- نعم ، لقد قمت بتخزين رقم في `دقة`{:class="block3variables"} `متغير`{:class="block3variables"} وقمت بتخزين النص (الكلمات) في `الاسم`{:class="block3variables"} `متغير`{:class="block3variables"}.
+ لقد استخدمت متغير ` اسم `{: class = "block3variables"} لتخزين النص (الكلمات) ، ` للإجابة `{: class = "block3sensing"} للسؤال `ask`{: class = "block3sensing"}. لكنك استخدمت أيضًا ` متغير `{: class = "block3variables"} لشيء آخر.
+
+ --- /feedback ---
+
+- (خ) أي من الأرقام أو النص (الكلمات)
+
+ --- feedback ---
+
+ نعم ، لقد قمت بتخزين رقم في ` دقة`{: class = "block3variables"} `متغير`{: class = "block3variables"} وقمت بتخزين النص (الكلمات) في `الاسم`{: class = "block3variables"} `متغير`{: class = "block3variables"}.
 
  يمكن للمتغير تخزين رقم أو نص (كلمات).
 
@@ -48,7 +48,7 @@ legend: السؤال 1 من 3
 
  --- feedback ---
 
-لا. فكر في المتغيرات `دقة`{:class="block3variables"} و `الاسم`{:class="block3variables"} التي استخدمتها.
+لا. فكر في المتغيرات `دقة`{: class = "block3variables"} و `الاسم`{: class = "block3variables"} التي استخدمتها.
 
  --- /feedback ---
 

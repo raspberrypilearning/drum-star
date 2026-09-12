@@ -73,7 +73,7 @@ Verander het `uiterlijk`{:class="block3looks"} inclusief de kosten voor de nieuw
 
 --- task ---
 
-Wijzig het aantal `beats`{:class="block3variables"} dat je nodig hebt om deze drum te ontgrendelen in de `als`{:class="block3events"} voorwaarde. Verander het negatieve aantal `beats`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum ontgrendelt. Wijzig het getal waarvan `beats`{:class="block3variables"} moet worden afgetrokken in het `voeg samen`{:class="block3operators"} blok. Wijzig het bericht dat het `zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
+Wijzig het aantal `slagen`{:class="block3variables"} dat je nodig hebt om deze drum te ontgrendelen in de `als`{:class="block3events"} voorwaarde. Verander het negatieve aantal `slagen`{:class="block3variables"} je `verandert met`{:class="block3variables"} wanneer je deze drum ontgrendelt. Wijzig het getal waarvan `beats`{:class="block3variables"} moet worden afgetrokken in het `voeg samen`{:class="block3operators"} blok. Wijzig het bericht dat het `zend signaal`{:class="block3events"} blok krijgt in de naam van de **nieuwe drum**.
 
 --- /task ---
 
@@ -119,11 +119,11 @@ Voeg deze code toe aan het `voeg samen`{:class="block3operators"} blok van het a
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [9]> then // als 10 of meer beats
+if <(beats)>  [9]> then //if 10 or more beats
 hide
-change [beats v] by [-10] // neem de kostenupgrade weg
+change [beats v] by [-10] //take away the cost of upgrade
 else
-+ say (join ((10) - (beats)) [beats nog nodig!]) for [2] seconds
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
 end
 ```
 

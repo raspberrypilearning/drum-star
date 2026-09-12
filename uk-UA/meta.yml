@@ -2,6 +2,7 @@
 title: Барабанна зірка
 hero_image: images/banner.png
 description: Створи гру-клікер, де ти робиш більше ударів, щоб грати на нових барабанах і на більших майданчиках
+pdf: resources/rpfi-drum-stars.pdf
 meta_title: Скретч-проєкти для дітей та підлітків | Барабанна зірка
 meta_description: Вивчай Скретч за допомогою проєктів програмування Raspberry Pi Foundation для дітей і підлітків. Створи Скретч-гру, у якій ти заробляєш удари, щоб грати на нових барабанах і на великих майданчиках.
 version: 4
@@ -9,17 +10,24 @@ listed: true
 copyedit: true
 last_tested: "2021-04-28"
 steps:
-  - title: Що ти зробиш
-  - title: Налаштуй сцену
-  - title: Початковий барабан
+  - 
+    title: Що ти зробиш
+  - 
+    title: Налаштуй сцену
+  - 
+    title: Початковий барабан
     completion:
       - engaged
-  - title: Наступний барабан
-  - title: Більше барабанів!
-  - title: Грай
+  - 
+    title: Наступний барабан
+  - 
+    title: Більше барабанів!
+  - 
+    title: Грай
     completion:
       - internal
-  - title: Швидкий тест
+  - 
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -27,5 +35,6 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Додаткове завдання
+  - 
+    title: Додаткове завдання
     challenge: true

@@ -1,24 +1,18 @@
-## ಪುನರ್ಮನನ
+## Quick quiz
 
-ಭೇಷ್, ಜನರು ಆಡಲು ಬಯಸುವ ಕ್ಲಿಕ್ಕರ್ ಆಟವನ್ನು ನೀವು ಮಾಡಿದ್ದೀರಿ!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-ನೀವು `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, ಮತ್ತು `Looks`{:class="block3looks"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿದ್ದೀರಿ!
+When you have answered each question, click on **Check my answer**.
 
-ಈಗ ಪುನರ್ಮನನ ಮಾಡುವ ಸಮಯ. ಪುನರ್ಮನನ ಕಲಿಕೆಯ ಒಂದು ಮಹತ್ವದ ಭಾಗ, ಏಕೆಂದರೆ ಅದು ನಿಮ್ಮ ಮೆದುಳಿನಲ್ಲಿ ಹೊಸ ಸಂಪರ್ಕಗಳನ್ನು ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.
-
-ನೀವು ಕಲಿತಿದ್ದನ್ನು ಪುನರ್ಮನನ ಮಾಡಲು ಈ ಕೆಳಗಿನ ಮೂರು ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.
-
-ಪ್ರತಿಯೊಂದು ಪ್ರಶ್ನೆಯ ನಂತರ, ಸಬ್ಮಿಟ್‌ ಒತ್ತಿ. ಸರಿಯಾದ ಉತ್ತರದೆಡೆಗೆ ನಿಮಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡಲಾಗುತ್ತದೆ. ಈ ಚಟುವಟಿಕೆಯನ್ನು ನೀವು ಎಷ್ಟು ಸಲ ಬೇಕಾದರೂ ಮಾಡಬಹುದು.
-
-ಆನಂದಿಸಿ!
+Have fun!
 
 --- question ---
 
 ---
-legend: ಪ್ರಶ್ನೆ 1 ರಲ್ಲಿ 3
+legend: Question 1 of 3
 ---
 
-ಈ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ನೀವು ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು ರಚಿಸಿದಿರಿ ಮತ್ತು ಉಪಯೋಗಿಸಿದಿರಿ. ಈ ಯಾವ ಮೌಲ್ಯಗಳನ್ನು ವೇರಿಯೇಬಲ್‌ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಬಹುದು?
+In your project, you created and used variables. Which of these values can be stored in a variable?
 
 `6` , `Tom` , `151` , `Aadya`
 
@@ -54,7 +48,7 @@ legend: ಪ್ರಶ್ನೆ 1 ರಲ್ಲಿ 3
 
  --- feedback ---
 
-ಇಲ್ಲ. ನೀವು ಉಪಯೋಗಿಸಿದ `beats`{:class="block3variables"} ಮತ್ತು `name`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ಗಳ ಬಗೆಗೆ ಯೋಚಿಸಿ.
+No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
 
  --- /feedback ---
 

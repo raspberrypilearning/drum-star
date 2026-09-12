@@ -10,7 +10,7 @@ Ajoute le sprite **caisse claire** à ton projet et positionne-le sur la scène�
 
 --- task ---
 
-Fais glisser le script `quand ce sprite est cliqué`{:class="block3events"} du sprite **cymbale** vers le sprite **caisse claire**.
+Fais glisser le script `quand ce sprite est cliqué `{:class="block3events"} du sprite **cymbale** vers le sprite **caisse claire**.
 
 --- /task ---
 
@@ -22,9 +22,9 @@ Change le costume et le son de batterie pour le sprite **caisse claire**.
 
 ```blocks3
 when this sprite clicked
-+switch costume to [drum-snare-b v] // costume frappé
-+play drum [(1) Snare Drum v] for [0.25] beats // son de tambour
-+switch costume to [drum-snare-a v] // costume pas frappé
++switch costume to [drum-snare-b v] //hit costume
++play drum [(1) Snare Drum v] for [0.25] beats //drum sound
++switch costume to [drum-snare-a v] //not hit costume
 ```
 
 --- /task ---
@@ -35,10 +35,10 @@ Change le nombre de battements gagnés à `2` :
 
 ```blocks3
 when this sprite clicked
-+change [battements v] by [2] // 2 battements par clic
-switch costume to [drum-snare-b v] // costume frappé
-play drum [(1) Snare Drum v] for [0.25] beats // son de tambour
-switch costume to [drum-snare-a v] // costume pas frappé
++change [beats v] by [2] //2 beats per click
+switch costume to [drum-snare-b v] //hit costume
+play drum [(1) Snare Drum v] for [0.25] beats //drum sound
+switch costume to [drum-snare-a v] //not hit costume
 ```
 
 --- /task ---
@@ -135,11 +135,11 @@ Ajoute ce code pour débloquer le tambour suivant `si`{:class="block3control"} l
 
 ```blocks3
 when this sprite clicked
-if <(battements)>  [9]> then // si 10 battements ou plus
+if <(beats)>  [9]> then //if 10 or more beats
 hide
-change [battements v] by [-10] // enlever le coût de l'amélioration
+change [beats v] by [-10] //take away the cost of upgrade
 else
-say [Pas assez de battements !] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -151,12 +151,12 @@ Ajoute un bloc `envoyer à tous`{:class="block3events"} pour envoyer un nouveau 
 
 ```blocks3
 when this sprite clicked
-if <(battements)>  [9]> then // si 10 battements ou plus
+if <(beats)>  [9]> then // if 10 or more beats
 hide
-change [battements v] by [-10] // enlever le coût de l'amélioration
-+ broadcast (caisse clair v) // ton nom de tambour
+change [beats v] by [-10] // take away the cost of upgrade
++ broadcast (snare v) // your drum name
 else
-say [Pas assez de battements !] for [2] seconds 
+say [More beats needed!] for [2] seconds
 end
 ```
 
@@ -171,7 +171,7 @@ Clique sur le sprite **caisse claire**.
 Ajoute ce script :
 
 ```blocks3
-when I receive [caisse clair v]
+when I receive [snare v]
 show
 ```
 
@@ -204,7 +204,7 @@ Clique sur la scène.
 Ajoute du code à la scène pour `basculer sur l'arrière-plan`{:class="block3looks"} lorsque le message d'amélioration est reçu :
 
 ```blocks3
-when I receive [caisse clair v]
+when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 

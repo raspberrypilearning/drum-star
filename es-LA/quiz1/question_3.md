@@ -2,19 +2,19 @@
 --- question ---
 
 ---
-legend: Pregunta 3 de 3
+legend: Question 3 of 3
 ---
 
-Usaste esta secuencia de comandos para controlar lo que sucede cuando se hace clic en el botón para actualizar el tambor:
+Usaste este script para controlar lo que sucede cuando se hace clic en el botón para actualizar el tambor:
 
 ```blocks3
 when this sprite clicked
-if <(ritmos)>  [29]> then 
+if <(beats)>  [29]> then 
 hide
-change [ritmos v] by [-30] 
+change [beats v] by [-30] 
 broadcast (conga v) 
 else
-say [¡No hay suficientes ritmos!] for [2] seconds 
+say [Not enough beats!] for [2] seconds 
 end
 ```
 
@@ -26,7 +26,7 @@ Si el valor de la variable `ritmos`{:class="block3variables"} es `29`, ¿qué su
 
   --- feedback ---
 
-  No del todo, hay un bloque `ocultar`{:class="block3looks"} en la secuencia de comandos, pero no se ejecutará con `29` `ritmos`{:class="block3variables"}. Echa un vistazo a la secuencia de comandos de nuevo.
+  No del todo, hay un bloque `ocultar`{:class="block3looks"} en el script, pero no se ejecutará con `29` `ritmos`{:class="block3variables"}. Echa un vistazo al script de nuevo.
 
   --- /feedback ---
 
@@ -34,7 +34,7 @@ Si el valor de la variable `ritmos`{:class="block3variables"} es `29`, ¿qué su
 
   --- feedback ---
 
-Sí, la condición comprueba si los `ritmos`{:class="block3variables"} son mayores a `29`, pero los `ritmos`{:class="block3variables"} son iguales a `29`, por lo que no se tiene lo suficiente.
+Sí, la condición comprueba si los `ritmos`{:class="block3variables"} son mayores a `29`, pero los `ritmos`{:class="block3variables"} son iguales a `29`, por lo que no tiene suficiente.
 
   --- /feedback ---
 
@@ -50,7 +50,7 @@ Sí, la condición comprueba si los `ritmos`{:class="block3variables"} son mayor
 
   --- feedback ---
 
-  No, la secuencia de comandos siempre producirá algo. Echale un vistazo más de cerca para ver qué parte de la secuencia de comandos se ejecutará cuando tengas `29` `ritmos`{:class="block3variables"}.
+  No, el script siempre producirá algo. Echale un vistazo más de cerca para ver qué parte del script se ejecutará cuando tengas `29` `ritmos`{:class="block3variables"}.
 
   --- /feedback ---
 

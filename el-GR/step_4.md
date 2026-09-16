@@ -1,13 +1,4 @@
-## Πρώτη αναβάθμιση
-
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Θα προσθέσεις την πρώτη σου αναβάθμιση. Το κουμπί **Πάρε ταμπούρο** θα εμφανιστεί στην αρχή, ώστε ο παίκτης να ξέρει ποιο τύμπανο θέλει να αποκτήσει.
-</div>
-<div>
-![](images/first-upgrade.png){:width="300px"}
-</div>
-</div>
+## Next drum
 
 --- task ---
 
@@ -21,41 +12,50 @@
 
 Σύρε το script `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"} από το αντικείμενο **Drum-cymbal** στο αντικείμενο **Drum-snare**.
 
-[[[scratch3-copy-code]]]
-
 --- /task ---
 
 --- task ---
 
-Άλλαξε τις ενδυμασίες και τον ήχο του τυμπάνου.
-
-Άλλαξε τον αριθμό των χτυπημάτων που κερδίζεις σε `2`:
+Change the costume and the drum sound for the **Drum-snare** sprite.
 
 ![](images/snare-icon.png)
 
 ```blocks3
 when this sprite clicked
-+change [χτυπήματα v] by [2] //2 χτυπήματα ανά κλικ
-+switch costume to [drum-snare-b v] //ενδυμασία χτυπημένου
-+play drum [(1) Snare Drum v] for [0.25] beats //ήχος τυμπάνου
-+switch costume to [drum-snare-a v] //ενδυμασία μη χτυπημένου
++switch costume to [drum-snare-b v] //hit costume
++play drum [(1) Snare Drum v] for [0.25] beats //drum sound
++switch costume to [drum-snare-a v] //not hit costume
 ```
 
 --- /task ---
 
 --- task ---
 
-**Δοκιμή:** Τρέξε το έργο σου. Βεβαιώσου ότι κερδίζεις 2 χτυπήματα όταν κάνεις κλικ στο ταμπούρο.
+Change the number of beats earned to `2`:
+
+```blocks3
+when this sprite clicked
++change [beats v] by [2] //2 beats per click
+switch costume to [drum-snare-b v] //hit costume
+play drum [(1) Snare Drum v] for [0.25] beats //drum sound
+switch costume to [drum-snare-a v] //not hit costume
+```
 
 --- /task ---
 
-Οι αναβαθμίσεις δεν είναι διαθέσιμες όταν ξεκινάς το έργο. Πρέπει να κερδίζονται με χτυπήματα.
+--- task ---
+
+**Δοκιμή:** Τρέξε το έργο σου.
+
+You should you earn 2 beats when you click on the snare drum.
+
+--- /task ---
+
+The next drum is not available when you start the project. It has to be earned with beats.
 
 --- task ---
 
-Πρόσθεσε ένα script για να αποκρύψεις αυτό το αντικείμενο **τύμπανο** στην αρχή του έργου:
-
-![](images/snare-icon.png)
+Add a script to the **Drum-snare** sprite to hide it at the start of the project:
 
 ```blocks3
 when flag clicked
@@ -64,7 +64,7 @@ hide
 
 --- /task ---
 
-Ένα κουμπί θα δείξει ποιο τύμπανο είναι η επόμενη επιλογή αναβάθμισης και πόσα χτυπήματα θα κοστίσει.
+Add a button to show which drum is the next and how many beats it will cost.
 
 --- task ---
 
@@ -72,7 +72,23 @@ hide
 
 ![](images/duplicate-get.png)
 
-Άλλαξε την προβολή σε **Εμφάνιση** και άλλαξε το όνομά του σε `Πάρε ταμπούρο`. Τοποθέτησε το στην κάτω δεξιά γωνία της Σκηνής:
+--- /task ---
+
+--- task ---
+
+Change the visibility to **Show**. ![](images/show.png)
+
+--- /task ---
+
+--- task ---
+
+Change its name to `Get snare`.
+
+--- /task ---
+
+--- task ---
+
+Τοποθέτησε το στην κάτω δεξιά γωνία της Σκηνής:
 
 ![](images/get-snare.png)
 
@@ -80,9 +96,11 @@ hide
 
 --- task ---
 
-Κάνε κλικ στο αντικείμενο **Drum-snare** και επίλεξε την καρτέλα **Ενδυμασίες**. Χρησιμοποιήσε το εργαλείο **Επιλογή** (βέλος) για να επισημάνεις τη μη χτυπημένη ενδυμασία του τυμπάνου σου. Κάνε κλικ στο εικονίδιο **Ομαδοποίηση** και στη συνέχεια στο εικονίδιο **Αντιγραφή**:
+Κάνε κλικ στο αντικείμενο **Drum-snare** και επίλεξε την καρτέλα **Ενδυμασίες**.
 
 ![](images/snare-icon.png)
+
+Use the **Select** (arrow) tool to highlight the 'not hit' costume of your drum. Κάνε κλικ στο εικονίδιο **Ομαδοποίηση** και στη συνέχεια στο εικονίδιο **Αντιγραφή**:
 
 ![](images/copy-costume.png)
 
@@ -90,9 +108,7 @@ hide
 
 --- task ---
 
-Κάνε κλικ στο αντικείμενο **Πάρε ταμπούρο** και **Επιλόλλησε** στην ενδυμασία ταμπούρο. Ίσως χρειαστεί να αλλάξεις το μέγεθος και να το τοποθετήσεις κατάλληλα ώστε να ταιριάζει στο κουμπί σου:
-
-![](images/get-snare-icon.png)
+Κάνε κλικ στο αντικείμενο **Get snare** και **Επιλόλλησε** στην ενδυμασία ταμπούρο. Ίσως χρειαστεί να αλλάξεις το μέγεθος και να το τοποθετήσεις κατάλληλα ώστε να ταιριάζει στο κουμπί σου:
 
 ![](images/paste-costume.png)
 
@@ -111,48 +127,19 @@ show
 
 --- /task ---
 
-Η αναβάθμιση μπορεί να αγοραστεί μόνο εάν ο χρήστης έχει `10` ή περισσότερα χτυπήματα. Στο [Grow a dragonfly](https://projects.raspberrypi.org/el-GR/projects/grow-a-dragonfly){:target="_blank"}, έμαθες πώς να λαμβάνεις αποφάσεις με `εάν`{:class="block3control"} μπλοκ.
-
-Ένα μπλοκ `εάν ... αλλιώς`{:class="block3control"} χρησιμοποιείται για τη λήψη μιας απόφασης και θα κάνει διαφορετικά πράγματα εάν μια συνθήκη είναι `αληθής` ή `ψευδής`.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Χρησιμοποιούμε <span style="color: #0faeb0">**αν ... αλλιώς**</span> όλη την ώρα για να λάβουμε αποφάσεις. Όταν ξυπνάς, ελέγχεις `εάν`{:class="block3control"} είναι πρωί. Σηκώνεσαι ή `αλλιώς`{:class="block3control"} κοιμάσαι ξανά. Μπορείς να σκεφτείς άλλες αποφάσεις «αν ... αλλιώς»{:class="block3control"} που λαμβάνεις; 
-</p>
+The next drum can only be unlocked if the user has `10` or more beats.
 
 --- task ---
 
-Πρόσθεσε αυτόν τον κώδικα για να λάβεις την αναβάθμιση `εάν`{:class="block3control"} ο παίκτης έχει αρκετά χτυπήματα ή να `πει`{:class="block3looks"} `Δεν υπάρχουν αρκετά χτυπήματα!` εάν δεν μπορεί να γίνει η αναβάθμιση:
-
-![](images/get-snare-icon.png)
+Add this code to unlock the next drum `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they do not have enough:
 
 ```blocks3
 when this sprite clicked
-if <(χτυπήματα)>  [9]> then //εάν 10 ή περισσότερα χτυπήματα
+if <(beats)>  [9]> then //if 10 or more beats
 hide
-change [χτυπήματα v] by [-10] //αφαίρεσε το κόστος της αναβάθμισης
+change [beats v] by [-10] //take away the cost of upgrade
 else
-say [Όχι αρκετά χτύπήματα!] for [2] seconds 
-end
-```
-
---- /task ---
-
-Ενημέρωσε τα άλλα αντικείμενα και τη Σκηνή ότι η αναβάθμιση σε τάμπουρο έχει αγοραστεί.
-
---- task ---
-
-Πρόσθεσε ένα μπλοκ `μετάδωσε`{:class="block3events"} για να στείλεις ένα νέο μήνυμα `ταμπούρο`:
-
-![](images/get-snare-icon.png)
-
-```blocks3
-when this sprite clicked
-if <(χτυπήματα)>  [9]> then // εάν 10 ή περισσότερα χτυπήματα
-hide
-change [χτυπήματα v] by [-10] // αφαίρεσε το κόστος της αναβάθμισης
-+ broadcast (ταμπούρο v) // το όνομα του τυμπάνου σου
-else
-say [Όχι αρκετά χτύπήματα!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -160,41 +147,74 @@ end
 
 --- task ---
 
-Κάνε κλικ στο αντικείμενο **Drum-snare**. Πρόσθεσε αυτό το script:
+Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then // if 10 or more beats
+hide
+change [beats v] by [-10] // take away the cost of upgrade
++ broadcast (snare v) // your drum name
+else
+say [More beats needed!] for [2] seconds
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Click on the **Drum-snare** sprite.
 
 ![](images/snare-icon.png)
 
+Add this script:
+
 ```blocks3
-when I receive [ταμπούρο v]
+when I receive [snare v]
 show
 ```
 
 --- /task ---
 
-Όταν αναβαθμίζεις τον εξοπλισμό σου, θα μπορείς να παίξεις σε μεγαλύτερους χώρους.
+--- task ---
+
+**Test:** Run your project.
+
+You should not be able to unlock the next drum before you have enough beats.
+
+--- /task ---
+
+When you unlock new drums, you can play at bigger venues!
 
 --- task ---
 
-Πρόσθεσε κι άλλο υπόβαθρο. Επιλέξαμε τον **Μαυροπίνακα (Chalkoard)** για να παίξουμε τη δεύτερη συναυλία μας στο σχολείο.
+Add another backdrop. We chose **Chalkboard** to play our second gig at school.
 
-Πρόσθεσε κώδικα στο υπόβαθρο για να `αλλάξεις υπόβαθρο`{:class="block3looks"} όταν λάβεις το μήνυμα αναβάθμισης:
-
-![](images/stage-icon.png)
-
-```blocks3
-when I receive [ταμπούρο v]
-switch backdrop to [Chalkboard v]
-```
-
-**Συμβουλή:** Επίλεξε έναν χώρο που απέχει ένα μικρό βήμα από την κρεβατοκάμαρα. Θέλεις να αποθηκεύσεις μεγαλύτερους χώρους για αργότερα.
+**Tip:** Choose a venue that's a small step up from a bedroom. You want to save bigger venues for later!
 
 --- /task ---
 
 --- task ---
 
-**Δοκιμή:** Τρέξε το έργο σου. Δοκίμασε να αγοράσεις την αναβάθμιση του αντικειμένου ταμπούρου πριν να έχεις αρκετά χτυπήματα.
+Click on the Stage.
 
-Όταν αγοράζεις τον έλεγχο αναβάθμισης: εμφανίζεται το ταμπούρο, το κουμπί εξαφανίζεται, ο χώρος διεξαγωγής αλλάζει και τα `χτυπήματα`{:class="block3variables"} μειώνονται κατά `10`.
+![](images/stage-icon.png)
+
+Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
+
+```blocks3
+when I receive [snare v]
+switch backdrop to [Chalkboard v]
+```
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your project.
+
+When you unlock the next drum: the snare should appear, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
 
 --- /task ---
 

@@ -1,4 +1,4 @@
-## तुमचा प्रोजेक्ट अपग्रेड करा
+## Challenge
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -9,11 +9,17 @@
 </div>
 </div>
 
-तुमच्या प्रोजेक्टला आणखी अपग्रेड्स जोडण्यासाठी निवड करावी असे बरेच ड्रम कॉश्चुम आहेत.
+### Add more drums
 
-अपग्रेडसाठी दुसरा ड्रम जोडण्यासाठी, प्रोजेक्टच्या आधीचे टप्पे बघा.
+To add another drum to unlock, look back at the earlier steps of the project.
 
-**drum** साठी, तुम्हाला आवश्यकता असेल:
+Here are some reminders if you need them.
+
+--- collapse ---
+
+---
+title: For the drum
+---
 
 --- task ---
 
@@ -23,7 +29,7 @@
 
 --- task ---
 
- `when this sprite clicked`{:class="block3events"} स्क्रिप्टवर क्लिक केले तेव्हा `costume`{:class="block3looks"} आणि `sound`{:class="block3sound"} बदला.
+`when this sprite clicked`{:class="block3events"} स्क्रिप्टवर क्लिक केले तेव्हा `costume`{:class="block3looks"} आणि `sound`{:class="block3sound"} बदला.
 
 --- /task ---
 
@@ -39,7 +45,13 @@
 
 --- /task ---
 
-**बटन** साठी, तुम्हाला यासाठी आवश्यकता असेल:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the 'Get' button
+---
 
 --- task ---
 
@@ -61,11 +73,17 @@
 
 --- task ---
 
-`beats`{:class="block3variables"} ची संख्या बदला तुम्ही हा ड्रम `if`{:class="block3events"} स्थितीत मिळवायला हवा. तुम्ही हा ड्रम मिळवता त्यावेळी तुम्ही `change by`{:class="block3variables"} केलेल्या `beats`{:class="block3variables"} ची ऋण संख्या बदला. **new drum** च्या नावाला `broadcast`{:class="block3events"} मिळवणारा मेसेज बदला.
+Change the number of `beats`{:class="block3variables"} you must have to unlock this drum in the `if`{:class="block3events"} condition. Change the negative number of `beats`{:class="block3variables"} you `change by`{:class="block3variables"} when you unlock this drum. Change the number that `beats`{:class="block3variables"} needs to be subtracted from in the `join`{:class="block3operators"} block. Change the message that is `broadcast`{:class="block3events"} to the name of the **new drum**.
 
 --- /task ---
 
-**ठिकाणासाठी**, तुम्हाला याची आवश्यकता आहे:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: For the venue
+---
 
 --- task ---
 
@@ -75,7 +93,7 @@
 
 --- task ---
 
-या ड्रमसाठी `message`{:class="block3events"} प्राप्त झाल्यावर `switch backdrop to`{:class="block3looks"} या नवीन बॅकड्रॉपला Stage ला स्क्रिप्ट जोडा.
+Add a script to the Stage to `switch backdrop to`{:class="block3looks"} the new backdrop when the `message`{:class="block3events"} for this drum is received.
 
 --- /task ---
 
@@ -83,46 +101,79 @@
 
 --- task ---
 
-`when backdrop changes to`{:class="block3events"} पासून चालू होणारी स्क्रिप्ट प्रत्येक **drum** स्प्राईटला `go to`{:class="block3motion"} ब्लॉकसह त्यांची पोजिशन बदलण्यासाठी जोडा.
+Add a script starting with `when backdrop changes to`{:class="block3events"} to each **drum** sprite with a `go to`{:class="block3motion"} block to make them change position.
 
 तुम्ही त्यांची सुरूवातीची पोजिशन सुद्धा सेट कराल `when flag clicked`{:class="block3events"}.
 
 --- /task ---
 
+--- /collapse ---
+
+### Improve feedback to the player
+
+Tell the player exactly **how many more** beats are needed to unlock the next drum.
+
 --- task ---
 
-**नीटनेटका:** तुमच्याकडे वेळ असल्यावर, स्प्राईट लीस्टमधील स्प्राईट्स अर्थपूर्ण क्रमात असणे ही उत्तम कल्पना आहे, ड्रमपासून त्यांच्या अपग्रेड ऑर्डरने सुरूवात करावी आणि त्यानंतर बटन क्रमात लावावेत.
+Add this code to `join`{:class="block3operators"} the number of beats needed with the text you have used to tell the player they need more beats if they do not have enough to unlock the next drum:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then //if 10 or more beats
+hide
+change [beats v] by [-10] //take away the cost of upgrade
+else
++ say (join ((10) - (beats)) [beats needed!]) for [2] seconds
+end
+```
+
+**Note**: Update the numbers to match those needed to unlock each drum.
+
+--- /task ---
+
+### Tidy your code
+
+--- task ---
+
+**Tidy:** If you have time, then it's a good idea to make sure the sprites in the sprite list are in a sensible order, starting with the drums in their locked order and then the buttons in order.
 
 --- /task ---
 
 --- task ---
 
+### Stuck?
+
 **डीबग:** ड्रम्स आणि बटन्सने दाखवायला हवे आणि `beats`{:class="block3variables"} व्हेरिएबल बदलायला हवा हे खरोखर तुम्हाला समजले असल्याची खात्री करा. काय करायला हवे हे तुम्हाला स्पष्ट असल्यास प्रोजेक्ट डीबग करणे फार सोपे आहे.
 
 --- collapse ---
 ---
-title: माझा ड्रम योग्यपणे दाखवत नाही/लपवत नाही
+title: My drum doesn't show/hide correctly
 ---
 
-तो पहिला ड्रम असल्याशिवाय, तुमच्या ड्रमला `hide`{:class="block3looks"} करण्यासाठी `when flag clicked`{:class="block3events"} स्क्रिप्ट असायला हवी. आणि त्याला `show`{:class="block3looks"} साठी `when I receive`{:class="block3events"} `this drum` स्क्रिप्ट असायला हवी.
+तो पहिला ड्रम असल्याशिवाय, तुमच्या ड्रमला `hide`{:class="block3looks"} करण्यासाठी `when flag clicked`{:class="block3events"} स्क्रिप्ट असायला हवी.
+
+It should have a `when I receive`{:class="block3events"} `this drum` script to `show`{:class="block3looks"}.
 
 या ड्रमसाठी **Get** बटन सारखाच मेसेज `broadcasts`{:class="block3events"} करतो का ते तपासा.
 
+--- /collapse ---
+
+--- collapse ---
+---
+title: My Get button doesn't show/hide correctly
+---
+
+बटन फार पहिल्या ड्रमसाठी असल्याशिवाय, ते `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+
+It should `show`{:class="block3looks"} `when I receive`{:class="block3events"} the message for the **previous drum**.
+
+The **Get** button should `show`{:class="block3looks"} to let the player know about the next drum they can unlock.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: माझे Get बटन योग्यपणे दाखवत नाही/लपवत नाही
----
-
-बटन फार पहिल्या ड्रमसाठी असल्याशिवाय, ते `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}. आणि त्याने **previous drum** साठी मेसेज `show`{:class="block3looks"} `when I receieve`{:class="block3events"} हवा. **Get** बटन प्लेयरला ते कार्य करत असलेल्या पुढील अपग्रेडबद्दल माहिती असण्यासाठी `show`{:class="block3looks"} हवे.
-
---- /collapse ---
-
---- collapse ---
----
-title: माझ्याकडे पुरेसे बीट्स नसतांना मी ड्रम खरेदी करू शकतो
+title: I can unlock a drum when I don't have enough beats
 ---
 
 ड्रमसाठी **Get** बटन साठी स्क्रिप्ट मधील `when this sprite clicked`{:class="block3events"} आवश्यकता असल्यास `beats`{:class="block3variables"} ची संख्या तुम्ही बदललीत का ते तपासा.
@@ -131,7 +182,7 @@ title: माझ्याकडे पुरेसे बीट्स नसत�
 
 --- collapse ---
 ---
-title: मला नवीन ड्रम मिळाल्यावर बीट्सची संख्या योग्यपणे बदलली नाही
+title: The number of beats doesn't change correctly when I unlock a new drum
 ---
 
 तुम्ही ड्रमसाठी **Get** बटनसाठी स्क्रिप्ट मधील `when this sprite clicked`{:class="block3events"}ऋण संख्या `changed beats by`{:class="block3variables"} केलीत का ते तपासा.
@@ -141,15 +192,6 @@ title: मला नवीन ड्रम मिळाल्यावर बी
 --- /collapse ---
 
 --- /task ---
-
---- collapse ---
----
-title: पूर्ण झालेला प्रोजेक्ट
----
-
-तुम्ही [पूर्ण झालेला प्रोजेक्ट येथे](https://scratch.mit.edu/projects/660064555/){:target="_blank"} बघू शकता.
-
---- /collapse ---
 
 **टीप:** जर तुम्ही खरोखर गोंधळले असाल तर नवीन ड्रम आणि त्याचे बटण डिलीट करणे आणि पुन्हा सुरू करणे योग्य आहे. काहीवेळा त्रुटी शोधणे कठीण असते.
 

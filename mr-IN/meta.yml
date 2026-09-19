@@ -1,29 +1,40 @@
 ---
 title: ड्रम स्टार
 hero_image: images/banner.png
-description: या प्रोजेक्टमध्ये, तुम्ही क्लिकर गेम बनवाल जिथे तुम्ही मोठ्या ठिकाणी
-  नवीन ड्रम प्ले करण्यासाठी बीट्स मिळवाल
+description: या प्रोजेक्टमध्ये, तुम्ही क्लिकर गेम बनवाल जिथे तुम्ही मोठ्या ठिकाणी नवीन ड्रम प्ले करण्यासाठी बीट्स मिळवाल
+pdf: resources/rpfi-drum-stars.pdf
+meta_title: Scratch coding projects for kids and teens | Drum star
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game where you earn beats to play new drums at bigger venues.
 version: 4
-listed: false
-copyedit: false
-last_tested: '2021-04-28'
+listed: true
+copyedit: true
+last_tested: "2021-04-28"
 steps:
-- title: परिचय
-- title: Stage सेट करा
-- title: स्टार्टर ड्रम
-  completion:
-  - engaged
-- title: प्रथम अपग्रेड
-- title: दुसरे अपग्रेड
-- title: खेळा आणि कस्टमाइज करा
-  completion:
-  - internal
-- title: परावर्तन
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: तुमचा प्रोजेक्ट अपग्रेड करा
+  - 
+    title: What you will make
+  - 
+    title: Stage सेट करा
+  - 
+    title: स्टार्टर ड्रम
+    completion:
+      - engaged
+  - 
+    title: Next drum
+  - 
+    title: More drums!
+  - 
+    title: Play
+    completion:
+      - internal
+  - 
+    title: Quick quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true

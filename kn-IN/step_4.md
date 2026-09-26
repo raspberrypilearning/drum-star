@@ -1,13 +1,4 @@
-## ಮೊದಲನೆಯ ಅಪ್‌ಗ್ರೇಡ್
-
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-ನೀವು ನಿಮ್ಮ ಮೊದಲನೆಯ ಅಪ್‌ಗ್ರೇಡ್‌ ಸೇರಿಸುತ್ತೀರಿ. ಪ್ರಾರಂಭದಲ್ಲಿ **Get snare** ಬಟನ್‌ ತೋರಿಸುತ್ತದೆ, ಅದರಿಂದ ಆಟಗಾರನಿಗೆ ಅವರು ಯಾವ ಡ್ರಮ್‌ನೆಡೆಗೆ ಕೆಲಸಮಾಡುತ್ತಾರೆ ಎಂದು ತಿಳಿಯುತ್ತದೆ.
-</div>
-<div>
-![](images/first-upgrade.png){:width="300px"}
-</div>
-</div>
+## Next drum
 
 --- task ---
 
@@ -21,41 +12,50 @@
 
 **Drum-cymbal** ಸ್ಪ್ರೈಟ್‌ನಿಂದ `when this sprite clicked`{:class="block3events"} ಬರಹವನ್ನು **Drum-snare** ಸ್ಪ್ರೈಟ್‌ಗೆ ಎಳೆಯಿರಿ.
 
-[[[scratch3-copy-code]]]
-
 --- /task ---
 
 --- task ---
 
-ಉಡುಪುಗಳನ್ನು ಮತ್ತು ಡ್ರಮ್‌ ಧ್ವನಿಯನ್ನು ಬದಲಾಯಿಸಿ.
-
-ಗಳಿಸಿದ ಬೀಟ್‌ಗಳ ಸಂಖ್ಯೆಯನ್ನು `2` ಕ್ಕೆ ಬದಲಾಯಿಸಿ:
+Change the costume and the drum sound for the **Drum-snare** sprite.
 
 ![](images/snare-icon.png)
 
 ```blocks3
 when this sprite clicked
-+change [beats v] by [2] //ಪ್ರತಿ ಕ್ಲಿಕ್‌ಗೆ 2 ಹೊಡೆತಗಳು
-+switch costume to [drum-snare-b v] //hit ಉಡುಪು
-+play drum [(1) Snare Drum v] for [0.25] beats //ಡ್ರಮ್‌ ಧ್ವನಿ
-+switch costume to [drum-snare-a v] //not hit ಉಡುಪು
++switch costume to [drum-snare-b v] //hit costume
++play drum [(1) Snare Drum v] for [0.25] beats //drum sound
++switch costume to [drum-snare-a v] //not hit costume
 ```
 
 --- /task ---
 
 --- task ---
 
-**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಪ್ರಯತ್ನಿಸಿ. ಸ್ನೇರ್‌ ಡ್ರಮ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ನೀವು 2 ಹೊಡೆತ ಗಳಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
+Change the number of beats earned to `2`:
+
+```blocks3
+when this sprite clicked
++change [beats v] by [2] //2 beats per click
+switch costume to [drum-snare-b v] //hit costume
+play drum [(1) Snare Drum v] for [0.25] beats //drum sound
+switch costume to [drum-snare-a v] //not hit costume
+```
 
 --- /task ---
 
-ನೀವು ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಪ್ರಾರಂಭಿಸಿದಾಗ ಅಪ್‌ಗ್ರೇಡ್‌ಗಳು ಲಭ್ಯವಿರುವುದಿಲ್ಲ. ಅವುಗಳನ್ನು ಹೊಡೆತಗಳ ಜೊತೆಗೆ ಗಳಿಸಬೇಕು.
+--- task ---
+
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಪ್ರಯತ್ನಿಸಿ.
+
+You should you earn 2 beats when you click on the snare drum.
+
+--- /task ---
+
+The next drum is not available when you start the project. It has to be earned with beats.
 
 --- task ---
 
-ಪ್ರಾಜೆಕ್ಟ್‌ನ ಪ್ರಾರಂಭದಲ್ಲಿ ಈ **drum** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಮರೆಮಾಚಲು ಬರಹವನ್ನು ಸೇರಿಸಿ:
-
-![](images/snare-icon.png)
+Add a script to the **Drum-snare** sprite to hide it at the start of the project:
 
 ```blocks3
 when flag clicked
@@ -64,7 +64,7 @@ hide
 
 --- /task ---
 
-ಮುಂದಿನ ಅಪ್‌ಗ್ರೇಡ್‌ ಯಾವ ಡ್ರಮ್‌ ಮತ್ತು ಅದರ ಬೆಲೆ ಎಷ್ಟು ಹೊಡೆತಗಳು ಎಂದು ಒಂದು ಬಟನ್‌ ತೋರಿಸುತ್ತದೆ.
+Add a button to show which drum is the next and how many beats it will cost.
 
 --- task ---
 
@@ -72,7 +72,23 @@ hide
 
 ![](images/duplicate-get.png)
 
-ಅದರ ಕಾಣುವಿಕೆಯನ್ನು **Show** ಗೆ ಬದಲಾಯಿಸಿ ಮತ್ತು ಅದರ ಹೆಸರನ್ನು `Get snare` ಗೆ ಬದಲಾಯಿಸಿ. ಅದನ್ನು Stage ನ ಕೆಳ ಬಲ ಮೂಲೆಯಲ್ಲಿ ಇಡಿ:
+--- /task ---
+
+--- task ---
+
+Change the visibility to **Show**. ![](images/show.png)
+
+--- /task ---
+
+--- task ---
+
+Change its name to `Get snare`.
+
+--- /task ---
+
+--- task ---
+
+ಅದನ್ನು Stage ನ ಕೆಳ ಬಲ ಮೂಲೆಯಲ್ಲಿ ಇಡಿ:
 
 ![](images/get-snare.png)
 
@@ -80,9 +96,11 @@ hide
 
 --- task ---
 
-**Drum-snare** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು **Costumes** ಟ್ಯಾಬ್‌ಗೆ ಹೋಗಿ. ನಿಮ್ಮ ಡ್ರಮ್‌ಗೆ ಹೊಡೆತ ಆಗದೇ ಇರುವ ಉಡುಪನ್ನು ಹೈಲೈಟ್‌ ಮಾಡಲು **Select** (ಬಾಣ) ಟೂಲ್‌ ಉಪಯೋಗಿಸಿ. **Group** iಐಕಾನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರ **Copy** ಐಕಾನ್:
+**Drum-snare** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು **Costumes** ಟ್ಯಾಬ್‌ಗೆ ಹೋಗಿ.
 
 ![](images/snare-icon.png)
+
+Use the **Select** (arrow) tool to highlight the 'not hit' costume of your drum. **Group** iಐಕಾನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರ **Copy** ಐಕಾನ್:
 
 ![](images/copy-costume.png)
 
@@ -91,8 +109,6 @@ hide
 --- task ---
 
 ನಿಮ್ಮ **Get snare** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ಸ್ನೇರ್‌ ಉಡುಪನ್ನು **Paste** ಮಾಡಿ. ನಿಮ್ಮ ಬಟನ್‌ಗೆ ಸರಿಹೊಂದಲು ಅದರ ಗಾತ್ರ ಬದಲಾವಣೆ ಮತ್ತು ಸ್ಥಾನ ಬದಲಾವಣೆಯನ್ನು ಮಾಡಬೇಕಾಗಬಹುದು:
-
-![](images/get-snare-icon.png)
 
 ![](images/paste-costume.png)
 
@@ -111,48 +127,19 @@ show
 
 --- /task ---
 
-ಬಳಕೆದಾರ `10` ಅಥವಾ ಹೆಚ್ಚು ಹೊಡೆತಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ಮಾತ್ರ ಅಪ್‌ಗ್ರೇಡ್‌ನ್ನು ಖರೀದಿಸಬಹುದು. [Grow a dragonfly](https://projects.raspberrypi.org/kn-IN/projects/grow-a-dragonfly){:target="_blank"}ರಲ್ಲಿ, ನೀವು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ಗಳೊಂದಿಗೆ ತೀರ್ಮಾನ ಮಾಡುವುದರ ಬಗೆಗೆ ಕಲಿತಿದ್ದೀರಿ.
-
-`if ... else`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ತೀರ್ಮಾನ ಮಾಡಲು ಉಪಯೋಗಿಸಿದರೆ ಮತ್ತು ಷರತ್ತು `true` ಅಥವಾ `false` ಆದರೆ ವಿಭಿನ್ನ ಸಂಗತಿಗಳನ್ನು ಮಾಡುತ್ತದೆ.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-ನಾವು <span style="color: #0faeb0">**if ... else**</span> ನ್ನು ತೀರ್ಮಾನ ಮಾಡಲು ಯಾವಾಗಲೂ ಉಪಯೋಗಿಸುತ್ತೇವೆ. ನೀವು ನಿದ್ದೆಯಿಂದ ಎದ್ದಾಗ, ನೀವು `if`{:class="block3control"} ಇದು ಮುಂಜಾನೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸುತ್ತೀರಿ. ನೀವು ಎದ್ದೇಳುತ್ತೀರಿ, ಅಥವಾ `else`{:class="block3control"} ನೀವು ಮತ್ತೆ ಮಲಗಲು ಹೋಗುತ್ತೀರಿ. ನೀವು ಮಾಡುವ ಯಾವುದಾದರೂ `if ... else`{:class="block3control"} ತೀರ್ಮಾನಗಳ ಬಗೆಗೆ ಯೋಚಿಸಬಹುದೇ? 
-</p>
+The next drum can only be unlocked if the user has `10` or more beats.
 
 --- task ---
 
-ಆಟಗಾರ ಸಾಕಷ್ಟು ಹೊಡೆತಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ಅಪ್‌ಗ್ರೇಡ್‌ ಪಡೆಯಲು ಈ ಕೋಡ್ `if`{:class="block3control"} ಸೇರಿಸಿ ಅಥವಾ ಅವರು ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಲು ಸಾಧ್ಯವಾಗದಿದ್ದರೆ `say`{:class="block3looks"} `Not enough beats!`:
-
-![](images/get-snare-icon.png)
+Add this code to unlock the next drum `if`{:class="block3control"} the player has enough beats, or `say`{:class="block3looks"} `More beats needed!` if they do not have enough:
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [9]> then //10 ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚು ಹೊಡೆತಗಳಿದ್ದರೆ
+if <(beats)>  [9]> then //if 10 or more beats
 hide
-change [beats v] by [-10] //ಅಪ್‌ಗ್ರೇಡ್‌ ಬೆಲೆಯನ್ನು ತೆಗೆದುಹಾಕಿ
+change [beats v] by [-10] //take away the cost of upgrade
 else
-say [Not enough beats!] for [2] seconds 
-end
-```
-
---- /task ---
-
-ಉಳಿದ ಸ್ಪ್ರೈಟ್‌ಗಳು ಮತ್ತು Stage ಗೆ ಸ್ನೇರ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಖರೀದಿಸಲಾಗಿದೆ ಎಂದು ತಿಳಿಯಲಿ.
-
---- task ---
-
-ಹೊಸ `snare` ಸಂದೇಶ ಕಳುಹಿಸಲು `broadcast`{:class="block3events"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ:
-
-![](images/get-snare-icon.png)
-
-```blocks3
-when this sprite clicked
-if <(beats)>  [9]> then // 10 ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚು ಹೊಡೆತಗಳಿದ್ದರೆ
-hide
-change [beats v] by [-10] // ಅಪ್‌ಗ್ರೇಡ್‌ ಬೆಲೆಯನ್ನು ತೆಗೆದುಹಾಕಿ
-+ broadcast (snare v) // ನಿಮ್ಮ ಡ್ರಮ್‌ ಹೆಸರು
-else
-say [Not enough beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -160,9 +147,28 @@ end
 
 --- task ---
 
-**Drum-snare** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಈ ಬರಹವನ್ನು ಸೇರಿಸಿ:
+Add a `broadcast`{:class="block3events"} block to send a new `snare` message:
+
+```blocks3
+when this sprite clicked
+if <(beats)>  [9]> then // if 10 or more beats
+hide
+change [beats v] by [-10] // take away the cost of upgrade
++ broadcast (snare v) // your drum name
+else
+say [More beats needed!] for [2] seconds
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Click on the **Drum-snare** sprite.
 
 ![](images/snare-icon.png)
+
+Add this script:
 
 ```blocks3
 when I receive [snare v]
@@ -171,30 +177,44 @@ show
 
 --- /task ---
 
-ನೀವು ನಿಮ್ಮ ಉಪಕರಣ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿದಾಗ, ನೀವು ದೊಡ್ಡ ದೊಡ್ಡ ವೇದಿಕೆಗಳಲ್ಲಿ ನುಡಿಸಲು ಸಾಧ್ಯ.
+--- task ---
+
+**Test:** Run your project.
+
+You should not be able to unlock the next drum before you have enough beats.
+
+--- /task ---
+
+When you unlock new drums, you can play at bigger venues!
 
 --- task ---
 
-ಇನ್ನೊಂದು ಹಿನ್ನೆಲೆಯನ್ನು ಸೇರಿಸಿ. ನಾವು ಶಾಲೆಯಲ್ಲಿ ನಮ್ಮ ಎರಡನೆಯ ಗಿಗ್‌ ನಡೆಸಲು **Chalkboard** ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡಿದ್ದೇವೆ.
+Add another backdrop. We chose **Chalkboard** to play our second gig at school.
 
-ಅಪ್‌ಗ್ರೇಡ್‌ ಸಂದೇಶ ಸ್ವೀಕರಿಸಲ್ಪಟ್ಟಾಗ Stage ಗೆ `switch backdrop`{:class="block3looks"} ಮಾಡಲು ಕೋಡ್‌ ಸೇರಿಸಿ:
+**Tip:** Choose a venue that's a small step up from a bedroom. You want to save bigger venues for later!
+
+--- /task ---
+
+--- task ---
+
+Click on the Stage.
 
 ![](images/stage-icon.png)
+
+Add code to the Stage to `switch backdrop`{:class="block3looks"} when the upgrade message is received:
 
 ```blocks3
 when I receive [snare v]
 switch backdrop to [Chalkboard v]
 ```
 
-**ಸಲಹೆ:** ಮಲಗುವ ಕೋಣೆಯಿಂದ ಸಣ್ಣ ಸೆಟ್‌ಅಪ್‌ ವೇದಿಕೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ. ನೀವು ದೊಡ್ಡ ವೇದಿಕೆಗಳನ್ನು ನಂತರದವುಗಳಿಗೆ ಉಳಿಸಿಕೊಳ್ಳ ಬಯಸುವಿರಿ.
-
 --- /task ---
 
 --- task ---
 
-**ಪರೀಕ್ಷಿಸಿ:** ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ರನ್‌ ಮಾಡಿ. ನಿಮ್ಮ ಬಳಿ ಸಾಕಷ್ಟು ಹೊಡೆತಗಳು ಇರುವ ಮೊದಲು ಸ್ನೇರ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಪ್ರಯತ್ನಿಸಿ ಮತ್ತು ಖರೀದಿಸಿ.
+**Test:** Run your project.
 
-ನೀವು ಅಪ್‌ಗ್ರೇಡ್‌ ಖರೀದಿಸಿದಾಗ ಪರಿಶೀಲಿಸಿ: ಸ್ನೇರ್‌ ಕಣ್ಮರೆಯಾಗುತ್ತದೆ, ಬಟನ್‌ ಕಣ್ಮರೆಯಾಗುತ್ತದೆ, ವೇದಿಕೆ ಬದಲಾಗುತ್ತದೆ ಮತ್ತು `beats`{:class="block3variables"} `10`ರಷ್ಟು ಕಡಿಮೆಯಾಗುತ್ತದೆ.
+When you unlock the next drum: the snare should appear, the button disappears, the venue changes and the `beats`{:class="block3variables"} go down by `10`.
 
 --- /task ---
 

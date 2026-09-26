@@ -13,29 +13,23 @@
 
 Άνοιξε το αρχικό έργο [Ένα αστέρι στα τύμπανα](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
-[[[working-offline]]]
-
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Μουσικοί που καλούνται <span style="color: #0faeb0">**αυτοδημιούργητοι**</span> αρχίζουν να ηχογραφούν μουσική από τα υπνοδωμάτιά τους. Παράγουν τα δικά τους τραγούδια μόνοι τους και στη συνέχεια τα κυκλοφορούν στο διαδίκτυο για να τα ακούσουν όλοι. 
-</p>
-
-Το παιχνίδι ξεκινά σε μια κρεβατοκάμαρα σαν αυτοδημιούργητος καλλιτέχνης.
+The drummer starts in a bedroom like a beginner!
 
 --- task ---
 
 Κάνε κλικ στο **Επιλέξτε Υπόβαθρο** και αναζήτησε `υπνοδωμάτιο (bedroom)`.
 
-**Διάλεξε:** Επίλεξε το υπνοδωμάτιο που προτιμάς στο έργο σου. Επιλέξαμε `Bedroom 3`.
+Select a bedroom and add it to your project. Επιλέξαμε `Bedroom 3`.
 
 ![Η σκηνή που δείχνει το υπόβαθρο "Bedroom 3".](images/bedroom3.png)
 
 --- /task ---
 
---- task ---
-
 Στο Scratch, μπορείς να προσθέσεις κώδικα στο Υπόβαθρο.
+
+--- task ---
 
 Κάνε κλικ στο σκηνικό του υπνοδωματίου σου από το παράθυρο της Σκηνής και πρόσθεσε αυτόν τον κώδικα:
 
@@ -43,7 +37,7 @@
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //το όνομα του υπόβαθρου
+switch backdrop to (Bedroom 3 v) //your backdrop name
 ```
 
 --- /task ---
@@ -74,25 +68,23 @@ switch backdrop to (Bedroom 3 v) //το όνομα του υπόβαθρου
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //το όνομα του υπόβαθρου
-+ set [όνομα v] to [???] //η μεταβλητή σου
+switch backdrop to (Bedroom 3 v) //your backdrop name
++ set [name v] to [???] //your variable
 ```
 
 --- /task ---
 
-Μπορείς να προσθέσεις ένα μπλοκ `ρώτησε`{:class="block3sensing"} στο Scratch και μετά να χρησιμοποιήσεις μια `μεταβλητή`{:class="block3variables"} για να αποθηκεύσεις τις `απαντήσεις`{:class="block3sensing"}.
+Μπορείς να προσθέσεις ένα μπλοκ`ρώτησε`{:class="block3sensing"} στο Scratch και μετά να χρησιμοποιήσεις μια `μεταβλητή`{:class="block3variables"} για να αποθηκεύσεις τις `απαντήσεις`{:class="block3sensing"}.
 
 --- task ---
 
 Κάνε κλικ στο μενού μπλοκ `Αισθητήρες`{:class="block3sensing"} και πρόσθεσε ένα μπλοκ `ρώτησε`{:class="block3sensing"} στον κώδικά σου:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //το όνομα του υπόβαθρου
-set [όνομα v] to [???] //η μεταβλητή σου
-+ ask [Ποιό είναι το όνομα του ροκ σταρ σου;] and wait //η ερώτηση σου
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
++ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
@@ -101,19 +93,15 @@ set [όνομα v] to [???] //η μεταβλητή σου
 
 Όρισε τη `μεταβλητή`{:class="block3variables"} `όνομα`{:class="block3variables"} ως την `απάντηση`{:class="block3sensing"}:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //το όνομα του υπόβαθρου
-set [όνομα v] to [???] //η μεταβλητή σου
-ask [Ποιό είναι το όνομα του ροκ σταρ σου;] and wait //η ερώτηση σου
-+ set [όνομα v] to (answer)
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
+ask [What's your rock star name?] and wait //your question
++ set [name v] to (answer)
 ```
 
 --- /task ---
-
-Άλλαξε τον τρόπο εμφάνισης της `μεταβλητής`{:class="block3variables"} στη Σκηνή.
 
 --- task ---
 
@@ -125,7 +113,7 @@ ask [Ποιό είναι το όνομα του ροκ σταρ σου;] and wai
 
 --- task ---
 
-Σύρε τη `μεταβλητή`{:class="block3variables"} για να την τοποθετήσεις στην επάνω δεξιά γωνία της Σκηνής:
+Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
 
 ![](images/repositioned-variable.png)
 
@@ -137,21 +125,21 @@ ask [Ποιό είναι το όνομα του ροκ σταρ σου;] and wai
 
 --- /task ---
 
+You don't want to type an answer every time you test your project.
+
 --- task ---
 
-Τώρα που δοκίμασες ότι η `μεταβλητή`{:class="block3variables"} αλλάζει στην την τιμή της `απάντησης`{:class="block3sensing"}, μπορείς να σύρεις τα τελευταία 2 μπλοκ κώδικα μακριά από το υπόλοιπο σενάριο. Αυτό σημαίνει ότι δεν χρειάζεται να πληκτρολογήσεις μια `απάντηση`{:class="block3sensing"} κάθε φορά που δοκιμάζεις το έργο σου:
-
-![](images/stage-icon.png)
+Drag the last two blocks of code away from the rest of the script.
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //το όνομα του υπόβαθρου
-set [όνομα v] to [???] //η μεταβλητή σου
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
 ```
 
 ```blocks3
-ask [Ποιό είναι το όνομα του ροκ σταρ σου;] and wait //η ερώτηση σου
-set [όνομα v] to (answer)
+ask [What's your rock star name?] and wait //your question
+set [name v] to (answer)
 ```
 
 --- /task ---

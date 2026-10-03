@@ -1,4 +1,4 @@
-## 遊んでカスタマイズする
+## Play
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,23 +11,11 @@
 
 --- task ---
 
-ゲームをプレイしてビートをかせぎましょう。
+If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back.
 
-変数`ビート数`{:class="block3variables"} の変化を見て、ビート数がどのようにドラムをクリックすると増え、新しいドラムを取得すると減るかを理解しながら確認しましょう。
+**Test:** Click the green flag and set your rock star name!
 
-各ドラムでかせげるビート数に満足していますか? 好きなように変えられます。
-
-新しいドラムを手に入れるのにかかるビート数に満足していますか?
-
-**ヒント:** プロジェクトを定期的にテストして、バグを見つけて修正できるようにしておきましょう。
-
---- /task ---
-
---- task ---
-
-ステージ上で `...と聞いて待つ`{:class="block3sensing"} ブロックを離した場合は、元に戻してロックスターの名前を入れておきましょう。
-
-ステージに表示される名前が変わることに注目してください。
+You should see the name displayed on the Stage changes.
 
 --- /task ---
 

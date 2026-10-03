@@ -5,7 +5,7 @@
 In deze stap kies je welke drum je wilt toevoegen.
 </div>
 <div>
-![Het speelveld met de achtergrond van een feestje met 3 drums.](images/second-upgrade.png){:width="300px"}
+![het speelveld met de achtergrond van een feestje met 3 drums.](images/second-upgrade.png){:width="300px"}
 </div>
 </div>
 
@@ -48,16 +48,16 @@ Geef je drum een naam die past bij het uiterlijk dat je hebt gekozen.
 
 Klik op het **Code** tabblad. Wijzig de code om de juiste uiterlijken te gebruiken en kies een geluid voor je nieuwe drum.
 
-Wijzig het aantal slagen dat je verdient door op de nieuwe drum te klikken in `5`:
+Wijzig het aantal beats dat je verdient door op de nieuwe drum te klikken in `5`:
 
 ![](images/drum-3-icon.png)
 
 ```blocks3
 when this sprite clicked
-+change [beats v] by [5] // 5 beats per klik
-+switch costume to [ v] // je geraakt uiterlijk
-+play drum [ v] for [0.25] beats // je drumgeluid
-+switch costume to [ v] // je niet geraakt uiterlijk
++change [beats v] by [5] //5 beats per click
++switch costume to [ v] //your hit costume
++play drum [ v] for [0.25] beats //your drum sound
++switch costume to [ v] //your not hit costume
 ```
 
 --- /task ---
@@ -121,11 +121,11 @@ when flag clicked
 
 --- task ---
 
-Voeg een `wanneer ik signaal ontvang`{:class="block3events"} script toe, zodat je nieuwe `Krijg`{:class="block3looks"}-knop zal verschijnen wanneer de speler de snare drum ontgrendelt.
+Voeg een `wanneer ik signaal ontvang`{:class="block3events"} script toe, zodat je nieuwe 'Krijg'-knop ``{:class="block3looks"} zal verschijnen wanneer de speler de snare drum ontgrendelt.
 
 ```blocks3
-when I receive [snare v] // verschijnt wanneer de vorige drum is gekocht
-show // toon knop voor volgende beschikbare drum
+when I receive [snare v] // appear when previous drum is unlocked
+show // show button to get the new drum
 ```
 
 --- /task ---
@@ -133,18 +133,18 @@ show // toon knop voor volgende beschikbare drum
 --- task ---
 
 Wijzig:
-- Het aantal slagen dat nodig is om deze trommel te ontgrendelen
-- Het aantal slagen dat wordt verwijderd wanneer de speler deze drum ontgrendelt.
+- Het aantal beats dat nodig is om deze trommel te ontgrendelen
+- Het aantal beats dat wordt verwijderd wanneer de speler deze drum ontgrendelt.
 - Het bericht dat `wordt uitgezonden`{:class="block3events"} wanneer de speler de nieuwe drum krijgt.
 
 ```blocks3
 when this sprite clicked
-if <(beats)>  [29]> then // verander naar 29
+if <(beats)>  [29]> then // change to 29
 hide
-change [beats v] by [-30] // verander naar 30
-broadcast (conga v) // verander in je drumnaam
+change [beats v] by [-30] // change to -30
+broadcast (conga v) // change to your drum name
 else
-say [Niet genoeg beats!] for [2] seconds 
+say [More beats needed!] for [2] seconds 
 end
 ```
 
@@ -155,7 +155,7 @@ end
 Klik op je nieuwe drum-sprite en verander het `wanneer ik snare ontvang`{:class="block3events"}-script zodat het wordt weergegeven wanneer je nieuwe drum is ontgrendeld:
 
 ```blocks3
-when I receive [conga v] // verander in je drumnaam
+when I receive [conga v] // change to your drum name
 show
 ```
 
@@ -174,7 +174,7 @@ Voeg een script toe aan het speelveld om de achtergrond te veranderen wanneer de
 ![](images/stage-icon.png)
 
 ```blocks3
-when I receive [conga v] // verander in je drumnaam
+when I receive [conga v] // change to your drum name
 switch backdrop to (Party v)
 ```
 
@@ -184,9 +184,9 @@ switch backdrop to (Party v)
 
 **Test:** Klik op de groene vlag om het spel te starten.
 
-Je kunt je nieuwe trommel ontgrendelen als je genoeg slagen verdient.
+Je kunt je nieuwe trommel ontgrendelen als je genoeg beats verdient.
 
-Wat gebeurt er als je op de knop klikt voordat je genoeg slagen hebt verdiend?
+Wat gebeurt er als je op de knop klikt voordat je genoeg beats hebt verdiend?
 
 --- /task ---
 

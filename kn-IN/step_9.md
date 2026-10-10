@@ -1,6 +1,7 @@
-## ಮುಂದೆ ಏನು?
+## What can you do now?
 
-ನೀವು [More scratch](https://projects.raspberrypi.org/kn-IN/raspberrypi/more-scratch) ಮಾರ್ಗವನ್ನು ಅನುಸರಿಸುತ್ತಿದ್ದರೆ, ನೀವು [Next customer please!](https://projects.raspberrypi.org/kn-IN/projects/next-customer-please) ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಹೋಗಬಹುದು. ಅದರಲ್ಲಿ ನೀವು ಗ್ರಾಹಕರು ಸಾಮಗ್ರಿಗಳನ್ನು ಖರೀದಿಸಿ ಹೊರಬರುವ ಅಂಗಡಿಯನ್ನು ಮಾಡುತ್ತೀರಿ.
+
+ನೀವು [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) ಮಾರ್ಗವನ್ನು ಅನುಸರಿಸುತ್ತಿದ್ದರೆ, ನೀವು [Next customer please!](https://projects.raspberrypi.org/en/projects/next-customer-please) ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಹೋಗಬಹುದು. ಅದರಲ್ಲಿ ನೀವು ಗ್ರಾಹಕರು ಸಾಮಗ್ರಿಗಳನ್ನು ಖರೀದಿಸಿ ಹೊರಬರುವ ಅಂಗಡಿಯನ್ನು ಮಾಡುತ್ತೀರಿ.
 
 --- print-only ---
 
@@ -16,4 +17,4 @@
 
 --- /no-print ---
 
-ನೀವು Scratch ನ್ನು ಇನ್ನೂ ಅನ್ವೇಷಿಸಿ ಮಜಾ ಮಾಡುವುದಾಧರೆ [ಈ ಪ್ರಾಜೆಕ್ಟ್‌ಗಳ](https://projects.raspberrypi.org/kn-IN/projects?software%5B%5D=scratch&curriculum%5B%5D=%201)ಲ್ಲಿ ಯಾವುದಾದರೂ ಪ್ರಯತ್ನಿಸಬಹುದು.
+ನೀವು Scratch ನ್ನು ಇನ್ನೂ ಅನ್ವೇಷಿಸಿ ಮಜಾ ಮಾಡುವುದಾಧರೆ [ಈ ಪ್ರಾಜೆಕ್ಟ್‌ಗಳ](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201)ಲ್ಲಿ ಯಾವುದಾದರೂ ಪ್ರಯತ್ನಿಸಬಹುದು.

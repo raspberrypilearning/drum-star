@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: ಪ್ರಶ್ನೆ 2 ರಲ್ಲಿ 3
+legend: Question 2 of 3
 ---
 
 ಪ್ರಾಜೆಕ್ಟ್‌ ಒಂದರಲ್ಲಿ ಬಳಕೆದಾರರನ್ನು ಅವರ ಹೆಸರನ್ನು ಕೇಳಲು `ask`{:class="block3sensing"} ಬರಹ ಇದೆ:

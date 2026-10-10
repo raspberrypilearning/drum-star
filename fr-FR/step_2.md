@@ -37,7 +37,7 @@ Clique sur l'arrière-plan de ta chambre dans le volet Scène et ajoute ce code�
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // ton nom d'arrière-plan
+switch backdrop to (Bedroom 3 v) //your backdrop name
 ```
 
 --- /task ---
@@ -68,8 +68,8 @@ Ajoute un bloc à `mettre nom à`{:class="block3variables"} `???` :
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // ton nom d'arrière-plan
-+ set [nom v] to [???] // ta variable
+switch backdrop to (Bedroom 3 v) //your backdrop name
++ set [name v] to [???] //your variable
 ```
 
 --- /task ---
@@ -82,9 +82,9 @@ Clique sur le menu des blocs `Capteurs`{:class="block3sensing"} et ajoute un blo
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // ton nom d'arrière-plan
-set [nom v] to [???] // ta variable
-+ ask [Quel est ton nom de rockstar ?] and wait // ta question
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
++ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
@@ -95,10 +95,10 @@ Définis la `variable`{:class="block3variables"} `nom`{:class="block3variables"}
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // ton nom d'arrière-plan
-set [nom v] to [???] // ta variable
-ask [Quel est ton nom de rockstar ?] and wait // ta question
-+ set [nom v] to (answer)
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
+ask [What's your rock star name?] and wait //your question
++ set [name v] to (answer)
 ```
 
 --- /task ---
@@ -133,13 +133,13 @@ Fais glisser les deux derniers blocs de code hors du reste du script.
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // ton nom d'arrière-plan
-set [nom v] to [???] // ta variable
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
 ```
 
 ```blocks3
-ask [Quel est ton nom de rockstar ?] and wait // ta question
-set [nom v] to (answer)
+ask [What's your rock star name?] and wait //your question
+set [name v] to (answer)
 ```
 
 --- /task ---

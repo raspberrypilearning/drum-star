@@ -1,29 +1,40 @@
 ---
 title: ಡ್ರಮ್‌ ಸ್ಟಾರ್
 hero_image: images/banner.png
-description: ಈ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ದೊಡ್ಡ ವೇದಿಕೆಗಳಲ್ಲಿ ಹೊಸ ಡ್ರಮ್‌ಗಳಿಗೆ ಬೀಟ್ಸ್‌ ನುಡಿಸುವುದನ್ನು
-  ಗಳಿಸುವ ಕ್ಲಿಕರ್‌ ಆಟವನ್ನು ನೀವು ಮಾಡುವಿರಿ
+description: ಈ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ದೊಡ್ಡ ವೇದಿಕೆಗಳಲ್ಲಿ ಹೊಸ ಡ್ರಮ್‌ಗಳಿಗೆ ಬೀಟ್ಸ್‌ ನುಡಿಸುವುದನ್ನು ಗಳಿಸುವ ಕ್ಲಿಕರ್‌ ಆಟವನ್ನು ನೀವು ಮಾಡುವಿರಿ
+pdf: resources/rpfi-drum-stars.pdf
+meta_title: Scratch coding projects for kids and teens | Drum star
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game where you earn beats to play new drums at bigger venues.
 version: 4
-listed: false
-copyedit: false
-last_tested: '2021-04-28'
+listed: true
+copyedit: true
+last_tested: "2021-04-28"
 steps:
-- title: ಪರಿಚಯ
-- title: ವೇದಿಕೆ ಸಿದ್ಧಪಡಿಸಿ
-- title: ಸ್ಟಾರ್ಟರ್ ಡ್ರಮ್
-  completion:
-  - engaged
-- title: ಮೊದಲನೆಯ ಅಪ್‌ಗ್ರೇಡ್
-- title: ಎರಡನೆಯ ಅಪ್‌ಗ್ರೇಡ್
-- title: ನುಡಿಸಿ ಮತ್ತು ಬೇಕಾದಂತೆ ಮಾರ್ಪಾಡು ಮಾಡಿ
-  completion:
-  - internal
-- title: ಪುನರ್ಮನನ
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
+  - 
+    title: What you will make
+  - 
+    title: ವೇದಿಕೆ ಸಿದ್ಧಪಡಿಸಿ
+  - 
+    title: ಸ್ಟಾರ್ಟರ್ ಡ್ರಮ್
+    completion:
+      - engaged
+  - 
+    title: Next drum
+  - 
+    title: More drums!
+  - 
+    title: Play
+    completion:
+      - internal
+  - 
+    title: Quick quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true

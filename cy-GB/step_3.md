@@ -11,7 +11,7 @@ Byddi di'n ychwanegu corlun **symbal** y galli di ei glicio i ennill curiadau a 
 
 --- task ---
 
-Clicia **Dewiswch Gorlun** a chwilia am `cymbal`. Ychwanega'r corlun **Drum-cymbal** at dy brosiect.
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@ Clicia **Dewiswch Gorlun** a chwilia am `cymbal`. Ychwanega'r corlun **Drum-cymb
 
 --- task ---
 
-Rho dy symbal ar y Llwyfan:
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -41,16 +41,18 @@ Ychwanega sgript i wneud i'r symbal `newid gwisg`{:class="block3looks"} a `chwar
 
 ```blocks3
 when this sprite clicked
-switch costume to [drum-cymbal-b v] // gwisg guro
-play drum [(5) Open High-Hat v] for [0.25] beats // sain drwm
-switch costume to [drum-cymbal-a v]  // gwisg heb guro
+switch costume to [drum-cymbal-b v] // hit costume
+play drum [(5) Open High-Hat v] for [0.25] beats // drum sound
+switch costume to [drum-cymbal-a v]  // not hit costume
 ```
 
 --- /task ---
 
 --- task ---
 
-**Prawf:** Profa dy cymbal trwy glicio arno. Gwna'n siŵr dy fod yn clywed sain ac yn gweld y gwisgoedd yn newid.
+**Prawf:** Profa dy cymbal trwy glicio arno.
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ Bydd y corlun **Drum-cymbal** yn ennill un curiad i ti bob tro byddi di'n ei gli
 
 --- task ---
 
-Crea `newidyn`{:class="block3variables"} o'r enw `curiadau`:
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -68,11 +70,9 @@ Crea `newidyn`{:class="block3variables"} o'r enw `curiadau`:
 
 Ychwanega floc er mwyn `newid curiadau gan 1`{:class="block3variables"} pan gaiff y corlun **Drum-cymbal** ei glicio:
 
-![](images/cymbal-icon.png)
-
 ```blocks3
 when this sprite clicked
-+change [curiadau v] by [1]
++change [beats v] by [1]
 switch costume to [drum-cymbal-b v]
 play drum [(5) Open High-Hat v] for [0.25] beats 
 switch costume to [drum-cymbal-a v]
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**Profi:** Profa'r **Drum-cymbal** drwy glicio arno a gwylia'r `curiadau`{:class="block3variables"} yn codi.
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ Mae angen i'r newidyn `curiadau`{:class="block3variables"} ddechrau ar `0` curia
 
 --- task ---
 
-Clicia gwarel y Llwyfan ac yna ar y tab **Cod** i ychwanegu cod at y Llwyfan.
+Click on the Stage pane and then the **Code** tab.
 
 Ychwanega floc er mwyn `gosod curiadau i`{:class="block3variables"} `0`:
 
@@ -99,8 +101,8 @@ Ychwanega floc er mwyn `gosod curiadau i`{:class="block3variables"} `0`:
 ```blocks3
 when flag clicked
 switch backdrop to (Bedroom 3 v) 
-set [enw v] to [???] 
-+ set [curiadau v] to [0]
+set [name v] to [???] 
++ set [beats v] to [0]
 ```
 --- /task ---
 

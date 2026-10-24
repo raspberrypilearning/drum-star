@@ -35,7 +35,7 @@ when this sprite clicked
 
 ```blocks3
 when this sprite clicked
-+change [удари v] by [2] // 2 удари за клік
++change [beats v] by [2] // 2 удари за клік
 switch costume to [drum-snare-b v] // образ під час удару
 play drum [(1) Snare Drum v] for [0.25] beats // звук барабана
 switch costume to [drum-snare-a v] // образ без удару
@@ -76,8 +76,7 @@ hide
 
 --- task ---
 
-Зміни видимість на **Показати**
-![](images/show.png)
+Зміни видимість на **Показати**. ![](images/show.png)
 
 --- /task ---
 
@@ -132,7 +131,7 @@ show
 
 --- task ---
 
-Додай цей код, щоб відкрити наступний барабан, `якщо`{:class="block3control"} у гравця достатньо ударів, або `скажи`{:class="block3looks"} `Потрібно більше ударів!`, якщо ударів недостатньо:
+Додай цей код, щоб відкрити наступний барабан, `якщо`{:class="block3control"} у гравця достатньо ударів, або `скажи`{:class="block3looks "} `Потрібно більше ударів!`, якщо ударів недостатньо:
 
 ```blocks3
 when this sprite clicked

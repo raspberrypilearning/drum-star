@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: प्रश्न 3 पैकी 2
+legend: Question 2 of 3
 ---
 
 यूजरला त्यांचे नाव `ask`{:class="block3sensing"} साठी प्रोजेक्टला ही स्क्रिप्ट आहे:
@@ -46,7 +46,7 @@ set [name v] to (answer)
 
   --- feedback ---
 
-हो, ब्लॉकला `set [name v] to` {:class="block3variables"} `name`{:class="block3variables"} ची **value** ही `answer`{:class="block3sensing"} च्या व्हॅल्यूला सेट करा जी यूजरने एंटर केलेले टेक्स्ट असेल.
+हो, </code>{:class="block3variables"} ब्लॉकला `set [name v] करण्यासाठी <code>name`{:class="block3variables"} ची **value** ही `answer`{:class="block3sensing"} च्या व्हॅल्यूला सेट करा जी यूजरने एंटर केलेले टेक्स्ट असेल.
 
 `Bobo` ची व्हॅल्यू Stage वर सुद्धा दाखवली जाईल.
 

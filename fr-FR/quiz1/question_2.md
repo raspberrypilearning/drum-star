@@ -9,9 +9,9 @@ Un projet comporte ce script pour `demander`{:class="block3sensing"} à l'utilis
 
 ```blocks3
 when flag clicked
-set [nom v] to [???] 
-ask [Quel est ton nom ?] and wait 
-set [nom v] to (answer)
+set [name v] to [???] 
+ask [What's your name?] and wait 
+set [name v] to (answer)
 ```
 
 ![](images/q1-chatbot.png)
@@ -40,14 +40,13 @@ Non, `???` est la valeur de la variable `nom`{:class="block3variables"} avant l'
 
   --- feedback ---
 
-Non, `réponse`{:class="block3sensing"} est la variable intégrée que Scratch utilise pour stocker la réponse qu'un utilisateur tape lorsque tu `demandes`{:class="block3sensing"} une question.
---- /feedback ---
+Non, `réponse`{:class="block3sensing"} est la variable intégrée que Scratch utilise pour stocker la réponse qu'un utilisateur tape lorsque tu `demandes`{:class="block3sensing"} une question. --- /feedback ---
 
 - (x) Bobo
 
   --- feedback ---
 
-Oui, le bloc `mettre [nom v] à`{:class="block3variables"} définit la **valeur** de la variable `nom`{:class="block3variables"} sur la valeur de `demande`{:class="block3sensing"} qui est le texte saisi par l'utilisateur.
+Oui, le bloc `mettre [nom v] à`{:class="block3variables"} définit la **valeur** de la variable `nom`{:class="block3variables"} sur la valeur de `demande`{:class= "block3sensing"} qui est le texte saisi par l'utilisateur.
 
 La valeur `Bobo` sera également affichée sur la Scène.
 

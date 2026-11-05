@@ -11,7 +11,7 @@
 
 --- task ---
 
-**Choose a Sprite** ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು `cymbal` ಹುಡುಕಿ. ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ **Drum-cymbal** ಸ್ಪ್ರೈಟ್‌ ಸೇರಿಸಿ.
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@
 
 --- task ---
 
-ನಿಮ್ಮ ಸಿಂಬಲ್‌ನ್ನು Stage ಮೇಲೆ ಇರಿಸಿ:
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -41,16 +41,18 @@
 
 ```blocks3
 when this sprite clicked
-switch costume to [drum-cymbal-b v] // hit ಉಡುಪು
-play drum [(5) Open High-Hat v] for [0.25] beats // ಡ್ರಮ್‌ ಧ್ವನಿ
-switch costume to [drum-cymbal-a v]  // not hit ಉಡುಪು
+switch costume to [drum-cymbal-b v] // hit costume
+play drum [(5) Open High-Hat v] for [0.25] beats // drum sound
+switch costume to [drum-cymbal-a v]  // not hit costume
 ```
 
 --- /task ---
 
 --- task ---
 
-**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಸಿಂಬಲ್‌ನ್ನು ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಪರೀಕ್ಷೆ ಮಾಡಿ. ನೀವು ಧ್ವನಿ ಕೇಳಿಸಿಕೊಳ್ಳುವುದನ್ನು ಮತ್ತು ಉಡುಪು ಬದಲಾವಣೆ ನೋಡುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಸಿಂಬಲ್‌ನ್ನು ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಪರೀಕ್ಷೆ ಮಾಡಿ.
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ switch costume to [drum-cymbal-a v]  // not hit ಉಡುಪು
 
 --- task ---
 
-`beats` ಎನ್ನುವ `variable`{:class="block3variables"} ರಚಿಸಿ:
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -67,8 +69,6 @@ switch costume to [drum-cymbal-a v]  // not hit ಉಡುಪು
 --- task ---
 
 **Drum-cymbal** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ `change beats by 1`{:class="block3variables"}ನ್ನು ಮಾಡಲು ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ:
-
-![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**ಪರೀಕ್ಷೆ:** **Drum-cymbal** ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಅದನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು `beats`{:class="block3variables"} ಹೆಚ್ಚಾಗುವುದನ್ನು ಗಮನಿಸಿ.
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-Stage ಪೇನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರ Stage ಗೆ ಕೋಡ್‌ ಸೇರಿಸಲು **Code** ಟ್ಯಾಬ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
+Click on the Stage pane and then the **Code** tab.
 
 `set beats to`{:class="block3variables"} `0` ಮಾಡಲು ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ:
 

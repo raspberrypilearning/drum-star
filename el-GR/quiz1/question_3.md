@@ -2,23 +2,23 @@
 --- question ---
 
 ---
-legend: Ερώτηση 3 από 3
+legend: Question 3 of 3
 ---
 
 Χρησιμοποίησες αυτό το σενάριο για να ελέγξεις τι συμβαίνει όταν ο παίκτης κάνει κλικ στο κουμπί για να αναβαθμίσει το τύμπανο:
 
 ```blocks3
 when this sprite clicked
-if <(χτυπήματα)>  [29]> then 
+if <(beats)>  [29]> then 
 hide
-change [χτυπήματα v] by [-30] 
+change [beats v] by [-30] 
 broadcast (conga v) 
 else
-say [Όχι αρκετά χτύπήματα!] for [2] seconds 
+say [Not enough beats!] for [2] seconds 
 end
 ```
 
-Εάν η τιμή της μεταβλητής `χτυπήματα`{:class="block3variables"} είναι `29`, τι θα συμβεί όταν ο παίκτης κάνει κλικ στο κουμπί;
+Εάν η τιμή της μεταβλητής `beats`{:class="block3variables"} είναι `29`, τι θα συμβεί όταν ο παίκτης κάνει κλικ στο κουμπί;
 
 --- choices ---
 

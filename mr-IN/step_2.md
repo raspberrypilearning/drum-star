@@ -13,29 +13,23 @@
 
 [ड्रम स्टार स्टार्टर प्रोजेक्ट](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"} उघडा. Scratch दुसऱ्या ब्राऊजर टॅबमध्ये उघडेल.
 
-[[[working-offline]]]
-
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-म्युझिशीयन्स ज्यांना <span style="color: #0faeb0">**घरगुती कलाकार**</span> म्हणतात ते त्यांच्या बेडरूम मधून रेकॉर्डींग चालू करतात. ते स्वतःच त्यांची स्वतःची गाणी तयार करतात आणि नंतर ती सर्वांना ऐकण्यासाठी ऑनलाइन रिलीज करतात. 
-</p>
-
-गेम एखाद्या DIY आर्टीस्ट प्रमाणे बेडरूममध्ये सुरू होतो.
+The drummer starts in a bedroom like a beginner!
 
 --- task ---
 
 **Choose a Backdrop** वर क्लिक करा आणि `bedroom` सर्च करा.
 
-**निवडा:** बेडरूम निवडा आणि ती तुमच्या प्रोजेक्टमध्ये जोडा. आम्ही `Bedroom 3` निवडली.
+Select a bedroom and add it to your project. आम्ही `Bedroom 3` निवडली.
 
 !['Bedroom 3' बॅकड्रॉप दाखवणारा stage.](images/bedroom3.png)
 
 --- /task ---
 
---- task ---
-
 Scratch मध्ये, तुम्ही Stage वर कोड जोडू शकता.
+
+--- task ---
 
 Stage pane मधून तुमच्या बेडरूम बॅकड्रॉप वर क्लिक करा आणि हा कोड जोडा:
 
@@ -43,7 +37,7 @@ Stage pane मधून तुमच्या बेडरूम बॅकड्
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //तुमच्या बॅकड्रॉपचे नाव
+switch backdrop to (Bedroom 3 v) //your backdrop name
 ```
 
 --- /task ---
@@ -74,8 +68,8 @@ switch backdrop to (Bedroom 3 v) //तुमच्या बॅकड्रॉ�
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //तुमच्या बॅकड्रॉपचे नाव
-+ set [name v] to [???] //तुमचा व्हेरिएबल
+switch backdrop to (Bedroom 3 v) //your backdrop name
++ set [name v] to [???] //your variable
 ```
 
 --- /task ---
@@ -86,13 +80,11 @@ switch backdrop to (Bedroom 3 v) //तुमच्या बॅकड्रॉ�
 
 `Sensing`{:class="block3sensing"} ब्लॉक्स मेनूवर क्लिक करा आणि तुमच्या कोडला `ask`{:class="block3sensing"} ब्लॉक जोडा:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //तुमच्या बॅकड्रॉपचे नाव
-set [name v] to [???] //तुमचा व्हेरिएबल
-+ ask [What's your rock star name?] and wait //तुमचा प्रश्न
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
++ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
@@ -101,19 +93,15 @@ set [name v] to [???] //तुमचा व्हेरिएबल
 
 `answer`{:class="block3sensing"} ला `name`{:class="block3variables"} `variable`{:class="block3variables"} सेट करा:
 
-![](images/stage-icon.png)
-
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //तुमच्या बॅकड्रॉपचे नाव
-set [name v] to [???] //तुमचा व्हेरिएबल
-ask [What's your rock star name?] and wait //तुमचा प्रश्न
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
+ask [What's your rock star name?] and wait //your question
 + set [name v] to (answer)
 ```
 
 --- /task ---
-
-Stage वर तुमचा `variable`{:class="block3variables"} दिसतो तो मार्ग बदला.
 
 --- task ---
 
@@ -125,7 +113,7 @@ Stage वरील `variable`{:class="block3variables"} वर राईट-क�
 
 --- task ---
 
-Stage च्या वरच्या उजव्या भागात पोजीशन घेण्यासाठी तुमचा `variable`{:class="block3variables"} ड्रॅग करा:
+Drag your `variable`{:class="block3variables"} to position it top-right of the Stage:
 
 ![](images/repositioned-variable.png)
 
@@ -137,20 +125,20 @@ Stage च्या वरच्या उजव्या भागात पो�
 
 --- /task ---
 
+You don't want to type an answer every time you test your project.
+
 --- task ---
 
-आता तुम्ही चाचणी केलीत की `variable`{:class="block3variables"} हा `answer`{:class="block3sensing"} ला बदलतो, तुम्ही उर्वरीत स्क्रिप्ट मधून कोडचे शेवटचे 2 ब्लॉक्स ड्रॅग करू शकता. याचा अर्थ असा की, तुम्हाला प्रत्येक वेळी तुमचा प्रोजेक्ट तपासतांना `answer`{:class="block3sensing"} टाईप करावा लागत नाही:
-
-![](images/stage-icon.png)
+Drag the last two blocks of code away from the rest of the script.
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) //तुमच्या बॅकड्रॉपचे नाव
-set [name v] to [???] //तुमचा व्हेरिएबल
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
 ```
 
 ```blocks3
-ask [What's your rock star name?] and wait //तुमचा प्रश्न
+ask [What's your rock star name?] and wait //your question
 set [name v] to (answer)
 ```
 

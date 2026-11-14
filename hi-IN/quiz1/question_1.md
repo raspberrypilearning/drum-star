@@ -1,24 +1,18 @@
-## सोचिए
+## Quick quiz
 
-अच्छा किया, आपने एक क्लिकर गेम बनाया है जिसे लोग खेलना चाहते हैं!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-आपने `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, `Music`{:class="block3extensions"}, and `Looks`{:class="block3looks"} ब्लॉक्स का उपयोग किया!
+When you have answered each question, click on **Check my answer**.
 
-अब सोचने का समय है। अब, अब विचार करने का समय है - विचार करना सीखने का एक महत्वपूर्ण हिस्सा है, क्योंकि यह आपके दिमाग को तेज़ करता है।
-
-आपने जो सीखा है उस पर चिंतन करने के लिए नीचे दिए गए तीन प्रश्नों के उत्तर दें।
-
-प्रत्येक प्रश्न के बाद, सबमिट करें दबाएं। यह आपको सही उत्तर की तरफ लेकर जाएगा। आप इस गतिविधि को जितनी बार चाहें उतनी बार कर सकते हैं।
-
-मजे करें!
+Have fun!
 
 --- question ---
 
 ---
-legend: 3 में से पहला प्रश्न
+legend: Question 1 of 3
 ---
 
-अपने प्रोजेक्ट में, आपने वेरिएबल बनाए और इस्तेमाल किए। इनमें से कौन सा मान एक वेरिएबल में स्टोर किया जा सकता है?
+In your project, you created and used variables. Which of these values can be stored in a variable?
 
 `6` , `Tom` , `151` , `Aadya`
 
@@ -53,8 +47,8 @@ legend: 3 में से पहला प्रश्न
 - ( ) इनमें से कोई भी नहीं
 
  --- feedback ---
- 
- नहीं। आपके द्वारा उपयोग किए गए `beats`{:class="block3variables"} और `name`{:class="block3variables"} वेरिएबल के बारे में सोचें।
+
+No. Think about the `beats`{:class="block3variables"} and `name`{:class="block3variables"} variables that you used.
 
  --- /feedback ---
 

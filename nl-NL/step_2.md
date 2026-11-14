@@ -11,7 +11,7 @@ In deze stap zet je het podium voor je eerste optreden en kies je een naam voor 
 
 --- task ---
 
-Open het [Drum ster starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
+Open het [Drum star starter project](https://scratch.mit.edu/projects/535783147/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 --- /task ---
 
@@ -19,11 +19,11 @@ De drummer begint in een slaapkamer, net als een beginner!
 
 --- task ---
 
-Klik op **Kies een achtergrond** en zoek naar `bedroom`.
+Klik op **Kies een achtergrond** en zoek naar `slaapkamer`.
 
-**Kies:** Selecteer een slaapkamer en voeg deze toe aan je project. We kozen `Bedroom 3`.
+Selecteer een slaapkamer en voeg deze toe aan je project. We kozen `Slaapkamer 3`.
 
-![Het podium met de achtergrond van 'Bedroom 3'.](images/bedroom3.png)
+![Het podium met de achtergrond van 'Slaapkamer 3'.](images/bedroom3.png)
 
 --- /task ---
 
@@ -37,7 +37,7 @@ Klik op de achtergrond van je slaapkamer in het deelvenster Speelveld en voeg de
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
+switch backdrop to (Bedroom 3 v) //your backdrop name
 ```
 
 --- /task ---
@@ -68,8 +68,8 @@ Voeg een blok toe aan `Stel naam in op`{:class="block3variables"} `???`:
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
-+ set [naam v] to [???] // jouw variabele
+switch backdrop to (Bedroom 3 v) //your backdrop name
++ set [name v] to [???] //your variable
 ```
 
 --- /task ---
@@ -82,9 +82,9 @@ Klik op het blokken menu `Waarnemen`{:class="block3sensing"} en voeg een `Vraag`
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
-set [naam v] to [???] // jouw variabele
-+ ask [Wat is de naam van je rockstar?] and wait // je vraag
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
++ ask [What's your rock star name?] and wait //your question
 ```
 
 --- /task ---
@@ -95,10 +95,10 @@ Stel de `naam`{:class="block3variables"} `variabele`{:class="block3variables"} i
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
-set [naam v] to [???] // jouw variabele
-ask [Wat is de naam van je rockstar?] and wait // je vraag
-+ set [naam v] to (answer)
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
+ask [What's your rock star name?] and wait //your question
++ set [name v] to (answer)
 ```
 
 --- /task ---
@@ -133,13 +133,13 @@ Sleep de laatste twee codeblokken weg van de rest van het script.
 
 ```blocks3
 when flag clicked
-switch backdrop to (Bedroom 3 v) // de naam van je achtergrond
-set [naam v] to [???] // jouw variabele
+switch backdrop to (Bedroom 3 v) //your backdrop name
+set [name v] to [???] //your variable
 ```
 
 ```blocks3
-ask [Wat is de naam van je rockstar?] and wait // je vraag
-set [naam v] to (answer)
+ask [What's your rock star name?] and wait //your question
+set [name v] to (answer)
 ```
 
 --- /task ---

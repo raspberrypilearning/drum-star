@@ -2,27 +2,39 @@
 title: Seren ddrymiau
 hero_image: images/banner.png
 description: Creu gêm clicio lle rwyt ti'n ennill curiadau i chwarae drymiau newydd a lleoliadau mwy
+pdf: resources/rpfi-drum-stars.pdf
+meta_title: Scratch coding projects for kids and teens | Drum star
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game where you earn beats to play new drums at bigger venues.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-04-28"
 steps:
-  - title: Cyflwyniad
-  - title: Gosod y Llwyfan
-  - title: Drwm cychwynnol
+  - 
+    title: What you will make
+  - 
+    title: Gosod y Llwyfan
+  - 
+    title: Drwm cychwynnol
     completion:
-      - engaged
-  - title: Uwchraddiad cyntaf
-  - title: Ail uwchraddiad
-  - title: Chwarae ac addasu
+      - external
+  - 
+    title: Next drum
+  - 
+    title: More drums!
+  - 
+    title: Play
     completion:
       - internal
-  - title: Cwis cyflym
+  - 
+    title: Myfyrio
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - external
-  - title: Uwchraddio dy brosiect
+      - internal
+  - 
+    title: Challenge
+    challenge: true

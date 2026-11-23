@@ -11,7 +11,7 @@
 
 --- task ---
 
-**Choose a Sprite** पर क्लिक करें और `cymbal` खोजें। अपने प्रोजेक्ट में **Drum-cymbal** स्प्राइट जोड़ें।
+Click **Choose a Sprite** and search `cymbal`.
 
 ![](images/cymbal-gallery.png)
 
@@ -19,7 +19,7 @@
 
 --- task ---
 
-अपने cymbal (झांझ) को मंच पर जमाएँ:
+Add the **Drum-cymbal** sprite and position it on the Stage:
 
 ![](images/cymbal-stage.png)
 
@@ -41,16 +41,18 @@ Cymbal को `switch costume`{:class="block3looks"} और `play a drum sound`{
 
 ```blocks3
 when this sprite clicked
-switch costume to [drum-cymbal-b v] // सफल पोशाक
-play drum [(5) Open High-Hat v] for [0.25] beats // ड्रम की ध्वनि
-switch costume to [drum-cymbal-a v]  // पोशाक जो सफल नहीं है
+switch costume to [drum-cymbal-b v] // hit costume
+play drum [(5) Open High-Hat v] for [0.25] beats // drum sound
+switch costume to [drum-cymbal-a v]  // not hit costume
 ```
 
 --- /task ---
 
 --- task ---
 
-**टेस्ट:** अपने cymbal पर क्लिक करके उसका परीक्षण करें। सुनिश्चित करें कि आप एक ध्वनि सुनते हैं और पोशाक परिवर्तन देखते हैं।
+**टेस्ट:** अपने cymbal पर क्लिक करके उसका परीक्षण करें।
+
+You should hear a sound and see the costume change.
 
 --- /task ---
 
@@ -58,7 +60,7 @@ switch costume to [drum-cymbal-a v]  // पोशाक जो सफल नह�
 
 --- task ---
 
-एक `variable`{:class="block3variables"} बनाएँ जिसे `beats`:कहा जाता है:
+Create a `variable`{:class="block3variables"} (for all sprites) called `beats`:
 
 ![](images/beats-variable.png)
 
@@ -67,8 +69,6 @@ switch costume to [drum-cymbal-a v]  // पोशाक जो सफल नह�
 --- task ---
 
 जब **Drum-cymbal** स्प्राइट पर क्लिक किया जाता है तो `change beats by 1`{:class="block3variables"} करने के लिए एक ब्लॉक जोड़ें
-
-![](images/cymbal-icon.png)
 
 ```blocks3
 when this sprite clicked
@@ -82,7 +82,9 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-**टेस्ट:** **Drum-cymbal** पर क्लिक करके उसका परीक्षण करें और `beats`{:class="block3variables"} में वृद्धि देखें।
+**Test:** Test the **Drum-cymbal** by clicking on it.
+
+You should see the `beats`{:class="block3variables"} increase.
 
 --- /task ---
 
@@ -90,7 +92,7 @@ switch costume to [drum-cymbal-a v]
 
 --- task ---
 
-Stage पेन पर क्लिक करें और फिर और फिर Stage में कोड जोड़ने के लिए **Code** टैब पर
+Click on the Stage pane and then the **Code** tab.
 
 `set beats to`{:class="block3variables"} `0` में एक ब्लॉक जोड़ें:
 

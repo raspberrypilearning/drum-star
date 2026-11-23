@@ -1,4 +1,4 @@
-## العب وخصص
+## Play
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,23 +11,11 @@
 
 --- task ---
 
-العب لعبتك واكسب الإيقاعات.
+If you separated the `ask`{:class="block3sensing"} block on the Stage, put it back.
 
-شاهد المتغير `دقة`{:class="block3variables"} وتأكد من فهم كيفية زيادة الإيقاعات عندما تنقر على الطبول وتنخفض عندما تحصل على طبلة جديدة.
+**Test:** Click the green flag and set your rock star name!
 
-هل أنت سعيد بعدد النبضات التي تربحها لكل طبلة؟ يمكنك تغيير هذا إذا رغبت بذلك.
-
-هل أنت سعيد بعدد النبضات التي تربحها لكل طبلة؟
-
-**نصيحة:** اختبر مشروعك بانتظام حتى تتمكن من العثور على أي أخطاء برمجية وإصلاحها.
-
---- /task ---
-
---- task ---
-
-إذا فصلت المقطع البرمجي `اسال`{:class="block3sensing"} على المنصة ، فأعدها وعيّن اسم نجم موسيقى الروك الخاص بك.
-
-لاحظ أن الاسم المعروض على المسرح يتغير.
+You should see the name displayed on the Stage changes.
 
 --- /task ---
 

@@ -26,17 +26,17 @@ tu sonido de tambor
 
 tu estilo sin tocar
 
-aparecer cuando se compra el tambor anterior
+aparece al comprar el tambor anterior
 
-mostrar el botón para el siguiente tambor disponible
+muestra el botón para el siguiente tambor disponible
 
-cambiar a 29
+cambia a 29
 
-cambiar a 30
+cambia a 30
 
-cambiar a tu nombre de tambor
+cambia a tu nombre de tambor
 
-jugador/a ha actualizado a este tambor
+el/la jugador/a ha actualizado a este tambor
 
 este tambor otorga 2 ritmos
 
@@ -50,7 +50,7 @@ precio del redoblante
 
 no disponible al inicio
 
-Mostrar cuándo se ha comprado el tambor anterior (redoblante) y esta es la actualización que se tiene en mira.
+Muestra cuando se ha comprado el tambor anterior (redoblante) y esta es la actualización que se tiene en mira.
 
 se necesitan al menos 30 ritmos
 
